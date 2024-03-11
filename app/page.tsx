@@ -1,8 +1,9 @@
 "use client"
 import { useState } from "react"
-// import mockdata from "@/constants/mockdata"
+import mockdata from "@/constants/mockdata"
 
 export default function Home() {
+	const useMockData = false
 	const [data, setData] = useState<object[]>([])
 	const [userInput, setUserInput] = useState<string>("")
 	const [status, setstatus] = useState<string>("")
@@ -56,9 +57,15 @@ export default function Home() {
 		setData([])
 		setstatus(`Attempting to search for places with input of "${textQuery}"`)
 
-		const fetchedPlaces = await placeSearch(textQuery)
-		const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
-		// const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		let fetchedPlaces = []
+		let fetchedPlacesWithReviews = []
+
+		if (useMockData) {
+			fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		} else {
+			fetchedPlaces = await placeSearch(textQuery)
+			fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
+		}
 
 		const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
 
@@ -86,6 +93,7 @@ export default function Home() {
 
 			<div className="w-full">
 				{data.map((x, i) => {
+					console.log(x)
 					const displayName = x["displayName" as keyof typeof x]
 					const reviews = x["reviews" as keyof typeof x] as { text: { text: string } }[] // Update the type of reviews array
 					const allReviews = reviews
@@ -104,7 +112,7 @@ export default function Home() {
 						<div key={i} className="p-2 m-1 flex flex-col border border-black rounded-md">
 							<p className="text-lg font-bold pb-2">{displayName["text" as keyof typeof displayName]}</p>
 							<p className="pb-2">Address: {x["formattedAddress" as keyof typeof x]}</p>
-							<p className="pb-2">Rating: {x["rating" as keyof typeof x]}</p>
+							<p className="pb-2">{`Rating: ${x["rating" as keyof typeof x]} (${x["userRatingCount" as keyof typeof x]} ratings)`}</p>
 							{allReviews.length > 0 ? allReviews.map((x, i) => <p key={i} className="pb-4">{`${x}`}</p>) : null}
 						</div>
 					)
