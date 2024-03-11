@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react"
-import mockdata from "@/constants/mockdata"
+// import mockdata from "@/constants/mockdata"
 
 export default function Home() {
 	const [data, setData] = useState<object[]>([])
@@ -56,9 +56,9 @@ export default function Home() {
 		setData([])
 		setstatus(`Attempting to search for places with input of "${textQuery}"`)
 
-		// const fetchedPlaces = await placeSearch(textQuery)
-		// const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
-		const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		const fetchedPlaces = await placeSearch(textQuery)
+		const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
+		// const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
 
 		const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
 
