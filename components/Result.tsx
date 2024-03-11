@@ -1,13 +1,17 @@
 import React, { useState } from "react"
+import Spinner from "@/components/Spinner"
 
 const Result = ({ result }: { result: object }) => {
 	const [generatedReview, setGeneratedReview] = useState<string>("")
+	const [reviewLoading, setReviewLoading] = useState<boolean>(false)
 
 	const _handleGenerateReview = async (reviews: string[]) => {
 		if (reviews.length === 0) {
 			console.log("No reviews to generate for")
 			return
 		}
+		setGeneratedReview("")
+		setReviewLoading(true)
 		const response = await fetch(`/api/generatereview`, {
 			method: "POST",
 			headers: {
@@ -16,7 +20,11 @@ const Result = ({ result }: { result: object }) => {
 			body: JSON.stringify({ reviews }),
 		})
 		const data = await response.json()
-		setGeneratedReview(JSON.stringify(data))
+		console.log(data)
+		const content = data.message?.content
+
+		setGeneratedReview(content)
+		setReviewLoading(false)
 	}
 
 	const displayName = result["displayName" as keyof typeof result]
@@ -47,20 +55,20 @@ const Result = ({ result }: { result: object }) => {
 			<p className="pb-2">Address: {result["formattedAddress" as keyof typeof result]}</p>
 			<p className="pb-2">{`Rating: ${result["rating" as keyof typeof result]} (${result["userRatingCount" as keyof typeof result]} ratings)`}</p>
 			{allReviews.length > 0 ? allReviews.map((x, i) => <p key={i} className="pb-4">{`${x}`}</p>) : null}
-			<button
-				className="text-xs border border-black rounded-md p-1 bg-orange-100 hover:bg-orange-300"
-				onClick={() => {
-					console.log("send all reviews to openai")
-					_handleGenerateReview(reviewObject)
-				}}
-			>
-				Generate Review
+			<button className="text-xs border border-black rounded-md p-1 bg-orange-100 hover:bg-orange-300" onClick={() => _handleGenerateReview(reviewObject)}>
+				{`${generatedReview === "" ? "Generate" : "Regenerate"} Review with OpenAI`}
 			</button>
+
+			{reviewLoading && (
+				<div className="flex justify-center items-center min-h-20 align-middle transition-opacity ease-in-out duration-500">
+					<Spinner />
+				</div>
+			)}
 			{generatedReview !== "" && (
-				<>
-					<h1>Generated Review:</h1>
-					<p className="pt-4">{generatedReview}</p>
-				</>
+				<div className="p-5 mt-4">
+					<h1 className="font-bold">Review by OpenAi:</h1>
+					<p className="italic">{`"${generatedReview}"`}</p>
+				</div>
 			)}
 		</div>
 	)

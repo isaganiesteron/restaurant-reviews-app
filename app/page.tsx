@@ -1,13 +1,15 @@
 "use client"
 import { useState } from "react"
-import mockdata from "@/constants/mockdata"
 import Result from "@/components/Result"
+import Spinner from "@/components/Spinner"
+
+// import mockdata from "@/constants/mockdata"
 
 export default function Home() {
-	const useMockData = true
 	const [data, setData] = useState<object[]>([])
 	const [userInput, setUserInput] = useState<string>("")
 	const [status, setstatus] = useState<string>("")
+	const [isLoading, setIsLoading] = useState<boolean>(false)
 
 	interface RootObject {
 		displayName: DisplayName
@@ -31,7 +33,6 @@ export default function Home() {
 			console.log(`Getting place id: ${places[counter].id}...`)
 			const response = await fetch(`/api/detail/${places[counter].id}`)
 			const data = await response.json()
-			// await new Promise((resolve) => setTimeout(resolve, 500)) // set half a second delay
 			const currentReviews = data.reviews
 			updatedPlaces.push({ ...places[counter], reviews: currentReviews ? currentReviews : [] })
 			counter++
@@ -56,21 +57,19 @@ export default function Home() {
 	const getPlaces = async (textQuery: string) => {
 		if (textQuery === "") return
 		setData([])
+		setIsLoading(true)
 		setstatus(`Attempting to search for places with input of "${textQuery}"`)
 
-		let fetchedPlaces = []
-		let fetchedPlacesWithReviews = []
+		// const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		// await new Promise((resolve) => setTimeout(resolve, 1000))
 
-		if (useMockData) {
-			fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
-		} else {
-			fetchedPlaces = await placeSearch(textQuery)
-			fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
-		}
+		const fetchedPlaces = await placeSearch(textQuery)
+		const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
 
 		const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
 
 		setstatus(`Found ${sortedByReviews.length} places for "${textQuery}"`)
+		setIsLoading(false)
 		setData(sortedByReviews.slice(0, 10))
 	}
 
@@ -90,7 +89,15 @@ export default function Home() {
 					Get Places
 				</button>
 			</div>
-			<h1 className="text-xl p-4">{status}</h1>
+
+			<div className="flex flex-row items-center p-4">
+				{isLoading && <Spinner />}
+				<h1 className="text-xl">{status}</h1>
+			</div>
+			{/* <h1 className="text-xl p-4">
+				{isLoading && <Spinner />}
+				{status}
+			</h1> */}
 
 			<div className="w-full">
 				{data.map((x, i) => (
