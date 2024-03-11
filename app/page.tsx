@@ -3,10 +3,12 @@ import { useState } from "react"
 import mockdata from "@/constants/mockdata"
 
 export default function Home() {
-	const useMockData = false
+	const useMockData = true
 	const [data, setData] = useState<object[]>([])
 	const [userInput, setUserInput] = useState<string>("")
 	const [status, setstatus] = useState<string>("")
+
+	const [testData, setTestData] = useState<string>("")
 
 	interface RootObject {
 		displayName: DisplayName
@@ -73,8 +75,50 @@ export default function Home() {
 		setData(sortedByReviews.slice(0, 10))
 	}
 
+	const generateReview = async (reviews: string[]) => {
+		console.log("generating review")
+		console.log(JSON.stringify(reviews))
+		const response = await fetch(`/api/generatereview`, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({ reviews }),
+		})
+		const data = await response.json()
+		console.log(data)
+		return data
+	}
+
+	const sendTest = async () => {
+		const response = await fetch(`/api/generatereview`, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({ testData }),
+		})
+		const data = await response.json()
+		console.log(data)
+	}
+
 	return (
 		<main className="flex  min-h-screen flex-col items-center">
+			<div className="border border-black rounded-md">
+				<h1>OpenAI Test</h1>
+
+				<input
+					type="text"
+					value={testData}
+					className="w-10/12 border border-black rounded-md p-[5.5px]"
+					onChange={(event) => {
+						setTestData(event.target.value)
+					}}
+				/>
+				<button className="w-2/12 border border-black rounded-md p-1 bg-blue-100 hover:bg-blue-300" onClick={sendTest}>
+					Send
+				</button>
+			</div>
 			<h1 className="text-2xl p-4">Restaurant Review Finder</h1>
 			<div className="flex flex-row gap-1 w-full">
 				<input
