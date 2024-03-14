@@ -2,7 +2,6 @@
 import { useState } from "react"
 import Result from "@/components/Result"
 import Spinner from "@/components/Spinner"
-
 // import mockdata from "@/constants/mockdata"
 
 export default function Home() {
@@ -30,11 +29,12 @@ export default function Home() {
 		let counter = 0
 
 		while (counter < places.length) {
-			console.log(`Getting place id: ${places[counter].id}...`)
 			const response = await fetch(`/api/detail/${places[counter].id}`)
 			const data = await response.json()
 			const currentReviews = data.reviews
-			updatedPlaces.push({ ...places[counter], reviews: currentReviews ? currentReviews : [] })
+			const currentPhotos = data.photos
+
+			updatedPlaces.push({ ...places[counter], reviews: currentReviews ? currentReviews : [], photos: currentPhotos ? currentPhotos : [] })
 			counter++
 		}
 

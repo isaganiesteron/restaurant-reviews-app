@@ -7,7 +7,7 @@ export async function GET(request: Request, params: any) {
 			headers: {
 				"Content-Type": "application/json",
 				"X-Goog-Api-Key": `${process.env.API_KEY}`,
-				"X-Goog-FieldMask": "id,reviews",
+				"X-Goog-FieldMask": "id,reviews,photos",
 			},
 		})
 		const data = await response.json()
