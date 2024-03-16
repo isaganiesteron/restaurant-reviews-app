@@ -11,10 +11,7 @@ const Result = ({ result }: { result: object }) => {
 	const _getImageUrl = async (id: string) => {
 		const response = await fetch(`/api/image/${encodeURIComponent(id)}`)
 		const imageUrl = await response.json()
-		const binaryData = Buffer.from(imageUrl.image)
-		const imageBase64 = URL.createObjectURL(new Blob([binaryData.buffer], { type: "image/jpeg" } /* (1) */))
-		return imageBase64
-		// return imageUrl.url ? imageUrl.url : ""
+		return imageUrl
 	}
 
 	const _handleGetPhotos = async (photos: object[]) => {
@@ -121,7 +118,11 @@ const Result = ({ result }: { result: object }) => {
 				{photoUrls.length > 0 && (
 					<div className="flex flex-row flex-wrap gap-3 justify-center my-5">
 						{photoUrls.map((x, i) => {
-							return <Image key={i} className="border border-black rounded-md" src={x} width={220} height={220} alt={`alt text`} />
+							return (
+								<div>
+									<Image key={i} className="border border-black rounded-md" src={x} width="220" height="220" alt={`alt text`} />
+								</div>
+							)
 						})}
 					</div>
 				)}

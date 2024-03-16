@@ -2,7 +2,7 @@
 import { useState } from "react"
 import Result from "@/components/Result"
 import Spinner from "@/components/Spinner"
-// import mockdata from "@/constants/mockdata"
+import mockdata from "@/constants/mockdata"
 
 export default function Home() {
 	const [data, setData] = useState<object[]>([])
@@ -60,11 +60,11 @@ export default function Home() {
 		setIsLoading(true)
 		setstatus(`Attempting to search for places with input of "${textQuery}"`)
 
-		// const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
 		// await new Promise((resolve) => setTimeout(resolve, 1000))
 
-		const fetchedPlaces = await placeSearch(textQuery)
-		const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
+		// const fetchedPlaces = await placeSearch(textQuery)
+		// const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
 
 		const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
 
