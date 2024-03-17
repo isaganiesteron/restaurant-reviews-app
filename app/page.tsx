@@ -10,37 +10,6 @@ export default function Home() {
 	const [status, setstatus] = useState<string>("")
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 
-	interface RootObject {
-		displayName: DisplayName
-		formattedAddress: string
-		id: string
-		name: string
-		priceLevel: string
-		rating: number
-		userRatingCount: number
-	}
-	interface DisplayName {
-		text: string
-		languageCode: string
-	}
-
-	const getPlaceDetails = async (places: RootObject[]) => {
-		let updatedPlaces = []
-		let counter = 0
-
-		while (counter < places.length) {
-			const response = await fetch(`/api/detail/${places[counter].id}`)
-			const data = await response.json()
-			const currentReviews = data.reviews
-			const currentPhotos = data.photos
-
-			updatedPlaces.push({ ...places[counter], reviews: currentReviews ? currentReviews : [], photos: currentPhotos ? currentPhotos : [] })
-			counter++
-		}
-
-		return updatedPlaces
-	}
-
 	const placeSearch = async (textQuery: string) => {
 		const response = await fetch(`/api/places/${textQuery}`)
 		const data = await response.json()
@@ -60,13 +29,15 @@ export default function Home() {
 		setIsLoading(true)
 		setstatus(`Attempting to search for places with input of "${textQuery}"`)
 
-		const fetchedPlacesWithReviews = mockdata // for testing purposes without using the API
+		const fetchedPlaces = await placeSearch(textQuery)
+		// const fetchedPlaces = mockdata // for testing purposes without using the API
 		// await new Promise((resolve) => setTimeout(resolve, 1000))
 
-		// const fetchedPlaces = await placeSearch(textQuery)
-		// const fetchedPlacesWithReviews = await getPlaceDetails(fetchedPlaces)
-
-		const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
+		const sortedByReviews = fetchedPlaces.sort((a: { rating: number }, b: { rating: number }) => {
+			if (b.rating && a.rating) return b.rating - a.rating
+			else return 0
+		})
+		// const sortedByReviews = fetchedPlacesWithReviews.sort((a, b) => b.rating - a.rating)
 
 		setstatus(`Found ${sortedByReviews.length} places for "${textQuery}"`)
 		setIsLoading(false)

@@ -119,8 +119,8 @@ const Result = ({ result }: { result: object }) => {
 					<div className="flex flex-row flex-wrap gap-3 justify-center my-5">
 						{photoUrls.map((x, i) => {
 							return (
-								<div>
-									<Image key={i} className="border border-black rounded-md" src={x} width="220" height="220" alt={`alt text`} />
+								<div key={i}>
+									<Image className="border border-black rounded-md" src={x} width="220" height="220" alt={`alt text`} />
 								</div>
 							)
 						})}

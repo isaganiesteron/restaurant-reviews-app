@@ -1,4240 +1,10226 @@
 export default [
 	{
-		name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs",
-		id: "ChIJifIePKtZwokRVZ-UdRGkZzs",
-		formattedAddress: "1435 Broadway, New York, NY 10018, USA",
-		rating: 4.5,
+		name: "places/ChIJP9jhsFVYwokRD9vNObw_azo",
+		id: "ChIJP9jhsFVYwokRD9vNObw_azo",
+		types: ["american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 696-4240",
+		internationalPhoneNumber: "+1 646-696-4240",
+		formattedAddress: "W 46th St, New York, NY 10036, USA",
+		addressComponents: [
+			{
+				longText: "West 46th Street",
+				shortText: "W 46th St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10036",
+				shortText: "10036",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q257+GR",
+			compoundCode: "Q257+GR New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7588504,
+			longitude: -73.9854809,
+		},
+		viewport: {
+			low: {
+				latitude: 40.757470419708504,
+				longitude: -73.9868526802915,
+			},
+			high: {
+				latitude: 40.760168380291496,
+				longitude: -73.9841547197085,
+			},
+		},
+		rating: 3.8,
+		googleMapsUri: "https://maps.google.com/?cid=4209528354364054287",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">W 46th St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10036</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
 		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 17718,
+		userRatingCount: 165,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
 		displayName: {
-			text: "Joe's Pizza Broadway",
+			text: "John's Famous Hot Dogs",
 			languageCode: "en",
 		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		servesLunch: true,
+		servesBeer: false,
+		servesWine: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "W 46th St, New York",
 		reviews: [
 			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0cTZ5dXFBRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxM2N5SWtBRRAB",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 4,
 				text: {
-					text: "Braving the line at Joe's Pizza is a rewarding experience. Though it may wind between a dozen or so people or extend around the corner, the pace is surprisingly swift, so don't be disheartened by the sight of a lengthy queue. During my visit, I indulged in the delightful variety of flavors offered, ordering four distinct toppings, each proving to be excellent.\n\nWhat sets Joe's Pizza apart is not just the efficiency of the line but also the impeccable quality of their creations. The crust, thin and crunchy with every bite, achieves a good balance with the generous layers of sauce and cheese. Having frequented both this location and others scattered throughout the city, I can attest to the consistent and delicious experience on every occasion.\n\nThis pizzeria is more than a mere eatery; it's a destination worthy of sharing with friends, coworkers, or family visiting from out of town. New York pizza, exemplified by Joe's, reigns supreme in my culinary preferences. Each slice feels like a little piece of heaven, and the service adds to the charm – swift, kind, and attentive, always accompanied by a friendly smile. I'm already looking forward to my next visit. Thank you, Joe's Pizza, for consistently delivering a slice of perfection! Yum!",
+					text: "Used to be the best spot in Times Square.  It's seems like the owner sold the business and it is now a Halal Cart.  Hot dog is still good.....but it was A LOT better.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Braving the line at Joe's Pizza is a rewarding experience. Though it may wind between a dozen or so people or extend around the corner, the pace is surprisingly swift, so don't be disheartened by the sight of a lengthy queue. During my visit, I indulged in the delightful variety of flavors offered, ordering four distinct toppings, each proving to be excellent.\n\nWhat sets Joe's Pizza apart is not just the efficiency of the line but also the impeccable quality of their creations. The crust, thin and crunchy with every bite, achieves a good balance with the generous layers of sauce and cheese. Having frequented both this location and others scattered throughout the city, I can attest to the consistent and delicious experience on every occasion.\n\nThis pizzeria is more than a mere eatery; it's a destination worthy of sharing with friends, coworkers, or family visiting from out of town. New York pizza, exemplified by Joe's, reigns supreme in my culinary preferences. Each slice feels like a little piece of heaven, and the service adds to the charm – swift, kind, and attentive, always accompanied by a friendly smile. I'm already looking forward to my next visit. Thank you, Joe's Pizza, for consistently delivering a slice of perfection! Yum!",
+					text: "Used to be the best spot in Times Square.  It's seems like the owner sold the business and it is now a Halal Cart.  Hot dog is still good.....but it was A LOT better.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Liz P.",
-					uri: "https://www.google.com/maps/contrib/109363153315744882913/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV20Nc3hUFcLUQWsj2s-N61bCb9_rLj0wI2rNEN6SmR-kE=s128-c0x00000000-cc-rp-mo-ba4",
+					displayName: "Christian Garcia",
+					uri: "https://www.google.com/maps/contrib/106212234383578540157/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUgZOPyGun3PTE0P516htLrFzVkgIcZoCcFL_nd-VOiP54=s128-c0x00000000-cc-rp-mo-ba4",
 				},
-				publishTime: "2024-02-01T01:33:08Z",
+				publishTime: "2024-01-09T12:48:13Z",
 			},
 			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/reviews/ChZDSUhNMG9nS0VJQ0FnSURkXzQtdUdBEAE",
-				relativePublishTimeDescription: "2 weeks ago",
-				rating: 3,
-				text: {
-					text: "We were expecting great food experience however our cheese slice was really average also burnt under. There is so many other good places in the city where you can have a fantastic slice of pizza. Plus for the place and vibe inside, however I would not order it again.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "We were expecting great food experience however our cheese slice was really average also burnt under. There is so many other good places in the city where you can have a fantastic slice of pizza. Plus for the place and vibe inside, however I would not order it again.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Paulina",
-					uri: "https://www.google.com/maps/contrib/112202753845783439842/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWDuotVkLjFuPp3lSQXE4PnR4RKM7HY2tDMw0XT93Naenk=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-02-29T02:01:38Z",
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/reviews/ChdDSUhNMG9nS0VJQ0FnSURWNl8zLTRRRRAB",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxZzQ3SHRnRRAB",
 				relativePublishTimeDescription: "2 months ago",
 				rating: 5,
 				text: {
-					text: "Every bit as good as the Google reviews said it would be. With the line around the corner and part way down that street. It moved along relatively quickly and in less than 30 minutes we had our pizza slices! This was on a Friday night at 5pm.\n\nIt's a big operation and very popular. There is outdoor seating right outside and another undercover area over the sidewalk. Customers generally moved on quite quickly too, so finding somewhere to eat wasn't a problem.\n\nPizzas are served by the slice or a whole pizza and you can order via their website ahead of time for a whole pizza only. We got 4 slices for 2 adults, which was a lot! We finished every crumb.\n\nIt's a well oiled machine and the staff are super friendly. Look forward to returning next visit! 🍕🇮🇹",
+					text: "\"Delicious Corn Dog and Hotdog Delight at John's Famous Hotdog\"\n\nToday I had the pleasure of visiting John's Famous Hotdog at Time Square NYC and I must say, I was blown away by their incredible hot dog and corn dogs! As a connoisseur of carnival classics, I have to admit that John's Famous Hotdog has truly mastered the art of the Hot and Corn dog.\nThe first thing that struck me was the welcoming atmosphere of the establishment. The friendly staff made me feel right at home, and their passion for their craft was evident from the moment I arrived.\nNow, let's talk about the star of the show – the corn dog itself. The batter was perfectly golden and crispy, providing a delightful crunch with every bite. The hotdog inside was juicy and flavorful, and the ratio of batter to dog was spot on. I could tell that they use high-quality ingredients, and the care that goes into making each corn dog is truly remarkable.\n\nWhat's more, the variety of dipping sauces available allowed me to customize my corn dog experience to my liking. From classic mustard to zesty barbecue sauce, there was something for everyone.\n\nThe cherry on top of this exceptional experience was the reasonable pricing. I felt that I got fantastic value for my money, especially considering the generous portion sizes.\n\nIn conclusion, if you're in the mood for a top-notch hotdog or corn dog, look no further than John's Famous Hotdog. Whether you're a longtime corn dog enthusiast or just looking to indulge in a delicious treat, you won't be disappointed. I can't wait to return and savor another one of their amazing corn dogs!",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Every bit as good as the Google reviews said it would be. With the line around the corner and part way down that street. It moved along relatively quickly and in less than 30 minutes we had our pizza slices! This was on a Friday night at 5pm.\n\nIt's a big operation and very popular. There is outdoor seating right outside and another undercover area over the sidewalk. Customers generally moved on quite quickly too, so finding somewhere to eat wasn't a problem.\n\nPizzas are served by the slice or a whole pizza and you can order via their website ahead of time for a whole pizza only. We got 4 slices for 2 adults, which was a lot! We finished every crumb.\n\nIt's a well oiled machine and the staff are super friendly. Look forward to returning next visit! 🍕🇮🇹",
+					text: "\"Delicious Corn Dog and Hotdog Delight at John's Famous Hotdog\"\n\nToday I had the pleasure of visiting John's Famous Hotdog at Time Square NYC and I must say, I was blown away by their incredible hot dog and corn dogs! As a connoisseur of carnival classics, I have to admit that John's Famous Hotdog has truly mastered the art of the Hot and Corn dog.\nThe first thing that struck me was the welcoming atmosphere of the establishment. The friendly staff made me feel right at home, and their passion for their craft was evident from the moment I arrived.\nNow, let's talk about the star of the show – the corn dog itself. The batter was perfectly golden and crispy, providing a delightful crunch with every bite. The hotdog inside was juicy and flavorful, and the ratio of batter to dog was spot on. I could tell that they use high-quality ingredients, and the care that goes into making each corn dog is truly remarkable.\n\nWhat's more, the variety of dipping sauces available allowed me to customize my corn dog experience to my liking. From classic mustard to zesty barbecue sauce, there was something for everyone.\n\nThe cherry on top of this exceptional experience was the reasonable pricing. I felt that I got fantastic value for my money, especially considering the generous portion sizes.\n\nIn conclusion, if you're in the mood for a top-notch hotdog or corn dog, look no further than John's Famous Hotdog. Whether you're a longtime corn dog enthusiast or just looking to indulge in a delicious treat, you won't be disappointed. I can't wait to return and savor another one of their amazing corn dogs!",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Alan King",
-					uri: "https://www.google.com/maps/contrib/113292212769397106967/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXGGlbk1NDY8NwxuFVbzbLQaDRo7PCQ0vWbOIrYeAk26oEW=s128-c0x00000000-cc-rp-mo-ba7",
+					displayName: "Antonio De Hoyos",
+					uri: "https://www.google.com/maps/contrib/115904115076195815817/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXn30D6rexqNx2A4W_LKenLLrUwxvDXDFTZLsgBoBlfPQGG=s128-c0x00000000-cc-rp-mo-ba3",
 				},
-				publishTime: "2024-01-04T03:17:16Z",
+				publishTime: "2024-01-02T19:31:55Z",
 			},
 			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5ck9iWHZnRRAB",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5N3VIU2NREAE",
 				relativePublishTimeDescription: "a week ago",
-				rating: 5,
-				text: {
-					text: "Great food and well priced! There is always a queue, but it soon subsides and you get your food quite quickly. We took out as there were no more seating inside due to the cold weather.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Great food and well priced! There is always a queue, but it soon subsides and you get your food quite quickly. We took out as there were no more seating inside due to the cold weather.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Nicholas Grant",
-					uri: "https://www.google.com/maps/contrib/105294828067610106635/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKpudj_ucDrf0Ypv5ib4-cfgBnUB-M3baRSUgKOVxWU=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-03-03T18:48:53Z",
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/reviews/ChdDSUhNMG9nS0VJQ0FnSUR0OV9qdWl3RRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "A NY experience that I’m sure many visitors such as myself want to try. This location on Time Square is definitely busier than the one on Greenwich. If you’re patient enough to brave the line however, it’s worth the experience. A great crunch to the pizza and dry with not a bit of that greasy pizza experience. The sauce, cheese, and pepperoni had a great flavor. A must try spot if you’re in the area.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "A NY experience that I’m sure many visitors such as myself want to try. This location on Time Square is definitely busier than the one on Greenwich. If you’re patient enough to brave the line however, it’s worth the experience. A great crunch to the pizza and dry with not a bit of that greasy pizza experience. The sauce, cheese, and pepperoni had a great flavor. A must try spot if you’re in the area.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Alex Walden",
-					uri: "https://www.google.com/maps/contrib/103498891293601115474/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKeyedEMnS5EvJrNCQBxJrOn_SWtup5GLxGyOCmI2Jc=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-02-08T00:28:50Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJa4aH7c2zzAm_yoYTqdHV1HqYLp8PkyzmbPkFbgAFpv7BnZb72lhozMwu3Wh0qwvExfXnrxLpkbArXgBAqqUtKjY8GofFFdLokCrqJEfzw5R-CJsMmbr6WXG6wmjpiZSfrdwqEGqGRo99z3inhbnPvcZTTuA8ufOUKk",
-				widthPx: 12000,
-				heightPx: 9000,
-				authorAttributions: [
-					{
-						displayName: "Marlene Escobar",
-						uri: "//maps.google.com/maps/contrib/102814344397000225596",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUss4kgnUmKYH3yUKoNrhKIQC3RtJuOaRFjWRdohDFRx0p7=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJbuc6qs4WoSYH7WRSNErvYQQWmRRieqfU9A0A2TvxjQjqdB516NLjlEHN7VHbvQkpJK8DeadcAofqfszYq7fzCvUpeVFLJr1xgu9Ef8RYDo1_1d3ue_gwzcJ7QKQ50aszZrwQ7mWxfB0lxQKlU02304x7nUJuDsbWFZ",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Noam Dahan",
-						uri: "//maps.google.com/maps/contrib/102079209851759412114",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW8gopGxmUMhGT87kGNYiLDrqN7ome9nqDqhDo5pS0YLEv_=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJbwUUi6jS1TKcAphkZuMVNeJwna9OL5ckilkCXsSCEG9B7Myr7gvM9H7HPsL3Y5K9S6oCah4l8OFpukGBDpyULwj2fNg_NMAmKwpmaiAxWAZKlpxc1OEhTNgGXPkApX_POHhatK-x1HNQk-v3etmXscb28v0pCh4qXw",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Jelena Wright",
-						uri: "//maps.google.com/maps/contrib/117885515310579440315",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVDA_B2o0RzY9_Cvm854fP_BYNBQ2o7URa9aV-RP62c0g1F=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJa_iP-h-37_fZyB7ODoaZSb5hZHTRyVaf-oZslllFRsHCIiNcoMvICdjQD8bU6YZLZZHoz5ZXpjbItOLumo8ifgP4XohrKou-b9FVOXORg8lFlrMYn3u8AMgkT3zfblpzu_m28r2MZcH6H8zMG_TsRYG8to2OoiZdYN",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "KW PAK",
-						uri: "//maps.google.com/maps/contrib/117898556075361928793",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXe5NcEP31WlIouMyiBZPRmX7wanFh_n1QIKw21RaF1q_tz=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJbP2zX2d8inOpv5zHxTaHz_LzfZcgqxXr6d1FxgmLbjbP17g2fpneFfqtfjpob-oeMvKeCbWKZyO_XrR_0vCeYoqQsaOFy7COeedwt4XbnF9yxXlNngOTqXJuiqcj3hd_ZRq8zD--W2vBh8ftDBXqRVn3etriA-Wp9T",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Jelena Wright",
-						uri: "//maps.google.com/maps/contrib/117885515310579440315",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVDA_B2o0RzY9_Cvm854fP_BYNBQ2o7URa9aV-RP62c0g1F=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJafZcC0gnxgqzI4AmWbtZGUBmmOsCWJGJdMeo-jJ4kwMp0nuUtTWoV8FIULuzbpXPCgoRzTeOMuz8OsGJrEaNohOraeYG0M-BqmmNEFSeyYlKPHgyEx9glsOpfp5TPin3_HUiKky0ul0U3yy2MaueloDME6HOtl6w20",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Melissa Wilson",
-						uri: "//maps.google.com/maps/contrib/109194563794072569202",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI5eyd7iuwJRTohnjnO-YK8XHXBIM_568uPhHKS5Eti=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJYajiU-vPYzgaOMyUGL7aeWZ5PmkBGrJmnimXE4RZ6KtAU5qT-2HiCjKXi_Iq2tk5SyqYvTrX7fPoG6sZgKseFQ5AxIFd40YE6-ra39-hRe2wb-pqN4k5JbMDMbTaNykoas9mRZFLz3F5C1pgvMCrTa9TKYP0urenGu",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "KW PAK",
-						uri: "//maps.google.com/maps/contrib/117898556075361928793",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXe5NcEP31WlIouMyiBZPRmX7wanFh_n1QIKw21RaF1q_tz=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJY9uDxIysuqXkglkRloMxvS-288wKklGCphuM7sMLrqc00hqja5gJs5olKivlSACgnVugY1qeiWNSc4vud4JLo7Ji3FJ-Ja5OTAoXZ3FgUc3LDXbZSsjgJI8qywpy0Cfd-UxH30q5cwCdLl-dwstnP23IGHIFDlDAgc",
-				widthPx: 2565,
-				heightPx: 2375,
-				authorAttributions: [
-					{
-						displayName: "Keymia N",
-						uri: "//maps.google.com/maps/contrib/106461415199907400356",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocICoRLiKoTdWXF-RHmRVjXhKYshe5efSvuCfFun-PyA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJaIK5KrDt59iytpRtU_6tAm5QfCVYtwLUzTUUa9ICFIZb3wavQQ5qkaqKEkVJSps3O0CZKPYc0tyA3Z3IqDjEKoAH6HD7TJY8xgw-h6ZJ4S_Yakxe3FHq-JnDLwtk-baAQF56WDA-Ko2oCdQHpzMDTR-c-XMjlAEACS",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Stacey Pelayo",
-						uri: "//maps.google.com/maps/contrib/106559656352613368375",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXKw2_pPnrGdHFu4nQok_q7K-XMVueAyPweHNbcH4daIRr2=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJifIePKtZwokRVZ-UdRGkZzs/photos/ATplDJb_dDkQt8mwKQEGGdu9KSUHOGz9yZtoBcKYL7REEMGexpmIz8R6NP8gqYXK8dOLdJnu-V45biapW2dw1bSY9Nqn7AJUgd9LDmjPsl1u4UTBdlE2c6byv9llo2OZmT7TQwFSA1ySYKoI01xIMw7XWH1d0KNyvI22Ajr1",
-				widthPx: 3726,
-				heightPx: 2794,
-				authorAttributions: [
-					{
-						displayName: "Thomas Hayes",
-						uri: "//maps.google.com/maps/contrib/110684055674827197641",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJmKQeFpiR8Bq0fAQJHLb2WIL8lIeK7EslYGqeVHSuquH4=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk",
-		id: "ChIJj5R4TqhZwokRuxkrhtALBKk",
-		formattedAddress: "2 E 33rd St, New York, NY 10016, USA",
-		rating: 4.2,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 3702,
-		displayName: {
-			text: "Little Italy Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/reviews/ChdDSUhNMG9nS0VJQ0FnSURsN3QydDdRRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Staff was amazingly friendly. Even though they were rushed witha large crowd they were attentive and on point.\nOrdered a pepperoni pizza and one pepperoni deep dish square.\nThey were so good! Could have easily finished off a entire pie on my own. Even my daughter who is very picky and usually preferred a no sauce pizza, loved the slice from little Italy. The Square was super loaded with pepperoni and hit the spot perfectly.\nDef a 5/5 for food and service\n\nHighly recommend for sure",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Staff was amazingly friendly. Even though they were rushed witha large crowd they were attentive and on point.\nOrdered a pepperoni pizza and one pepperoni deep dish square.\nThey were so good! Could have easily finished off a entire pie on my own. Even my daughter who is very picky and usually preferred a no sauce pizza, loved the slice from little Italy. The Square was super loaded with pepperoni and hit the spot perfectly.\nDef a 5/5 for food and service\n\nHighly recommend for sure",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Chef Peter",
-					uri: "https://www.google.com/maps/contrib/102421898277076906835/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjU6P5uIA-ctpmKcqitnv7hW8m-0eLqT_N9gUuHHjDt3YQ=s128-c0x00000000-cc-rp-mo-ba2",
-				},
-				publishTime: "2023-12-02T02:42:20Z",
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/reviews/ChdDSUhNMG9nS0VJQ0FnSURsNktMYTlRRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Awesome NYC pizza!!! They had quite a selection. Give it a try! Friendly staff too! We tried pepperoni, pepperoni and sausage, pepperoni and jalapeños, and some garlic knots! It was all delicious,except the knots were cold…bummer!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Awesome NYC pizza!!! They had quite a selection. Give it a try! Friendly staff too! We tried pepperoni, pepperoni and sausage, pepperoni and jalapeños, and some garlic knots! It was all delicious,except the knots were cold…bummer!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Heather H",
-					uri: "https://www.google.com/maps/contrib/101883316582664731956/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWWYE90xsBbgg47RTzarmPi72-Lxjg1xScDa6pN-wYmXQ=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2023-11-30T01:23:06Z",
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/reviews/ChZDSUhNMG9nS0VJQ0FnSURGNGYydU13EAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "Best pizza in New York!\n\nI love the thin crispy crust they make. You can’t find it anywhere else but here. The bottom of the crust has panko like bottom. They are a franchise so they’re all over the city. Amazing quality, variety of pizzas and fast service.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Best pizza in New York!\n\nI love the thin crispy crust they make. You can’t find it anywhere else but here. The bottom of the crust has panko like bottom. They are a franchise so they’re all over the city. Amazing quality, variety of pizzas and fast service.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Marsha",
-					uri: "https://www.google.com/maps/contrib/101094665496870298031/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV3kxkrWkxnSRF1mGhjjuSeU5r5f_KI4EX3j0Rs1mueQTU=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-11-07T22:51:24Z",
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOcjVHR1BREAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "I recently tried Little Italy Pizza and it was a delightful experience! The pizza was delicious, with a perfect balance of flavors. The crust was just right—crispy on the outside and soft on the inside. The toppings were fresh, and the sauce had a rich, savory taste. The service was excellent, and the atmosphere made the dining experience even more enjoyable. I highly recommend this place for anyone craving quality pizza.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I recently tried Little Italy Pizza and it was a delightful experience! The pizza was delicious, with a perfect balance of flavors. The crust was just right—crispy on the outside and soft on the inside. The toppings were fresh, and the sauce had a rich, savory taste. The service was excellent, and the atmosphere made the dining experience even more enjoyable. I highly recommend this place for anyone craving quality pizza.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Emerson Hue",
-					uri: "https://www.google.com/maps/contrib/115904187933376985760/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVCcFmWvJx9vUYgE6ZqA6lazxFt0S7bu8YQYAREDD-ssZw=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-01-19T05:26:00Z",
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/reviews/ChZDSUhNMG9nS0VJQ0FnSUN0a29QSlVBEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "We stopped in here after visiting The Empire State Building because you have to have New York style pizza in NYC! The pizza was made fresh in front of us, the line moved quick, the staff was friendly, and the pizza was delicious! Perfect New York slice and had lots of pizzas to choose from!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "We stopped in here after visiting The Empire State Building because you have to have New York style pizza in NYC! The pizza was made fresh in front of us, the line moved quick, the staff was friendly, and the pizza was delicious! Perfect New York slice and had lots of pizzas to choose from!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Erica Miller",
-					uri: "https://www.google.com/maps/contrib/104446420892980618887/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocI75VcfjzegM5wSPkgNL0Ri93vvDSqHCVoHUBZL5Sud=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-01-29T21:58:50Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJZ90-8d9eht0LnD7S1Fie6Zbmrd0rG2XA8Ejb6Bw-HjRXdmSqbclqxMqPYrHVbCqHTnq1XhMGPcT6SS2TpfK7TNiKi4-ICVormDLa8F_MsdQQMMInvBlopHc4Hn2kQ4EMjva0lOyI15WqC9eOQJBiWrx4cA5lfsqL-x",
-				widthPx: 1725,
-				heightPx: 860,
-				authorAttributions: [
-					{
-						displayName: "Little Italy Pizza",
-						uri: "//maps.google.com/maps/contrib/107245772822234141009",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX5gKKVUsNdtA0p1qr0OVA8wSW3lR0mhe49hpYcaS__I9U=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJaHJFTTDmCquV4og3UmLAP6RTH0jN7_uEfAKkMtfaT9kFJ7hcgODn9N9uw88_rIxR5xcfzmWjhGSHTm0ILGiwNyoJx7HdnRZJ85IPDalKi0JRwMcxulstYK4Jqdx04kstwta_J-TQbmpBo7p1kFxvGQS4lOjtDmnDjU",
-				widthPx: 1024,
-				heightPx: 642,
-				authorAttributions: [
-					{
-						displayName: "Little Italy Pizza",
-						uri: "//maps.google.com/maps/contrib/107245772822234141009",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX5gKKVUsNdtA0p1qr0OVA8wSW3lR0mhe49hpYcaS__I9U=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJY2XdHh-IADUwrlTb7XSyqAGSempBIcNmv46k5OZjKDgz_scgXu1BQjqstyZv9jt7TcFTdL8k3cHH2dniYj_oSgGm1c28eX7YOImW_ntQcbR9LYBLghsNLQWmNFP_il8tueXhDMSNT9ZL6zVthx3ngmNJ2w6XPTvdLm",
-				widthPx: 3264,
-				heightPx: 2448,
-				authorAttributions: [
-					{
-						displayName: "Noemi Caccavale",
-						uri: "//maps.google.com/maps/contrib/118444755143804952076",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVojgwoahJvgXAsoX6T3s6Pej3yj4eXV7LzdxkIE9y_3XOS=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJYTn3RuFE14nCiR1BYgDFoSLxe4EFI-_wq-PnqIN0fEiO0SJYWORZBPTR0dleDJGVO3mS4QCUGd6VXJeW93KhwjdSXq0vajgg-Hi3h7SKmtjcVieI1mAX1V4wQVV1PqSpJasXA8XUAZ4-VoUuv07g1dwGWOAEwrRenN",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Mermaid Buckeye",
-						uri: "//maps.google.com/maps/contrib/102208447712556790050",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWJjuYDKkjAVzJQcYAap5NDKZDLo1z2zT-1Ta9LP3tpWtU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJYf8sp-_4apYCTjL8kEM1xYyzVkvv6TcsVVRUS5s1hgQo3_drS_o6VDCxoy32AqHPDtX8skwJ0eHL5Js6k7tKafg0Kx5Z1Wcq15smqDynTHM6HoeLrRRijD1eYBFT_BSE-NP140BWFPcEL1pTi6UdVU1AFJJ46qWplm",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Torben Mauch",
-						uri: "//maps.google.com/maps/contrib/115102307186632409206",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVRLeZSNBMrdVFTzsHoOh4WSuwb2Ew4DvBbfWetlhKFozu4=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJZH0_N1CCmI4bxbNQFgVtmU7A0tEybqJjXyUrXxy2W-Zne0s8Mp0p2xJIrnZPfecUl2wbabYktzCFqTlcx_muXGM_ilKT-tbwqwZVYbpywwLm6TlHcbYxMJO6PdD2xRw7NCgf3C-qd182ctG6o-ENrEdQN7TalZWn5N",
-				widthPx: 5712,
-				heightPx: 4284,
-				authorAttributions: [
-					{
-						displayName: "Евгений Мальцев",
-						uri: "//maps.google.com/maps/contrib/102863973850459343241",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUZpDwBthm6xSksi6cXaimme9Mq7cdpq948VmuMZyRb2w=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJbb8NpXuSVtLCjW7QbSpQboFY9-1y53jWOBzX0yOOmbq1oSu0O8k3gu75usUkIRM_dTbCUt-drn3v3d_TKBqkHClSj6XzC7EiaaCBkozc0Cgb4kzsEKuUuT9AdweFhm3-adbOj2ixacaZequBNveK_j6DgZ3drNZKNM",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Daniel Bender",
-						uri: "//maps.google.com/maps/contrib/100527920548611710852",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWowIcEBKNzad3yxdSt0-X6hFjI9vrJYGHcpxXEj4R5Hl4=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJZRBOnXK8xSs4s0R3MMy3RuPL2CMC0mHEXHbKQ8a1Zv50uQPI_AHl0BxpmIRV6eUVojYmZCB7xeGD44f0Oc7wCGkxd2QuzJJ_2lx_WMJQUN-YL7OTTcLYuatGwfnRZJEXaA6WUFjoODIwFW6wx7ohr4ZAf9mre9OEZI",
-				widthPx: 4096,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Ericsson Santos",
-						uri: "//maps.google.com/maps/contrib/111983773059082611877",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWE61oIbP03amJ_TYXKBq9-C9cK96Jrr5vras9_OMTP5Q=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJYbgGWlC9JdidxLesZayTnZat6sNmQsYKq4JSdvU_hqPRdprwMsx1jSoqZyh13pyQmbBWsjl3e6aMkCIoBnbsiiL7XvNrch9_g9pECVybHT_A-gnncDriUTN_FdbB2tjElFG-5gyFSCaz6OeuBfJFaQY6LvR_9LBDPJ",
-				widthPx: 4096,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Kuba “DeX” Świątkiewicz",
-						uri: "//maps.google.com/maps/contrib/117465973317832268108",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXCCXVg0VbmaZ5IU58jlzVy2xmiV6hMrh7ZQv4agbX3jpY=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJj5R4TqhZwokRuxkrhtALBKk/photos/ATplDJZ-_zmPQ8ICkuUP9iq7fLwF6uBDJVJTAyqeFs9BRMSJWLkG8ydA0M7OILrwGEqagVkm7oLIYhxgO-_d9tAkZhq4igoqm1ly8RPKMV3A7N1nmoaGxc3OpehdRj-R_5pIs_adhPIk0B_JOlk-AMW1Z0-izR3vs2BEfdso",
-				widthPx: 2992,
-				heightPx: 2992,
-				authorAttributions: [
-					{
-						displayName: "Dian Alphonso",
-						uri: "//maps.google.com/maps/contrib/118205909378601699220",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUqAoTZ4uLFFAkA6Co65j5K5jG2XyyeFVah-j862TDf-Qw=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc",
-		id: "ChIJ1TjcVqpZwokRMSgFZcujUoc",
-		formattedAddress: "1032 6th Ave, New York, NY 10018, USA",
-		rating: 4,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 487,
-		displayName: {
-			text: "Fresh Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxeElxZllREAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 4,
-				text: {
-					text: "The 99-cent sign is misleading, but the pizza slices are still relatively inexpensive. The cashier promptly handed us our slice as soon as we paid. The pizza itself tasted a little better than your average slice. If you're really hungry and in need of a quick bite, it's worth a stop. However, it wasn't anything extraordinary, but given the price, perhaps it doesn't need to be.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "The 99-cent sign is misleading, but the pizza slices are still relatively inexpensive. The cashier promptly handed us our slice as soon as we paid. The pizza itself tasted a little better than your average slice. If you're really hungry and in need of a quick bite, it's worth a stop. However, it wasn't anything extraordinary, but given the price, perhaps it doesn't need to be.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Johnson",
-					uri: "https://www.google.com/maps/contrib/106662092665088691038/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXJAQZXEHwm7cdr6mUsfMQC6dQ_2VQAtHhS2Yy_C6DxDko=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2023-12-22T21:50:04Z",
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNwejRpQmVnEAE",
-				relativePublishTimeDescription: "7 months ago",
-				rating: 3,
-				text: {
-					text: "2 slices and a soda for $5, not a bad deal. Got two cheese slices that were average at best. Pizza came out hot from the oven but the overall flavor was mid. 7.2",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "2 slices and a soda for $5, not a bad deal. Got two cheese slices that were average at best. Pizza came out hot from the oven but the overall flavor was mid. 7.2",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "P. Moore",
-					uri: "https://www.google.com/maps/contrib/111483859087279140632/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJzlLmQsk-kvnK6cT2eiVYeYJ1P8MpzgG0d5eUrco1f=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-08-12T18:27:17Z",
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/reviews/ChdDSUhNMG9nS0VJQ0FnSUNGem92S3dnRRAB",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "For the price this is the BEST spot to get a slice.. or two. Priced fairly, can get an entire lunch in under $4. Would choose this over Joe’s any day of the week.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "For the price this is the BEST spot to get a slice.. or two. Priced fairly, can get an entire lunch in under $4. Would choose this over Joe’s any day of the week.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Kevin",
-					uri: "https://www.google.com/maps/contrib/113126395647782352040/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXBN04Go3Nj6YAlK8bmLn6pZWgjEEQXIL9TqnhboVgnR-0=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-10-28T04:53:39Z",
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOa1lPOENnEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Great pizza spot right near Bryant Park, very good quality pizza and affordable at $1.50 for a cheese pizza or 2 cheese slices and a can of soda for $4!. I only go to this pizza place :)",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Great pizza spot right near Bryant Park, very good quality pizza and affordable at $1.50 for a cheese pizza or 2 cheese slices and a can of soda for $4!. I only go to this pizza place :)",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Michael Soto",
-					uri: "https://www.google.com/maps/contrib/102838279129590150215/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWxTSRumEBW8tSLb20fmaB8UqcQGaPp0LQ3QnOugl-dVM8=s128-c0x00000000-cc-rp-mo-ba2",
-				},
-				publishTime: "2024-01-15T09:14:17Z",
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsdS11WFNnEAE",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Not their fault that dollar pizza isn't still a dollar. Still the best meal deal around when it's right... These guys do it right. Hot slices, chewy crust, flavorful cheese and sauce, bright clean counter to hang at for a few minutes and enjoy, before stepping back out into the midtown currents.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Not their fault that dollar pizza isn't still a dollar. Still the best meal deal around when it's right... These guys do it right. Hot slices, chewy crust, flavorful cheese and sauce, bright clean counter to hang at for a few minutes and enjoy, before stepping back out into the midtown currents.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Nick Novelli",
-					uri: "https://www.google.com/maps/contrib/107177352485731911285/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXfMDeLUJlsJ84vMnIP0LbhqkRH3k948DdZ_k2perL7JNrp=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-11-28T00:57:36Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJbMbURPoYtozBCaFxkMWRMVZjtxyrmsMKg7mpOMEFx5YMkvJR7qpSe45J1SBPqBzrmCCrkA0vv3idSsVh2UBrqLfxVi0vtw88-CPCHGcVHyeVjPFlscZ0zSG_avIvq_XARo61rrRjHPZn6H_iDeGcNbGXsxe0QQgDw",
-				widthPx: 3120,
-				heightPx: 4160,
-				authorAttributions: [
-					{
-						displayName: "Paul Bessassar",
-						uri: "//maps.google.com/maps/contrib/109683540959126388109",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU181SRV90lD8xuFEcZJbDjfNqJ99ZzBVil7DslfYLeRrY=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJY5KK3ilBF71fHRku77GEMF2mvWuW6ZY2tK0rGxrx3qdZh_PgYgg8uJR3Y9kdwlWLfR55qIK_yK2BX20nizUJm2yIxOzVlNHZjzKi9Nd8sAcRu-bJnDxqpLiPn8PIdaD2H8s4tZLCGISgF16MMn8gwBtyfrzPUXdZlX",
-				widthPx: 3072,
-				heightPx: 4096,
-				authorAttributions: [
-					{
-						displayName: "Jose Luis Reyes C.",
-						uri: "//maps.google.com/maps/contrib/101662112332757627637",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUpoX3g00kPtpiLyIPDNeKu2NmtY2kcaMgZQ2t2SxDBJgo=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJbj1ITaaxQDR7rgwQufhd4QBiZo94K-0kHRmYbmEh_2I56Kh8Sw40fwE7XIl-3FXpYE0wB-9OpgqFXP5-eOjHI4lCLKkhZQ261BAfGYifIfNSyDjEt6Zeiu1dF5r_BCudZViw68x_sbBcZB5MF9uGXIDgHIb_95GjhI",
-				widthPx: 3024,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Rich Loffman",
-						uri: "//maps.google.com/maps/contrib/114709869184735323807",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWJLTIFHJnza91AdJrUbJ8u2RVoUosERHogDg3N8neyVdw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJZPyXdwzh8COGa75mVfeqfTPyRskuyTphEBwkpHETiGPAeZqABsiaLcyZz9nPeQ8j1oJpPNV6OqXH3d-e_WPP5-Ay79p2BKjZ0VhlcJ9qPpv430UqAessYc2mSPnb_A2fvhB8Cwd3y_WhZmXLtSaRmFPnvFImD-IvxQ",
-				widthPx: 3060,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "Darlene jackson",
-						uri: "//maps.google.com/maps/contrib/104318656290350571346",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVDq704vdYMqi1ugQ8dSmksTufABn3tPIPFM3CeQyudSJrx=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJbYp8_lQpmsUtencP8psD3ZIPNjRE8MYARihXzlK6p9jX6iay4rKqC4nfYw0IpMnJIJZaVxr0h7Mc9QhaixfSoP6wjbplRrOZZxS6bPE-z13Y1X2Yfiadr_f7YHJG3zHggvSfL57GI8Zg6ZEZ-yDrT1Hb201zaXXsEB",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Jesús Armando Cota Estrada",
-						uri: "//maps.google.com/maps/contrib/117460206623621389156",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWoTacz1-fYj8HG-CyMKZ2Eq6yac7ifOfyPufESNkKSYRVM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJbZTQgwBbB9X-KTJkeg15dSVbTo9uYi4mT3WtjBByhNbaAgGItq1EqIqBsALhqD9FIVEgb95hiuGLT43QeM8huaYZ3Ud5dN2m1R-grEzcwozEd4hy_hIj1pjvPNuGBZednT8UuxmSEqx3HNxwL2SUjYS0Z9tyzV2mco",
-				widthPx: 3072,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "Alexander Legoshin",
-						uri: "//maps.google.com/maps/contrib/100150951617088676536",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWaRKW8aINPDFnIf8d-LGgWVwJkVpIjtht2kwzRpH--vJ31=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJa7PVeufQfjpO78HsrJCsyOtdHG4KxnlIISWKg2LSLinEzgizlQArCv41Vas9xMKNhcIpetAy9d0fIiI1n2OJZxcnthJspaXXspF6_ccQwoLFfuF1r8CA21KKEPr0vsKTLwkPlXSa5Y1S5D4mveGbWZ6wQwH3zfwS3q",
-				widthPx: 1170,
-				heightPx: 847,
-				authorAttributions: [
-					{
-						displayName: "Peter Helmenstine",
-						uri: "//maps.google.com/maps/contrib/116615399583299452992",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUOGkYbKs63x44NqepiHcJeJJUwE1GUNh6AopEgD9oUcaU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJY3OSXEZuMAFZn-jmtCSXQOHN-kMZTC2dIWFHpydEyHWFs-sT8G4JRCOd1QH92JCoLXTCt9gOVR9fZEWpSlDOpe6Bmcx2J5eypbpqdtxk7VGUNuba5Ur2epby43OcldCnhDqpvm3cniJdN0rgKw5Dq7E9k5MgyNIMj_",
-				widthPx: 3060,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "Darlene jackson",
-						uri: "//maps.google.com/maps/contrib/104318656290350571346",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVDq704vdYMqi1ugQ8dSmksTufABn3tPIPFM3CeQyudSJrx=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJZj2YhxKFcZGQUTlFTlxvtoBbDQdeMefsS-_zYVpWjniy16I6PoVcyszMsFb07N4l9MqxhYQDaT2_4rNo7JOJhAJnQiDMdFohgFsZMOL3MBjjgHurnJ9xKkK9pH8BCjvmG_8IYXJmp_rqwqudqNq7JC7gyixElqj745",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Liz Lucero",
-						uri: "//maps.google.com/maps/contrib/104547412243831406589",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJavirmLyqvcwmlg-OWZjcsYcw64-aAc5GLS006avXS=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ1TjcVqpZwokRMSgFZcujUoc/photos/ATplDJYW76e_Kj1uMJgASMBEnovP2X3XQsbF_-OcFA5HESFkdIKXy3VzZXuR8Cg-0cUR3Xn895sHq4LYuQwXUUgTjH3EP4xhoOVr5qeQdU27gcNXa5KLPerc3nG2l9N-OeETYj42yDLv0y1pPMHKm0Puuk0vmaLTerGnAbgM",
-				widthPx: 2252,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Damian EL",
-						uri: "//maps.google.com/maps/contrib/110279603483500493922",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXSvqcHQdEAVA1ZU473KJJx2a8AwVpOPofLzX5HK2twT1yA=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM",
-		id: "ChIJ8Q2WSpJZwokRQz-bYYgEskM",
-		formattedAddress: "7 Carmine St, New York, NY 10014, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 8380,
-		displayName: {
-			text: "Joe's Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxcjctWjNBRRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "Joe's Pizza in Manhattan is an absolute slice of heaven! The moment you sink your teeth into their pizza, you're transported to a world of exquisite flavors and authenticity. The crust? Perfection. Crispy yet chewy, it's the ideal foundation for the flavorful toppings that burst with freshness. The sauce-to-cheese ratio? Spot on. Each bite is a symphony of taste that resonates with anyone craving a true New York-style pizza experience. Joe's Pizza is an iconic establishment that sets the bar high for pizza aficionados everywhere.\nWhile there might not be parking or ample seating, the hustle and bustle adds to its authenticity. It’s a testament to its popularity, where folks line up eagerly for a slice of that renowned pizza. It’s a small sacrifice for the big reward of savoring some of the best pizza the city has to offer.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Joe's Pizza in Manhattan is an absolute slice of heaven! The moment you sink your teeth into their pizza, you're transported to a world of exquisite flavors and authenticity. The crust? Perfection. Crispy yet chewy, it's the ideal foundation for the flavorful toppings that burst with freshness. The sauce-to-cheese ratio? Spot on. Each bite is a symphony of taste that resonates with anyone craving a true New York-style pizza experience. Joe's Pizza is an iconic establishment that sets the bar high for pizza aficionados everywhere.\nWhile there might not be parking or ample seating, the hustle and bustle adds to its authenticity. It’s a testament to its popularity, where folks line up eagerly for a slice of that renowned pizza. It’s a small sacrifice for the big reward of savoring some of the best pizza the city has to offer.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "I A",
-					uri: "https://www.google.com/maps/contrib/109036610382948817309/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXVQpSsrLXjJ922TX7IHhd8p-J8QkfYs_m2VqnicwKw30P5=s128-c0x00000000-cc-rp-mo-ba8",
-				},
-				publishTime: "2024-01-10T21:02:40Z",
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/reviews/ChdDSUhNMG9nS0VJQ0FnSUNOeHBPNjlnRRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "Finally got to try New York Style pizza at this popular joint that many celebs have visited and it was definitely worth the visit. There was a lineup out the door which I've heard is usual. The pizzas were coming in fresh and hot every few minutes as slices flew off the pan with the sheer crowd! We tried the cheese slices and the fresh mozzarella slice. Both were hot and delicious. Keep in mind this place only takes cash! There is an ATM outside but charges a hefty fee so come prepared!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Finally got to try New York Style pizza at this popular joint that many celebs have visited and it was definitely worth the visit. There was a lineup out the door which I've heard is usual. The pizzas were coming in fresh and hot every few minutes as slices flew off the pan with the sheer crowd! We tried the cheese slices and the fresh mozzarella slice. Both were hot and delicious. Keep in mind this place only takes cash! There is an ATM outside but charges a hefty fee so come prepared!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Shahzad Ahsan",
-					uri: "https://www.google.com/maps/contrib/117954936570539426482/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWOWUN83NHZdOVTxrhC5qsplfYyFuWBnFNl0GwmAfeMPlrp=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-01-14T03:39:02Z",
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ1LU5yb1lBEAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "So much good can be said about this classic New York pizza shop. Joe's is a spot where your slice (or pie) is exactly as good as the last time, and the time before that, every time.\n\nThe restaurant is located in the heart of Greenwich Village, so you can expect a lively and fun atmosphere every time you stop by.\n\nAs there is limited seating, if the weather is nice, grab your pizza and head over to nearby Washington Square Park and take in the iconic views served up by Mother Nature while you enjoy the greatness of Joe's.\n\nAs an added bonus and If you're lucky, you just might run into a local NYC celebrity. During my recent visit, I had the pleasure of meeting both Matt Damon and Adrien Brody! Super nice guys who enjoy a classic New York pizza. Very cool and without a massive entourage.\n\n*Joe's is cash only- don't forget to bring cash or there will be no pizza for you!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "So much good can be said about this classic New York pizza shop. Joe's is a spot where your slice (or pie) is exactly as good as the last time, and the time before that, every time.\n\nThe restaurant is located in the heart of Greenwich Village, so you can expect a lively and fun atmosphere every time you stop by.\n\nAs there is limited seating, if the weather is nice, grab your pizza and head over to nearby Washington Square Park and take in the iconic views served up by Mother Nature while you enjoy the greatness of Joe's.\n\nAs an added bonus and If you're lucky, you just might run into a local NYC celebrity. During my recent visit, I had the pleasure of meeting both Matt Damon and Adrien Brody! Super nice guys who enjoy a classic New York pizza. Very cool and without a massive entourage.\n\n*Joe's is cash only- don't forget to bring cash or there will be no pizza for you!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Chase",
-					uri: "https://www.google.com/maps/contrib/102427089823735791164/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXNf4uacy3BYYC21EYvvpij13yfLREx5NvNyQV9up0WVXzF=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-10-20T11:30:08Z",
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/reviews/ChdDSUhNMG9nS0VJQ0FnSURON3ZxSzd3RRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Best pizza in NYC by far. They actually open at 11 though. I went there at 10:20 on my last day in NYC, I would’ve just left for home early in the Kenny but I wanted a pie for the ride home. They wouldn’t start making pizza till 11. But it’s so good I waited the 40min.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Best pizza in NYC by far. They actually open at 11 though. I went there at 10:20 on my last day in NYC, I would’ve just left for home early in the Kenny but I wanted a pie for the ride home. They wouldn’t start making pizza till 11. But it’s so good I waited the 40min.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Luke Vissers",
-					uri: "https://www.google.com/maps/contrib/103492642860487620390/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVVXdfGM2lbCyAgJSUHSQol3Kvg_pEkhAyxn5_FenlSaw=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-01-22T16:24:39Z",
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0NVBQR3BnRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Loved the pizza here as well as the location! Such a cool spot, super busy but very efficient service. Great pizza options, so fresh, indoor and outdoor seating or early on the go :)\nNew York City.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Loved the pizza here as well as the location! Such a cool spot, super busy but very efficient service. Great pizza options, so fresh, indoor and outdoor seating or early on the go :)\nNew York City.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Maria Mastrostefano",
-					uri: "https://www.google.com/maps/contrib/117355832072673927723/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIhvTrWi9Mdakcr6uetySts9pNjIs1-4vD2OVOpv5kE=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-01-29T10:04:46Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJaJf5En-Lr5P7M-BIfwWe0TDGJGIXbei35fBmI7n8cHCESUwzsPqE_lWz48syhqcjxAi3WAnKftcIwQivU7IAZ0vsAhnPY7mbWSOD5_IDfYkhZMSjIOw-Y10kLLopK-o7JtJxTVZrIYSgSc7N_ZMoJmRvz1xaJLQvL8",
-				widthPx: 1600,
-				heightPx: 1200,
-				authorAttributions: [
-					{
-						displayName: "Joe's Pizza",
-						uri: "//maps.google.com/maps/contrib/116142415137360972763",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXXZNn-q1H9hJ9ofwhd_9RC17a4tEFkBNnGutunGbtMPQ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJZUj5A19b0tNkXvqX3XU1BUhJHnf9p2V8L_tGTbvncKP7hIdF_ZMLLT1xXi8_jFTvLwBTBbF9oYIJJY99E5UHPgjE4-3wXBNPlNVgbasYzs_8GcL-Y_uCFgp_y_Coq1twAthFtUcV7yhaQt-wcZXmNwmtDQkGvwgjyw",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Sam",
-						uri: "//maps.google.com/maps/contrib/105803581140440938204",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLfHaZKOqk5dV009B01eulnJxaN9Z-_74BZT0IBaH17=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJZDHklEbr1WcyyjAGhhSZT-6R0ZNtv3hYtuxMmuAXOe3eSTne3CanwneGc_kPw9pfhaMMfwlJZEa9UztBdd7Ch8jdT-zHgZ0BouTvlYzi1c4PSqFRzpwMiBUpTeoLpVkMA-TzmtJ03OG_b1jCHts98xxxVQ7Qm1qh-m",
-				widthPx: 1080,
-				heightPx: 608,
-				authorAttributions: [
-					{
-						displayName: "Joe's Pizza",
-						uri: "//maps.google.com/maps/contrib/116142415137360972763",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXXZNn-q1H9hJ9ofwhd_9RC17a4tEFkBNnGutunGbtMPQ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJZD0GVXZd_u0q9iG8rP9-y-sc9jlqASMb226bGMcx7Iz9p0voVEpLCftTyyhvmVWnKbSZ4fTkP0qIJACu6dPBHGvM6uPrvdX39Vvs_PGkwFNW_kCnQHTk3QhISRYkX57ngCi4LyHzacdTP9pcM2Gox9ysgEGOSU4hsH",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "ESM Foodz",
-						uri: "//maps.google.com/maps/contrib/102909507646953588185",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVq2UaA_siUewEkP-5sDRJTAIhLbrtpUKFnjvVI3m6FDL2y=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJZ0sR4PURRfqj6K2PcLDj3MZS30wv0WexZuFgCYw9zxHcD0wXRt4YzZ-yOZl0u23jda3Myop_oFt6LCTN4X0qcOamhzOhYPpzmxBzdqriPQtoKbE0nnonTsR6zEqmF6Akzf2_ovoDHJH8TiRAxZRJdo_m1zpfOkyaJO",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Patrick Decker",
-						uri: "//maps.google.com/maps/contrib/113996574485560511141",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI4j_K2fgEI9T75E1Qy7nMvA_OOSct6cfiX92EZ_NaJ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJaZnpeG1mbrC-o5F0um-nDZMJy2iwU7Lnr9J8nO3p3QrJQTFQNWqRA90adeYheiEUARZTnnFMugWXBH9dYrs9-Tbg0A00Yt7IFQJmWm2ZthX4b-m5boMfGXhOIF-CzdPJ7xUBTyd7XFXIBQM2CrJdcItUEp8N-UQ8X8",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Chase",
-						uri: "//maps.google.com/maps/contrib/102427089823735791164",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXNf4uacy3BYYC21EYvvpij13yfLREx5NvNyQV9up0WVXzF=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJbbY5ByBYgxWo2xj1oveLp2BoS4OpV29vpoJto984Xo3jUB-ZhLP-w6qgr5qeb8ON1Tgj-32D9Wu8PA3Nh7_f-ALr2s7P4bYEZmZ-up_x0PK81MeIEzJ8gW75vNvDKz_805a10SLyukh1YvCLJNNVIWozdvjv7BVWpX",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Sebastian M",
-						uri: "//maps.google.com/maps/contrib/116629711640557041538",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXez-RSkv2X8cxRZHgvZv_8zkvrzXCjmipSg4Nrfsn25vjH=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJayEAaBzUzTnHQNNRiH34G8lNcEcYyEy3Fwn-uLA9kIlgcrXGXFexCugmSmBnF2u1hgaWEb4xWYXC_A3VTNViLr6uFVrE5o34I0JlJJHeSuPlIDamKiNdxRmOFYJGBDE6_tNZbEDZ6UN1rvSBXzbwMP45zgOl_i1n-m",
-				widthPx: 640,
-				heightPx: 705,
-				authorAttributions: [
-					{
-						displayName: "Jeremy Alfano",
-						uri: "//maps.google.com/maps/contrib/110682905178646395455",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKoO2f4pOHzL69UIh7plRO-IBo8pc_DQ0D-93LFp-Jm=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJYjFIUiJGME8Gn9ZTJWuQcWwHsvFLfqB9xfYxobjvS6Qr8Ag2K5Zmi_uawzgu2Bb1pBaKYTZgZh3sMs7XmQl0ftE5cd1qlPUegDB4aG4HVkjuVbn_kU_CnvdPM-t7X-AG45jGoLaXrVrGDbryXl_2SK5Gt676_HmRfS",
-				widthPx: 4000,
-				heightPx: 2252,
-				authorAttributions: [
-					{
-						displayName: "HAN'S GARAGE",
-						uri: "//maps.google.com/maps/contrib/104336865148212928485",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU9JvmR8O1dCtW_aQ6k-ITLdZzwhBxb16y1H-2MtmT7lBY=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ8Q2WSpJZwokRQz-bYYgEskM/photos/ATplDJY0FLAuCzVPxT8eo2C4p7VnDuEGZkdWRnO_Nih1F2ANy_0d88pP3z75mKpzW0CM6OP9_dgzr7tcSMevXihPhnbF34I1Kcw_bi1OYZRO-xV6iw5cyRe3_S7g0w_-gVTo2GbYursXRO0SZgGGjRFb50PIzWNnC6x-M6q2",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Ernesto Brescia",
-						uri: "//maps.google.com/maps/contrib/100386272555034268685",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTJGJxFfCIAOSpz_ZM6tG-K5j6pBAI6v_vC4-bARN2MyFH=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic",
-		id: "ChIJqZ32VQJZwokRtOhaLwaBFic",
-		formattedAddress: "151 E 43rd St, New York, NY 10017, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 2049,
-		displayName: {
-			text: "$1.50 Fresh Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/reviews/ChZDSUhNMG9nS0VJQ0FnSUNab1lPVGVnEAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 5,
-				text: {
-					text: "Conveniently located a block away from Grand Central, this 99 Cent slice spot delivers on its promise. Pies are fresh out of the oven, and all of the toppings are readily available. Cheese and crust content were just right. Proper amount of oily without being greasy. If you're in the area with a couple of bucks to spare, be sure to stop by.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Conveniently located a block away from Grand Central, this 99 Cent slice spot delivers on its promise. Pies are fresh out of the oven, and all of the toppings are readily available. Cheese and crust content were just right. Proper amount of oily without being greasy. If you're in the area with a couple of bucks to spare, be sure to stop by.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Elemental Marketing",
-					uri: "https://www.google.com/maps/contrib/102491339104825384598/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVJAqvH7v8HHHHwte197VLFPnzD1GDt93PHgJcpXZVgig=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-09-12T03:35:23Z",
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/reviews/ChZDSUhNMG9nS0VJQ0FnSUNaOGVLd0dBEAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 3,
-				text: {
-					text: "Traveling, passing by or some how on a budget or on a hurry? 99 Cent Fresh Pizza definitely a great option. With $3 you can enjoy a really good 2 slices of cheese pizza plus a soda or water bottle. The place is simple and only offers to go. People are free to eat right there on the street or take it. Definitely a stop for everyone who likes some cheap local traditional fast food. Well located at 43rd St in Manhattan.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Traveling, passing by or some how on a budget or on a hurry? 99 Cent Fresh Pizza definitely a great option. With $3 you can enjoy a really good 2 slices of cheese pizza plus a soda or water bottle. The place is simple and only offers to go. People are free to eat right there on the street or take it. Definitely a stop for everyone who likes some cheap local traditional fast food. Well located at 43rd St in Manhattan.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Rkrdo Azvdo",
-					uri: "https://www.google.com/maps/contrib/114223146025872734332/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWT_UzPcZob-Pb3Hc5hDZZWgjaEVpzT1ZOtGo6mMP6JUf8=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-09-12T18:43:33Z",
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/reviews/ChZDSUhNMG9nS0VJQ0FnSURaejc2TmV3EAE",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "Didn’t expect much but I got surprised! Only take out. So the 99c/1 dollar price only applies for the basic slice with just cheese, if you want ham or olives it will cost a bit more but still cheap. I like the dough: not too thick, crispy on the outside but still soft inside. A bit oily so your hand will be greasy afterwards but worth trying.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Didn’t expect much but I got surprised! Only take out. So the 99c/1 dollar price only applies for the basic slice with just cheese, if you want ham or olives it will cost a bit more but still cheap. I like the dough: not too thick, crispy on the outside but still soft inside. A bit oily so your hand will be greasy afterwards but worth trying.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Linh Luu",
-					uri: "https://www.google.com/maps/contrib/104553981192161641146/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXXsISA2zaILsVdQIDQKjkCsQZIkCi92NliK4op-7E02Wc=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-10-08T22:02:22Z",
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/reviews/ChZDSUhNMG9nS0VJQ0FnSUROOTlPTFNBEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Just amazing, I have no idea of how are they able to provide this quality with that price, the people are too kind too, they gave us free slices while we waited for our pizza and made us pay for 2 instead of 4.\nAbsolutely worth a visit + it's fully halal, and they have pepperoni 😉",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Just amazing, I have no idea of how are they able to provide this quality with that price, the people are too kind too, they gave us free slices while we waited for our pizza and made us pay for 2 instead of 4.\nAbsolutely worth a visit + it's fully halal, and they have pepperoni 😉",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Saif Badr",
-					uri: "https://www.google.com/maps/contrib/116348202885981297831/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX_TchnwpnZfT6gBECcJd6zLv6Eo2NamKCwUkt7cIC0nko=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-01-27T06:01:16Z",
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/reviews/ChZDSUhNMG9nS0VJQ0FnSUNwbDgzM1RnEAE",
-				relativePublishTimeDescription: "7 months ago",
-				rating: 5,
-				text: {
-					text: "This place delivered a classic $1 New York slice of pizza. The pizza is always made fresh and you receive your offer extremely quickly, straight from the oven. The pizza is unbelievably crisp but also has that delicious chew. You can never go wrong with this classic taste of New York!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This place delivered a classic $1 New York slice of pizza. The pizza is always made fresh and you receive your offer extremely quickly, straight from the oven. The pizza is unbelievably crisp but also has that delicious chew. You can never go wrong with this classic taste of New York!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jonathan Lee",
-					uri: "https://www.google.com/maps/contrib/103305071067013910658/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIr7i04YpySz36eSp1Pljz0BuEcqQT9B4eKa7xq7HZL=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-08-13T16:16:34Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJaS3u6bSEWceQ8qT1xDsQWzGzPbg-iBG61kXspJpGHuxczgMywkSwn4PJi1t6qakGJeFHx-vtnBdDQmWeDyv8f_lvUamluna_bG-se33uRh1HQJw6RdhxonizHWrYXNJ_DPliR6sk0ZsBfLPDUSgzutGyrMp3Hdsjpu",
-				widthPx: 2268,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Joe Sanders",
-						uri: "//maps.google.com/maps/contrib/110138673711685291943",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXubQLwZnn0m6-MasVrIigyNK8vMWELAXds535hmrik-vge=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJZzoqXsQQs5ODnCnVNaOHNKzR3r7cd4_pgdVjImfrXRuXEEfBY1hlVUhdqUSBqkeoxkltQG6FLpTte3d7MfvnH_dJWCtJCgwbFbUMQQeIhzM0L6ipVYwSiqH8Z0M0pjCEc9ibOc-NEHEUfp_EL4CQAqiUMYcN11cEyv",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Ivan",
-						uri: "//maps.google.com/maps/contrib/117372194755102609516",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXhfpjDY2Rqg2Mr8HJ8bXRTUUuIMQ3siC7QIrhF09z1RDU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJYALg8PimReq2IxPdL9Hvuj1gJ5gxkPaVV6WSn8T7E8Qne9U29G-3PTGAgT-_T51rv1RT0MgJxRnAcnO4QXp4zsc83ZgaWmhaglXmmxipzgzAjvxfkBKKZUWwjHACXYzgk1f1hDrc_bBVjFO-Kv9N5WgfHwoHBfzD-O",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Rebeca Coman",
-						uri: "//maps.google.com/maps/contrib/102674151737879145581",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXaqnuBhdYoVkcY5YpchDjptIjD3Q5xf5cAQFCDux853CD0=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJbXkC0BLRTgwHsIXsWlyj4jgVdDUHEkkvSS5tvVy65Mg4AaQXiZouAHSIrsaIL_vnWZEPwcwf2SbzpDf8XsYJ7kjJ32NgI-wKv8q_fZcTks9s4gc8osixOcCGP1i13vB3JtCanJx92IOEVY-zuDjEG49faYY3r6EE_M",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Pragna Jui Chakma",
-						uri: "//maps.google.com/maps/contrib/114169670437640705753",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXj1EtgK8Eb1nBQxEoS5bvlqVo3Y7EyAVFjnVh2egcbPdui=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJbrgN_WZ5QKHd0UeijBFL0lkTmQHYPwJGtitP1gPwBqdTJnvcxmT01j3pjkZIK4VbdeIzB-NpiW4nQ2bET_r3wi0QWa43pKnNJD_cv0qAvq_zxewj67-Yv9OHYjeY3zkdKtIWpwcTOKnLRudp4NC8koMgfBc3-V-76t",
-				widthPx: 550,
-				heightPx: 398,
-				authorAttributions: [
-					{
-						displayName: "Алена Buffy",
-						uri: "//maps.google.com/maps/contrib/101179353247199361142",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVE2gFyXxUkJUat3VPjqTpW1opIczvmfNT7NuZIrT0Acw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJZ6xr-gRtHSdeuR-jdAdYFuNUyKD1qa5byXFvdrPV2U-9FKmG5THGaco51QQjfUT5wXQlAx3ObQAJyT4PvnNcGIbRu-R2KzeO5EY8kZIpFIuzyALXQOWv1o9_OjjrKdXwtf-twRH_4zrYAGD_dnjyfy3ykNA8G_4fmT",
-				widthPx: 3024,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Brian Abao",
-						uri: "//maps.google.com/maps/contrib/112890904084685275809",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVluXsRJjrxQPkLzJP_H9u4MM5Z2C6GSOOmW1qUREn-nA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJY5vrSPCSt8vbiwm8Fz4gASBj8zlA4xqMMpbIw1UlSux9iCzh8ue2AUqCP1J9kdIBRWNMMNth3F_ZXSckuUpHjSSXC5rUBjgFGb92MfGEWC6KtbWZhhIc3z4KZz9BnMq5PBgtqsh9uMrxkL4cen5TtJG928XtwaSdo_",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Leonhardt Levi",
-						uri: "//maps.google.com/maps/contrib/110374617846367664079",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWgD0dSXxdTEr1ESpYleeAJIErSVWkSSrBDDL6JGKQW8uQ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJbYs_yq-tXrC5lucaZZ0o3tyjLyRJCUWd9DSbW3_Nb66-npYTL2Sw7XEoHIlBfM1uvTddNkLovjqN_OKdjQhN-KnLTQCA8HkYMy2hlwIVJyekkyvefwBxOIyxJMSnEmvP5y2vwKX4FSmU9RZ0flqNXRRKS8iNK0XxUF",
-				widthPx: 3456,
-				heightPx: 4608,
-				authorAttributions: [
-					{
-						displayName: "Vishal Chaudhary",
-						uri: "//maps.google.com/maps/contrib/100313271950272828544",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXIyB3RA5AZN3nnI5uSJYITlVM9STYbWSRLFmwM_GYprtU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJaVYExheCDzbNnIQph_iaVfZCgZVQURN5H6XEtN2mwf__qQ36nvBuKawkUHx36dX5KgwuzOHLmDwmo4AmJC-HzhMY9hrC53Fyk6-68AiFkJeIJgZzSeQ6fbbm6DbcO75-PLRyVsQbs4okgomJ4Lf6KQN-x1eU8GT23j",
-				widthPx: 2268,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Andrew C",
-						uri: "//maps.google.com/maps/contrib/116001915417528637188",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWme78UwoNGaS0BJgcewVsP0M83cZ6AyUWl7TEA0W0HmKw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqZ32VQJZwokRtOhaLwaBFic/photos/ATplDJZPmPHrKpDOnoCS9qOTMSE0YO-g9z_JnhSeWm03XW6jn2xVNOZmdjyNCYxiiB_z_VZJZUnkRtYZmJrNxNtbVUwbylBP8WMJaAy682Q6LwwD4OYq0ORb7ZRLjNTkz2eqgWKY6hly0_ymPBkhB8JDUjNpg9KLARhSMyxL",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "mcLa twofivesix",
-						uri: "//maps.google.com/maps/contrib/101408599427719381927",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL6Gp0kurwJd3lIHG88U-LVovJtWJ1DVwm9iacLWcSz=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI",
-		id: "ChIJ2anxfwJZwokRH54cR9u5fwI",
-		formattedAddress: "473 Lexington Ave, New York, NY 10017, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 1430,
-		displayName: {
-			text: "$1.50 Fresh Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOaGMtd0x3EAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Listen if you’re looking for a good Ole New York $1 slice this is the place to be. The cheese is cheesing and the sauce isn’t too much. The dough is so soft and crispy . The dough is risen so if you’re looking for a thin slice this is not your place!!! CASH ONLY!  absolutely love this place . The guy at the front is such a sweetheart ❤️✨🙏🏼",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Listen if you’re looking for a good Ole New York $1 slice this is the place to be. The cheese is cheesing and the sauce isn’t too much. The dough is so soft and crispy . The dough is risen so if you’re looking for a thin slice this is not your place!!! CASH ONLY!  absolutely love this place . The guy at the front is such a sweetheart ❤️✨🙏🏼",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Nia Gaillard (Mint)",
-					uri: "https://www.google.com/maps/contrib/100118457257386474861/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWzIHiU-czmKgx-l_3psq7LCf4gCTYx6I67oMlaNqf8Xzg=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-01-16T05:37:16Z",
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/reviews/ChdDSUhNMG9nS0VJQ0FnSURadDluMDRBRRAB",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "To be honest for 99c I was extremely surprised that it is one of the bests oven pizza I ever had. I am craving it and would definitely go back especially for that price.\nThe bbq chicken is mouthwatering and the full size pizza price will blow your mind as well.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "To be honest for 99c I was extremely surprised that it is one of the bests oven pizza I ever had. I am craving it and would definitely go back especially for that price.\nThe bbq chicken is mouthwatering and the full size pizza price will blow your mind as well.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Yasmina Khoury",
-					uri: "https://www.google.com/maps/contrib/111320667564258687539/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJOG18rvWMuUiqR0-V9kbCeA595DHFiVbl86qndINUmcg=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-10-08T16:49:25Z",
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsMjVhX1RnEAE",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 3,
-				text: {
-					text: "This is a great NYC institution where you can get a slice of pizza for a buck.  The pizza is good, fast, and tasty.   Forget the atmosphere because the value is unbeatable.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This is a great NYC institution where you can get a slice of pizza for a buck.  The pizza is good, fast, and tasty.   Forget the atmosphere because the value is unbeatable.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "C Neon",
-					uri: "https://www.google.com/maps/contrib/102592946161749736609/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocL29snGbI5_La51qw5Gw42TjW16koqqVkaJkZ5_Tq1w97M=s128-c0x00000000-cc-rp-mo-ba7",
-				},
-				publishTime: "2023-11-27T19:50:05Z",
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/reviews/ChZDSUhNMG9nS0VJQ0FnSUQxMkpXY0ZBEAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 3,
-				text: {
-					text: "An ok slice. Cheese and sauce were decent but the bread was spongy—like the fresh dough had risen too much. I was seeking an original NYC Neapolitan-style slice and this wasn’t it.  Note: cash ONLY",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "An ok slice. Cheese and sauce were decent but the bread was spongy—like the fresh dough had risen too much. I was seeking an original NYC Neapolitan-style slice and this wasn’t it.  Note: cash ONLY",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Peter Litton",
-					uri: "https://www.google.com/maps/contrib/111858921006355924148/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWiktn2gikq1ts8u3UZkrD0ER14bPAtjvTIMvrMj1Pe9x7C=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-01-05T05:37:23Z",
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNkaEo3WlFnEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 4,
-				text: {
-					text: "Your average plain but yummy NYC pizza! Cash only but cheap for a pie. Nothing special, but perfect drunk pizza.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Your average plain but yummy NYC pizza! Cash only but cheap for a pie. Nothing special, but perfect drunk pizza.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Lily Clark",
-					uri: "https://www.google.com/maps/contrib/112115849259430160546/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWB7HrIO3bFoTq3rGa4XSLxoBYXgieqm0eS6mXyHknfgQ=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-02-11T19:59:19Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJYuK2nyqL83f9u6Hm46lfRR09QuSfUfVQSHIQuqZaDeuWuvTA60Kpv2IE1Hp7LgGe3JJ-otukFxUUA8cwmJnP9JOoudwQEjNcj4UARFnCf6jxyWmsJaImGOnDzricr5YAiGYAut5Nb4wCMhUFTnsZiMTayEIV_DqL9s",
-				widthPx: 4032,
-				heightPx: 2268,
-				authorAttributions: [
-					{
-						displayName: "Chris Rhea",
-						uri: "//maps.google.com/maps/contrib/115505465523823267051",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWN0AciL_5feWJjcxCIiDH7xxGgZxkyoFx4Ot1BbY82eTg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJbyZDadoYA8AryIOEM_UmNqU-nFIwAwgSVqM6VMRNdF3SIYp25BK7qV1WJ_qB5MW-7iTz5ueqSGsZ3oGzJ0meI47-B-6Xu6W5RpFUoRkeQ9D7epeSugHSlCoelLhDSiHZnDf99ci8DpnoaQA9SunMmtUOseXWJxtJR8",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Givaldo Gomes",
-						uri: "//maps.google.com/maps/contrib/117210662796850853123",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVgjmyqJCe2D54uR1ozDj9nAWCi075tigCRAwSXeQjRyjC1=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJbpHjYnQJSYqn7ZvNvlERhranZ6eos-s1I_f-Xnz38fGQ3x_1h4ByTuwSurcl4GlyFuOdzMWlzzVYsvMCCq2I6lFYp2LF0ojQv9jKcf7x2TRV726eaLUqbefzHKhh_RDL6G3d32uif912SUk7T3n4_Tv2SjI1Z5cnTe",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Hamilton Nguyen",
-						uri: "//maps.google.com/maps/contrib/115178373811211723065",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU0eu9xPchZYe38rOxWJtqsW-oHl_6pu885lw2N9XSNJct1=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJZJmlACkn2dYEoxbqOrmjuWWypXN0qCzqOtM4xIfuuA5R0LtfXD0JmAIst_SU826EjK2FPK98HMjzjBFaQ-i0Mr_nycwtMQTEfQsrIteO-WkNqZ4_kYk1Sjh5sb9UPdHU5YfwUBRrD7XfOQhTjzO91uJB7Gf7fA4lmc",
-				widthPx: 5035,
-				heightPx: 3776,
-				authorAttributions: [
-					{
-						displayName: "Peter Litton",
-						uri: "//maps.google.com/maps/contrib/111858921006355924148",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWiktn2gikq1ts8u3UZkrD0ER14bPAtjvTIMvrMj1Pe9x7C=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJZdomy-7ciBm24KTgsSctDAHlBFzmatO0AiBNyTfRWJYwAteh62BiFVZufPo-c6XqkW5_H0Mp3b-w2JxPsGW0Exs2eu964DxNYBPB9lRfqsdhNdAt6OqwRrwRrqQKIMar8JTSAvJ9W6SuiXikG443HofighoAwAKC00",
-				widthPx: 3072,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "Leo K (REKTgg)",
-						uri: "//maps.google.com/maps/contrib/113069003649523874322",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVWsLMFzJFK6FqrCt4bUumOY3P2oPnzybzeFxKjEIfWm5Sr=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJaf7U5Nygn2S7DAL3U8CBOWK6dwQFRWd30F3A8EbFoYiKO0RdnHm8EBUVy8TdUqr4J0jd9YA0TEZkr1-EzpoEhdwKWOZu1onFAUyn5aAxQJIX23As7qP7IMC84X0e9e2bFypp5yy4FQHIyuI_k0XkyjPxkjKPxh6WEu",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Leonhardt Levi",
-						uri: "//maps.google.com/maps/contrib/110374617846367664079",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWgD0dSXxdTEr1ESpYleeAJIErSVWkSSrBDDL6JGKQW8uQ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJYcUf1ROh-T0PiIhAv8GxdFvoXTljYUYrQ08To-bcR3Aul8kafnQfCRvquJ8mttdRRAbnbkTlc2vj5w38lF1xURoolEDLanlcHfJi3VdN2yuhVdun5XkTL1Wv8iJZwYCgcquXFSBt4-eRGTZkUMvIoTPQH0zLSQCzyq",
-				widthPx: 1241,
-				heightPx: 1647,
-				authorAttributions: [
-					{
-						displayName: "Estefania Diaz",
-						uri: "//maps.google.com/maps/contrib/102214407574855886464",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUJsCqBvJ8MTYOs1rJMWjdbmeGgrJQcReKDsi0sr_xCVrxa=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJbVCLXOR1WEH1tdkVEgXUfaTm-qxmkgAwWIMkuDKEmLrjLQWZ4cb61pVM_i_zEBZLoDREVaIQD3ecPDpHzR74LrTULHqJ1zEkXBfH3WBGVQe_R2SMpwjqb4GEx_RcpIL40m6sNOCOnWJ8j_gMevzo5h2idkD3JbBeJM",
-				widthPx: 3072,
-				heightPx: 4096,
-				authorAttributions: [
-					{
-						displayName: "C Neon",
-						uri: "//maps.google.com/maps/contrib/102592946161749736609",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL29snGbI5_La51qw5Gw42TjW16koqqVkaJkZ5_Tq1w97M=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJbmNLUTx21yOFIekUtNsrKmvWQrbWXkUZ7ZAe-UUB9uZ7WsgfpwhXivvSCpbhMEZVPGK8debuGZXc60oy9_rZ7CiCfApo3yNQ-2AYibmP1rXdC3x48TKWUTzYMyeBZDAkZFrCyYKekXafFL6PIejALTawFhTsOdP355",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "camilo Uribe",
-						uri: "//maps.google.com/maps/contrib/108301574070670970873",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVNv8C1HrnntthzSk7bRQX_ylmOGP6t8jQNwYvuHMWo_TZ8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ2anxfwJZwokRH54cR9u5fwI/photos/ATplDJYpgJGxpJVaMNojzmLzItrLMbC1ST4qtZlnsXXo2VXxmQBEsBqTn0o0CuZyIbfaqeIA51tisqq8dlZaCNKpvwmSzbT9btKrTQojkwAL6Adhyg87A-zR8GsR0_SGDnxoRQGzPxG383cWmYPKPJndOao3SVvfAwlr_zOK",
-				widthPx: 4032,
-				heightPx: 1908,
-				authorAttributions: [
-					{
-						displayName: "Ali Rizvi",
-						uri: "//maps.google.com/maps/contrib/101640250984187878459",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJCQLiy2CUxfd_SPBOKw5-SPoDg5ztG6x_s_A5j2VVN=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU",
-		id: "ChIJD0SP8-ZZwokR5MB3tssINNU",
-		formattedAddress: "958 3rd Ave, New York, NY 10022, USA",
-		rating: 4.1,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 690,
-		displayName: {
-			text: "Little Italy Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNGX1p2dHN3RRAB",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 4,
-				text: {
-					text: "Pretty good pizza, especially by the slice.\n\nI finished having dinner at Phillips Chow and was still kinda hungry (don’t ask) so I stopped into Little Italy for a quick New York slice of cheese and was not disappointed. It actually tested pretty fresh.\n\nTraditional NY pizza minus the fanfare and unnecessary extraness. Service is excellent.\n\nSide Note: The hot sauce was off the chain. 😳",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Pretty good pizza, especially by the slice.\n\nI finished having dinner at Phillips Chow and was still kinda hungry (don’t ask) so I stopped into Little Italy for a quick New York slice of cheese and was not disappointed. It actually tested pretty fresh.\n\nTraditional NY pizza minus the fanfare and unnecessary extraness. Service is excellent.\n\nSide Note: The hot sauce was off the chain. 😳",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Joe Paul",
-					uri: "https://www.google.com/maps/contrib/117898845082915498353/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVEzlphxMVeGFU8IiULuoNjmPV6fbLfXtlBFUJ-eB4RhPE=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-11-01T01:05:27Z",
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNabWNfV0hBEAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 4,
-				text: {
-					text: "My visit to Little Italy Pizza was a delicious experience overall. The Margherita pizza I ordered was absolutely scrumptious, and I thoroughly enjoyed the food. However, I couldn't help but notice that the prices were on the higher side, which might deter some customers. Additionally, it was disappointing to find that the tables were not as clean as I would have expected. Despite these drawbacks, the flavorful pizza did leave a positive impression on my taste buds.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "My visit to Little Italy Pizza was a delicious experience overall. The Margherita pizza I ordered was absolutely scrumptious, and I thoroughly enjoyed the food. However, I couldn't help but notice that the prices were on the higher side, which might deter some customers. Additionally, it was disappointing to find that the tables were not as clean as I would have expected. Despite these drawbacks, the flavorful pizza did leave a positive impression on my taste buds.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "sebas jikidze",
-					uri: "https://www.google.com/maps/contrib/118057421965634923151/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXrRfvZkY_TDpq8xo7GG1DRxSR_RzuKTdRElxT5m_qHxw=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-09-13T16:08:10Z",
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNWek9DMG5BRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 3,
-				text: {
-					text: "The crust is fresh and quite good, the tomato sauce does not have much flavor, and the cheese is a bit bland.\n\nThe pizza is just average.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "The crust is fresh and quite good, the tomato sauce does not have much flavor, and the cheese is a bit bland.\n\nThe pizza is just average.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jamie Wojciechowski",
-					uri: "https://www.google.com/maps/contrib/118395565256771020401/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWB_FVG5qJa6fChAaDxNhe6oKuOFBI4nK1ustrLULSHYGa7=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-05T22:12:29Z",
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxNE8tYXlBRRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "By far the best pizza I’ve had in nyc even better than don antonios which to me was all hype and disappointed without effort. But this little place is amazing and envelopes what I imagined NYC pizza to be like!!!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "By far the best pizza I’ve had in nyc even better than don antonios which to me was all hype and disappointed without effort. But this little place is amazing and envelopes what I imagined NYC pizza to be like!!!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "beatriz muniz",
-					uri: "https://www.google.com/maps/contrib/116920399293728398202/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJYnZOqAnDkPibW29PZKg_oDvO9T5TmjxZj8HNvZ1-D=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-01-04T19:25:32Z",
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOZ1lIcElREAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Friendly staff, good service. Margherita Pizza was okay. Nice option if you are in hurry.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Friendly staff, good service. Margherita Pizza was okay. Nice option if you are in hurry.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "C. H.",
-					uri: "https://www.google.com/maps/contrib/110018985471129583840/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUKF-ORcVD7YpFOarbfsXqp__JIyCBWPhm97szl-JVBqhA=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-01-15T02:29:41Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJbd66bK7grvTaj1v3W38TfoMON8-I9Ot8f3v8aqDMOIQO_FDOCP1_KXHiv1rJWCG6gcYoaZnY33gHp6rjDRCAhNuBQqzk_Fu0iO6-wy0c4rdBjBKGzwBctOEA2tZ-YsUtkx85TvDYhor3sy0hipbJkh6H4_7DDS04m8",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Juan Villamar",
-						uri: "//maps.google.com/maps/contrib/112099343804585628039",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVCD5iHKO0Kjcemti5J8Rv8IrARMDPXITS-Itp5LUVKlzG4=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJaX6ZezCOv84Mh3nqf9Ohd5NagNnLAwmyMxsG69VESWEn5z0odS-db6PZzMIgVd5ySD-Pc2nmMQaEy9KPMafY3ZC7HuuU_zit17h6u3TLMLR9rpjlMS70D1FuH2lAQIifnQXtAIXlOZQqc-yT2ZnPF-CIBezF2W6IrY",
-				widthPx: 750,
-				heightPx: 597,
-				authorAttributions: [
-					{
-						displayName: "Little Italy Pizza",
-						uri: "//maps.google.com/maps/contrib/102898044082385115580",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWUbZfgrnWo46oGkVyfDxOnRh6Iwo8pDs5eMaZMsQsWjw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJYUlSYD2b_uiHAc3rFAdQXehstuBPNG7pA0z5LKo8r0K9dS3DuI4EjaRbxt0xCG9aRUUvvfiR1c3a36KHJt2QVBCwJ7EwRPcnHJyQerkd1J1YqMUIKT-exen9H1sLsObngglq1gu4UZH6W4ycoxMgSsGmwCHFSHip4b",
-				widthPx: 2582,
-				heightPx: 2398,
-				authorAttributions: [
-					{
-						displayName: "Michael Cooper",
-						uri: "//maps.google.com/maps/contrib/115369023465076579731",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXqXqoybT0wJX6F9XPLEZNm7A9jfL9DWGAHRWKa3zT2tj52=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJZG19zvblDlokKJAMzMHwhHul_bU-dEA6nGjFYHVObgM5lSoAKvrnLlaBHoljLgKJTfhBdMwfhCAqTdQQ1Tk4IKYvswcEKW4R71GSzm7HsyNd7EQ3E9halHYVHmze3-UYRJJ3K1NolEsLxEsh2NXTK_FA10QtMEsL11",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "beatriz muniz",
-						uri: "//maps.google.com/maps/contrib/116920399293728398202",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJYnZOqAnDkPibW29PZKg_oDvO9T5TmjxZj8HNvZ1-D=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJZToVo-D_kf5G7WYmp1QAUnZKCP7xF_y11bBRRQHIlIfZ7_08BWuMpyCpuZTF-Un26vWwX6H_SVsjFfSk9htztSUYm88g2yNU2QjHnzs9RsTjhhnFdsbfs21wUViTmmo0JbC4tWADFNL9r0I1jdT-GcnWPXzKkca6nL",
-				widthPx: 550,
-				heightPx: 550,
-				authorAttributions: [
-					{
-						displayName: "sebas jikidze",
-						uri: "//maps.google.com/maps/contrib/118057421965634923151",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXrRfvZkY_TDpq8xo7GG1DRxSR_RzuKTdRElxT5m_qHxw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJaQA4ZTIxRuUqXfrXqYM8ltYh7aaPpl6jG4kE_b9E4tv3sD2Y8Cz3ubD8G_d4akqTLBV5K11MGx09SaYi-ONxWFng1ibz1urlTTGnFDzP7p45UJboWTqOIWxQilGjRypG5C2o7nWn8vZo3vWMVHEXnYLKF9FKCWqro7",
-				widthPx: 12240,
-				heightPx: 16320,
-				authorAttributions: [
-					{
-						displayName: "Julio Luna",
-						uri: "//maps.google.com/maps/contrib/101346791538065882087",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW-ksf1V5vsj3tEsL91MB7VfBK6n9Rj4lklRJr0nc14WgC5=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJZqVqrmiC7HBDzRy879CPgJzbOUCxYRDUn-hCn-nx8EABVzogB9M9hFPQXbnXKEFo0gkMadzPGHYBMmmhMrYY60laZ6BuPajEW_HY-j5YKzz6Ili_7t41P0r6DaHLfItkzWnwtBqpRDzHi87JVvvVnkARzvzLrLzkxn",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Sarvesh Ramakrishnan",
-						uri: "//maps.google.com/maps/contrib/114978392163942292658",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVNcgBDgdypqYayeX6AVpWVzgpgQCBzmEBPYOygiVqB1b0=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJYrpfRan8SE-PDi2S76Ns2-uw43nzQOx0-Ld25GVFzjZhCr5sdgN4YCx8ub3GAK6bx0QXoSBw2bVkYBStU44MYNFh3gMoA07SlCZqlyG7nalmVEKEkPpj5nMlldSpJuK6ILjtX4Xl_ZTQ0vuVs_kPzVlf_OJWm6D5ST",
-				widthPx: 750,
-				heightPx: 1000,
-				authorAttributions: [
-					{
-						displayName: "Little Italy Pizza",
-						uri: "//maps.google.com/maps/contrib/102898044082385115580",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWUbZfgrnWo46oGkVyfDxOnRh6Iwo8pDs5eMaZMsQsWjw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJZLgmZ5dzh9eCOSug0lZAPiS8g5qpxpdWAlSQwthnNemEHUAWaHKMqNI0T7Us6BX9rIxzeCZKPxsWq26pgVeeMHC4mrvpu5pcZvOfnoqo2v6Y7F8thASZKc6ndkO61-lLBNC-99cSkcpUdhcIs3jcUB1mskyOgh0p9w",
-				widthPx: 1816,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "VeryWell RespectedIndividual (Joe Briefcase)",
-						uri: "//maps.google.com/maps/contrib/116558619643218059595",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXASuPG7CWNQ3MmTcgEnV9Bw5FFGSQmtQDv2RuoMwIFfrM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJD0SP8-ZZwokR5MB3tssINNU/photos/ATplDJZoonoxG22lTLk1G2NTzRHg7sa8ZHbf17MxF9yFVlnObbTNIHE7-MmFduiFE1OCd09yfwUb6SUKKfuQVXKLt0s-9aYoo1seH9jReACDhDKCtvGUWTMVe5sl5aSlRN1kQ_4YY60pls6DNZAXYgnFZhA6wfCrw31NG2w",
-				widthPx: 2917,
-				heightPx: 3582,
-				authorAttributions: [
-					{
-						displayName: "Sean Grano",
-						uri: "//maps.google.com/maps/contrib/109858862072212972319",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUpIjAAl8bMJk1BD21-SpV2sW2d_rk9gsKryDLGuh_zEf4=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE",
-		id: "ChIJCWif3p5ZwokRwiawXpWqqXE",
-		formattedAddress: "150 E 14th St, New York, NY 10003, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 3229,
-		displayName: {
-			text: "Joe's Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/reviews/ChZDSUhNMG9nS0VJQ0FnSUNkNk82WFRnEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: 'Good pizza for the price, $4-6 dine in or take away.\nThe vibes are great, service is good and really efficient and you can see lots of photos of celebrities eating the pizza.\nIs a must go if you like the New York city pizza style or you have seen Spiderman 2 where "Peter Parker" works as a delivery driver in one of these pizza shops (deliveries under 29 minutes)',
-					languageCode: "en",
-				},
-				originalText: {
-					text: 'Good pizza for the price, $4-6 dine in or take away.\nThe vibes are great, service is good and really efficient and you can see lots of photos of celebrities eating the pizza.\nIs a must go if you like the New York city pizza style or you have seen Spiderman 2 where "Peter Parker" works as a delivery driver in one of these pizza shops (deliveries under 29 minutes)',
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "SupereFix",
-					uri: "https://www.google.com/maps/contrib/113994082314815148274/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWvVLcWoTh5YtjX5gR-T5I1sqdjJk95I6G3xizygdvdsBs=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2024-02-11T03:53:41Z",
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsb3FTRkhBEAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "Supreme slice is the best. So tasty, crunchy and hot. Place is small and kinda in and out thing, but definitely a must you need to try when visiting NYC",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Supreme slice is the best. So tasty, crunchy and hot. Place is small and kinda in and out thing, but definitely a must you need to try when visiting NYC",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Naim Hernandez",
-					uri: "https://www.google.com/maps/contrib/118084548520180958763/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXiVXZ47c9KIm4pH160P1F06SG_nUfhjpdw9vs5pkA9oR8=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-11-15T00:53:16Z",
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/reviews/ChdDSUhNMG9nS0VJQ0FnSURab0thV2hRRRAB",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "My company always orders cheese pies from Joe's which I think are delicious. I've also had the cheese, pepperoni and spinach/feta slices from the FiDi location. I got the spinach/feta from this location for the first time and the quality is exactly the same. It's still my favorite slice with fresh spinach cooked perfectly with melted feta and diced garlic. I would definitely recommend this spot for pizza if you're in the area.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "My company always orders cheese pies from Joe's which I think are delicious. I've also had the cheese, pepperoni and spinach/feta slices from the FiDi location. I got the spinach/feta from this location for the first time and the quality is exactly the same. It's still my favorite slice with fresh spinach cooked perfectly with melted feta and diced garlic. I would definitely recommend this spot for pizza if you're in the area.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "John Chan",
-					uri: "https://www.google.com/maps/contrib/102864898407696285195/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXLLDw-r7rARN-rXfVQqG3O8_quH6TjmevQbbXOJy3vqg=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-09-22T04:48:00Z",
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxcnRxWVlBEAE",
-				relativePublishTimeDescription: "2 months ago",
 				rating: 1,
 				text: {
-					text: "I normally have gone to Joes to eat pizza when I’m in that area 14 street it’s actually the only pizza I enjoyed in NY. However I went in tonight got a skinny slice of pizza that looked  paper thin and it was burnt. I\nGot charged $8 for slice and soda what I would not consider a slice barely no cheese it was bread and sauce. I think this place has let the whole hype of them being the best pizza get to their head cause I believe they make so much money on that street because it’s the only pizza stop. Do better. I won’t be returning I literally wanted to ask for my money back.how they get a 4.5 not sure really. Overrated",
+					text: "Very rude! 2 Italian sausage, cheese fries and a coke... One guy said $35 my didn't hear so I repeated it to him and another guys stepped in and changed to $47 ... He was mean about it too... We weren't questioning the my husband just didn't hear him.... Plus the food was cold and the onions and peppers weren't even grilled!!!",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "I normally have gone to Joes to eat pizza when I’m in that area 14 street it’s actually the only pizza I enjoyed in NY. However I went in tonight got a skinny slice of pizza that looked  paper thin and it was burnt. I\nGot charged $8 for slice and soda what I would not consider a slice barely no cheese it was bread and sauce. I think this place has let the whole hype of them being the best pizza get to their head cause I believe they make so much money on that street because it’s the only pizza stop. Do better. I won’t be returning I literally wanted to ask for my money back.how they get a 4.5 not sure really. Overrated",
+					text: "Very rude! 2 Italian sausage, cheese fries and a coke... One guy said $35 my didn't hear so I repeated it to him and another guys stepped in and changed to $47 ... He was mean about it too... We weren't questioning the my husband just didn't hear him.... Plus the food was cold and the onions and peppers weren't even grilled!!!",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Brenda Jones",
-					uri: "https://www.google.com/maps/contrib/115426810474320126559/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWYI8m5bQPfr5pjRzeu0-cg6ZNMQZ6JlZFqJwHVX8Qhug=s128-c0x00000000-cc-rp-mo",
+					displayName: "Darleen Mendoza",
+					uri: "https://www.google.com/maps/contrib/102330310083352399788/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJ12c97T9Ywrk2S75I9Vdf_d3G5gKz65F_jFvBrs1fw=s128-c0x00000000-cc-rp-mo",
 				},
-				publishTime: "2023-12-30T03:16:36Z",
+				publishTime: "2024-03-05T21:22:11Z",
 			},
 			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4b3JuSDVRRRAB",
-				relativePublishTimeDescription: "9 months ago",
-				rating: 5,
-				text: {
-					text: "Just a really great NYC slice. Is this the absolute best pizza in the city? Probably not, but it is just a really solid slice. I'd say it's the best accessible pizza in the city, there are no long lines, they have multiple locations, and the pizza is always fresh and good.\n\nI have been here probably dozens of times and I've never had a bad slice here. Prices are a bit high these days but for the money you get consistency and quality. Can't go wrong going here for pizza!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Just a really great NYC slice. Is this the absolute best pizza in the city? Probably not, but it is just a really solid slice. I'd say it's the best accessible pizza in the city, there are no long lines, they have multiple locations, and the pizza is always fresh and good.\n\nI have been here probably dozens of times and I've never had a bad slice here. Prices are a bit high these days but for the money you get consistency and quality. Can't go wrong going here for pizza!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Ros B",
-					uri: "https://www.google.com/maps/contrib/100354971972742399327/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJGEZh0YWi70KP0iXPxaC4wgTeL4u86fs3QUDR7o-NY=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-06-04T19:30:34Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJYrVmDnBUQXE7e63tSM2XNwEqYbPYckrv7CZVqp83vhQ6IAZ78dEm5htO3MYY-YizKVe4ZT9n1KcTGL_4axIyA5BWy99jsqXsLX__OzMhKLdRTqaxuktZeqEwkHkcf0f6ChQVExaApHZLz6oxuTlHQd60c27CZZ0K0d",
-				widthPx: 3943,
-				heightPx: 2724,
-				authorAttributions: [
-					{
-						displayName: "Joe's Pizza",
-						uri: "//maps.google.com/maps/contrib/114246371094406924189",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUvbf-Ngm4dk2qnRqGmxGVdc8x83yLEI7EcbR0UGkfQEA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJbQ9xNKTwKTQnCeMBDWCYNySDPcCMCM73wnKYa51C3HDKRfOdLbUBjcDzsP9u6jMNyxllVmf8GqdVVHUJmCq1RzWjHN1e_t7UWb005ZH6FizaRtJG95gDgVQms7T9iduHmvfx2o-hgx0xuDlfLoSekv2gJtdYjCXhfI",
-				widthPx: 4814,
-				heightPx: 2990,
-				authorAttributions: [
-					{
-						displayName: "Joe's Pizza",
-						uri: "//maps.google.com/maps/contrib/114246371094406924189",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUvbf-Ngm4dk2qnRqGmxGVdc8x83yLEI7EcbR0UGkfQEA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJbrxxULNJo1gAvBokazx8iBq8Qq6Be4z4HBgmy58PMTMjl1MdjSDr3L9dMIrg6vIQ2OAzClt5lB6kRI_BFZ8IVLQwHcFHzxSx-qvzf9g3vGdg12meoOTolS0YXgQ7Hd02B8xEgukuUSTd5zghvNNNfu12ksAC3-PbFI",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Pani",
-						uri: "//maps.google.com/maps/contrib/117288872784438281199",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTXrepR40jaZSPSRtgZKg-IMcq02IfbAWRRVlL2oWznb-5=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJakI_bYbDa4lASwvD007Zh345u68HzWtsdlvPYgM0SqF8PceHRxdXjH8HwKTktWmIsMm1_k38fbrhcldeBd-5wm9nZkZY_Ip0cpJvI6tGo51rV1g14MQIivevTdYLgnHPtAhyPhtccHwNiKVJ4VEtVJ4BOT3PxwCZY3",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Libinski 0G",
-						uri: "//maps.google.com/maps/contrib/118441664754890020601",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUd7wSYXPa_cScfW2AD6TeYCFjJBPSYGQNlmmLiEIJrgg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJamSAGyfP4VNASxZu0aFmWrjaqz4FKb5pObW172zNcGm_pEB6ELwPKuToWQmZKq0BOmT4UmQSKvSXRgqGabNf2rVW6SBvtZG_9GJxdC3T6CPYEqPZCiWO177UYhUDNAdOVmK5wzOqmzziBZav6Fg2Nq6L0ezTy93VOA",
-				widthPx: 1440,
-				heightPx: 1440,
-				authorAttributions: [
-					{
-						displayName: "Elizabeth Hadden",
-						uri: "//maps.google.com/maps/contrib/118003529071655071373",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW7EwPO9w9GuP-gwwJmmztPREkb3XPRPaPQ3lELW7bIAWA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJYRIrvMM4HALk74CA8msZD8WU2QQGPMD45bvn_LyQqtnKAsjujmSVF4IefXqrpSJM0Q-UOxELAcfIjE3KGbkJFoCAPp6vDXNBFioEbgk5_USqIPQKuXOzn2Upk8NDv6CKnQjK45EhAO_ynWpBQiODyKb7LkCGFEHcU",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Star Lin",
-						uri: "//maps.google.com/maps/contrib/113457648846149298018",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKom9jzlQlZN39xvx7_9Y4SpXD4PPmCbRxmpeqEAXg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJb34phNG4p-1EEfs2Sj8DxIVo1coYvylHw3a77ZQZRFSRNaCkACeY-7EVaiXk9cBxXi7Vql-gnKJZXgoMOY4TXH2252D4FPb3T8Eu9ip63KNODEtSqWS5ReszsevBGkXaDn0G80lD9Nb7pscOxFo4xwltEcBIbeSSpT",
-				widthPx: 3472,
-				heightPx: 3472,
-				authorAttributions: [
-					{
-						displayName: "Henrique Figueiredo",
-						uri: "//maps.google.com/maps/contrib/100169792219544117348",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWalpACjufHsXgxGQMvnU-Ik95Upl9ZY3XibEge4P2nB0I=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJb3r5kReUCLw2Ga17ZL9IAdE2KMEWpw9gKFMd-9fT0R78Fzi1KDE_nmLYGCCIAIefSrn2pzwnHQ7JJriRV4KWAIIFJfQ_jKV2srgGdcVSgn9xL1lxV-VZjePDPGhi9iLjY6gIkY85t-IPrOMiovcedbj4yMowrmTXrp",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Tango NYC",
-						uri: "//maps.google.com/maps/contrib/105291645896819624711",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWDyFHCsLTCalwQRBSJeugccK6B9d5Vpq1uqLH3XfAuqSJY=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJbVldl_gXuAQPuyV-TA4Lzoy8f2s_g3mme6YzvoLiK0EavKJF2mmb0YHX5_cOedJAUk4PzGmKNdMKfzb8Lt_FOgWvEtJj966avhA0FFuKkmMe5fAfwlR8fmVKxOZY3Y8vArXs6GYDKscBmcwLz_jV3EyIOWT8KOi0oR",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "John Chan",
-						uri: "//maps.google.com/maps/contrib/102864898407696285195",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXLLDw-r7rARN-rXfVQqG3O8_quH6TjmevQbbXOJy3vqg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJCWif3p5ZwokRwiawXpWqqXE/photos/ATplDJYe-KG4lspZ51wgHYeIH4xbsJ-VMDhWV0uvkMCqRUhnD2pWHH7Llkr4uu6cJfZQHhqcQJabcD4Wmlxwnx2FY204FK8e1UirZEEv4Pl2qzAYbpKLYAfco1GqJ36HMMPxZTp2d683eh0gdRf_Y2W6Cj_yPOtpqBFm5B9Y",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Tamil America TV No 1 Tamil TV",
-						uri: "//maps.google.com/maps/contrib/114708315741775302703",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWPYL9uKeyQ0igbOmRXshpdg6ew4gI01QAwehGV_G5jMGU=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0",
-		id: "ChIJxwasBPhYwokRBtqwfxiHwd0",
-		formattedAddress: "1723 Broadway, New York, NY 10019, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 3927,
-		displayName: {
-			text: "99 Cent Fresh Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5bzZuWHN3RRAB",
-				relativePublishTimeDescription: "in the last week",
-				rating: 3,
-				text: {
-					text: "The cheese pizza was good but the chicken pizza was basically cheese pizza with some chicken pieces spread over it. The sales person was very rude. We didn't notice it was a cash only place. I then had to go to an ATM booth to cash some money but there is an ATM machine right in the corner of this Pizza shop. The owner and the employees didn't even bother to tell me that.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "The cheese pizza was good but the chicken pizza was basically cheese pizza with some chicken pieces spread over it. The sales person was very rude. We didn't notice it was a cash only place. I then had to go to an ATM booth to cash some money but there is an ATM machine right in the corner of this Pizza shop. The owner and the employees didn't even bother to tell me that.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Farhana Afroj",
-					uri: "https://www.google.com/maps/contrib/116684984114142963166/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV7I6_w-e5MMXTSWv1zrAgrVOMKNulehOZWLyOQCmn09oOe=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-03-09T04:53:16Z",
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxek5mM2FBEAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 2,
-				text: {
-					text: "This was the 1st pizza place that I visited in NYC. The slices that I ordered were not 99 cents (the total was about 7dollar), and not fresh or warm. It was more like lukewarm. The dough felt a bit soggy, but not crispy at all. Not much flavour. It is a good filler for the price, but not something I would recommend or revisit.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This was the 1st pizza place that I visited in NYC. The slices that I ordered were not 99 cents (the total was about 7dollar), and not fresh or warm. It was more like lukewarm. The dough felt a bit soggy, but not crispy at all. Not much flavour. It is a good filler for the price, but not something I would recommend or revisit.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "S LEE",
-					uri: "https://www.google.com/maps/contrib/116009351475725655831/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVJgVwr0izDpULuzCk4On6-GtdM63u9udKtaJrHuOsUTRs=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-12-25T00:23:08Z",
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkMkxlcTZRRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "99 Cent Fresh Pizza stands out as the pinnacle of consistency and quality in New York City's vast pizza landscape. For more than twenty years, I've been a loyal patron, and they've managed to keep their prices remarkably low throughout. Here, you're guaranteed a perfect, fresh slice with every visit—this is authentic pizza, free from the inflated hype and prices you'll encounter at other spots in the area. If you're looking to avoid the disappointment of overpriced and underwhelming options, skip the gamble on the rest of Manhattan's \"trash pizza\" and head straight here for an unbeatable experience. Now if they ever change their price above a buck, I might have to edit this review…",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "99 Cent Fresh Pizza stands out as the pinnacle of consistency and quality in New York City's vast pizza landscape. For more than twenty years, I've been a loyal patron, and they've managed to keep their prices remarkably low throughout. Here, you're guaranteed a perfect, fresh slice with every visit—this is authentic pizza, free from the inflated hype and prices you'll encounter at other spots in the area. If you're looking to avoid the disappointment of overpriced and underwhelming options, skip the gamble on the rest of Manhattan's \"trash pizza\" and head straight here for an unbeatable experience. Now if they ever change their price above a buck, I might have to edit this review…",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Havin Fun 4 Life",
-					uri: "https://www.google.com/maps/contrib/111534315325360120320/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV_w8kSU5dUPRsO8nKFqa38MVCCLcenQ0GoUorpOurXwc8=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-02-11T11:39:40Z",
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNkMWZYZGJ3EAE",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/reviews/ChZDSUhNMG9nS0VJQ0FnSUNkazhIU0FREAE",
 				relativePublishTimeDescription: "3 weeks ago",
-				rating: 5,
+				rating: 1,
 				text: {
-					text: "VERY VERY DELICIOUS. The best cheese pizza I’ve ever had. Great choice for cheep food near Central Park.",
+					text: "Absolutely shocking! On phone when serving, charged nearly $60 for 1 hotdog, 1 corn dog and a philly cheesesteak could of had a decent hot meal for that not some cold inedible food. Would not recommend at all. Was looking forward to a NY hot dog and was a massive let down. I make better at home myself!",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "VERY VERY DELICIOUS. The best cheese pizza I’ve ever had. Great choice for cheep food near Central Park.",
+					text: "Absolutely shocking! On phone when serving, charged nearly $60 for 1 hotdog, 1 corn dog and a philly cheesesteak could of had a decent hot meal for that not some cold inedible food. Would not recommend at all. Was looking forward to a NY hot dog and was a massive let down. I make better at home myself!",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Cxx X",
-					uri: "https://www.google.com/maps/contrib/101484432565740462602/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWFh5AMmyAPwlmY6cQiuqp8H22kUnjISYh5u3L8Do5zgg=s128-c0x00000000-cc-rp-mo-ba4",
+					displayName: "Fiona Snook",
+					uri: "https://www.google.com/maps/contrib/101703723640531752705/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIZ0m16XcD--_6LcQynHMlzzqaGeH0Y6aiq2Rjx6JvW=s128-c0x00000000-cc-rp-mo",
 				},
-				publishTime: "2024-02-17T00:43:10Z",
+				publishTime: "2024-02-18T00:58:10Z",
 			},
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNaMXREdEF3EAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 5,
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/reviews/ChZDSUhNMG9nS0VJQ0FnSURka0x6ZUdBEAE",
+				relativePublishTimeDescription: "3 weeks ago",
+				rating: 1,
 				text: {
-					text: "$1 cheese pizza per slice! We loved it, not just the price tag but also the pizza itself. It was fresh, just the right amount of cheese and the perfect crust! We cannot believe it is actually as good as what everyone is saying online. Just be reminded that it is cash only, so bring your cash and try it out!",
+					text: "Overpriced for a $22 dollars for two hotdogs. Hot Damn! Who was working on 2/20/24 at 2:30am late at night? He didn’t even know the menu, and changed the price so many damn times. What a rip off. Nah, pass this place real quick.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "$1 cheese pizza per slice! We loved it, not just the price tag but also the pizza itself. It was fresh, just the right amount of cheese and the perfect crust! We cannot believe it is actually as good as what everyone is saying online. Just be reminded that it is cash only, so bring your cash and try it out!",
+					text: "Overpriced for a $22 dollars for two hotdogs. Hot Damn! Who was working on 2/20/24 at 2:30am late at night? He didn’t even know the menu, and changed the price so many damn times. What a rip off. Nah, pass this place real quick.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Amy",
-					uri: "https://www.google.com/maps/contrib/117957956222287506905/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLpdRq6Q-jj4ivuj4N2PbQOqOAs5Wu6pG79vIsAKUeleXM=s128-c0x00000000-cc-rp-mo-ba5",
+					displayName: "Allen B.",
+					uri: "https://www.google.com/maps/contrib/112311976104525031024/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXLFksIouHW8OyzelnUcVNu8FJBURFh-DEHDfK_4XVQ6SI=s128-c0x00000000-cc-rp-mo",
 				},
-				publishTime: "2023-09-10T01:09:15Z",
+				publishTime: "2024-02-20T08:36:58Z",
 			},
 		],
 		photos: [
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJaZYl12Tj46zW-SOrBYwUPaUx4K5nzvk40OD133BEKBBMyVFO9KauGZVmoly08TiFjEzTTMIBddtPhv4b0fKaViF6xiZcHtaIwgXYXxju85BlnFMV8-cMPu6yGly5nwRrVUCYCMSFKo_afugOFRome6W5DAnJcXoun3",
-				widthPx: 3024,
-				heightPx: 3024,
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJaC3WPOBRLCScIOyRSYAIKGPL6HGGWEBOyClG-cvyefXoB9ivjwIiK_KFEB9LFW1OfoD-J568EthKFlxH83l-9c_DG-juSTlM3OjCbHMJvBCzzV1-v6bsMsQDFKU2qWVPaiPsd4_os2gHClahGj1UHqdbVtRsfktURl",
+				widthPx: 4284,
+				heightPx: 5712,
 				authorAttributions: [
 					{
-						displayName: "Hyungjun Ahn (Jun)",
-						uri: "//maps.google.com/maps/contrib/100173669748851443108",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW9ytqx7srEA80DM6FQcxGTxE3zRdcdzl8G1qC-LAEGDohc=s100-p-k-no-mo",
+						displayName: "John's Famous Hot Dogs",
+						uri: "//maps.google.com/maps/contrib/111071754648850728769",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTlcXGI3Xj6NXWm7BJCY_xZCJLEwWY4HStwmxcwnK38g=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJaClE9CVBPvWJsCBcgSeKEctl8H11omuJoUPhCK09n1emD46keMBFqbFzA6P5V3Od2i5XH-77Q61erjcoCz4dLSyVTakvW2enGznt3Bepkp5P7wjIGiG5jmco65w3ZD481-wYDsVt30wT7N2x81OtdBMeBUzoxG4TRd",
-				widthPx: 3510,
-				heightPx: 3441,
-				authorAttributions: [
-					{
-						displayName: "Rich Chan",
-						uri: "//maps.google.com/maps/contrib/113944047358828349921",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV5SqSdNk5V9ZJoJSDiKAXJaitAwhl4bFWqlHpmdom5_JQ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJZxnARqIxjwun_3WIuZreBTo3FyCEQKKqGnPVK4Xg-__iGq7R059czJJzoa7hgra7JB7OG8NnN16KTL7GqEKkqfVIjzJFsABkrb6E3enPqY2HAIo9USXj1PAKlVo9BJhq5FJ90eVrtL8dUTATSqegP3SZJMQm-9_4UW",
-				widthPx: 3129,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Havin Fun 4 Life",
-						uri: "//maps.google.com/maps/contrib/111534315325360120320",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV_w8kSU5dUPRsO8nKFqa38MVCCLcenQ0GoUorpOurXwc8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJaPzhiJr9HzbZYnhrv-Qs9ldNIASSJWrNEFrZXbzjonG8wBRsfYdUs_pQ1UhFsNjxViulNZHHj_kHElEUcwUXY5cxIKOqdmkZT4xi__OyLVj3mEWxSWP5lyeRwm_wsf096ND3QqgHUPNbEYVr0gONW1eQWbPNHgEWi0",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJaz5ZgO7dmhY-Lx6t5zqRDwuq8QWsBduQgb9NGb1rUbiC3v78dASYRoblrLhJCzn0rD0dry4AT7RbFLFE7ayFCyG380xCghBC-enA6JWJhUSUQRqCkOJcHPEeIBE8CfWfChvuSG3Hzw9VwRtPzLDnDdhCEM_Gbw9bpT",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "윤지렁",
-						uri: "//maps.google.com/maps/contrib/111316048549735155033",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVDMcOF6GBbA-U9O511cF8q3kWKhCixC7HRZL6TSi3uAno=s100-p-k-no-mo",
+						displayName: "Luis LL",
+						uri: "//maps.google.com/maps/contrib/111710740279895247338",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUiby1Un9HW__oZ4tjlTtLaQ0w-a9wkhBw1UGQ3q5NtDno=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJYOBYgsWCbAzt4_kjq-FqnHgKl_yonWSsY6xIK1FlSY-5cCWpyfPkSm7SwKDz2AWbFadS-2c7s6egFrXJ0rGV4W9NYyEYeUFtfn1DqPoM_j1dxwwBufJPcM-JNnZqxh3dsztLy_L7uWfWIA69DEvctoo0pBVpZDDzUI",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJY4C-JBNxecEEOVAspEVH_Ia1LrsPabGRfuUHVFik3ck6p7fuWFYK68MsSkobf9Nxoxi4Hj3U9xrYNcSaPlWEpcDWmcyFzG4TxzEAA8Ij5VTDwoKSAjyQaIDY1xADcwnLab9SoqN4j5TDWhszQfbBg3B4PCh-ebEhXj",
+				widthPx: 576,
+				heightPx: 1024,
+				authorAttributions: [
+					{
+						displayName: "John's Famous Hot Dogs",
+						uri: "//maps.google.com/maps/contrib/111071754648850728769",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTlcXGI3Xj6NXWm7BJCY_xZCJLEwWY4HStwmxcwnK38g=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJZIYWQaz_yQn53buBVVpva7umzde18H4Fy_p3Tgj48FdOUM_WgXvAfa7GsyJIMFYlwgrHrYNEs0exHMkRN8lQN2StIUOR7BXB5UBjH3QM6f3WNV6QeveJ93PVHFVlt4Ki1qdC4xoTRCO4J0-vE_YCChIaxxP5gxgM6G",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "John's Famous Hot Dogs",
+						uri: "//maps.google.com/maps/contrib/111071754648850728769",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTlcXGI3Xj6NXWm7BJCY_xZCJLEwWY4HStwmxcwnK38g=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJZ6GPuHHN-AeDzG28Df7aDDMWig_0ktQKcZzswQJ4sMHK1bsOR49OiMj4P8p15IIXv0k1CsXtiPpPYuQlmlwt0IezCg8_MaOQGJf9zFiT5hFSOZVTJ0zzJElW0tkF5cKqs82KBAXUxCOjGtzuVhDeXmCTvnAsSTxouW",
+				widthPx: 3024,
+				heightPx: 3211,
+				authorAttributions: [
+					{
+						displayName: "Erik von Gohren",
+						uri: "//maps.google.com/maps/contrib/113733350996663400267",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX4dpep2O4keFtY7EpHAavPWANPZHJXzdHyKRTvEV3a4vtp=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJbMRtoXH_zU6DiY-bKskLxXiKdAOY3pZppmsTjajRbrCHmRJ2kKKWn4I9oFzwCMZ8cgEUKaz3srdvNri1w8YZNj8byNopH5lOkZcqR1TnEX2otNfejaN2vdoZ3DFlW9JVCdd1Xllx5N0fAtSBxkGkTHaDUdoaO1udfl",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "El Hambrientosaurus",
+						uri: "//maps.google.com/maps/contrib/111219345538705108997",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVCgrXWTsSUonPXTOQnc9RV9DF1FjFUMerh_GapLQLpPjQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJZsuyIhHylN27k6oLI2H_l_4OdetkYEinlww8xxgI1JIJZLpM9tazwcD-Qqx_6qnnrFAITjl6MyHaTDuDWY5AG2Mz7cQeJ-ExsdzJqSYKL_jqfrO3-Pm3HLlfMmi8DVCgmV93lHzB4hma4_g7e1vwY7oFMLRX3k2VaB",
+				widthPx: 1080,
+				heightPx: 1920,
+				authorAttributions: [
+					{
+						displayName: "Bas de Jong",
+						uri: "//maps.google.com/maps/contrib/101348467579543310753",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUT81O043K-P6QbrM1asfVaMFOwR6AQv_zKmsn53cdYm20=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJZ9LvN2cHdOf1nIc-mfpmOJGfN6F22RbBdzt5umzEeOoFNQwN1BlyGRBz0lmJohHBj6ndFq0mnHNPhc6g2IiCUWwo1OP-eGBo9Xj0_fnJ33IROzqGtLI2wXqx71T4VSfRD-dzq8QUe71b0uTgksCLSlDaKWURkGZ3ld",
 				widthPx: 1200,
 				heightPx: 1600,
 				authorAttributions: [
 					{
-						displayName: "Farhana Afroj",
-						uri: "//maps.google.com/maps/contrib/116684984114142963166",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV7I6_w-e5MMXTSWv1zrAgrVOMKNulehOZWLyOQCmn09oOe=s100-p-k-no-mo",
+						displayName: "John's Famous Hot Dogs",
+						uri: "//maps.google.com/maps/contrib/111071754648850728769",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTlcXGI3Xj6NXWm7BJCY_xZCJLEwWY4HStwmxcwnK38g=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJZ2W6AIGFmrpiOFfJMdsuaWELMjqsnPhyp06DX7RcCERzfVJa_hVLD2u1jNgb8CAP81gZ1p96ZylWO0pqVJqNbIzO2ZoclQegt93BOsoNT0G3i3Xs97aktusxZ0lqjeSc6yqxKKu_1Sotl-irIUhoClIi8prmzQFzEs",
-				widthPx: 2080,
-				heightPx: 4624,
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJaFMTwLpM--9B9cY7HnhhThGsUiLQ_kMxh_E2hlPZmLamwqYIV93GR0ueZasvtluU_9z1rgMoXoK6wx3WC6rvHwYb0etBAc-9spCq-kQDsGjPzIY90psyzXZAqSRs1hw9QDlWTvLPRGGX2iV8QEBzwXVXz2SQiQ38Zz",
+				widthPx: 1350,
+				heightPx: 1800,
 				authorAttributions: [
 					{
-						displayName: "Bruno Battista",
-						uri: "//maps.google.com/maps/contrib/113659703372026967640",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVUgiELnDB3YXmrIqFA3xZn4QtxKGfa__uaXUdVIIfXXFk=s100-p-k-no-mo",
+						displayName: "John's Famous Hot Dogs",
+						uri: "//maps.google.com/maps/contrib/111071754648850728769",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTlcXGI3Xj6NXWm7BJCY_xZCJLEwWY4HStwmxcwnK38g=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJasCXcELrZQTCvOvTgitKPRPasoyWp46VgSB2iSSpAEtrpYXqYQVcxp1_RtL5cguznbQAKG9DOGNrYqpqjJkpKNYSnzMdBtVmQ9ihOcd4LxdBEA6aokGRPg4QhekexhqHI5h76HkR78-esvdzQRqKAkEmMkC2AL0M6T",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Marisa",
-						uri: "//maps.google.com/maps/contrib/104253632323623241373",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWNzfn3vqAhmK5CZDgbjM9seinijVPoj4ckcenzWmvEiBjR=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJaGdzW_447Tarqb-eyTQ0_AqAju_88Ra93U6wAOuxyXJyJSVWkrg4Eg44St8RsDGUrcb9hwypcZZyYYFY9sIr8SOnshZMDuN-M3npOeSb2Kz-Ak73lhu92Fwu6D0I-AXLER2R38XCdpECJ2r6e8ARL5HBpPECoE2pE4",
+				name: "places/ChIJP9jhsFVYwokRD9vNObw_azo/photos/ATplDJb9ExhgjWiP-Ghjsq60WPB_zZ9oR9X5rfKtr1Zpfxd-JAx78pTFBGz6IXkfdRF-bT_PP_ekt8MQaG6tM4eteGrEGWK-Q9b51M-r_Ujhr9VNpp_u7uUJdb35ZE2X0MnmvC2TlyTCRpa2oeLIQjH63Ua6_Ee2voU7UNAQ",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Sebastian Oana",
-						uri: "//maps.google.com/maps/contrib/104998085180100297617",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5OYi4szRxHfLw_K0qt6U09aEXF-gq-bdqNPtVAlfgDu_8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJZ-AI24wlm2gSmm4D-cN44Z0IMPGjqrU1wcGm_21lsgdopaupwOURSvXwVkygJXyIWK1QUtgKRtIbIlhT9D3vZq3kQpPt6ONrnsO5fyfjnZwwte_pFg4n0kV0fNi-uJYkjDg1nDqL4Dhjg6xCzU2RFLpzMa9xODQhI",
-				widthPx: 4032,
-				heightPx: 2268,
-				authorAttributions: [
-					{
-						displayName: "김의담",
-						uri: "//maps.google.com/maps/contrib/114882577649625860760",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVTdqZZc-GeNHPWP9TdsjOaQMQmhottCvcHl6eycERk4g=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJxwasBPhYwokRBtqwfxiHwd0/photos/ATplDJZ8vFnPfKF66t9rq9oLIyZCCztauqGLsvNUK2dkcbH4CzLCqwwbNKgyxkt3F8AxULDwzBBuPm8mQR2KO09WZLThaft0YM7xFcRMFyh-NGDo4eMd_qdnrzju4gpr3XPqejXL16zUyypGSx7Cu7x0fYco0obqZeYW4F2i",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Winnie Tsay",
-						uri: "//maps.google.com/maps/contrib/110820735970740610560",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXd6Os2wdimtrhJ97A00EUiRYJ6vf8Q688zP8mKtFzsjZBL=s100-p-k-no-mo",
+						displayName: "Matthew Miller",
+						uri: "//maps.google.com/maps/contrib/117831110146358070397",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWl7y91fop1Z6u8IyrsWt1KLTuQ8HOXsue8b7178ab0bw=s100-p-k-no-mo",
 					},
 				],
 			},
 		],
+		liveMusic: false,
+		servesCocktails: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		accessibilityOptions: {
+			wheelchairAccessibleEntrance: true,
+		},
 	},
 	{
-		name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8",
-		id: "ChIJqdNaaBVbwokRLTafYrQlZI8",
-		formattedAddress: "124 Fulton St, New York, NY 10038, USA",
-		rating: 4.6,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 4141,
+		name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE",
+		id: "ChIJd4cu_9RZwokROtuVsYCgPAE",
+		types: ["american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 922-8524",
+		internationalPhoneNumber: "+1 646-922-8524",
+		formattedAddress: "113 St Marks Pl, New York, NY 10009, USA",
+		addressComponents: [
+			{
+				longText: "113",
+				shortText: "113",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Saint Marks Place",
+				shortText: "St Marks Pl",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10009",
+				shortText: "10009",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8P2G8+RF",
+			compoundCode: "P2G8+RF New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7270598,
+			longitude: -73.98379969999999,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7256799197085,
+				longitude: -73.98517778029151,
+			},
+			high: {
+				latitude: 40.7283778802915,
+				longitude: -73.98247981970849,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=89122567236213562",
+		websiteUri: "https://www.crifdogs.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 2,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 2,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 2,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 2,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 2,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 3,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 3,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 12:00 PM – 2:00 AM", "Tuesday: 12:00 PM – 2:00 AM", "Wednesday: 12:00 PM – 2:00 AM", "Thursday: 12:00 PM – 2:00 AM", "Friday: 12:00 PM – 3:00 AM", "Saturday: 12:00 PM – 3:00 AM", "Sunday: 12:00 PM – 2:00 AM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">113 St Marks Pl</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10009</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_MODERATE",
+		userRatingCount: 578,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
 		displayName: {
-			text: "Joe’s Pizza",
+			text: "Crif Dogs",
 			languageCode: "en",
 		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		reservable: false,
+		servesBreakfast: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: true,
+		servesVegetarianFood: true,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 2,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 2,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 2,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 2,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 2,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 3,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 3,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 12:00 PM – 2:00 AM", "Tuesday: 12:00 PM – 2:00 AM", "Wednesday: 12:00 PM – 2:00 AM", "Thursday: 12:00 PM – 2:00 AM", "Friday: 12:00 PM – 3:00 AM", "Saturday: 12:00 PM – 3:00 AM", "Sunday: 12:00 PM – 2:00 AM"],
+		},
+		currentSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 12,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 15,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 15,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 15,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 15,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 4,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 15,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 12,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 6,
+							hour: 20,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 3:00 – 8:00 PM", "Tuesday: 3:00 – 8:00 PM", "Wednesday: 3:00 – 8:00 PM", "Thursday: 3:00 – 8:00 PM", "Friday: 3:00 – 8:00 PM", "Saturday: 12:00 – 8:00 PM", "Sunday: 12:00 – 8:00 PM"],
+				secondaryHoursType: "PICKUP",
+			},
+		],
+		regularSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 12,
+							minute: 0,
+						},
+						close: {
+							day: 0,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 15,
+							minute: 0,
+						},
+						close: {
+							day: 1,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 15,
+							minute: 0,
+						},
+						close: {
+							day: 2,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 15,
+							minute: 0,
+						},
+						close: {
+							day: 3,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 15,
+							minute: 0,
+						},
+						close: {
+							day: 4,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 15,
+							minute: 0,
+						},
+						close: {
+							day: 5,
+							hour: 20,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 12,
+							minute: 0,
+						},
+						close: {
+							day: 6,
+							hour: 20,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 3:00 – 8:00 PM", "Tuesday: 3:00 – 8:00 PM", "Wednesday: 3:00 – 8:00 PM", "Thursday: 3:00 – 8:00 PM", "Friday: 3:00 – 8:00 PM", "Saturday: 12:00 – 8:00 PM", "Sunday: 12:00 – 8:00 PM"],
+				secondaryHoursType: "PICKUP",
+			},
+		],
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "113 St Marks Pl, New York",
 		reviews: [
 			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5cDdidG5RRRAB",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ5eU1xeVNnEAE",
 				relativePublishTimeDescription: "in the last week",
 				rating: 5,
 				text: {
-					text: "Having eaten at the Times Square location, I hadn't thought about trying another branch. Yet, when I passed by one on my way to see a movie, I felt compelled to try it out, and it truly was worth it. The fresh mozzarella offered the perfect creamy flavor I adore, in just the right amount. The Sicilian square-cut cheese pizza was also fantastic. If you've never been, I highly recommend a visit – you're likely to love it.",
+					text: "I am not sure how am I just now writing a review for Crif Dogs as we've been coming here since 2002, but it clearly says something that this has been my go-to place for the best veggie dog in the city for nearly twenty years!!! Yes, 18 years ago this was more of a late night spot after being out late, but it has now become a place where we still enjoy stopping in for some veggie dogs and perfectly made tots. It's a small space, and \"back-in-the-day\" the speakeasy was actually a speakeasy that not many people knew about and we had a blast learning about it and going. It's now become popular and more people come for that than the food at times, but it's still a wonderful cozy spot with great service! Our most recent visit was just as great as our first. The service has always been exceptional here - they are kind, welcoming and always get the order right. It may take a little longer for your food to come out, but it's worth the wait. Don't come here expecting \"fast food\". It's quality food made fresh and with love. We are vegetarian so our base will always be the veggie dog, but we love changing up our toppings. Since we're originally from Chicago, we like to make it Chicago-style once in a while, thankfully we don't get any flack for that :). The tots make the perfect pairing! I love the East Village tots most, mainly because they are spicy, but the Truffle Shuffle is quite good too. Honestly, I am not sure when the menu changed to just tots, I am pretty sure it used to be waffle fries...anyhow, I digress. Be sure to stop in whether you're just passing through NYC or live here and haven't been yet!",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Having eaten at the Times Square location, I hadn't thought about trying another branch. Yet, when I passed by one on my way to see a movie, I felt compelled to try it out, and it truly was worth it. The fresh mozzarella offered the perfect creamy flavor I adore, in just the right amount. The Sicilian square-cut cheese pizza was also fantastic. If you've never been, I highly recommend a visit – you're likely to love it.",
+					text: "I am not sure how am I just now writing a review for Crif Dogs as we've been coming here since 2002, but it clearly says something that this has been my go-to place for the best veggie dog in the city for nearly twenty years!!! Yes, 18 years ago this was more of a late night spot after being out late, but it has now become a place where we still enjoy stopping in for some veggie dogs and perfectly made tots. It's a small space, and \"back-in-the-day\" the speakeasy was actually a speakeasy that not many people knew about and we had a blast learning about it and going. It's now become popular and more people come for that than the food at times, but it's still a wonderful cozy spot with great service! Our most recent visit was just as great as our first. The service has always been exceptional here - they are kind, welcoming and always get the order right. It may take a little longer for your food to come out, but it's worth the wait. Don't come here expecting \"fast food\". It's quality food made fresh and with love. We are vegetarian so our base will always be the veggie dog, but we love changing up our toppings. Since we're originally from Chicago, we like to make it Chicago-style once in a while, thankfully we don't get any flack for that :). The tots make the perfect pairing! I love the East Village tots most, mainly because they are spicy, but the Truffle Shuffle is quite good too. Honestly, I am not sure when the menu changed to just tots, I am pretty sure it used to be waffle fries...anyhow, I digress. Be sure to stop in whether you're just passing through NYC or live here and haven't been yet!",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Manmohan Mahavir Lonawat",
-					uri: "https://www.google.com/maps/contrib/100584137675289904066/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXIywf_VLmfMwK0EHbPQuvITggQmY1Lk2iZzvnTZOb4peYq=s128-c0x00000000-cc-rp-mo-ba3",
+					displayName: "Sonali Khandwala",
+					uri: "https://www.google.com/maps/contrib/110419955571967841022/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjW6m3YmeR6oFY6dYVFfQ5L6PTcBiNrE7U-mBxYkcm5nPaQ=s128-c0x00000000-cc-rp-mo-ba3",
 				},
-				publishTime: "2024-03-10T17:13:22Z",
+				publishTime: "2024-03-12T17:55:14Z",
 			},
 			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxNnNUdk1BEAE",
-				relativePublishTimeDescription: "2 months ago",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/reviews/ChdDSUhNMG9nS0VJQ0FnSUNGc1p1S19BRRAB",
+				relativePublishTimeDescription: "4 months ago",
 				rating: 5,
 				text: {
-					text: "After visiting the World Trade Center museum and the walking tour, our tour guide recommended Joe’s pizza for authentic NY style pizza. My daughter and I really enjoyed it! We went on a Saturday night and the line was out the door but it moved a quickly. There isn’t a lot of seating inside but we were able to snag two seats. The pizza was really good and we enjoyed looking at all the photos of the famous people who had visited in the past. If you’re in the area, definitely check out Joe’s!",
+					text: "We've been to Crif Dogs and Please Don't Tell a few times over the years (miss the Brooklyn location). Every visit is consistently amazing.\n\nOur all time favorites are the Everything Dog and the Spicy Redneck with cheese Tots. You can't go wrong, everything on the menu is good. Love the playful vibe of the whole place and their menu. Definitely an East Village staple.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "After visiting the World Trade Center museum and the walking tour, our tour guide recommended Joe’s pizza for authentic NY style pizza. My daughter and I really enjoyed it! We went on a Saturday night and the line was out the door but it moved a quickly. There isn’t a lot of seating inside but we were able to snag two seats. The pizza was really good and we enjoyed looking at all the photos of the famous people who had visited in the past. If you’re in the area, definitely check out Joe’s!",
+					text: "We've been to Crif Dogs and Please Don't Tell a few times over the years (miss the Brooklyn location). Every visit is consistently amazing.\n\nOur all time favorites are the Everything Dog and the Spicy Redneck with cheese Tots. You can't go wrong, everything on the menu is good. Love the playful vibe of the whole place and their menu. Definitely an East Village staple.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Gwynne Guthrie",
-					uri: "https://www.google.com/maps/contrib/103935897064242916396/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXDdtFaFMCBVlg_x4Ajo-daQVPjcs43U8ItkIeN-qvtqQ=s128-c0x00000000-cc-rp-mo-ba2",
+					displayName: "Dena Cooper",
+					uri: "https://www.google.com/maps/contrib/111368538691935309573/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXpYU7WPt3PFZC41K2i-ioTKKKROsAF-9jnmimVp8sQblA=s128-c0x00000000-cc-rp-mo-ba7",
 				},
-				publishTime: "2023-12-27T17:57:51Z",
+				publishTime: "2023-10-28T18:47:48Z",
 			},
 			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5bzdLMjFnRRAB",
-				relativePublishTimeDescription: "in the last week",
-				rating: 3,
-				text: {
-					text: "Whenever I research for pizza place in New York, Joe’s pizza always comes up. So, we decided to try it because there was quite a line in front of it. The place was tiny and super crowded. We were lucky to get seats near the counter but were sitting uncomfortably with people lining up behind us. We felt like this was just a tourist trap in NY.\n\nThe pizza was just meh. The crust was too thin and super hard. The sauce was just okay.\n- Cheese pizza: the cheese was good but the edge crust was super hard\n- Mozzarella pizza: the mozzarella tasted fresh but again the edge crust was hard & slightly burnt that we had to throw away",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Whenever I research for pizza place in New York, Joe’s pizza always comes up. So, we decided to try it because there was quite a line in front of it. The place was tiny and super crowded. We were lucky to get seats near the counter but were sitting uncomfortably with people lining up behind us. We felt like this was just a tourist trap in NY.\n\nThe pizza was just meh. The crust was too thin and super hard. The sauce was just okay.\n- Cheese pizza: the cheese was good but the edge crust was super hard\n- Mozzarella pizza: the mozzarella tasted fresh but again the edge crust was hard & slightly burnt that we had to throw away",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Meline J",
-					uri: "https://www.google.com/maps/contrib/103330034416618966445/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUvMJ-bhq25lE69cLXIKw42rs9ffIeTmxK1htCkUqz0B-EM=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2024-03-09T04:08:24Z",
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/reviews/ChZDSUhNMG9nS0VJQ0FnSURaOWFTQWV3EAE",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/reviews/ChdDSUhNMG9nS0VJQ0FnSUM1emRIZDZ3RRAB",
 				relativePublishTimeDescription: "5 months ago",
 				rating: 5,
 				text: {
-					text: "Heard this place was really good and it didn’t disappoint! I love the thin and large slices. It was busy but considering the hype I waited 15-20 minutes in line. Fresh slices and they warmed up the pizza some more in the oven to make sure the cheese stretches!",
+					text: "Crif Dogs in New York is an absolute gem for hot dog enthusiasts. The unique and inventive menu offers a twist on classic favorites. The bacon-wrapped hot dogs are a must-try, and the creative toppings, from cream cheese to pineapple, add an exciting twist. The cozy, retro ambiance gives this place a great vibe. Whether you're a local or a tourist, Crif Dogs is a memorable and delicious experience in the heart of the city.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Heard this place was really good and it didn’t disappoint! I love the thin and large slices. It was busy but considering the hype I waited 15-20 minutes in line. Fresh slices and they warmed up the pizza some more in the oven to make sure the cheese stretches!",
+					text: "Crif Dogs in New York is an absolute gem for hot dog enthusiasts. The unique and inventive menu offers a twist on classic favorites. The bacon-wrapped hot dogs are a must-try, and the creative toppings, from cream cheese to pineapple, add an exciting twist. The cozy, retro ambiance gives this place a great vibe. Whether you're a local or a tourist, Crif Dogs is a memorable and delicious experience in the heart of the city.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Angelina",
-					uri: "https://www.google.com/maps/contrib/103126287553426216637/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWtNh9rTzUb7veEJPwEJpL1ldctCefg29StUzGAZyYdRUY=s128-c0x00000000-cc-rp-mo-ba4",
+					displayName: "Omar Gonzalez",
+					uri: "https://www.google.com/maps/contrib/112895492213023114809/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX6i-R0mxjvJXH_QVEbu5-w3LIQgo5a9-f911H2e7YlodU=s128-c0x00000000-cc-rp-mo-ba5",
 				},
-				publishTime: "2023-10-05T21:45:30Z",
+				publishTime: "2023-10-16T09:21:20Z",
 			},
 			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxZ3RTZUpnEAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 3,
-				text: {
-					text: "A lot of ppl from NY/NJ told me that NY pizza is different, so I had an expectation before I tried.\nAs a person who is not a fan of pizza, the taste itself was pretty satisfactory. But 1) I had to wait an hour (maybe because it was holiday seson) 2) employees were so unfriendly (assuming because they are very busy, but still) 3) you literally have to stand on the street to eat. I liked the taste of pizza, but I would not revisit again. It was a good experience though.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "A lot of ppl from NY/NJ told me that NY pizza is different, so I had an expectation before I tried.\nAs a person who is not a fan of pizza, the taste itself was pretty satisfactory. But 1) I had to wait an hour (maybe because it was holiday seson) 2) employees were so unfriendly (assuming because they are very busy, but still) 3) you literally have to stand on the street to eat. I liked the taste of pizza, but I would not revisit again. It was a good experience though.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Kyunghee Moon",
-					uri: "https://www.google.com/maps/contrib/115282138991839923869/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLK34KMuJNWD2GkySBvjZIsDGHfmxPeKsno5gUGLDDP=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-25T19:47:43Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJaZUhMphGyq9UFHG12HMzMAuJ1mRNmrTztJwanNVp6ffajQvSf1cQSQN0WgsZXJatHtCTwtmzRK2vZC4NLzhBV0O5SkD205kbHiOHaPj0WatlUoIau_H6fS1e7aacWYPAP7DEQ5__jMUz6Z8HFSdxJlhf9JPra9L4Wl",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Gilda Kao",
-						uri: "//maps.google.com/maps/contrib/112851006327956964944",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX71V7aRmQH3uiATtMo6HltxcLT_HPMrO4_0VZHYYjn3_8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJYkttdMrO2PfYweQcXEYfuDkZ3RMUXCNxbsBQUsL0B2QIbNGIsKILuWOqy1SIlnkRsoa-p1gXVaiEhvfh6-XqxbFPicR7wKo7qQM1eqeT3fw-VF7Vp-RV2wgM-UtkpbC-rRMvUutWzPqXtq1KpCfmUb10eANC-YzlUH",
-				widthPx: 1125,
-				heightPx: 633,
-				authorAttributions: [
-					{
-						displayName: "Joe’s Pizza",
-						uri: "//maps.google.com/maps/contrib/111455431707126437270",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX8i__ZIrM2OLsfInRmf-T3Q1dkqxLeDYTr65se1rmZXg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJY5-i3nllFmIshp5J6Kk4OMlA2nIqCHAMoey0vet5hhnZW3Wm0Yu22NfeeRJ9UE9MQPnN4AinFQrydHV5wr8Q4G0IyYYxp90E03_wBC-pvbFgUaen7_MH9sR77OjVhx0lMtYQm-H32p2DpY9FriVxNw3ZLg6yTY794g",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Denis Comte",
-						uri: "//maps.google.com/maps/contrib/108727186832327928310",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWZY0Q7mW8VkNgRppy2zDlsQLqG3d30JU_XLRQASZrAsbm8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJazDdurtsZvQf63AkrIheLFCtRUw4BLYtD7nKbR74uV9Dvt33G5T2PqnDZTPgf4MfcUP3eaDZtuRtAfbTn8oPx8SLstOoKEcSM6bbdtcCE6A3r-Ucl4V9V9mUV7UTSdes4LMfCoNH740krQzDxTcvTGpdhbwTfaWho_",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Ju CHR",
-						uri: "//maps.google.com/maps/contrib/116541133670414718674",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW2v7b07RJHKo9Ed_Swq1QK4C9KnCcHg6asICbBWhAtsuc=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJZqEpoEEHWYEm7kBjLohL_eUv3cgBiihqY8ex1J45CaoHd0t3GHk02AhGlqVANUa6fK0Zw9m3Te9qCC5aa6WdErIWtIGuujQVxL6JHBuyBA6APv-vqUVLFSa0KGkifG4wZoLiq9S1l8b-1_N2B9oHjKEzaxoVMM6xJ6",
-				widthPx: 4284,
-				heightPx: 5712,
-				authorAttributions: [
-					{
-						displayName: "Robert Wood",
-						uri: "//maps.google.com/maps/contrib/103112657422515361608",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWXrlvf_qJKu4cKOKTtaWxSEU_TZ6ygHQg76O1xyOAHplA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJZvKwZ4Vo5OodZmepOPsy-Dz8Bj7Tjg20glrZTN5TZzeFvV4Wk9hTxmGDaNWasTMod4JxdS_7RfhxEkPs44uGVjgFcDa4wucEcGdEhqewW8Q6BFZMskymJ-egkIIlYRGvKT_PtNvBS81hMyg747TEgEva-MYmWqyUDa",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Pani",
-						uri: "//maps.google.com/maps/contrib/117288872784438281199",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTXrepR40jaZSPSRtgZKg-IMcq02IfbAWRRVlL2oWznb-5=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJalgpXGytTrfHcZDIC7eYK4-I1ECeF_tS0Jz_s_QId9N-OtzAyyo7W1TktkrNjDG37clmX2vmiKWxy5-Jz5FYjTTOafY4JEkiPRfJtKZR0KrfZjX0taKhCcbz4qgVKWfKJI9exTUdO_QBzjpTUvGfqdpoPEYNh2FpxJ",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Gilda Kao",
-						uri: "//maps.google.com/maps/contrib/112851006327956964944",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX71V7aRmQH3uiATtMo6HltxcLT_HPMrO4_0VZHYYjn3_8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJY09yzFMlEpAfDUjQINxcjq0UL3vQbjnHOohhfDpyeQKDnAAmY1U2N3loHIZJ2GXPr11r-UiiVtMALnWcjmuIHa-iknYrrrSVRMXUhlfwAyYSPbfpQmefIOmPNRELu-KYVkYUntyeoGlc1fTzPq4KH4j7TZxwxaNON9",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Stephen K",
-						uri: "//maps.google.com/maps/contrib/112502925603449701302",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVnMsHcYMYEbuy6cdnHRr6Mo-inXC_iYn2WsYa1V0wgoW0=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJabHO4uBy4jQw0V6oc7cOifY9VxZS_rtY_tDHC9T_0nvr3YvLTgmNIMutItNaXdmxeXHeaI5bJ1b3zTCf8BfCF4rW9ecSQoJ-GecE3cpuw5yiCx3OECbW4dZ9GFrziD-ZysaZmvOl7ZjHF6sLkM-4b26x0lsWBGhkXT",
-				widthPx: 1290,
-				heightPx: 956,
-				authorAttributions: [
-					{
-						displayName: "Joey Gentile",
-						uri: "//maps.google.com/maps/contrib/106895311246204054324",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUZXyjVjn5D83_D56ecCtj600MdlLC80qjx6lJQueoyNRDt=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqdNaaBVbwokRLTafYrQlZI8/photos/ATplDJadc1M0HQGvk0xwMVxIV0Y_F-Vprj_N-zCqyJRCwWZ4_n57okA8YDZdXD9iiG9EtYpMgdJCXInKaXdFuSvgMaP7gjCMvlJ_-_Btu5B2vKamUcOj6df6qUVv7hHA7P5c_ErFK3VOphqIXM1n0l8E3knbg4ZzhKnailML",
-				widthPx: 1290,
-				heightPx: 1659,
-				authorAttributions: [
-					{
-						displayName: "Joey Gentile",
-						uri: "//maps.google.com/maps/contrib/106895311246204054324",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUZXyjVjn5D83_D56ecCtj600MdlLC80qjx6lJQueoyNRDt=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJozrpOT1awokRIvVfcODFYvg",
-		id: "ChIJozrpOT1awokRIvVfcODFYvg",
-		formattedAddress: "50 Fulton St, New York, NY 10038, USA",
-		rating: 4.2,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 1249,
-		displayName: {
-			text: "Little Italy Pizzeria and Deli",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5aHZHNFFREAE",
-				relativePublishTimeDescription: "a week ago",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/reviews/ChdDSUhNMG9nS0VJQ0FnSUNGdGE3am53RRAB",
+				relativePublishTimeDescription: "4 months ago",
 				rating: 4,
 				text: {
-					text: "Love their pizza compared to rosa’s pizza near penn station. They also got seating but tight spacing between tables. Their drink are fountain which is a plus. High chair not available. Credit/debit card could be used. No parking.",
+					text: "Pretty cool place that I happened to stumble into. Had a pretty nice underground atmosphere that made me feel kinda comfortable(Also had an arcade game there). I got the spicy redneck and was pretty good. I usually eat hot dogs plain with ketchup so this loaded one was different, but in a good way",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Love their pizza compared to rosa’s pizza near penn station. They also got seating but tight spacing between tables. Their drink are fountain which is a plus. High chair not available. Credit/debit card could be used. No parking.",
+					text: "Pretty cool place that I happened to stumble into. Had a pretty nice underground atmosphere that made me feel kinda comfortable(Also had an arcade game there). I got the spicy redneck and was pretty good. I usually eat hot dogs plain with ketchup so this loaded one was different, but in a good way",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Nico Samneil Salado",
-					uri: "https://www.google.com/maps/contrib/108348399094763821118/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX2vbmubLUFTYVD8YisqehpfsNF1bz3fTeKdls73_47Xsw=s128-c0x00000000-cc-rp-mo-ba6",
+					displayName: "[Insert Name Here]",
+					uri: "https://www.google.com/maps/contrib/107869076269925929361/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVvJKdASelFw9cW5jimS51hPQ9eugJEvnjIp1vqmcj0ft0=s128-c0x00000000-cc-rp-mo",
 				},
-				publishTime: "2024-03-05T01:00:34Z",
+				publishTime: "2023-10-30T14:32:44Z",
 			},
 			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/reviews/ChdDSUhNMG9nS0VJQ0FnSUNWdkl2dDl3RRAB",
-				relativePublishTimeDescription: "3 months ago",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/reviews/ChdDSUhNMG9nS0VJQ0FnSURGNExmQmt3RRAB",
+				relativePublishTimeDescription: "4 months ago",
 				rating: 5,
 				text: {
-					text: "One of my top picks for a great slice. Just a short walk from the South Street Seaport. Indoor and outdoor seating available. Plus they are open 24hr a day.",
+					text: "Worth. It. Can you get a decentish, classic NYC hot dog anywhere around town? Sure. But Crif is unparalleled; not just because you can get an all-beef or vegan dog, but their buns push these into 5-star territory. I don’t know if they’re buttered to perfection then toasted or what, but a great hot dog is not just about the sausage, the bun matters!\n\nGood food is only topped by their excellent customer service (thanks Max) & cool, casual 80s vibe. Didn’t love the country music playing while dining in & the ginger ale was flat but you can’t have it all. Got a hot dog & bottled soda for $9 + tip.\n\nAsk about the speakeasy while you’re there. Supercool experience.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "One of my top picks for a great slice. Just a short walk from the South Street Seaport. Indoor and outdoor seating available. Plus they are open 24hr a day.",
+					text: "Worth. It. Can you get a decentish, classic NYC hot dog anywhere around town? Sure. But Crif is unparalleled; not just because you can get an all-beef or vegan dog, but their buns push these into 5-star territory. I don’t know if they’re buttered to perfection then toasted or what, but a great hot dog is not just about the sausage, the bun matters!\n\nGood food is only topped by their excellent customer service (thanks Max) & cool, casual 80s vibe. Didn’t love the country music playing while dining in & the ginger ale was flat but you can’t have it all. Got a hot dog & bottled soda for $9 + tip.\n\nAsk about the speakeasy while you’re there. Supercool experience.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Tanisha Gomez",
-					uri: "https://www.google.com/maps/contrib/109959868163920754908/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUxj2iT55w54Ck2Pnb1D4ToiiZMLYoTXd1-xoVBc4_6g5qC=s128-c0x00000000-cc-rp-mo-ba3",
+					displayName: "Abroad in Milan",
+					uri: "https://www.google.com/maps/contrib/101469938903560322249/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWZXG8uj3jMl6RXOjEGwRzVvAMM_zxxLQDfjLOy_2ykI0au=s128-c0x00000000-cc-rp-mo-ba3",
 				},
-				publishTime: "2023-12-06T13:04:00Z",
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/reviews/ChdDSUhNMG9nS0VJQ0FnSURWN2Q3YTB3RRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 3,
-				text: {
-					text: "First visit here since living in this area for more than 2 years! I was craving a cheese pizza, but when I came here I wanted a different one (thinking it was potato and mushroom pizza). I do think there was a miscommunication with the staff since the surroundings were a little loud. It took me a while to notice a seating area and I soon realized my pizza was not a potato pizza. The taste wasn't that bad, so I just kept eating, but there were some downs. The dough was too crunchy and dry without a soft chewing taste.\n\n🍕Chicken bacon ranch pizza slice",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "First visit here since living in this area for more than 2 years! I was craving a cheese pizza, but when I came here I wanted a different one (thinking it was potato and mushroom pizza). I do think there was a miscommunication with the staff since the surroundings were a little loud. It took me a while to notice a seating area and I soon realized my pizza was not a potato pizza. The taste wasn't that bad, so I just kept eating, but there were some downs. The dough was too crunchy and dry without a soft chewing taste.\n\n🍕Chicken bacon ranch pizza slice",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "조아JJ",
-					uri: "https://www.google.com/maps/contrib/102367982438639936393/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV6J-kNW2zG5sUZ-vYRgtB9PpHF0imC7BMPJV2zS7hiOZE=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-12-15T02:13:23Z",
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxNFpLckt3EAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 2,
-				text: {
-					text: "This is usually one of my favorite Little Italy Pizza locations on Fulton St except for tonight. Takeout order 1 sausage slice, 2 mushrooms slices and cup of soda. Both mushrooms slices burnt on bottom with one having a burnt charcoal piece stuck to bottom of one making it a disappointing experience both bitter tasting gave up eating, ate only the cheese and mushrooms. If the rest of this pizza pie is like this they should've put it on the side table with the other mistakes and burnt pizza like they always do. Someone wasn't paying attention to the pies in the oven.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This is usually one of my favorite Little Italy Pizza locations on Fulton St except for tonight. Takeout order 1 sausage slice, 2 mushrooms slices and cup of soda. Both mushrooms slices burnt on bottom with one having a burnt charcoal piece stuck to bottom of one making it a disappointing experience both bitter tasting gave up eating, ate only the cheese and mushrooms. If the rest of this pizza pie is like this they should've put it on the side table with the other mistakes and burnt pizza like they always do. Someone wasn't paying attention to the pies in the oven.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Lickety Split",
-					uri: "https://www.google.com/maps/contrib/101596523453612786429/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIkbiOEeVXymxsOnhZz1FsU7yqxXLSEaivmIhuVq1Vd=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-31T04:34:13Z",
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1bFBuYlVBEAE",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "Can’t say this is my favourite pizza but this is the pizza I grew on my college years. Its staple flavour, crispy bottom and edges, slightly sweet sauce and cheesy cheese, alongside w/ the certainty of the familiar faces and late night hours, a must go place in my opinion. They are a chain across Manhattan, and they serve some comfort NY style pizza.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Can’t say this is my favourite pizza but this is the pizza I grew on my college years. Its staple flavour, crispy bottom and edges, slightly sweet sauce and cheesy cheese, alongside w/ the certainty of the familiar faces and late night hours, a must go place in my opinion. They are a chain across Manhattan, and they serve some comfort NY style pizza.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "JiShun Zhou",
-					uri: "https://www.google.com/maps/contrib/118119258912565996361/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJFQj1rpZvNAYvEqbWIebizPASJb3OqakHLn7VjAHQw6w=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2023-10-10T20:04:53Z",
+				publishTime: "2023-11-03T21:41:50Z",
 			},
 		],
 		photos: [
 			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJbXTAljeQMmSd1NnHrOVUXFVLnc6-khuxivEVGeFDbnyo403MjWpCiMwetpefw5xmyj9w8v1jbPFah5QCyYhfdhlxSs_eWNF-FKBh0cGvJbgf_gXRm1ktOd6JYDQDUB8Kpmain4UVxZaOtOzWaSgzAc_tUCGxxxb43j",
-				widthPx: 703,
-				heightPx: 665,
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJZ80hmAphIxIrND_LWXKEy-WrEljuZeOljv92FE7VckL01hDVOLQe_UmgfvsgJBBC1Vn1S5UE3E35A-H8s9gpqqguH295y_yaACFZpQTUsC2Ya5VJvCP0KNJdGXnPFJDYm-2fbz3hatvzkMK9bzldpadbFPwSa0Hs9I",
+				widthPx: 4080,
+				heightPx: 3072,
 				authorAttributions: [
 					{
-						displayName: "Little Italy Pizzeria and Deli",
-						uri: "//maps.google.com/maps/contrib/105677614291935547463",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU467P54GGSi-RHxDvAFv470XEoSl3sDglSijR1mA4hyg=s100-p-k-no-mo",
+						displayName: "Anton Ozornin",
+						uri: "//maps.google.com/maps/contrib/115550208708705445928",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVvYQJkckBigTrkFQf4MzzY8kUs42PNQHGfKNXOkHsLHBs=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJY6kMAObiAAnyjXvLmIwGIakXUDT8k1nTvlPnqKb8uU28sdzLivtBzDLgcNwZTjKUZTu-0jhIKZnXoCV40wOt-HR_saUvbv4v6NgOlAw9cLEveSAqYakFGRSJ0eNraqkb79-fgPJfBLv_1YGv7AuIdw8nbuPQCbkQXA",
-				widthPx: 12000,
-				heightPx: 9000,
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJbPcMMa3fclk5NEvm9xvqsX2ZJFxbUhmbQiGLgvmA3RX8ORYBL2wsQVnNnt27RMJfRzrv4QQipb1dzVp5f3sHFde10hA83IHKsvuB-9Jf2clsWVk22_PPKoU6IC8d5fkrmt1xWKU-l-WeNi4aC9BjAcngnq1euV7g6s",
+				widthPx: 1473,
+				heightPx: 982,
 				authorAttributions: [
 					{
-						displayName: "Michael Drake",
-						uri: "//maps.google.com/maps/contrib/106885631932935660948",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWNbYEGAdP8Gq9kDGbvFqpr3mU3HvsEzkw2DEulC7sYwirt=s100-p-k-no-mo",
+						displayName: "Crif Dogs",
+						uri: "//maps.google.com/maps/contrib/114902044929389526478",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVIc55tubAaVsMLU7HtXcMbXoGOtEzIDgqJDUlqLXP3Xw=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJZ6GYnTOxr542dITluZ2Mh_btwYlnuaaymWLXSf5w5jHLmomZxx_StgtEQ0gQA2PEfdJbb7lELnF1nvbSC0O0-kSY_kSDphlsF7ryB9weCQpCmZzSsXsqvJ3n1ZgO9NduPzLFto2mnXaS8favw176k9fH2vTMwnj43b",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJaUvX1UixRh1mwnGEfeo4kqIWqLkuQAjjXDFnIk80izKX2WO3vg2u0VnGI3O38qSADUPKIqWanj4_vbAHYms0EoYsJr87K15JaX_Omd_5ToVXD4Elfy1FylMpFoIolh4AJdQJmjl9zviYk2CGmWulUBjDHApBKe49wS",
+				widthPx: 4080,
+				heightPx: 3072,
+				authorAttributions: [
+					{
+						displayName: "Erin Walsh",
+						uri: "//maps.google.com/maps/contrib/106812563121597040446",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWg3ly0pwAxpUkunK8osuBeqJd9pI-NO589Ad6r0FNejBZ_=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJb3EynAyOKR-tfjH1oSaHtgNzfnAbHVWCkZ2ZT1OPKSAaDBH6WB0M5hFq75CFg0F_bqzzaaVCcs5Y4TCMLh7Nh5qqyUT14qMHIAR10xxAMbfVG6tfFYHpWt9n0dFEx7tjNebooTegQIHpBwiILPOvVn65L5TEs8wJTM",
 				widthPx: 4032,
 				heightPx: 3024,
 				authorAttributions: [
 					{
-						displayName: "Paolo C",
-						uri: "//maps.google.com/maps/contrib/106214848282417109797",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVm2ogrdubLgmO5ez0P59QQbIbp250caIVPi10cMMq88zXM=s100-p-k-no-mo",
+						displayName: "Abroad in Milan",
+						uri: "//maps.google.com/maps/contrib/101469938903560322249",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWZXG8uj3jMl6RXOjEGwRzVvAMM_zxxLQDfjLOy_2ykI0au=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJbn1kf7A8-wosTuTBE2zP6KKF8QKLmJLAgL4A3uy0XTUm3gNJxTrczb9YulK-ymzkTT7_GXlA8ZGaAso0bwtUyjXqWEitcE39h_1BddWSC27fsbsi-4YwMelV1De2QG1fIbaiflC7NgbBDGBBkdVbD-P3vl4lT2GTKo",
-				widthPx: 5168,
-				heightPx: 3876,
-				authorAttributions: [
-					{
-						displayName: "mcLa twofivesix",
-						uri: "//maps.google.com/maps/contrib/101408599427719381927",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL6Gp0kurwJd3lIHG88U-LVovJtWJ1DVwm9iacLWcSz=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJZT2Bxp4OwAnDsh0RIXN_ObFAFaL68qvYHniO9X0KybCc3g1YY4B0nnizkfyL9drRMpDOh3wp1z-tYPjaL0fS2-yu_mV3prZyP2hWwVQYOweUYfpPb-BOEotEnB2_7rlsshhcEWj5GraNugyVdil3lJnuhSB93N2tSk",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Nico Samneil Salado",
-						uri: "//maps.google.com/maps/contrib/108348399094763821118",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX2vbmubLUFTYVD8YisqehpfsNF1bz3fTeKdls73_47Xsw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJZ5Rkcd3fOJPtE8QJ4QvdupPawzMudZC04DmA6yC8c7T1vOL5oZ3P7wo6Pmyf6KTqBk0xKd3jK_bKn3v5GBO5h0vo2PU9TXiYtQYqrIEEKtwCgfs7ozTFt6qySVkP0zz1Cmi9RY3sxz8j7pydWRC6ZULYZQfyWlDG59",
-				widthPx: 4032,
-				heightPx: 2268,
-				authorAttributions: [
-					{
-						displayName: "Bobby Baguna",
-						uri: "//maps.google.com/maps/contrib/115017921833428159915",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXzj9O_UMpxRJjvPEdf428Df-euh5hPIvgVzRnJK6dXP3Pu=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJaibzrriNjdfxL8cJAk4PrTYo2pMAP1GL26VZ_VlfMTTJa-vEoR0ZjSe_eHOgDRNWxPgRCBFdpnZJ7jFoUYWqr4dfM0i-1Owl_6RnpCZnINDttUVJwzkcTr9ozIvagvDCQ3LYTdSdD6Tn6ycF3MD9Q2-EWszzH5vbcO",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Jennifer Villalva",
-						uri: "//maps.google.com/maps/contrib/108725851802866041997",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUNY2EAEXCseYmmb-nkRycNnxzKywaUnq4eL5oK99G8fSMn=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJY6va0DmvPgZsLESYIa2s92TrAtBY3XVPwT4AnnUu4jUl1cmOfiLdORcZM7iT-j9mmFu1hR0LQltvBdI6aeDPK_zX5VfWiKz5Ej5v5LIJgw4hp6dcZHYRXm9zen0eU8WR3F6J-m6blRd734qysr4O2aSq1dSeJaCm07",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Miramar Lee",
-						uri: "//maps.google.com/maps/contrib/102307648974446546042",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWd0wp2cN89JP_z0CefV9Cay5G8IIJys7ZEpop5AvVMaYaA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJZJ8xhosoiA3kiZEzY4ctkECUvjVSciqggi-vdf0BSOllgzuU7PgsAdz5zaaDTXdttLGI5ET652GfpP-Ymq_9l_Mast-z79xegT3eQ9s8m_zQ5KsqOrvJ-VXTThj2d67KJlbEcdvRC0GNTD6pnB1Ei0M8ZtxLPn_j6O",
-				widthPx: 5168,
-				heightPx: 3876,
-				authorAttributions: [
-					{
-						displayName: "mcLa twofivesix",
-						uri: "//maps.google.com/maps/contrib/101408599427719381927",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL6Gp0kurwJd3lIHG88U-LVovJtWJ1DVwm9iacLWcSz=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJozrpOT1awokRIvVfcODFYvg/photos/ATplDJbQrnAnIdDW1bOYAS4xJOX5yPWlS2-s_fhD4c1l993xMB2ni4DUHRU72w9o0vLOnvtDVpZRjyBnJeXEKQtiokq_qD2qXvW50iT9Tk9k5hfwy_t0agaPQxBI0339XmeXt08uhrmHT6tM6uX8fpgpYjpxaWSoz3wI3vKx",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Marcus Smith",
-						uri: "//maps.google.com/maps/contrib/109937643902612218253",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUO06h478sOsv1i5tSbjiSfXFmMYhQNt5dFRhx0A1zRjA5H=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJH5boACdZwokRxOeHa1vo00A",
-		id: "ChIJH5boACdZwokRxOeHa1vo00A",
-		formattedAddress: "167 W 48th St, New York, NY 10036, USA",
-		rating: 4.3,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 1052,
-		displayName: {
-			text: "Little Italy Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/reviews/ChdDSUhNMG9nS0VJQ0FnSUROMlpfQnpnRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 3,
-				text: {
-					text: "Pizza was ok, the crust and taste were fine. It’s a basic place to grab a quick bite, no frills. A bit pricey for what it is, but if in hurry and no crowds in line it’s ok. They offer a large variety of pizzas, staff is not very patient, they expect you to know what everything in display is, and you better order quick… would not go there again… went there because it was on our way after a Broadway show.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Pizza was ok, the crust and taste were fine. It’s a basic place to grab a quick bite, no frills. A bit pricey for what it is, but if in hurry and no crowds in line it’s ok. They offer a large variety of pizzas, staff is not very patient, they expect you to know what everything in display is, and you better order quick… would not go there again… went there because it was on our way after a Broadway show.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jorge H.",
-					uri: "https://www.google.com/maps/contrib/111991981391021486166/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXraKsKgxYD_uIpmMB30dj0D_7d2XwcGMIyq-p2XdCQmio=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2024-01-24T01:04:46Z",
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/reviews/ChdDSUhNMG9nS0VJQ0FnSURWaTRyVzJ3RRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "It was very good pizza. The sauce is really authentic very delicious! Bought my pizza and it wasn’t ready and they had an insane line and he remembered me and asked me to come get my order. Appreciated that! Would most definitely recommend & would return! A+",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "It was very good pizza. The sauce is really authentic very delicious! Bought my pizza and it wasn’t ready and they had an insane line and he remembered me and asked me to come get my order. Appreciated that! Would most definitely recommend & would return! A+",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Antwan Andrews",
-					uri: "https://www.google.com/maps/contrib/106189382249548996243/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUFiYSqDn6wRPmRJoVb33xGrh7wwh9YUPjuMBD2TX9pfIo=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-12-15T23:56:28Z",
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/reviews/ChdDSUhNMG9nS0VJQ0FnSUNsOGV6YTRnRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Thank you to the google reviewers that have reviewed this place. A friend and I were walking through time square and wanted some pizza. I told him Hey, let's check Google and pick a spot. And this is how we ended up at little italy pizzeria. Displace definitely has curve apeal and the pizzas, Omg they look good. When you walk in you are met with an array of choices of pizzas. You literally can't pick just one. Do service was friendly and a pizza was delicious. I had a slice of ham and bacon with another slice of chicken bacon ranch. This place has to be one of my top 3. My friend ordered one slice of pepperoni and the Margarita pizza. He said it was the best he'd ever had. Does slices are very big and if you're not hungry don't order 2 slices. They offer an assortment of drinks in twenty ounce bottles. The place was nice and clean. I would have to say it was a great experience all around five stars. I will definitely come back here when i'm in times square again. I recommend if you're in the area try this little italy pizzeria out.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Thank you to the google reviewers that have reviewed this place. A friend and I were walking through time square and wanted some pizza. I told him Hey, let's check Google and pick a spot. And this is how we ended up at little italy pizzeria. Displace definitely has curve apeal and the pizzas, Omg they look good. When you walk in you are met with an array of choices of pizzas. You literally can't pick just one. Do service was friendly and a pizza was delicious. I had a slice of ham and bacon with another slice of chicken bacon ranch. This place has to be one of my top 3. My friend ordered one slice of pepperoni and the Margarita pizza. He said it was the best he'd ever had. Does slices are very big and if you're not hungry don't order 2 slices. They offer an assortment of drinks in twenty ounce bottles. The place was nice and clean. I would have to say it was a great experience all around five stars. I will definitely come back here when i'm in times square again. I recommend if you're in the area try this little italy pizzeria out.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Andrew Rios",
-					uri: "https://www.google.com/maps/contrib/110107419617090565889/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXJwZfeg1Km3l1F1AVQIL2FwVqpSPoUiypgn7p7yBYZWtdY=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-11-21T03:23:35Z",
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1aHNmbk9REAE",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 3,
-				text: {
-					text: "Hole-in-the-wall NY style pizza. Had a short line so somewhat popular. Had a pepperoni slice. Very large portion. Lots of cheese. Very greasy and a bit too much sauce. Sauce out of a can and not fresh. Could use a bit more char on bottom as well. Crust is good.\n\nIf looking for a quick and cheap NY slice and passing by ok to stop. Otherwise don't go out of your way.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Hole-in-the-wall NY style pizza. Had a short line so somewhat popular. Had a pepperoni slice. Very large portion. Lots of cheese. Very greasy and a bit too much sauce. Sauce out of a can and not fresh. Could use a bit more char on bottom as well. Crust is good.\n\nIf looking for a quick and cheap NY slice and passing by ok to stop. Otherwise don't go out of your way.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "csneddon00",
-					uri: "https://www.google.com/maps/contrib/102591324625527901248/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXBbTz3YH80u7y8xnuX5lAms97DX2qwvv76_IdXdgR2Wk0=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2023-10-13T03:02:38Z",
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/reviews/ChdDSUhNMG9nS0VJQ0FnSURWa3NxazFnRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 2,
-				text: {
-					text: "I gave this place 2 go's while I was in new york. The pizza flavour is ok, definitely not great.\n\nThe garlic knots were so doughy and awful when I got them the 1st time that I didn't order them again.\n\nI paid $6.52 with tax for this 1 piece of pizza as apparently just like last time I managed to choose 1 of the 2 most expensive pieces on the board. Meanwhile there is nothing to say names or prices so you know which are the actual expensive ones. No warning before it is put in the oven to reheat.\n\nWatch the bill as I believed I was overcharged (there was another guy there saying same thing) and when I brought it up I was told exceptionally rudely that it bigger. It definitely is not.\n\n1 bottle of water and 1 slice = $10 and small change. Grossly overpriced.\n\nDo yourself a favor, avoid this place and go to the deli 2 doors down who have hot food and are not straight up rude.\n\nThe service both times has been shocking, the worst I have received in New York.\n\nThe restaurant is always messy and the floor gross. Wish I had not given it a 2nd go and when he was straight up rude, I should have walked away.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I gave this place 2 go's while I was in new york. The pizza flavour is ok, definitely not great.\n\nThe garlic knots were so doughy and awful when I got them the 1st time that I didn't order them again.\n\nI paid $6.52 with tax for this 1 piece of pizza as apparently just like last time I managed to choose 1 of the 2 most expensive pieces on the board. Meanwhile there is nothing to say names or prices so you know which are the actual expensive ones. No warning before it is put in the oven to reheat.\n\nWatch the bill as I believed I was overcharged (there was another guy there saying same thing) and when I brought it up I was told exceptionally rudely that it bigger. It definitely is not.\n\n1 bottle of water and 1 slice = $10 and small change. Grossly overpriced.\n\nDo yourself a favor, avoid this place and go to the deli 2 doors down who have hot food and are not straight up rude.\n\nThe service both times has been shocking, the worst I have received in New York.\n\nThe restaurant is always messy and the floor gross. Wish I had not given it a 2nd go and when he was straight up rude, I should have walked away.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Faith Christiansen",
-					uri: "https://www.google.com/maps/contrib/108646029536485427206/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKL0VIdVTYvZVKaEek1SF_CAWbiL_V6J-UUbtAGgJY4=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-12-11T23:36:16Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJYBlMvQSSS7tazHEn0B5Yfdj3jFVyoqW_flo4-Cd0pQv-Yk31rkoQb0AH9dzCivZ2wX_LFnPYDaRpApSizVSs4uRzviwl237YmPy-m5Mne6FFvV7IkQQyCnfLWwFosb-RfQLOc905QjXWUbU6CpdKRReWe_LITxVirt",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Eric Finkelstein",
-						uri: "//maps.google.com/maps/contrib/111444671146808251214",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL2CRL1sNmwZJmDjQUA3hwZdsaw5iqGzq-3NXf3_0Wb=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJZwIjF2OKQ87fCwlllTpeLyYN_WGi_1LVmZucxl9eiNZqKuOnYQIj1UN7ApDX0mrptFL4tuFczcwgoqgeO9AcYC8gGBHzG9CmWhLHBS9HMe26otf_XiYCj1E8KgkjOH4yCI7sC-76OgKYpGxMoKihIRXMSh8YipKiCl",
-				widthPx: 750,
-				heightPx: 1000,
-				authorAttributions: [
-					{
-						displayName: "Little Italy Pizza",
-						uri: "//maps.google.com/maps/contrib/111459288899214730725",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVo3nNK1Kqs4wIgPIOQCSa6a2qPbRDC9V1zwd2BSvOIxw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJYVreaXI9t9V39RoAH8ODS2x8aA9K2-4Q_FCmxnOxfsC17Us68OBbyH2tkTL24xrElh8H2ES2cElpUl1z8cD1Znl33zQbDicAut8Tpz1Azh66Ern5jDSWOVVPE0akMXvHYcENI-m1ck1iFqShuYYQFnuUpiOz0JZ1ED",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Jose Vieitez",
-						uri: "//maps.google.com/maps/contrib/117686600482189891551",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVGoBmjYfgYOMB1fpv0BENzW_q-TyvIFiFz3lB1-P6WVNc=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJb4HB6NnJaeEjNR9MjPR_pRPl7xc8JBzDNePq0T54Cf1fxzxtQO97KlwmcpJ6r63HlJThlB243ltP2fEuYqqDHs6L2-xdB0lI1ne06jLYkrNEaZDC37H60MNyEuEJ60m8O2DXoA4QtMXKUWvx8aPkNG1-6HvByYGOOg",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Gaurav Gupta",
-						uri: "//maps.google.com/maps/contrib/117101251307247510357",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV0-W-ALRrZJCO_8-RKpIEwcL3KLeySXJNWZ-ALYNUMMFc=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJYHl8qapv5UNlTX9ILFByrXIh1AqyZK_0s_pC2URxsJm2gnNR74ZjnIgCNQz3bpqzz1iCIo0nE4uOAdNaNKHPWy3qaCzOh_ctiGNbM4vjujG8BIRAnEvr8dGLw16z3oKKpKfFYz5hml0CefvZurQF1B3zpftYLYI693",
-				widthPx: 1462,
-				heightPx: 1518,
-				authorAttributions: [
-					{
-						displayName: "Vicky Rout",
-						uri: "//maps.google.com/maps/contrib/102188934059328602675",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIlA4_KC_J3F0wjjxy6XmFHRXQSwHFgpzWQgZuZE0Ev=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJbojPtVl0CNwqh4T3zBCFfH__fRfsqoaYhGxadBKQ6QiDPee0QEyz3CuVA69jYZKdCcKqm1Qn5atz1N-EzLqISWIsAG4mYTPw-KSdb6R7_3dad-QusL22MRW63gdEN4GiePMMpWp5Yi_YwqsXCD1WDu-flrntuBam7R",
-				widthPx: 3000,
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJaQjkeVJzZ-5jdyvItpc8ZAiQo5avXp-xDqpVYkmvkUBM348EBrf7FwMKcNMr5QTE3eKnG9yMMvS8X78WqFtko_o3AnXhaHxlBJB4qPRIJPjZ4BbJ3BLJaL6qHAOyrvtl28NlqUVVpShvT0sN7zNvUUqO8YoZrHWs6A",
+				widthPx: 2252,
 				heightPx: 4000,
 				authorAttributions: [
 					{
-						displayName: "Jingjuan Qi",
-						uri: "//maps.google.com/maps/contrib/112607975638002596865",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWwnvwevt95Ts3L6wagvvvS4rEb5kHj2gBWp6s4v8aqZdAE=s100-p-k-no-mo",
+						displayName: "Linda Brown",
+						uri: "//maps.google.com/maps/contrib/104913672473779829835",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLzFeZUCAoQqfxgkV6RTrYB99I-skTuuZDhPxyH624g9_k=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJZQejNRwZ-fRHl7X-RCJukKCNYEIivrZjfLw-HypnTCA0xKvFaVwUcaNj8JVBq4hwhr5Ekm-dbPdMdcONQeAo9L4Pygs2vemHM5xHdFpOpIMjcx4FCotRy2Mpbc_Pmp246iJuINR9pSspX38AcY_oa8AwozxdbJ3VCd",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Na Li",
-						uri: "//maps.google.com/maps/contrib/113798790399144137020",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXq9Vh8btpDMbaWDHL5ZMIXxZv-7H0UhBEM4K1H0hxAM_Yz=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJaSwU7rd6AZYfYhsBKVvv1Hj2V9jeZUem9A7beLkHj6AE_RydAJKAg52ZM926fvZcUgmAd9IHSfWi2Ynap9yPrwPCiRkIRYDYa25BhWyxg6hEf7SFV3DTv6xj8ZXOr2glZ074OeS3G-3vuN5WKAZHN6cInbMbyAf9Dl",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "giacomo gentile",
-						uri: "//maps.google.com/maps/contrib/118114681998756382006",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLKdtPWjPpqPfzkJ25SXuvOILvnM9UESVJNicBNeluH=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJYeAXf4wdj2u5PChkYWff3oFrR15QOEynsOU_aLmYpHtkp8sEoVj7JVURF_pfnciJCtS8XMjmdrQwss3fd04IRPm1ZERZpAEqBQhaAMU8mmeVzRutf4nH31LXEhZqP9AXBdsNjHrDCjGoxP7YUpto9zALe7cE88Z0QV",
-				widthPx: 3468,
-				heightPx: 4624,
-				authorAttributions: [
-					{
-						displayName: "Digital Dollar",
-						uri: "//maps.google.com/maps/contrib/109567128386550795157",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXaqL48mDgy_aDuwsr8Uf6HOZS3J2C3wXK8EOqZV6ngNfH9=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJH5boACdZwokRxOeHa1vo00A/photos/ATplDJYJV_r62y8Jud0Fy3zplJP-ht3g_lynCGP_EmYzEhycOQn1wravIZDu7R4b8kvYhpMwp50YvFtUHyQJj4J9b-aZc3Ry-_W8DVMzpfDoH6i7UdU1OiwqtCn3SBjsQfRvy89pwFByOclGIEzfKIUAaanTXH27CFfzXq5T",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Jorge H.",
-						uri: "//maps.google.com/maps/contrib/111991981391021486166",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXraKsKgxYD_uIpmMB30dj0D_7d2XwcGMIyq-p2XdCQmio=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E",
-		id: "ChIJB4RvZFxZwokRcicdjOa6j6E",
-		formattedAddress: "236 W 40th St, New York, NY 10018, USA",
-		rating: 4.1,
-		userRatingCount: 226,
-		displayName: {
-			text: "New Times Square Pizza LLC",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/reviews/ChZDSUhNMG9nS0VJQ0FnSURaN29hdlBREAE",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "Having just got to New York late last night (well it was for us and we were on UK time) from the UK, we had a little wander down our street and found this tucked away on a much quieter area of Times Square . We were starving so ordered a full pie, pepperoni for $20. It was delicious. It was that delicious I had the last slice for breakfast about 10 minutes ago.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Having just got to New York late last night (well it was for us and we were on UK time) from the UK, we had a little wander down our street and found this tucked away on a much quieter area of Times Square . We were starving so ordered a full pie, pepperoni for $20. It was delicious. It was that delicious I had the last slice for breakfast about 10 minutes ago.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Melanie Murphy",
-					uri: "https://www.google.com/maps/contrib/112552061163568790967/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocI4JEZb5zJ1P-CTF9Qu03lUkQpXovqv0BfoFUfzN7e_=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-10-01T11:50:15Z",
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkOUtQeTVnRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Woah I was NOT expecting that…best slice of margherita I’ve ever had no exaggeration. The sauce is packed with flavor, wow! Crust is light, crunchy and chewy. Don’t let the generous prices fool you…these guys are the real deal.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Woah I was NOT expecting that…best slice of margherita I’ve ever had no exaggeration. The sauce is packed with flavor, wow! Crust is light, crunchy and chewy. Don’t let the generous prices fool you…these guys are the real deal.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Tim Pojim",
-					uri: "https://www.google.com/maps/contrib/108764672766559603929/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUHnD39aNKeVA-z_Jstup-0XXgNFaFg5qjyEMhWaZFak5rE=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-02-13T00:28:28Z",
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1MU1hWkpREAE",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 5,
-				text: {
-					text: "This is what you want from a great pizza shop in New york. Great selection, light crispy crust, friendly service, great pricing. Best pizza I had on my trip to New York and I was looking for a good pizza.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This is what you want from a great pizza shop in New york. Great selection, light crispy crust, friendly service, great pricing. Best pizza I had on my trip to New York and I was looking for a good pizza.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "michael kingdom",
-					uri: "https://www.google.com/maps/contrib/103573696553365748970/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWahRPwjn6zowyyVtFPwe3UxVHf1sgP6pM_MDPdSmP2EXgm=s128-c0x00000000-cc-rp-mo-ba2",
-				},
-				publishTime: "2023-10-10T23:56:19Z",
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/reviews/ChdDSUhNMG9nS0VJQ0FnSURoNW8tMy13RRAB",
-				relativePublishTimeDescription: "a year ago",
-				rating: 5,
-				text: {
-					text: "No frills, very affordable fast casual pizza counter with solid options and fast service. Good wings and the pizza is great for the money. Owners real nice too.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "No frills, very affordable fast casual pizza counter with solid options and fast service. Good wings and the pizza is great for the money. Owners real nice too.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "james amster",
-					uri: "https://www.google.com/maps/contrib/108021924896262296113/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVU6SSFjWCC98MCDQNSn8w5VyMeuDqu-G7d2D9SBzV1IU4=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-03-07T21:08:06Z",
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKeEw3cmhBRRAB",
-				relativePublishTimeDescription: "8 months ago",
-				rating: 4,
-				text: {
-					text: "If this is what $1.50 a slice is like i cant wait to try the high end stuff. The cheese pizza was great, bbq chicken was really good as was the pepperoni. Great value! Good location too",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "If this is what $1.50 a slice is like i cant wait to try the high end stuff. The cheese pizza was great, bbq chicken was really good as was the pepperoni. Great value! Good location too",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Andrew Mckernan",
-					uri: "https://www.google.com/maps/contrib/102446825086635741829/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXdPzW-4_COBcL9Euhjsi4-kiP9GCHd5UhIVZ11exKWXKU=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-06-21T01:39:33Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJY1MnCmdWqUQgN9wfFa07nsW6NmToz248SowjxsIUn4xru_eqZ6nmhdF9h1TFFyKfZCb_DorCwGNGBfO9MaR3BXsh4xhHjld9gFuofWrALdc2HiK7dJ2Dvm5fMKzyDA2NvQ3XdDlDLHQjvo5sNxDqcfYTw5mgLJse_h",
-				widthPx: 5250,
-				heightPx: 3500,
-				authorAttributions: [
-					{
-						displayName: "New Times Square Pizza LLC",
-						uri: "//maps.google.com/maps/contrib/116182948621278838788",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5Uo0DFvje69Qbl1h1BietIyoOdTmtbUB1OvLkDvR1Sg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJYc650_vyNQMW9u3CtnbPxJ_wAkN1mYdavUgak37XAui4ljgC7xmbfhNzr2RkiI4KVbzKypFEUbtLmLhUFduPoZTM_b4WYdGHWduB4Efso_ZiNAIOI_0RroMi1xnsFaw__E_p1PH-r4t9yBF5ZVWB_RLdSIjk3lCmYb",
-				widthPx: 5250,
-				heightPx: 3500,
-				authorAttributions: [
-					{
-						displayName: "New Times Square Pizza LLC",
-						uri: "//maps.google.com/maps/contrib/116182948621278838788",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5Uo0DFvje69Qbl1h1BietIyoOdTmtbUB1OvLkDvR1Sg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJbcjMrjDKEXTHLWD0beF68gry_JQj5N-a6I9M3uMpYoW1IxR7eDy3Un-YZdmvi8wlYOrG-ApITFvS_EkcseQBAg60dvs9SRQ8CKZvxmgArd_oJV1XpyENpXKppiWhXZcehrvM-Q4rCCPBIqf21iXd3vKBdIPc6dTTDe",
-				widthPx: 1440,
-				heightPx: 1083,
-				authorAttributions: [
-					{
-						displayName: "Melanie Murphy",
-						uri: "//maps.google.com/maps/contrib/112552061163568790967",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI4JEZb5zJ1P-CTF9Qu03lUkQpXovqv0BfoFUfzN7e_=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJZiUAQuLM327DJp4pwK5b2i_zoAW2HfsyUDDJZ7hIKENlVbCAtPW1Gcxhqw42I34xaDOo4TvbptA48LlvbiMBTtfJkDg5Uosg1zhbqklW1N11a_WfbSXuaF_JENAFGu97oNLJZa2ZXUBVB_W2D79b0tW_FuZZYAcC7C",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Gagan Sohal",
-						uri: "//maps.google.com/maps/contrib/113058901325010045990",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWMBSVmx7aVsHpAzjnBol0Kx0AzGa_ptTiQwoRQY8cmtwOJ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJYwH80wRp5mI8RHLYwSKlVs-dPpL9-9eyFCQ2kSyq7-WLs6Wyi7hSt-GgsY2yw7XVDx9P8buBPDh9W9VjqjBHjdkwKrHvseeVwnskqHtT1Ob75ka5vHxx1XL9uGvSvs4YjgJcdGYglVFFz8doPCsZZE4EI_wSWQRm0f",
-				widthPx: 5250,
-				heightPx: 3500,
-				authorAttributions: [
-					{
-						displayName: "New Times Square Pizza LLC",
-						uri: "//maps.google.com/maps/contrib/116182948621278838788",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5Uo0DFvje69Qbl1h1BietIyoOdTmtbUB1OvLkDvR1Sg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJacPbEgCBGX0nC5Z3JgiHrWMZ72x6H6yXo8rMW6RGivVJ5QQlvnzO7Swl4INyPa4SMeUtjrRsagAQdwKsDAb9gR7mlDs5M4hNOggO9Aeo6oWsMlTQI80QiBC6Emh7KxP_gvjaD3hpilPYo2Bv8L_a8NBzkPLVlnlawd",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "james amster",
-						uri: "//maps.google.com/maps/contrib/108021924896262296113",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVU6SSFjWCC98MCDQNSn8w5VyMeuDqu-G7d2D9SBzV1IU4=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJYyN3AUaoMlqTQmjBohP1dOpKZ5ZznUuwqbrsSW0BBKLKU-As6rZDJdM5GJLc_QKvAzelHwmNbtvF5k3NMfDxXU2JBdvrOmwOJGaU-Gs5gS-uj1DCRw8RXD2MPRlRDjy_8xqOlvDM93vNX4qaWir33nRzbXzCU5Z11b",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Gagan Sohal",
-						uri: "//maps.google.com/maps/contrib/113058901325010045990",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWMBSVmx7aVsHpAzjnBol0Kx0AzGa_ptTiQwoRQY8cmtwOJ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJYCLqXxR8cW7dZBulDqjHzKbeeFWyDh1zmwb-1u5DsIoFKo3-bD72nHZmMIeZUu4ZMtuorG4PLjD_5UIwlN-1pWQN8RMIY6JjyoawTjkR7WTkDwyKlIp3vR-vAMFMBP3yN3b2X8diGdJUyYzLrIfM33w4L7akUr2CmT",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Gagan Sohal",
-						uri: "//maps.google.com/maps/contrib/113058901325010045990",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWMBSVmx7aVsHpAzjnBol0Kx0AzGa_ptTiQwoRQY8cmtwOJ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJaM18y2PVxsLb3iG3tukvTPgQlNvvL8VFUSsnJtmcqEx17sbfm2ztNcNB2Uw0hcBhEyIiqDO9s0wnmfE5_za7aO9s2sSG6tCSOQSWRWJ759Ys3GtHPvxpKKc48lw6JJkQUPDSeL_ky28zUz6f2P47gBRi0nOQCdCcYU",
-				widthPx: 5250,
-				heightPx: 3500,
-				authorAttributions: [
-					{
-						displayName: "New Times Square Pizza LLC",
-						uri: "//maps.google.com/maps/contrib/116182948621278838788",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5Uo0DFvje69Qbl1h1BietIyoOdTmtbUB1OvLkDvR1Sg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJB4RvZFxZwokRcicdjOa6j6E/photos/ATplDJaZN0KLq_RqLcm0R8X1noPD0b7Fh820UTN3HL0k27O2fVvjmZn3airFZ_ZmeXL8DL4orTW_8-MSvORlMxfR_x0KBjtpWPczSIxdEEvXUgpPHkNcvxxqBbQ8LCp-TLtiJ5etYy2VyOYRxEu81hb9NSyZREDUyAwTL-Qk",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "J L",
-						uri: "//maps.google.com/maps/contrib/101857487644717182646",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLoh7pxtodCA635sDQ1D536ctWm5c17e6b5mDzIR0ZMgQ=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJEWDhF55ZwokRx4atQITM9VU",
-		id: "ChIJEWDhF55ZwokRx4atQITM9VU",
-		formattedAddress: "321 E 14th St, New York, NY 10003, USA",
-		rating: 4.3,
-		priceLevel: "PRICE_LEVEL_MODERATE",
-		userRatingCount: 2911,
-		displayName: {
-			text: "Artichoke Basille's Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkeEtfSDhRRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "Several family members recommended this pizza joint to me saying it was the best they've ever had in NYC: they were not wrong. If not the best, Artichoke is pretty high up there in my opinion: slices are huge, topping selection is wide, and the staff is real nice. This was probably the best Vodka slice I've ever had, and the artichoke sauce was good too! Prices are above average but totally worth it.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Several family members recommended this pizza joint to me saying it was the best they've ever had in NYC: they were not wrong. If not the best, Artichoke is pretty high up there in my opinion: slices are huge, topping selection is wide, and the staff is real nice. This was probably the best Vodka slice I've ever had, and the artichoke sauce was good too! Prices are above average but totally worth it.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Iván Montejo",
-					uri: "https://www.google.com/maps/contrib/102917805902844684499/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWfCdkuPjR4XE_DydmU2Kabd4Ib-7x85Aq_it8SYbJ4Y_HM=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2024-02-12T04:08:17Z",
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/reviews/ChZDSUhNMG9nS0VJQ0FnSURGc3RfNFRnEAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 3,
-				text: {
-					text: "I do NOT want to leave a negative review. This is simply an informative review. I’m sure the regular pizza is very good. I was expecting the artichoke pizza to be… less soupy. It was like eating an entire tub of spinach artichoke dip on top of a piece of bread. I am sure some people like this. But it made me feel sickly. Also BEWARE! It is ginormous. Maybe share a slice. This pizza would be tremendous if it was less liquid and more artichoke! :D Staff so sweet and nice.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I do NOT want to leave a negative review. This is simply an informative review. I’m sure the regular pizza is very good. I was expecting the artichoke pizza to be… less soupy. It was like eating an entire tub of spinach artichoke dip on top of a piece of bread. I am sure some people like this. But it made me feel sickly. Also BEWARE! It is ginormous. Maybe share a slice. This pizza would be tremendous if it was less liquid and more artichoke! :D Staff so sweet and nice.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Isabelle Aengenheyster",
-					uri: "https://www.google.com/maps/contrib/106294277947658438407/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVQdh9g-iqFdHdsGO0xNgolTHbmsUpG8A_ePPaKoQS8OLU=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-11-05T01:58:26Z",
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/reviews/ChdDSUhNMG9nS0VJQ0FnSUR0a1k2NHp3RRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 4,
-				text: {
-					text: "We tried the Artichoke slice and it was huge. After a point you feel overwhelmed by the same creamy flavour so I would recommend taking 2 different flavour slices and sharing.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "We tried the Artichoke slice and it was huge. After a point you feel overwhelmed by the same creamy flavour so I would recommend taking 2 different flavour slices and sharing.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Mohit Shah",
-					uri: "https://www.google.com/maps/contrib/108985685402470122440/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJ19DEYx_YiZMCxH-KpzjhUYIUPbbKq58FWZ3CI3uFjzOM=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-02-05T04:49:25Z",
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNwa09HYU9nEAE",
-				relativePublishTimeDescription: "7 months ago",
-				rating: 3,
-				text: {
-					text: "Nice quiet pizza spot. May have hit it at the right time, with no wait.\nLarge pizza slice. Decent price for the amount of food, but I’ve had (subjectively) better slices of cheese pizza. I like lions tigers and square pizza better.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Nice quiet pizza spot. May have hit it at the right time, with no wait.\nLarge pizza slice. Decent price for the amount of food, but I’ve had (subjectively) better slices of cheese pizza. I like lions tigers and square pizza better.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "A PG",
-					uri: "https://www.google.com/maps/contrib/102568563590757992496/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXnblI7iwCCbjwYCNzYzZFkFATIlvaXpd8ouaseC_RARfU=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-07-26T21:29:25Z",
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/reviews/ChZDSUhNMG9nS0VJQ0FnSURNd3FIa0FnEAE",
-				relativePublishTimeDescription: "a year ago",
-				rating: 5,
-				text: {
-					text: "This is the original artichoke pizza spot. The original! So it's the best (I've tried other locations,  they don't measure up).  Their artichoke slice is like no other,  from the crust to the sauce,  to everything.  I crave it all the time.  So if I'm ever in the area... I will definitely get a slice here. The other slices are very good as well,  but at least the artichoke pizza is the best here.  So I highly recommend it.\nLove the crab pizza as well here! So delicious.\n\nMinimum $15 for card payment ( ATM inside).\n\nThe only thing I wish this place had was a bathroom and an easier way to find parking in front.  The location and accommodation are not convenient.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "This is the original artichoke pizza spot. The original! So it's the best (I've tried other locations,  they don't measure up).  Their artichoke slice is like no other,  from the crust to the sauce,  to everything.  I crave it all the time.  So if I'm ever in the area... I will definitely get a slice here. The other slices are very good as well,  but at least the artichoke pizza is the best here.  So I highly recommend it.\nLove the crab pizza as well here! So delicious.\n\nMinimum $15 for card payment ( ATM inside).\n\nThe only thing I wish this place had was a bathroom and an easier way to find parking in front.  The location and accommodation are not convenient.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Zarina",
-					uri: "https://www.google.com/maps/contrib/103696902495547969115/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVbbxfaOGx7Ca2dWrM0Us7BZNzl9nb9c5iY-b3rUKw4nKMl=s128-c0x00000000-cc-rp-mo-ba7",
-				},
-				publishTime: "2023-02-20T21:42:23Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJY_ZMxx836CIf5gD3225N0jLkXS8oCa-atK6sIwhFqdQDDtfBh1FVaoyp3SOr3n-lu3d-6qLo7Bnkmewc47hkQpTi21m2vQlC20mM6BvZlw-eE9imWjw6fKB1Dc2GemESsyubk5usm0ptqULQtKMnDGQLuU2M-n1dnT",
-				widthPx: 3021,
-				heightPx: 3220,
-				authorAttributions: [
-					{
-						displayName: "Madeline Bonanno",
-						uri: "//maps.google.com/maps/contrib/116546511069797222422",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVUq6NGqZBPFyXKoXCgZf4ooNOfQgMKjROs--e5_YaG4Yly=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJZLKR0zAvA5UVEoprIvUPhK98UD6qoemUkdjRUZMoUoghB3w-1oTyr40Xku4RRXMLU4_RPTXfXIH2dmSdBIJY-bIV4t8yet2bGwnD3t5afaDY3TgI16974lZ5inwAg_z5RqfXbSKmCpcyLV9O5ZtOmkvYowo7WrU_sL",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Keith Kelly",
-						uri: "//maps.google.com/maps/contrib/110431432035531976640",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXjoFEGJvDSsPDfI3GpgnNlTUCELmW_v4P2xOVxdruVQXZh=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJZ-pZ4n85h9x-CIeGE6_orfHd_tLg-2U67balFiRpPdA8zYVrEtUKL_qi7MD5UMxGG3pQEmX0DPxbMLf0JxedZxzEbPYLlQQ7hBS5zYLQpg05J4ABg0yLRgRsOahD-rB-ltgik2j0fOvo-zkE5ZYXFCz2UE-kc7bZA4",
-				widthPx: 4608,
-				heightPx: 3456,
-				authorAttributions: [
-					{
-						displayName: "ken sander",
-						uri: "//maps.google.com/maps/contrib/102793763858407661166",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX043jDFfFbSGgkMv81xXOjRYCr6asMl6QgCoOXf5GMTI_g=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJYcV3Ph8qc3pZA90mZ3DAHtbhwxVjYJgb-MkkhTchP2IuWeEeg-gmI_fAWVfZO0LhijhBpQqEifD6ZPGpGIgWTyyuzgEeMYokSI4SvCbAEaHiwGspfGuRm0F2CW5ywnpukpO5iPjGR--lTh7zy6aX5AbFTpCoAIcGiw",
-				widthPx: 2736,
-				heightPx: 3648,
-				authorAttributions: [
-					{
-						displayName: "Marcus Fleischmann",
-						uri: "//maps.google.com/maps/contrib/100836706993578318337",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW-S-gjolmvbr9-anQvLwo07gBiuS7lOg6QbIn9iqVh6Sct=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJZiWawASNhg4PHZIjoRyFGBt9I_oIQoXHWLLcU-KlSGZIMtW692umE3IFBSwu3dIMclel68mpyw0TzrxmUv7GQLuS0QXXZnh7lhoYxUeKWLU8RaTMYqIk3khQRUavfdonqkAWIUZYd5RuIcBSr2Y3_ITWG75GY_8tD7",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Kinga",
-						uri: "//maps.google.com/maps/contrib/114880782462347650541",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJuIja4NqDXuNK8Tx0RDhaERDg2myP8iQxWhptziVAg=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJbKtIWwXb0-fkvqcYe3A6gxwpVa4pg0QRoO6ovmwVqWu4NfDbQ8jhzc4HHvqckUw1ufSlrzu3uhsDRWjJ8nnUVHKkEQKo7clDiu4hSHM3au6k6cBerabaCeFlwbtlPrvMCbr6glKaS5iY6s4s41smM6TFX2sDzXFX7q",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Iván Montejo",
-						uri: "//maps.google.com/maps/contrib/102917805902844684499",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWfCdkuPjR4XE_DydmU2Kabd4Ib-7x85Aq_it8SYbJ4Y_HM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJY8KvGMOCbAk35cQuhcq69GL0FKJmg6hEPtDNtiqh3upAVnhdrLJSa_oBk2QY6e4T603BdonrvhFxhgYwxn-Zl-dPAlWx1aXacRwrO6RT37czQMGSTqW5lBXNE97okgT9v04lLXFFTviD3yHudxCECtBx4Hy5ZlywTa",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "A PG",
-						uri: "//maps.google.com/maps/contrib/102568563590757992496",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXnblI7iwCCbjwYCNzYzZFkFATIlvaXpd8ouaseC_RARfU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJYwyYQ38D-JkHHzOZdHCwq2xb8ZHZnLCn0QVEln0j5x43YX8Nl2-P25Cl22r0z67YuNK7ylz0-7FWsyawrvr2_7JeDpJDC1IE0ndbGekXCtd8L9sV2BC4MeWqKkY0UmiDukJzun7Na7I4SAGxwQnS9OcIbKnNkH340i",
-				widthPx: 3456,
-				heightPx: 4608,
-				authorAttributions: [
-					{
-						displayName: "Sabina Yau",
-						uri: "//maps.google.com/maps/contrib/112344646100094228107",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUMKxYhlg2gKIISg0jsGfz-aa4f8ueAbhDTOh5aUP-fpb5C=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJaFEVTS1zljv-2Z0wibY06xuROsXTT6rCOJcZb1jZNdYmsq9UzJROHRv9KXY3bWQr6DdHmh6bzfvm_GI2cx0h3XixDcCkWPunZc6V3boVmGs59_tJ0OET3MTtma1ce2oNpZEjVKhy2BUURBMm1foEweFfb6niXUB51Y",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Sam Lawes",
-						uri: "//maps.google.com/maps/contrib/116683243249823253926",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUeAC9XnoJIG7YcVf5T4RHKqzKbrRXToQzbdgOcP0S4dWkV=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJEWDhF55ZwokRx4atQITM9VU/photos/ATplDJYjZX8Ml1wXgZxrd0-qE3_xq4at0nOVYeYr7pOxyH1rZ4cOC-ylA8G9mFCtlWshAvSelnmNI1E4Pze1bt7eG8ClRrULBGMjJVRvKNPRwcexRa0c935yxRGVs9Ba_lX4omr6_dQa8z0SV8JLw4G0wGpO1dBzxbXCrArE",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Cetin Canbek",
-						uri: "//maps.google.com/maps/contrib/107202290382657521025",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5XVg2Ox5cZWUNVzZ1LnpN20wWN18L6X0ig9c0SdmW7EE1=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU",
-		id: "ChIJPxPd_P1YwokRfzLhSiACEoU",
-		formattedAddress: "70 Vanderbilt Ave, New York, NY 10017, USA",
-		rating: 4.4,
-		priceLevel: "PRICE_LEVEL_MODERATE",
-		userRatingCount: 2222,
-		displayName: {
-			text: "Uncle Paul's Pizza NY",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOX0xHZlJ3EAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 4,
-				text: {
-					text: "I usually visit Uncle Paul’s whenever I am visiting NY and staying near Grand Central.  Although there is seating inside, getting takeout is a better option here.  They offer pizza by the slice or whole pies as well as other traditional items.  Their Stromboli are pretty good as well.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I usually visit Uncle Paul’s whenever I am visiting NY and staying near Grand Central.  Although there is seating inside, getting takeout is a better option here.  They offer pizza by the slice or whole pies as well as other traditional items.  Their Stromboli are pretty good as well.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Keith Moore",
-					uri: "https://www.google.com/maps/contrib/103391268457255658886/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUqYbYXukoUx6m5Gj-NI9QQD2jSyDFXD14BgcpTeI-oKg=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2024-01-13T00:18:30Z",
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/reviews/ChdDSUhNMG9nS0VJQ0FnSURWN3RPdjFBRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Great place for a slice of NY Style Pizza, walking distance from Grand Central Station. They also have bottled beer and wine by the glass and the  employees were a lot of fun! I had the meatball pizza and my hubby had pepperoni, both were great!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Great place for a slice of NY Style Pizza, walking distance from Grand Central Station. They also have bottled beer and wine by the glass and the  employees were a lot of fun! I had the meatball pizza and my hubby had pepperoni, both were great!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jayme Torres",
-					uri: "https://www.google.com/maps/contrib/101504624578854682606/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXdSSdpCxQZhqPkl6dMRS4PLgjItbuMas-XWLf62Mka0fs=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-12-13T05:02:35Z",
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5dFBDaGFnEAE",
-				relativePublishTimeDescription: "a week ago",
-				rating: 4,
-				text: {
-					text: "Yummy thin crust flavourful pizza in a low key atmosphere. It wasn’t crowded, surprisingly !  We tried 2 and I’d recommend giving the unusual ones a try… would eat here again!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Yummy thin crust flavourful pizza in a low key atmosphere. It wasn’t crowded, surprisingly !  We tried 2 and I’d recommend giving the unusual ones a try… would eat here again!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Marilyn Markham",
-					uri: "https://www.google.com/maps/contrib/113764296391573608221/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUOxeR0J5F-PwJMPpoSwOLc09U51Xn-kFI3bZNv10q8Db5Y=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-03-03T00:34:29Z",
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/reviews/ChZDSUhNMG9nS0VJQ0FnSURwcXFxSWVBEAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 5,
-				text: {
-					text: "We tried many different places around town for the best pizza 🍕. This place had the best tasting pizza. The customer service was excellent. The staff members are excellent and the ambiance had this classic Italian feel to it. Hands down 5 stars. Not greasy and full of flavor. We bought a slice of pepperoni and came back for a while cheese to go. Yummy yummy in our tummy 🤤😋",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "We tried many different places around town for the best pizza 🍕. This place had the best tasting pizza. The customer service was excellent. The staff members are excellent and the ambiance had this classic Italian feel to it. Hands down 5 stars. Not greasy and full of flavor. We bought a slice of pepperoni and came back for a while cheese to go. Yummy yummy in our tummy 🤤😋",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Fredo E",
-					uri: "https://www.google.com/maps/contrib/117475570994871407464/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVeRrxIbPhiUZPpD_kiXV1YDdADHaFyjAmiXDcKnhJ2HCCF=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-08-19T22:57:58Z",
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/reviews/ChdDSUhNMG9nS0VJQ0FnSURsMUtXVzVBRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 1,
-				text: {
-					text: "Really appalled at this place. In an area where traffic and customers are no problem whatsoever they are charging $4.00 for a slice of plain cheese pizza? Sorry what? I can get a whole sandwich for $6.50 lol! I actually told them that I walked by 3 0.99 cents slice places and they accosted me for even bringing it up.\n\nOn top of the insane price gauging and bullying you not to talk about it the place is filthy and dark.\n\nNot all of us work at the big banks that surround your location. Huge disappointment",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Really appalled at this place. In an area where traffic and customers are no problem whatsoever they are charging $4.00 for a slice of plain cheese pizza? Sorry what? I can get a whole sandwich for $6.50 lol! I actually told them that I walked by 3 0.99 cents slice places and they accosted me for even bringing it up.\n\nOn top of the insane price gauging and bullying you not to talk about it the place is filthy and dark.\n\nNot all of us work at the big banks that surround your location. Huge disappointment",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Ryan O'Connor",
-					uri: "https://www.google.com/maps/contrib/112180878235947412668/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXGc4uMxMlimRxxNhSh9Q07GIjQ-ejzaRvuZwy8YWaB5aY=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-11-30T13:01:36Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJZneV76Gbm5x-Zebb4fdIbmY8EWci8rV-bw2iqLPfLiKfB0R5p8pQmxpfdvNY9gMfG5TudCGP4-pS1zbP2krUcNkolmZXbWfWPjNQT_mR2cK0YuI5ViBZS9Mbc_huGiVkg2Hq3u0DAijVCo5LnKXA1giA8mbnuEWe5t",
-				widthPx: 312,
-				heightPx: 362,
-				authorAttributions: [
-					{
-						displayName: "Uncle Paul's Pizza NY",
-						uri: "//maps.google.com/maps/contrib/106475398323806144971",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKN8HepaLJ1gdWWI2tGTOFWi8pVSPY63dJLaaWFKSVG=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJZgiApLFJpE-hzpBigUieeBz15m8FDyTD-kEJw1Uvb0Vo2uScaxavJ_BJh-nYsFeU7L1DGz8g18_dZJJoipigVufic5rDgGOmbRmXFQ3q4ZnNKJG4Za39uPNnc-QHwy-cOfAewr6s6eJzyCFa7FMViEBfchqLmbm-Pr",
-				widthPx: 4000,
-				heightPx: 3000,
-				authorAttributions: [
-					{
-						displayName: "Christian Gehmlich",
-						uri: "//maps.google.com/maps/contrib/115241640979423483557",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVMtc2Mwsn9mmMSQuJSUa7WZnJes3_fs3ZJeIed7JFZsRaZ=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJZ-IPmGIa7K4mkeMIOgWIWYmumsJzjApwFllnCkFzlslkL0gKU7UR_bEPJeN1UXXSqOEFHS1iGonre4loHYZPU8DAFnXyEB_orU59GxaTjbrLdoEEq0byszyXVnustGt7yLcl5LHKaVq47usMMgjEXLd4DIHqs5kSAz",
-				widthPx: 4284,
-				heightPx: 5712,
-				authorAttributions: [
-					{
-						displayName: "Andrei N.",
-						uri: "//maps.google.com/maps/contrib/115467961053443202630",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUZjfMxfYYXIzDD80vMpGvgpKv5O-uIh1_cOaP3W8hwV3s=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJa4cG6G6tRJ16OxEnYv9S42eqKUhUqXfT-FgYN-91uO4uhXBR_7oACGMs4wRtp2j75y_H-hN3FoFIyHsmcKXwy1UZ88XdCxwyAxiJbiOlzfRBD5HT31V94X_-N32fDYmJQiOcY7WeAmtPSKrPy6sQ7e95qOV_AuPL9a",
-				widthPx: 5712,
-				heightPx: 4284,
-				authorAttributions: [
-					{
-						displayName: "Andrei N.",
-						uri: "//maps.google.com/maps/contrib/115467961053443202630",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUZjfMxfYYXIzDD80vMpGvgpKv5O-uIh1_cOaP3W8hwV3s=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJa6YDHMI8vbl7DIIQirE69h1kHor4jf7sE8qpGf9iki3XLyyUAjoRyabtFrSLmofyQJ_AP4l4AwaAQjkRjUJqXlBqqya0D1Xuc10T7KuwEpQG7dUrvZzRz4xfyKdyLkAqtnE7afIOILEnven0_Rtnf6KgNp6T8Dd2uM",
-				widthPx: 3060,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "Joe A",
-						uri: "//maps.google.com/maps/contrib/117331486650648050232",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXMiBPU1syJxdTWVJqDIBxIw8MfRFNqcP59FLJ_QPu2qeo=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJa10ERr6yxZa0d5HMI1-kDd3DRDEeMg6DTS265XDlmw_moAP76QZNZqSEMjcj2erGV5uxco2rdbSuGti-Umu7zam28KFqHoyWLKKhoRM5LAp7Nl2qG59aGkh6l-YpIdOu1rr6ms89XLuv8kfR2hA3XVGqJE8QstaDR0",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Muhammad Al Abdullah",
-						uri: "//maps.google.com/maps/contrib/111892726284078096101",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXO3Oyy1g1RU8dAEdKQHMNTqqhAAsVFDxeatvqRMzYlrA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJZR1A55VrnyHDZneCawJ4ueuAyIwDAxx_1udn6XKfkY0zy-7KqVnsTgY9_tGsb42JZYUDU6uEgX0c7btfkCVpdzv31ri927d8gQ7hD0wZoO9P2oa3o2BeA4Zyd3FvTP2D590UD6VgqLk8YwzgaKUTxRKFrx4vUAVKeI",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Mercedees Edwards",
-						uri: "//maps.google.com/maps/contrib/100898085126714946719",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVu94Nj8DcxohV_9AXoRJdDs9Gp6uR8iguo_GIN-niZxmM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJa7X6EL1FYMDxlw363L194_6i0sjLhfyWsXD0GSodsKRXcwcbDTxPVNcpA3H5x9LCEDKuYLgT8kFjS22sn3LCmFDqS8h1_hlH7moYmDkl7jTMOcpPwRo0v6zwmuTEotvONQbInP8f6eqT3GthxJCOX54TA2zQmAe0lv",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Stefan Kötter",
-						uri: "//maps.google.com/maps/contrib/114350038035668311544",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUHWTj3rsTreYXF3LwswbaoeDR8MNPq8hA5pa2WqOTno147=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJZnwyseL5sO0BaZ5-4eETWswsT6qm9H-mlUyt-TUsNKlCqEjsS9noW3Sm33y0SwooGLYIDtk-1PutzufarvRcMWMDOaTweLE6wvcLnBzkq1hsmcBXt_SmIqSu1uGUKUYbY8O4dwWi-BaNYTOh14HIf3DWcRaDR1ZI2L",
-				widthPx: 1134,
-				heightPx: 2016,
-				authorAttributions: [
-					{
-						displayName: "Pavlov Iryna",
-						uri: "//maps.google.com/maps/contrib/102381099003438514571",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXe2hRmHwv-j08YalY-vbPXp-LCwFfVZ0OItReTbWH42w=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJPxPd_P1YwokRfzLhSiACEoU/photos/ATplDJbcaZ_3CBOKqHEXjzd1_zVX4uJmoxSuQWXENeEFAqj9KH_P6n0kJIOjQ0ZRLYm7wniCY3c1bWa7DRFR72L182X_TSorGkyFWnEIcW2QMVMtpR1beYPzcNO4te4tJhPNdaiwHtk6f4QszGA9IMJ2QUYBYTOTRrXcb-d4",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Matthew Allen",
-						uri: "//maps.google.com/maps/contrib/114790518222081048001",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUGTfpjYfxaW7aonAS97cVd4YoOJulQrqXQDw5Paxc_XwE=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA",
-		id: "ChIJqcgHCJ1ZwokRRmJ-uWL5DAA",
-		formattedAddress: "145 1st Ave., New York, NY 10003, USA",
-		rating: 4.4,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 1247,
-		displayName: {
-			text: "East Village Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxLXUtaDNnRRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "One of my favorite pizza places!! Everything about this pizza is exactly what I want. The crust is crunchy without being overdone, the sauce & cheese taste delicious, and the pepperoni is cooked just right. They also serve heart pizzas (as shown), which is just really cute. Would definitely recommend this place!!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "One of my favorite pizza places!! Everything about this pizza is exactly what I want. The crust is crunchy without being overdone, the sauce & cheese taste delicious, and the pepperoni is cooked just right. They also serve heart pizzas (as shown), which is just really cute. Would definitely recommend this place!!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Scout Adelsberger",
-					uri: "https://www.google.com/maps/contrib/109905580125406123261/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVgppOkyA1jrM7lf2EuB27IZBuK1lenbHvOAaBYC2x9xdU=s128-c0x00000000-cc-rp-mo-ba2",
-				},
-				publishTime: "2023-12-28T13:31:16Z",
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/reviews/ChZDSUhNMG9nS0VJQ0FnSUR0aHNuMUhnEAE",
-				relativePublishTimeDescription: "a month ago",
-				rating: 5,
-				text: {
-					text: "As a New Yorker I’m very particular about my pizza. This is one of my favorite spots for a slice while I’m in the EV. They have a great margarita slice, I’m shocked to see the rating is only 4.3. I highly recommend!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "As a New Yorker I’m very particular about my pizza. This is one of my favorite spots for a slice while I’m in the EV. They have a great margarita slice, I’m shocked to see the rating is only 4.3. I highly recommend!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Cristina Fernandez",
-					uri: "https://www.google.com/maps/contrib/107983267646858682500/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLciA8WYpQVSiPsFaxx0Dlw-Qu9TPHgj39H85XwheJt=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-02-04T04:31:06Z",
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ1NnBTS2RnEAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "The Double Stacked Pizza sounds kind of wild and unconventional, but little did I know this pizza was about to change my life!\nAnd don’t even get me started on the cheesy  garlic knots! Those bad boys were perfectly submerged in melted cheese. The cheese-pull was worthy of 5 stars just on its own on top of the amazing flavor!\nDefinitely a place to stop and visit!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "The Double Stacked Pizza sounds kind of wild and unconventional, but little did I know this pizza was about to change my life!\nAnd don’t even get me started on the cheesy  garlic knots! Those bad boys were perfectly submerged in melted cheese. The cheese-pull was worthy of 5 stars just on its own on top of the amazing flavor!\nDefinitely a place to stop and visit!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Christian Maragay",
-					uri: "https://www.google.com/maps/contrib/113799969678532569488/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXpEdQNGMybJAcu3vJZVJikT9otQ0MpD01OIskjSzcPOKA=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-10-22T20:33:24Z",
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/reviews/ChdDSUhNMG9nS0VJQ0FnSURkNjlQdm1RRRAB",
-				relativePublishTimeDescription: "2 weeks ago",
-				rating: 5,
-				text: {
-					text: "Always a great experience every time I’ve been to East Village Pizza.\n\nDefinitely go with a grandma slice if you’re having a hard time deciding. Loved the pepperoni roll too. They use a ton of garlic which I’m a huge fan of. Definitely recommend this spot if you’re craving pizza and you’re in the east village. Very good service and Highly recommended!",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Always a great experience every time I’ve been to East Village Pizza.\n\nDefinitely go with a grandma slice if you’re having a hard time deciding. Loved the pepperoni roll too. They use a ton of garlic which I’m a huge fan of. Definitely recommend this spot if you’re craving pizza and you’re in the east village. Very good service and Highly recommended!",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Zachariah Jamir",
-					uri: "https://www.google.com/maps/contrib/117472084965129053457/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXNtVV-IrVHCS981w4zpm-gLw5Al-HLsFFKHn_-HPt3hw=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-02-27T11:45:03Z",
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ1eHAzeWp3RRAB",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "Like many small eateries, there is nothing complicated about East Village Pizza, great crust, fresh toppings, and great sauce combines for simply great pozza..  I wish I had time to get their stack pie, maybe the next trip..",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Like many small eateries, there is nothing complicated about East Village Pizza, great crust, fresh toppings, and great sauce combines for simply great pozza..  I wish I had time to get their stack pie, maybe the next trip..",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "DFW Food Dude",
-					uri: "https://www.google.com/maps/contrib/105103504774772478968/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXN6yhJ5NsxkjMHkODXRVCCvXEGTzUg86BeBS2UVZaoMw=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-10-23T22:52:32Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJa-HBbBOvqSyVLUolOaLxMXbfwHIP0KfhcibKSxHLkOl4ZqynwyVaYERqvefCITYjh37hfMIAnsCL29JbbImp4HjmHeDr4xceH8T0WiIVgkWmDsw6wcfxXXj2Q4bz1C7BoCDWzZ-vLrliDm1vFQx-BAzcKniOqD2GgZ",
-				widthPx: 2590,
-				heightPx: 1457,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJbkaks2TV8LLH7Fb-0S5GUwkBvrhtemAguMqUSmv0J7rEOgREzq9iV5mRgIwS_CdZmCoSASkr50HQZVsYBHYh_-l9eijWQQ_NDbm_EQ6YQj6PJ6a_gDj94y2arcxfSsAlNoNHAp8JVBRuc5Wc8KwR1R2jntIHyb8sSn",
-				widthPx: 1226,
-				heightPx: 1465,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJbd8Rw9fXxywkg0bGqDkYzx1b-1VN437GYgZRUGcf5d0-91VziRdTbSOT5z9AGGxxgG0T58mkuUar6OQuHBWv_vAWIw5hrBIwwpTmXzXM5J4rd-I4S6yrISX2cPGNvnAnALM8XcyrLbJxhA8bmj2fLtv_ic126NlV4Q",
-				widthPx: 2796,
-				heightPx: 2796,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJYfewkG0Zl1wKrvemyAKwxvCC8W4q1gjRU5aGaTSxpC1ZY_57mmKajCKi0VSPr8uDq5_pZnfAhbg7Wdon1Wwho4hhS7eUUN6_K8AfKdihho6mSXebKxMX-JqmFX3gNZWXKOTfu_nNyUfmOtLjz4KmcGb-YuWhmQLQ0D",
-				widthPx: 1082,
-				heightPx: 730,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJZTeADxYsWD304DGsOC3GWlQ5wKPpOKl-bL7BINkpJwxuDWaN0o53MYUMOox3l_qFxerjxGT68FuX7NE2ghk0DbI0yo0subwkWmRc4V-yeQ7iJCd99-QzYw_iwmWW7UJFlfH0VWL2l9pnoeOhPEGfnh-4lYmLHGrE1b",
-				widthPx: 1290,
-				heightPx: 1715,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJZvgg9X3bAUdaElGAzrFAid6rdgns5fRcRzGkvF27qJk-pqaJPNBOQdstuxykxdAIk98mNDnO9qSexp7o6xcfq0B0X3g2QnQilAggcv2oDi6S-8yzfDQ7j69VeZDRqcCNeJ6ZmOoeyxkW0bxu0lvzdzDboR6Gs0c5Vo",
-				widthPx: 1286,
-				heightPx: 1300,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJbxSNVF4IXvMfOfQ20fsN4_kbNBMKkJBz7OCq7xwhnJ0ppJ2Hlc_XjUFpJlKXdqzgpyxnFcRv-pKHjLiB445_MG28QsKV_yE4AZthebyUutU7Y1sijsZSnzthYSNoZlGHnfukHj_Wxi6HsXxzOpIOrkrSKGrz9qGI_L",
-				widthPx: 1920,
-				heightPx: 2560,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJZ1VK41dsD1DKy91c0Z-2aeFCdpOnGkecRO7OAnjTBFZkdLdtx5VElGPB6LDsVs1bLC1FX24HEjqRrc4TXHzLwuLpJP76JH5kADDoCO8Qn8izucnoiDNElWU8cEEIWJo3W22Tv5DLO4WKCQ6_WfXBh-ypfyxDPDvVdA",
-				widthPx: 1289,
-				heightPx: 1028,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJZF50HEGjQqIvVAseLmFt7JdmifJr-yZINZk0iBC4JpoykfglGNsY990wmJVKK6kF0lozV091Zy31_dSXfnoCN3a2hfDD5SkBA1s6jj6MetdwlWu6UVnkOeSROAetzR97uRo3fA2MPp0fd6lWaXDlWZhkcjXfDpdUDn",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Jarrod Van Berkel",
-						uri: "//maps.google.com/maps/contrib/100145066404920606010",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWSR0vq2OKZYx3HyRqxePvjHuQRJqHa_lzFOji0WA2VJpw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJqcgHCJ1ZwokRRmJ-uWL5DAA/photos/ATplDJaRdPNW_DELaww0lSBDaf_PeImUIo90Fdm7z0sgvQ1SfMniv5ODokjd-2uliZuxbHOzwVKBYxLaQOYj6909pK8NXTkcrnIpWBJB7kd1BZSpHJWEy7y4-HUdSzPzm1xX0TPPpi8HXZ3QeIbS4q6WvqFMPUYt81IPliVT",
-				widthPx: 1284,
-				heightPx: 1601,
-				authorAttributions: [
-					{
-						displayName: "East Village Pizza",
-						uri: "//maps.google.com/maps/contrib/106273223661754874868",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW3oU-lhknY5eIVPGhTggsc9iZG78bjMolxHjJ7qhsaOMU=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM",
-		id: "ChIJv-QVW6NZwokRFtWrN4mnkWM",
-		formattedAddress: "656 6th Ave, New York, NY 10011, USA",
-		rating: 4.1,
-		priceLevel: "PRICE_LEVEL_MODERATE",
-		userRatingCount: 1197,
-		displayName: {
-			text: "Grimaldi's Limelight Coal Fired Brick Oven Pizzeria NYC",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/reviews/ChdDSUhNMG9nS0VJQ0FnSUNOajdXNjBRRRAB",
-				relativePublishTimeDescription: "a month ago",
-				rating: 3,
-				text: {
-					text: "The first time I saw this place it looked so cool outside. I saw it was a brick oven pizzeria and I had to go in and try it. Once inside it’s a bit smaller than it seems and a little underwhelming. I tried their Original Margarita and their famous clam pie. The clam pie was interesting it has clams, fresh garlic, olive oil, and Parmesan cheese. If you worried about the clams don’t they don’t overpower the pizza the garlic overpowers it more. It was a pretty good pie. I would most definitely get it again and suggest it. Their margarita pizza was ok I was expecting fresh bail on it but I saw none. Their famous sauce had a different taste than their regular pizza sauce I’d say more of a subtle taste nothing really standing out I’ve most definitely have had better pies than that, but apparently Frank Sinatra made famous.  I also had their garlic bread and it was a lot of garlic an overwhelming garlic flavor but I love that. I would say their pizza is most definitely some good pies 4 out of 5 but I gave a less star because of service and a dirty water glass was served at our table that we had to get replaced. Honestly I was expecting more but overall it’s most definitely better pizza than most other pizza places around.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "The first time I saw this place it looked so cool outside. I saw it was a brick oven pizzeria and I had to go in and try it. Once inside it’s a bit smaller than it seems and a little underwhelming. I tried their Original Margarita and their famous clam pie. The clam pie was interesting it has clams, fresh garlic, olive oil, and Parmesan cheese. If you worried about the clams don’t they don’t overpower the pizza the garlic overpowers it more. It was a pretty good pie. I would most definitely get it again and suggest it. Their margarita pizza was ok I was expecting fresh bail on it but I saw none. Their famous sauce had a different taste than their regular pizza sauce I’d say more of a subtle taste nothing really standing out I’ve most definitely have had better pies than that, but apparently Frank Sinatra made famous.  I also had their garlic bread and it was a lot of garlic an overwhelming garlic flavor but I love that. I would say their pizza is most definitely some good pies 4 out of 5 but I gave a less star because of service and a dirty water glass was served at our table that we had to get replaced. Honestly I was expecting more but overall it’s most definitely better pizza than most other pizza places around.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Kevin Drost",
-					uri: "https://www.google.com/maps/contrib/111717227483705883688/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUUJ_erE-qMb3v7bb0WI4uUZtHAG_GW9N_GVhpQOWG-l90=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2024-01-19T01:46:51Z",
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ1cXQyRmtRRRAB",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 4,
-				text: {
-					text: "Very good monster calzone, but they were out of 2 of the 3 appetizers we wanted, and they also only served wine, no wells.\n\nServer was a nice kid. Very polite.\n\nI think they could do more with atmosphere and highlighting the history of the place, as I was just as interested in the food as that.\n\nI immediately had Rainbow bar and grill vibes when I walked in (L.A.), and I think if they invested in hanging memorabilia and catering to the Limelight's vast array of history and famous guests with photos, decor, and more seating I think it could be really, really cool.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Very good monster calzone, but they were out of 2 of the 3 appetizers we wanted, and they also only served wine, no wells.\n\nServer was a nice kid. Very polite.\n\nI think they could do more with atmosphere and highlighting the history of the place, as I was just as interested in the food as that.\n\nI immediately had Rainbow bar and grill vibes when I walked in (L.A.), and I think if they invested in hanging memorabilia and catering to the Limelight's vast array of history and famous guests with photos, decor, and more seating I think it could be really, really cool.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "N L",
-					uri: "https://www.google.com/maps/contrib/113691292438248770430/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUoZhOKycnl2tNdfduXInitPSsRTrVf6OLc9JTxPJlr2rdg=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-10-22T18:53:09Z",
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxanVlTmhBRRAB",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "Hands down the most flavorful pizza in NYC, the crisp is perfect and the ovens they use really add a nice finish to the slice. The ingredients they use are bursting with flavor and are obviously fresh and really add to the pizza. The prices are really reasonable for the size of the pie, and the bottles of wine are really reasonably priced too, always nice to have an Italian red with your food. The service is a bit lacking it seems they struggle with some of the basics, like water or napkins, but the manager chips in and makes up for the wait staff.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Hands down the most flavorful pizza in NYC, the crisp is perfect and the ovens they use really add a nice finish to the slice. The ingredients they use are bursting with flavor and are obviously fresh and really add to the pizza. The prices are really reasonable for the size of the pie, and the bottles of wine are really reasonably priced too, always nice to have an Italian red with your food. The service is a bit lacking it seems they struggle with some of the basics, like water or napkins, but the manager chips in and makes up for the wait staff.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Marc Mc",
-					uri: "https://www.google.com/maps/contrib/111020197956465762163/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVWIK_Jq5Z-fauN0ivBw-eWhtnmUv3unJChuodAN14vSrY=s128-c0x00000000-cc-rp-mo-ba5",
-				},
-				publishTime: "2023-12-29T20:04:20Z",
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/reviews/ChdDSUhNMG9nS0VJQ0FnSUNWdHB2cHNRRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "I cannot say enough about Jeff and the crew he is managing. My wife and I come to the city every other year and we ALWAYS visit this place. It's never disappointed us and we'll never disappoint it. The future of this historical establishment is ultra bright. From the expertly prepared food to the cozy comfort of a welcoming NYC environment, we consider ourselves extremely fortunate to have experienced so many memories here.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I cannot say enough about Jeff and the crew he is managing. My wife and I come to the city every other year and we ALWAYS visit this place. It's never disappointed us and we'll never disappoint it. The future of this historical establishment is ultra bright. From the expertly prepared food to the cozy comfort of a welcoming NYC environment, we consider ourselves extremely fortunate to have experienced so many memories here.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Chance Lester",
-					uri: "https://www.google.com/maps/contrib/116356788753590210175/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUmNwwyOTCj6wbmLaHiJozx3d32wWI3eyJtxwTGJiSDtUM=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-07T03:45:12Z",
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/reviews/ChdDSUhNMG9nS0VJQ0FnSUNweHRHaS1BRRAB",
-				relativePublishTimeDescription: "7 months ago",
-				rating: 3,
-				text: {
-					text: "We opted to taste the pizza that \"Frank Sinatra made famous\" instead of going down the block to get $1.50 slices. I do feel that our business would have been more appreciated at the $1.50 spot.\n\nWaitress was nice but we ending up spending more than we should have because she put in an order for the wrong sized pizza. Manager seemed very hospitable to other patrons... We didn't even get the courtesy of being asked if everything was good with our food as he walked past our table without a glance in our direction several times.\n\nPizza was decent, crust thinner than I prefer but I could taste the freshness of ingredients. Didn't have majority of soft drinks/juice on menu.  $85 for pizza... Def will not be back.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "We opted to taste the pizza that \"Frank Sinatra made famous\" instead of going down the block to get $1.50 slices. I do feel that our business would have been more appreciated at the $1.50 spot.\n\nWaitress was nice but we ending up spending more than we should have because she put in an order for the wrong sized pizza. Manager seemed very hospitable to other patrons... We didn't even get the courtesy of being asked if everything was good with our food as he walked past our table without a glance in our direction several times.\n\nPizza was decent, crust thinner than I prefer but I could taste the freshness of ingredients. Didn't have majority of soft drinks/juice on menu.  $85 for pizza... Def will not be back.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "STS TLM",
-					uri: "https://www.google.com/maps/contrib/115170246086207277864/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJ45ketxZH28NFkTui0nblo1La4VQnRrkA-9S4sMjkE=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-08-02T17:17:49Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJbBSjIW01FzRHJHnLWK8vve5fYTgJrJ95CXdcMr3IJK7dZJBB3c7Abk_bPt5NuTBmNkgCKR5YPI6FeodemIlDv1NDtQ6FT0L5QKad9mZBEXOivQp8mktfAUCo47RjFF7MWl7Eb8EvhZEA2XpeG57wxr3AXzWA01_s-P",
-				widthPx: 1536,
-				heightPx: 2048,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJbHLqs2pKXVdgMNNjDzf4VCr1Cf9sVEFfrqinnKbm0I-ECYVhL3UsbsBjshiWhxliWqlYwz9VGfUp9illjFKHRTYqbH0NjVxyG0cylV2o411vAkZa4zo4qskUtmxpMl8u_dD2cid5RI1sBQr6sGEh-0tJkFMykHnfnF",
-				widthPx: 2000,
-				heightPx: 2000,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJZONFi-YK23aZX_4gg5QkCrhXrG7hLInFD87AG3q_qS3AHjGuKWRfvRX3eFMyOWvSahICSQHm-M9b1fuS_Q9xYiCMdcVvmzYdqxBaPXgjyPFnjUxmi704mG2SQ2PtHfy67ecoOSLmY4AhPbzjzLiOxum7UVqbBIXxLl",
-				widthPx: 2000,
-				heightPx: 2000,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJaEcBA1op9K7CEO3SocXkFRvBIQjvlRbWpTWsTY2LiO5vUwA0aBNvBDHfExURiQ09F_q2dSp20w9HEdVbM_D2TgR2qyD3_FDd-KaiCG51EjI99ApqB75_AgKnlR4-9nrXPKTk8MbuViltCl-FlmBntlQz-0sz4IdiUd",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Albert Tedjadiputra",
-						uri: "//maps.google.com/maps/contrib/100184643241090868648",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUK5olXnzZp7uiZggn12b_m7rrnHgDZi1bl6AtMUP1PxQ8=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJZkzahOV37U5_PK2QzL1xEM6ILVKsq4KuXzZv2moAWS5ae54z6A-oqazqpQhM4KAyZktaOiMXpAo4PB6cfr0Ux5h9_ypOcBiTfMvSkzGAQU91DAbn8gW_1kiy1D7EUeBcxpuFsAlO5rAzmbXAhhwS9CtadqunV5Xlv7",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Andreas M. Schmigelski",
-						uri: "//maps.google.com/maps/contrib/111691210977311368631",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL35gA4a1Pbgjkc_iR_AL7nrHkcEBY3ocwissd7nFF1UA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJaborMhLCiKCxnIx4RjAWNTBZq0be0oAA26mvT4va-VkR-3EkQnbv6o663Z_N4kdGnWEgLVnjsRrFUX41hf5rnx5HX8jiab_OHw38iuNop3fkbjbyPewbngpt9pvHagqWf9m8SF3MnSIf49Q7pAlghYlsxDDZv75VUA",
-				widthPx: 2000,
-				heightPx: 2000,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJYQOBpsFJFISN79ebBjQITBuc_HU6RDpkLsR80cOLlU8B03VjuXu5q6dOqzGPzdpvSmBkY8DBnkpiwLVeDmP15RO16496SV_9sX9LVXjMewG_e1RSPI04CcSbmCXh5-wGUR8GmCeZT3tJ5QZVSecniJwcati5xFOSEu",
-				widthPx: 3237,
-				heightPx: 2161,
-				authorAttributions: [
-					{
-						displayName: "ZENG PhotoArt",
-						uri: "//maps.google.com/maps/contrib/114844356429605351994",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUrmEZdYC7rQnnxQCh7ap02RAn-4qJvJaVTPPdrlMa3rJE=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJaEigpgyjNpGAxPTcuC7XvtXeARwP9JL_yQD7Fa2BKzx0WrLuupDbtS3Z6oOhofkCmJwjb27i4nT2AYwGiHBjPmp2lvhY4i1k9_lVYThLLq1_djEB-XYZvuiFvUwDZKEQQB7dIYwkUzcY-ff4Lm9gnlrmrykolfjV4X",
-				widthPx: 2000,
-				heightPx: 2000,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJZfWt823aJvBRmS6xiDLWmq0cMJhIx-zuCHCMPqi-3Vg-vjo3oky0GT5Qr7lCpmX70Op9evo_UsQfM2NL2OPcmKDmPFJh3QfUPwAEJFp0gcBaZWBcVVU6llnd4j3BjyoBMECsgjZ91wCYcqrlGygDbrU5KfypZtompK",
-				widthPx: 2000,
-				heightPx: 1250,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJv-QVW6NZwokRFtWrN4mnkWM/photos/ATplDJbqPUwWoy1TKuaiQGSCU9zsECumwIgcZqncZmQAgAuEFT0EBRWuh84GCbMEvew17LdFcqqUm1hwH-k3vNL-kQomDaOqQCfgVnNRLbc9n5HGz3y8LamDza5_wVLQUnSRiwuf37B48ttfdKLg_20D5a-A0jZwUMcm0DEF",
-				widthPx: 2000,
-				heightPx: 1250,
-				authorAttributions: [
-					{
-						displayName: "Grimaldi's Coal Fired Brick-Oven Pizzeria",
-						uri: "//maps.google.com/maps/contrib/101485022114882495931",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVoMHiiq4gOQLkc5SiS2hBkyCSzY0S77qlxhHM1iX-zIw=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI",
-		id: "ChIJ10EpKJJZwokRUjIWaunOQbI",
-		formattedAddress: "111 MacDougal St, New York, NY 10012, USA",
-		rating: 4.4,
-		priceLevel: "PRICE_LEVEL_MODERATE",
-		userRatingCount: 1739,
-		displayName: {
-			text: "Artichoke Basille's Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5bC1tMjNRRRAB",
-				relativePublishTimeDescription: "in the last week",
-				rating: 5,
-				text: {
-					text: "I ate here with my family and the food was amazing. At first I didn’t think I would like the vodka slice but I have to say it was exquisite. I ate the thing all up. My family for got a margarita slice and they were in love with it. This is a nice spot to take your friends and family for a quick bite. The owner was very kind. There may big have been a lot of seats there but it was the best pizza I have ever had I highly recommend eating here.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "I ate here with my family and the food was amazing. At first I didn’t think I would like the vodka slice but I have to say it was exquisite. I ate the thing all up. My family for got a margarita slice and they were in love with it. This is a nice spot to take your friends and family for a quick bite. The owner was very kind. There may big have been a lot of seats there but it was the best pizza I have ever had I highly recommend eating here.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Svetlana",
-					uri: "https://www.google.com/maps/contrib/111777019648719827776/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocI82onrXdmcGIq54VODbCjbB6bQ10fXoRG3oG0q4tTe=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2024-03-10T21:48:25Z",
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5LW9qS25nRRAB",
-				relativePublishTimeDescription: "a week ago",
-				rating: 5,
-				text: {
-					text: "$7 / slice. These are very generous slices —both in sheer size of the slice and generousness of toppings. All in all, 1 slice is already very filling. I did not need to get two. To me this is a solid NYC deal, I’d say you’re getting your money’s worth for $7. It’s generous, filling, and significantly more delicious than most other comparable casual NYC pizza joints. You’re getting something special and it’s only $7. After you try it for the first time, you’ll keep coming back. It’s so delicious.\n\n**Place was completely teeming with people @ 2am Friday night.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "$7 / slice. These are very generous slices —both in sheer size of the slice and generousness of toppings. All in all, 1 slice is already very filling. I did not need to get two. To me this is a solid NYC deal, I’d say you’re getting your money’s worth for $7. It’s generous, filling, and significantly more delicious than most other comparable casual NYC pizza joints. You’re getting something special and it’s only $7. After you try it for the first time, you’ll keep coming back. It’s so delicious.\n\n**Place was completely teeming with people @ 2am Friday night.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Céline BODART",
-					uri: "https://www.google.com/maps/contrib/110397953850429920697/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXn6COQvUVp9qp5oJFXbbfJUwUbLSjFwrnobkE5u0poHw=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2024-03-04T18:00:29Z",
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ1bW9MNEFREAE",
-				relativePublishTimeDescription: "4 months ago",
-				rating: 5,
-				text: {
-					text: "Just devoured these ENORMOUS slices of classic NY-style pizza at the renowned Artichoke Basille’s Pizza. As the name suggests, they're famous for their artichoke pizza, so we couldn't resist trying that and a good ol' pepperoni slice. You know it's colossal when each slice needs not one but two plates!\n\nPersonally, I was all about that pepperoni pizza – super flavorful with that lovely thin crust. On the flip side, the artichoke pizza with its creamy white sauce was a bit too hearty for my taste. I found the sauce overshadowed the delicate artichoke.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Just devoured these ENORMOUS slices of classic NY-style pizza at the renowned Artichoke Basille’s Pizza. As the name suggests, they're famous for their artichoke pizza, so we couldn't resist trying that and a good ol' pepperoni slice. You know it's colossal when each slice needs not one but two plates!\n\nPersonally, I was all about that pepperoni pizza – super flavorful with that lovely thin crust. On the flip side, the artichoke pizza with its creamy white sauce was a bit too hearty for my taste. I found the sauce overshadowed the delicate artichoke.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Bow K. Techataveekijkul",
-					uri: "https://www.google.com/maps/contrib/111615442808341027410/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX9FVdBw6tT2y0XEaWv8u8Cumk7zLcMN4u_b-54oMN7t-w=s128-c0x00000000-cc-rp-mo-ba6",
-				},
-				publishTime: "2023-10-23T02:41:07Z",
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/reviews/ChZDSUhNMG9nS0VJQ0FnSURsc09uVlNnEAE",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "WOW. I heard about this place on social media and honestly went here expecting it to be another one of those overhyped places, but boy did they prove me wrong! 😆 We shared a slice of artichoke pizza and one of the Staten Island pizza, which turned out to be a great choice! The artichoke slice was thick-rimmed, creamy and filling, the Staten Island slice crispy with lots of flavorful tomato sauce and having alternating bites meant double deliciousness because every bite felt like the first bite again 😋 We were VERY hungry coming here after 3 hours of training, but one slice p.p. filled us up very well! There was seating outside, which was a bit shabby, but it sufficed. We will definitely be coming here again to try some of the other flavours (crab, or another artichoke one maybe 😍).",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "WOW. I heard about this place on social media and honestly went here expecting it to be another one of those overhyped places, but boy did they prove me wrong! 😆 We shared a slice of artichoke pizza and one of the Staten Island pizza, which turned out to be a great choice! The artichoke slice was thick-rimmed, creamy and filling, the Staten Island slice crispy with lots of flavorful tomato sauce and having alternating bites meant double deliciousness because every bite felt like the first bite again 😋 We were VERY hungry coming here after 3 hours of training, but one slice p.p. filled us up very well! There was seating outside, which was a bit shabby, but it sufficed. We will definitely be coming here again to try some of the other flavours (crab, or another artichoke one maybe 😍).",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Anouk Rossen",
-					uri: "https://www.google.com/maps/contrib/100894732495325360267/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV62tnMh7OP_jhv9fCuXk59bfpFx8YHjMzfuGeMqN-nDnRi=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-11-29T21:01:37Z",
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxanVqaUFnEAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 2,
-				text: {
-					text: "Was so hyped to come here after years and years of hearing about their famous artichoke pizza. I’m a big white pizza fan so thought I’d love it,  but sadly it was incredibly disappointing. The other pizzas on the menu looked great (Sicilian squares, etc) but the one they’re famous for was not something I’d want again.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Was so hyped to come here after years and years of hearing about their famous artichoke pizza. I’m a big white pizza fan so thought I’d love it,  but sadly it was incredibly disappointing. The other pizzas on the menu looked great (Sicilian squares, etc) but the one they’re famous for was not something I’d want again.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Kelsey Hrebenach",
-					uri: "https://www.google.com/maps/contrib/107936466121229782175/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX3x4wF5fmWRwW_pBq0EONEH4XgJJx_E7ALjgFsidoH8vg=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2023-12-29T18:13:46Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJZJUqJUf6XGSd0C1jJ81Ioco3S7QWjrM4XVQb6qLrPMT4EKX51jDDE4atFzGLWEU8CYG4H5pluoK-gJGj5uDjIxHznKLhsxJIPciFL1FT5ygS5AQl6txxS1i9Tr92Dicvkt3HX_cNSFGxj7hYP1bhQXuBIJ8AhQ24kE",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "sang lee",
-						uri: "//maps.google.com/maps/contrib/103873278122463905421",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVOhjV1vUocC5UMWPi29CZ3TX1CchSx_xafwqW8X_5EIBO1=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYnFuQbXJLlzzNaiwwfJqWnlPuoSKeFGnQIbGoPbpqZNiofF0Vx33ZdWJsE53i-J6Npfr7rRKrgPdFWT6DTfHNBElvS4EZAXvcwlqq4kKhh00ID7wTRRgLmx0TsCEWWunraEPypT8FxrniK4_4V54rfclwL8fvlz0wA",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJbuYJfQwyUIIAvXbf-HEIL-PZD45wRGmxtTKMY_LvS8D16aQ35VUMK4yoYqDOHyMaNowoRAJ5LFSJnITnVSI0fXoxXmcSY8hz6mcGmfT_45Mn1tYLfhti0uyADLqZQNAm1O1YqP1lTRr6KqfkEOBBk_EnYxtJtZo6fu",
 				widthPx: 3072,
 				heightPx: 4080,
 				authorAttributions: [
 					{
-						displayName: "Stetson Thacker",
-						uri: "//maps.google.com/maps/contrib/115566489134986875241",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUmmsuvfLDOTATGmsdni-yCrcxKrrhIqH_mDEOBvht7YK4=s100-p-k-no-mo",
+						displayName: "Cameron Wasilewsky",
+						uri: "//maps.google.com/maps/contrib/107418663790388280940",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUg7dgQEZ1tpWpAw9L-vRsqlzOHvSW1iZcz5biBvrti_v8Z=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYL0axha9Lv-oDRZwz6TYLwikODap6XAC8QkFFSjVtJWLRVME842AHcxMHp_4xb13u4BqkIqYZnlqnbG5-4gCkYyCx1nQ3-Pdy7DHii1ScbR-AVGAucBV_aIqd1W18Or_WkIrKSStIfQprVjn7cHZGWX8kPDqmc4QZj",
-				widthPx: 5712,
-				heightPx: 4284,
-				authorAttributions: [
-					{
-						displayName: "Jon Lim",
-						uri: "//maps.google.com/maps/contrib/109513779608196957851",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVIo8i-34i-Fj2kdGzI1uVNDpUfGK1egv9l-AaP8oq-Hhln=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYwS7lzGrxJZ_GQxdscmmiQCmPDo17QIMMO_W9AMdByLOHCFfVK4iafBSCYeif4k-ayRyM0EedFEIr2a7IL8OzZIem9aWcXPvMLTVniO3YT8BzQm-8V7nkFVVn9h4HsMFR_4iuzXguaj9hu3TKH7qRQmhxAq46XWPge",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Asav Patel",
-						uri: "//maps.google.com/maps/contrib/112227538469364436939",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUjrqs1cO-kYA6UfGvLrXfRMv2DAiSFIBe-BRr1wEo7UkLO=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYaU60MuudMvFomxVo1xpF2v_ZB9itvHm3ecdxxbT4d1GKmTX-jQuI38Cq0z2YvMuYN8MYMQMWB-0pNW60CRK9ci1cqgh_pqMdQx94djknit78ykRTeGCLbnVc7TIO9nFyAkSY57wyM_LTCYEWsZg7FNta2g24-DsBX",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJYQDeRy4a2nZKjR0FFi149XHws6Q7yjGQDsfcTqa4Pw2cuXT60T7tNuKoVfS2qAcBOG7CzOkgsg-ZWBP2nfr0fYFXDpDRuEQ055wtqICaX56xtDUxmavGEQJ9FjxLUMLaltfq0YQkEEmnrfsOK4o27WeIXDhJA8mElI",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Svetlana",
-						uri: "//maps.google.com/maps/contrib/111777019648719827776",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI82onrXdmcGIq54VODbCjbB6bQ10fXoRG3oG0q4tTe=s100-p-k-no-mo",
+						displayName: "J",
+						uri: "//maps.google.com/maps/contrib/111905054745223648277",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJsb_iFL3eGztCU5b0ULrydoWD8npr1wj06P17Ut_nv=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJbnszbbSjWCR_dFM3kuHBS-qhpsJYItC1GSeKo9UAQhNWK6OdvNLqgcAU9u8U_pU5YiTZ40UO2VT2A3HGhR7OjI9HT81n7XJqbnN89IUPgiXrplISWKQM6W-56QOpyDYLo-2wwYEePUdhUFQeBc72vt48IBB0B1EJKM",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJbNeyZ0JiICcebCTRQdBklor91XC3U5DqMsJk2AzLmyt5-ejjnFsYV2LIPZcG3i5YZ_kItbU66C4taC9OJUagwhk052oL9AKMs8o2XLhLW1UQiw8nAQ7hWFGRBjen7H4qzU83TmWGCjbxLWUqLGdBHFh0hs5n32S5qX",
+				widthPx: 1125,
+				heightPx: 1383,
+				authorAttributions: [
+					{
+						displayName: "Sonia",
+						uri: "//maps.google.com/maps/contrib/105838490367866968231",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV1VatE_K1J66HWywjHX7dRp39BDACOai0YhZc5Qf1QnZc=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJZO86c2yXra1dGguCMJLNAbOMwowNTnRH2Zxn5kjwnhQ3VQ26ozx_sZyHkyiJiXNc8znY5R9_imVseAmrvF56FSO_-FJDrlHGtYBffwm94xgr8oLvHWZa28nJbh5kUONp0FgsBeZKygyFqxsuZnKeRxW84fm2TcpCqm",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Sayali Datar",
-						uri: "//maps.google.com/maps/contrib/107464371884517541454",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJqFdo8FewIhULk7czSJVprn049wdKyQ4ch9M3VHjyW=s100-p-k-no-mo",
+						displayName: "Dena Cooper",
+						uri: "//maps.google.com/maps/contrib/111368538691935309573",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXpYU7WPt3PFZC41K2i-ioTKKKROsAF-9jnmimVp8sQblA=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJbBFcYLlxRg3TCzT87Upmz3Dypyontr8E1OAft4FYbHFy-0azIBrbqY6nntyFSZQiWg5_4dCGyrnl3Ygwqff79ULZSXWfFFFgZZpM7NTe7rUBNHApBkQ53fSAno2CZMKXI6EIlV-OWHImGXWzcKEer6L_dNpyNxi-e5",
+				name: "places/ChIJd4cu_9RZwokROtuVsYCgPAE/photos/ATplDJbz-EcLPtrHFxm8httrdFDjXkVx2mDKgjWXWon_zTmUh5GxXy_awernyRBD3cizqlayzQAETWkUFgrLF6FLOpZQIR6gqxXbw0uTO3MtcSqrPvNhYW5cbPzPLKfdJqh_7nz4uVDd0xKi0bMMKBzzh26F2mwzyzuOvCGy",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "ifaa amit",
-						uri: "//maps.google.com/maps/contrib/116368399317738404191",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUzMpmCzVNuFvSHXRyZkYY-IKGpqNgx3GfCU-G1pEZVJgc=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYwQze5c4OiUvOOLBy9fud5-0Y5tvnpAPGyfVf5ERHbFpQe6ocukXCOHm0gxhaoyQBWdmD2xgaoNNCrUwYdMmyboBOlvuZ9JOlfmj971bOOYl9n2hBcRZOAiu30wsGwwsinRMFuVImFdNto71yGOntAH4qPrx6fa_BX",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Visar Aliu",
-						uri: "//maps.google.com/maps/contrib/112202945147811515708",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWWeFjwPpsqYbh4BJk46I_kbwSfiqkohj9CynKqqMLuGK4=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJYDJEx2vdUe_vkwo2ASYwXYnf-S7oVajmOjlQNv27otzlwjHk1AVYkhkk49hL8pMyvlI8OFlB6aDEHNRCa5I_oQD5oh_cN5xyC-tDHLVzlfR9CMjhleT-WBCwURWwr07EpgtOYQELHDORcNVM-N70QSXfejsN5QbIvL",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Jay Anthony (DJSauce212)",
-						uri: "//maps.google.com/maps/contrib/107289596810880142461",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXX0QZ43pE3oMk3726XZzWXidH03vMqNTN-YlkTi8j2rA=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJ10EpKJJZwokRUjIWaunOQbI/photos/ATplDJZgZDF32fKzq2nKZLy_oq-iIvYxWsiUVbN2rd9qeHOeD8dfxeq8RZ21JGjX2CHSYjrKSPCGX4QqCz1ch0nENQFj77M3rgVnuE-EbF8Ey-hFYlZYhvJ_-B0N9RAESW-mdDd4ESi2_W_OnWg3re58tAcclkGPjIdT7C-P",
-				widthPx: 4000,
-				heightPx: 2252,
-				authorAttributions: [
-					{
-						displayName: "Arushi Bhattacharya",
-						uri: "//maps.google.com/maps/contrib/105020366796390523977",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVxBbc39WKMP2dywERc7j1OcfU9iJ1z9ZkJNeUQNFjPT1Q=s100-p-k-no-mo",
+						displayName: "Natalia Mantini",
+						uri: "//maps.google.com/maps/contrib/109407934663700237223",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWGPVUXt4KU62FcU2qZmtjdk0ezZOB5uTBXXwb6hOW90_U=s100-p-k-no-mo",
 					},
 				],
 			},
 		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: true,
+		servesDessert: false,
+		servesCoffee: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: false,
+			wheelchairAccessibleSeating: false,
+		},
 	},
 	{
-		name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII",
-		id: "ChIJw6TmVsdZwokRPKQwKL-ZsII",
-		formattedAddress: "114 10th Ave, New York, NY 10011, USA",
+		name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo",
+		id: "ChIJlfr4bIpYwokRRazoMFwBzWo",
+		types: ["fast_food_restaurant", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(212) 799-0243",
+		internationalPhoneNumber: "+1 212-799-0243",
+		formattedAddress: "2090 Broadway, New York, NY 10023, USA",
+		addressComponents: [
+			{
+				longText: "2090",
+				shortText: "2090",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Broadway",
+				shortText: "Broadway",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10023",
+				shortText: "10023",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q2H9+99",
+			compoundCode: "Q2H9+99 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7783878,
+			longitude: -73.98156589999999,
+		},
+		viewport: {
+			low: {
+				latitude: 40.777095169708495,
+				longitude: -73.9829891802915,
+			},
+			high: {
+				latitude: 40.779793130291495,
+				longitude: -73.98029121970849,
+			},
+		},
 		rating: 4.2,
-		priceLevel: "PRICE_LEVEL_MODERATE",
-		userRatingCount: 3741,
+		googleMapsUri: "https://maps.google.com/?cid=7695808833715219525",
+		websiteUri: "http://grayspapaya.nyc/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 8,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 8:00 AM – 10:00 PM", "Tuesday: 8:00 AM – 10:00 PM", "Wednesday: 8:00 AM – 10:00 PM", "Thursday: 8:00 AM – 11:00 PM", "Friday: 8:00 AM – 11:00 PM", "Saturday: 8:00 AM – 11:00 PM", "Sunday: 8:00 AM – 10:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">2090 Broadway</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10023</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 4892,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
 		displayName: {
-			text: "Artichoke Basille's Pizza",
+			text: "Gray's Papaya",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		curbsidePickup: true,
+		reservable: false,
+		servesBreakfast: true,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		servesBrunch: false,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 8,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 8:00 AM – 10:00 PM", "Tuesday: 8:00 AM – 10:00 PM", "Wednesday: 8:00 AM – 10:00 PM", "Thursday: 8:00 AM – 11:00 PM", "Friday: 8:00 AM – 11:00 PM", "Saturday: 8:00 AM – 11:00 PM", "Sunday: 8:00 AM – 10:00 PM"],
+		},
+		currentSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 4,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 8,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 6,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 8:00 AM – 10:00 PM", "Tuesday: 8:00 AM – 10:00 PM", "Wednesday: 8:00 AM – 10:00 PM", "Thursday: 8:00 AM – 10:00 PM", "Friday: 8:00 AM – 10:00 PM", "Saturday: 8:00 AM – 10:00 PM", "Sunday: 8:00 AM – 10:00 PM"],
+				secondaryHoursType: "DELIVERY",
+			},
+		],
+		regularSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 4,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 5,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 8,
+							minute: 0,
+						},
+						close: {
+							day: 6,
+							hour: 22,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 8:00 AM – 10:00 PM", "Tuesday: 8:00 AM – 10:00 PM", "Wednesday: 8:00 AM – 10:00 PM", "Thursday: 8:00 AM – 10:00 PM", "Friday: 8:00 AM – 10:00 PM", "Saturday: 8:00 AM – 10:00 PM", "Sunday: 8:00 AM – 10:00 PM"],
+				secondaryHoursType: "DELIVERY",
+			},
+		],
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "2090 Broadway, New York",
+		editorialSummary: {
+			text: "Chain of bargain all-night hot dog stands also serving tropical juices in a no-frills setting.",
 			languageCode: "en",
 		},
 		reviews: [
 			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkbS1lbXhRRRAB",
-				relativePublishTimeDescription: "3 weeks ago",
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ5alBMN29RRRAB",
+				relativePublishTimeDescription: "in the last week",
 				rating: 5,
 				text: {
-					text: "Ahhh, another Manhattan pizza discovery while in Chelsea for a gallery opening. Artichoke pizza was tasty and creamy with a crunchy crust. LARGE slices for dine in or take out which is a standing room thing. Great atmosphere with music and friendly service. Open til 4am...what!",
+					text: "This is a great option for a late night snack. Is just a simple hot dog, but they are so good. They are a whole experience, it is a small store, everyone just order and go, some stay in to eat there. You should experience coming to NY and eating a simple and traditional hotdog.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Ahhh, another Manhattan pizza discovery while in Chelsea for a gallery opening. Artichoke pizza was tasty and creamy with a crunchy crust. LARGE slices for dine in or take out which is a standing room thing. Great atmosphere with music and friendly service. Open til 4am...what!",
+					text: "This is a great option for a late night snack. Is just a simple hot dog, but they are so good. They are a whole experience, it is a small store, everyone just order and go, some stay in to eat there. You should experience coming to NY and eating a simple and traditional hotdog.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Elisa Bruno",
-					uri: "https://www.google.com/maps/contrib/114946378852275982898/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUUUNGqwKPiNR6A2Zv0xhUIBW43xcmSsTb0tanahgcyOMXM=s128-c0x00000000-cc-rp-mo-ba6",
+					displayName: "Steven Díaz Zalduondo",
+					uri: "https://www.google.com/maps/contrib/112355437221209089493/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX-TZ_hya-DbvUlaET9bxz81MWeK6k9P46kdMyl-pKdNT62=s128-c0x00000000-cc-rp-mo-ba6",
 				},
-				publishTime: "2024-02-18T14:23:13Z",
+				publishTime: "2024-03-13T22:50:13Z",
 			},
 			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkbDZmSG53RRAB",
-				relativePublishTimeDescription: "3 weeks ago",
-				rating: 5,
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5N0pybmx3RRAB",
+				relativePublishTimeDescription: "a week ago",
+				rating: 3,
 				text: {
-					text: "Loved it. We were a group of 4. Ordered a slice of Artichoke and a big pie half pepperoni and half margherita. The pizza is amazing and delicious. The slices are super big. It’s right next to Chelsea market. Don’t go by there without stopping here. You will not regret it. The staff is friendly.",
+					text: "I don't know if new yorkers actually enjoy the taste of these hot dogs, or if it's because this place has been around for so long. There is absolutely nothing special about these dogs. I think you can just boil some at home and put your own toppings and it would be better. But I came here for a true NY hot dog experience (which i got).",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Loved it. We were a group of 4. Ordered a slice of Artichoke and a big pie half pepperoni and half margherita. The pizza is amazing and delicious. The slices are super big. It’s right next to Chelsea market. Don’t go by there without stopping here. You will not regret it. The staff is friendly.",
+					text: "I don't know if new yorkers actually enjoy the taste of these hot dogs, or if it's because this place has been around for so long. There is absolutely nothing special about these dogs. I think you can just boil some at home and put your own toppings and it would be better. But I came here for a true NY hot dog experience (which i got).",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Edwin Moran",
-					uri: "https://www.google.com/maps/contrib/115905162937076744284/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVENL1_e9ZuRxQJ7gMaRKwGynyGrnwe0L_EFs00hxTkOY4=s128-c0x00000000-cc-rp-mo-ba3",
+					displayName: "Marissa S",
+					uri: "https://www.google.com/maps/contrib/105079392218269435287/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUaJ-LTRxoHHZclqN1rOWHF83EtE9vza7su1u0zz6On8A=s128-c0x00000000-cc-rp-mo-ba4",
 				},
-				publishTime: "2024-02-19T05:15:48Z",
+				publishTime: "2024-03-03T23:27:11Z",
 			},
 			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/reviews/ChdDSUhNMG9nS0VJQ0FnSURacjhxQzVBRRAB",
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/reviews/ChdDSUhNMG9nS0VJQ0FnSUROa2RTRW5BRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 5,
+				text: {
+					text: "Probably the best Hot Dog I’ve had in New York City!\n\nTheir all-beef hot dog franks are high quality and flavorful, with the signature snappiness and crispness of a good New York hot dog. I ordered the Recession Special (2 hot dogs + a drink for $6.45) and also topped my hot dogs with chile, cheese, onions, and relish! For drinks, I really enjoyed their papaya juice, which they make in-house from scratch. Overall, it’s a great deal if you’re looking for a quick lunch or afternoon snack in the city.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Probably the best Hot Dog I’ve had in New York City!\n\nTheir all-beef hot dog franks are high quality and flavorful, with the signature snappiness and crispness of a good New York hot dog. I ordered the Recession Special (2 hot dogs + a drink for $6.45) and also topped my hot dogs with chile, cheese, onions, and relish! For drinks, I really enjoyed their papaya juice, which they make in-house from scratch. Overall, it’s a great deal if you’re looking for a quick lunch or afternoon snack in the city.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Matthew Chen",
+					uri: "https://www.google.com/maps/contrib/100161862587508431499/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVqrfYVhOvxpONWAZrwp2u1TLbB6cF3gjRtET6CjtwkQyJE=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-01-23T06:54:46Z",
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/reviews/ChdDSUhNMG9nS0VJQ0FnSUNsMlpXejBnRRAB",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 4,
+				text: {
+					text: "It’s hard to mess up a hot dog. We ate here because why wouldn’t you while in New York. The best part about the hotdog was definitely the onions and the price. The location is cool and iconic. It is worth the stop because for 2 dogs and drink it’s only $9.00 and you can check it off your bucket list.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "It’s hard to mess up a hot dog. We ate here because why wouldn’t you while in New York. The best part about the hotdog was definitely the onions and the price. The location is cool and iconic. It is worth the stop because for 2 dogs and drink it’s only $9.00 and you can check it off your bucket list.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "T Joseph",
+					uri: "https://www.google.com/maps/contrib/113428123525444780167/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKJdgBAdE_UU3oJnBkihuBVmQYmTq9q7TGyuxBeW34W=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-27T03:31:51Z",
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/reviews/ChZDSUhNMG9nS0VJQ0FnSUNWbGZyV0tnEAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "“The best hotdogs in New York”\n\nAfter spending time researching where to get a hot dog in New York it came down to Grays Papaya and Bilies Hotdog Cart. I chose here as this was a little closer, and I’m sure glad I chose it.\n\nThe hot dogs were delicious with loads of flavour and the papaya drink a was nice and  cold and lovely sweet flavour.\n\nI got the Addicted which is 3 hot dogs and a large drink for about $10 which I thought was good value. I enjoyed it so much I got another one straight after.\n\nTaste: the hotdog was grilled perfectly and the beans and cheese was the perfect combination for the flavour hit. The papaya flavoured drink is sweet and maybe not for everyone.\n\nService: The service was quick and friendly.\n\nStaff: Very friendly and helpful.\n\nPrice: Well priced\n\nValue: Great\n\nCleanliness: It was very clean behind the counter and inside looked clean too.\n\nLocation: We stayed downtown so it took us quite a while to get up to the store which is solidly uptown. There’s probably an easier way to get there (train/bus) but I thought the location is good as it’s not near Times Square or any ridiculously busy spot.\n\nThe wait: I waited less than 5 minutes for my first serving and less than 2 minutes when I ordered again.  This was around 2pm. I am sure it’s a lot busier at lunchtime.\n\nWould I go back: Absolutely\nWould I recommend going: If you want a hot dog in New York City this is the place to go!!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "“The best hotdogs in New York”\n\nAfter spending time researching where to get a hot dog in New York it came down to Grays Papaya and Bilies Hotdog Cart. I chose here as this was a little closer, and I’m sure glad I chose it.\n\nThe hot dogs were delicious with loads of flavour and the papaya drink a was nice and  cold and lovely sweet flavour.\n\nI got the Addicted which is 3 hot dogs and a large drink for about $10 which I thought was good value. I enjoyed it so much I got another one straight after.\n\nTaste: the hotdog was grilled perfectly and the beans and cheese was the perfect combination for the flavour hit. The papaya flavoured drink is sweet and maybe not for everyone.\n\nService: The service was quick and friendly.\n\nStaff: Very friendly and helpful.\n\nPrice: Well priced\n\nValue: Great\n\nCleanliness: It was very clean behind the counter and inside looked clean too.\n\nLocation: We stayed downtown so it took us quite a while to get up to the store which is solidly uptown. There’s probably an easier way to get there (train/bus) but I thought the location is good as it’s not near Times Square or any ridiculously busy spot.\n\nThe wait: I waited less than 5 minutes for my first serving and less than 2 minutes when I ordered again.  This was around 2pm. I am sure it’s a lot busier at lunchtime.\n\nWould I go back: Absolutely\nWould I recommend going: If you want a hot dog in New York City this is the place to go!!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Graeme John",
+					uri: "https://www.google.com/maps/contrib/103716101334798969018/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIliU8Jw0CwbTwhd2c7VMSGxds-QK3PUZ-gbm3crcYa=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2023-12-08T14:18:54Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJYjPubcwYbDXInAIPhy4TszDKwqMqFzKhFmpqA0b_i-_u2phuq4KkgBIXuY63gTb6h-Yn2Mpn_KiTBaAp_EeJ7tBEFjt-JLRIwPcOIPlHnjDJT5nE1fv0Z5YiG8X2fTzm_8g3UerfP253M9NMMoLICo5MGE2h_47Q95",
+				widthPx: 1402,
+				heightPx: 1402,
+				authorAttributions: [
+					{
+						displayName: "Gray's Papaya",
+						uri: "//maps.google.com/maps/contrib/107707548854543714564",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVNcZn-75q1rDiW7XSDT3JDquljzZqnLIZTTecQjO1kBg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJaJq5TcPeKwLcwX2a7myHq5dg6336vwlz27vaOcYCbcpJy7aeQEmmWDdiI7G7HIxrUaaPuKzw4ymJln6w2bx_nTPc8ndTrLNfIYZfHw_slAy5LhK0XoGCXVfVDBiNiPLS69pPxXkgrPCq0eeJQRKLw_jk-E_9NOqgvp",
+				widthPx: 4330,
+				heightPx: 2988,
+				authorAttributions: [
+					{
+						displayName: "Mathew Vignola",
+						uri: "//maps.google.com/maps/contrib/113550583881969443634",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX80gdqk8Az4uAvQu1ZQ3BciaTCN_npsRfLLoHEwy-m6xY=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJbnjg7-Kzum_G9iKVE695fgbFXlbw8SnJg98WB7LnMdXYNSko7J9_-KBxndkCi5cQLrxYkrTCRWYvyNIP9y_rv8YAlXMvareJzMyTHlMwKNPLJr71AW1bT5S7PvMSRIYV71YVVdb1v4YRlkEv55Iv4Lp09XKoq5KUEx",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "K. Jackson",
+						uri: "//maps.google.com/maps/contrib/113256271635761789805",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWLHDpwamLUNFNUFxNw5Twf5nRSWhvKz-d51sX4S1VfQYrF=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJY20FE2ghnMbwa3-rO8SCtgFSuXhsKq0vT4SSJMYstarPLg_-sbgKn3cZI_01rKCqA9sUWTL0RflZ4e5Sx-GqdepR6jpyjSq3O0QVYhykunVkny15U-2nTNGZh2tP6k5QOpYdlrDzceGZMaGuq5Ki-6XXIhQrwjkcMD",
+				widthPx: 3024,
+				heightPx: 2268,
+				authorAttributions: [
+					{
+						displayName: "James",
+						uri: "//maps.google.com/maps/contrib/114498423571646526757",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVV5T0pcPv0QtjF7lQA0wEjSUYIDynyMz3jpDFCgB_R-Ts=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJY8GjiSevR-Dv9zmZYqMWMjsK8SQwrtt7gc9sxl2kfZ_PjBe5P_srO_KifQaOj81rQuXW7osPDGZuhF_qKnbl0rt62eTTfBWAs-YbtAWokCCSiA4Ovsx8c-DX7OfKUJHgfTI-3dELGRc34mXvvREfn-8XYylpl5P3PA",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "K. Jackson",
+						uri: "//maps.google.com/maps/contrib/113256271635761789805",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWLHDpwamLUNFNUFxNw5Twf5nRSWhvKz-d51sX4S1VfQYrF=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJbiMKEKjugOELDJQmjUrn0MiCRglYtQo-rgCaoGu5dCHqGgfpNLKEpKCYaCufomq0NiGHfRQVOucQyYqP6e4oRDZ7tersXlsP-i71-rJgeQjv0b7H-iA9dqejv-Hqug_zVy9ritRq7JmMbCorAoPFRILoih4RCSczP_",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Cynthia TS",
+						uri: "//maps.google.com/maps/contrib/101305934332020444603",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5_VpPqseDwW0BTnPbPJDKU4DaLUUftO_0_yomE93afBY=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJbKWwRNE6pZ_8o0TXD4NNtEidlEYKjETahcnLm5sPme2bphCXAful2_kfz07bdFeZgYuNSTknGgZ5zHe_1NVIbIMA5btyFkOrhnrc45f_3_nqVw-R5vb3PcfoyQM6ent34etCNBK0j_uirvs5YjYSGj4zVwqbsBLnsZ",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Cynthia TS",
+						uri: "//maps.google.com/maps/contrib/101305934332020444603",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU5_VpPqseDwW0BTnPbPJDKU4DaLUUftO_0_yomE93afBY=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJbQT3N-P44dlGAtBN-nKfrrh2u5FzGGxBkuYur67eaKhZRCtGaoRjglHHQLhwYyi6Oe75WBb50bJ-WFGtO49b5SzV2cgY_LkOdrcSsqivhJ2m2TWeGOSgSA9-SJBBL5dIXD5QV5hKtgwNW1jVLZ3CPhIJv-f0HnwmKB",
+				widthPx: 5712,
+				heightPx: 4284,
+				authorAttributions: [
+					{
+						displayName: "youtom33333",
+						uri: "//maps.google.com/maps/contrib/105337015283226759141",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW8gGTYt5nr-_SSTYHWZlOU0oaRlYsPouvumkpLEd_5yg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJaq0fcEAyub1RGIiiyUXXbdLJIitDTEfzuGmqFx4Pa9PD9f_PQbJ0cPObzn7U1iVTu2wA4cPIgznLLUqWQvPf8d-1fI2vjktToRqon6MkLYldaelPg2xM5DwJeiD3qgzkGQGKSg2Be1lwYklLJWKxBvXW7piNcarfDo",
+				widthPx: 1440,
+				heightPx: 1800,
+				authorAttributions: [
+					{
+						displayName: "Yeung Holiday",
+						uri: "//maps.google.com/maps/contrib/114764061842409185096",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKz6pKLWQdMb7WQbjh-jEG8A1T7Bk9ThLO_XuC7IIHV=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJlfr4bIpYwokRRazoMFwBzWo/photos/ATplDJaMTh3DswktIRjej90tvRNFPT3LfA1CGVSDJLX2bSZ1ypRFVwZxqD23ttuSFrNFsef47C9JJg8B8ovw4EmRvIF1EV9PbJmiBeKcADJFqLHKCg4sjSLrRbjr_ujeocqnJMJWLYn8YmymB_TK__13aJnxqwsxSKdBeurv",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "T Joseph",
+						uri: "//maps.google.com/maps/contrib/113428123525444780167",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKJdgBAdE_UU3oJnBkihuBVmQYmTq9q7TGyuxBeW34W=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesDessert: false,
+		servesCoffee: true,
+		goodForChildren: true,
+		restroom: false,
+		goodForGroups: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		parkingOptions: {
+			paidStreetParking: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+			wheelchairAccessibleRestroom: false,
+			wheelchairAccessibleSeating: false,
+		},
+	},
+	{
+		name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ",
+		id: "ChIJsSVikgFZwokR3Za4vKI12rQ",
+		types: ["fast_food_restaurant", "meal_takeaway", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(212) 808-5226",
+		internationalPhoneNumber: "+1 212-808-5226",
+		formattedAddress: "Grand Central Terminal, 23 Vanderbilt Ave, New York, NY 10017, USA",
+		addressComponents: [
+			{
+				longText: "23",
+				shortText: "23",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Vanderbilt Avenue",
+				shortText: "Vanderbilt Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10017",
+				shortText: "10017",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q23F+34",
+			compoundCode: "Q23F+34 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7527262,
+			longitude: -73.9772294,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7510214197085,
+				longitude: -73.97870958029152,
+			},
+			high: {
+				latitude: 40.7537193802915,
+				longitude: -73.9760116197085,
+			},
+		},
+		rating: 3.8,
+		googleMapsUri: "https://maps.google.com/?cid=13031787444817139421",
+		websiteUri: "http://www.frankiesdogs.com/?y_source=1_MTgzMDg5OTAtNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 11:00 PM", "Wednesday: 10:00 AM – 12:00 AM", "Thursday: 10:00 AM – 12:00 AM", "Friday: 10:00 AM – 12:00 AM", "Saturday: 10:00 AM – 12:00 AM", "Sunday: 10:00 AM – 10:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: 'Grand Central Terminal, <span class="street-address">23 Vanderbilt Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10017</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 95,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Frankies Dogs On The Go",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		curbsidePickup: true,
+		reservable: false,
+		servesBreakfast: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: true,
+		servesWine: true,
+		servesBrunch: true,
+		servesVegetarianFood: true,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 11:00 PM", "Wednesday: 10:00 AM – 12:00 AM", "Thursday: 10:00 AM – 12:00 AM", "Friday: 10:00 AM – 12:00 AM", "Saturday: 10:00 AM – 12:00 AM", "Sunday: 10:00 AM – 10:00 PM"],
+		},
+		currentSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 23,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 23,
+							minute: 59,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 10:00 PM", "Wednesday: 10:00 AM – 11:00 PM", "Thursday: 10:00 AM – 12:00 AM", "Friday: 10:00 AM – 12:00 AM", "Saturday: 10:00 AM – 12:00 AM", "Sunday: 10:00 AM – 10:00 PM"],
+				secondaryHoursType: "TAKEOUT",
+			},
+		],
+		regularSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 3,
+							hour: 23,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 5,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 6,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 0,
+						},
+						close: {
+							day: 0,
+							hour: 0,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 10:00 PM", "Wednesday: 10:00 AM – 11:00 PM", "Thursday: 10:00 AM – 12:00 AM", "Friday: 10:00 AM – 12:00 AM", "Saturday: 10:00 AM – 12:00 AM", "Sunday: 10:00 AM – 10:00 PM"],
+				secondaryHoursType: "TAKEOUT",
+			},
+		],
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "Grand Central Terminal, 23 Vanderbilt Ave, New York",
+		editorialSummary: {
+			text: "Small counter-serve in Grand Central Terminal doling out hot dogs & sausages with toppings.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxeHFPWFRBEAE",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 4,
+				text: {
+					text: "Not a bad place for a hotdog. They had a combo that was two hotdogs with a drink for $9.95 so I took it. The guy at the counter was very nice and the hotdogs were pretty good. The buns were excellent. Good selection of drinks good selection of chips, not a bad place and probably one of the cheapest to eat under $10 in New York.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Not a bad place for a hotdog. They had a combo that was two hotdogs with a drink for $9.95 so I took it. The guy at the counter was very nice and the hotdogs were pretty good. The buns were excellent. Good selection of drinks good selection of chips, not a bad place and probably one of the cheapest to eat under $10 in New York.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Shawn Toole",
+					uri: "https://www.google.com/maps/contrib/118331806291525337357/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXZ7sA4G4GH0pJcKNOLem3EWTGM1t4DrH7miiQq8Bhuv8FK=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-12-28T19:23:04Z",
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNobktuSHJBRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "This is a food stand on the dining level of Grand Central Terminal. I have been enjoying NY style hot dogs my entire life and had never tried Frankie's. OMG they were awesome!! Great fresh roll and really good caramelized onions. Good portion of sauerkraut too! I will be going back.  Also enjoyed a traditional square potato knish.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "This is a food stand on the dining level of Grand Central Terminal. I have been enjoying NY style hot dogs my entire life and had never tried Frankie's. OMG they were awesome!! Great fresh roll and really good caramelized onions. Good portion of sauerkraut too! I will be going back.  Also enjoyed a traditional square potato knish.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Jeffrey Liss",
+					uri: "https://www.google.com/maps/contrib/101770766535299414481/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVwDs3Vo4ccIY3jVrtMu7_SjDqKu0X2iPpc-44p5GY6bCr3=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2023-02-07T15:25:54Z",
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4clBDOG5BRRAB",
+				relativePublishTimeDescription: "9 months ago",
+				rating: 5,
+				text: {
+					text: "Last weekend, my mom, daughter and I were in NYC. While there, we were in a mission to find a vegetarian hot dog. We were unsuccessful until the morning we were leaving when I found Frankie’s Dogs on the Go online. Time was tight, our Lyft was scheduled to bring us to airport but we decided to race down to Grand Central Station to have hot dogs for breakfast. When we got there, the two nice, young and hardworking girls were moving fast get open. They told us they were short and would be opening a half hour late. With this news, our NYC hot dog goals were dashed since we needed to get to airport. I told the girl we would not be able to wait and had to go. She must have took pity, and asked if I could pay with card and allowed us to order. It was one of our favorite meals while there! Thank you for allowing a couple of vegetarians to have a New York City hot dog.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Last weekend, my mom, daughter and I were in NYC. While there, we were in a mission to find a vegetarian hot dog. We were unsuccessful until the morning we were leaving when I found Frankie’s Dogs on the Go online. Time was tight, our Lyft was scheduled to bring us to airport but we decided to race down to Grand Central Station to have hot dogs for breakfast. When we got there, the two nice, young and hardworking girls were moving fast get open. They told us they were short and would be opening a half hour late. With this news, our NYC hot dog goals were dashed since we needed to get to airport. I told the girl we would not be able to wait and had to go. She must have took pity, and asked if I could pay with card and allowed us to order. It was one of our favorite meals while there! Thank you for allowing a couple of vegetarians to have a New York City hot dog.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Stephanie Brosig",
+					uri: "https://www.google.com/maps/contrib/103526257021786667119/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUxdBuuYk1uDWIkTPLpddwpkPgs25jrzFnX_uamr6CVhKA=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-06-03T10:17:22Z",
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkMFBTRnZnRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "Finally tried you guys and honestly it’s just the same taste as me getting hotdogs and boiling them. Personally I would’ve liked them a bit more  cooked or boiled. Tasted like that raw feeling. 1/10. Don’t recommend for 16$ I spent I could’ve got hotdogs and cooked them at home and tasted much better",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Finally tried you guys and honestly it’s just the same taste as me getting hotdogs and boiling them. Personally I would’ve liked them a bit more  cooked or boiled. Tasted like that raw feeling. 1/10. Don’t recommend for 16$ I spent I could’ve got hotdogs and cooked them at home and tasted much better",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Jonathan Rodriguez",
+					uri: "https://www.google.com/maps/contrib/110807808942323865497/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWfRBa2fiaXnbKdoh3EDzgcBV_XltIUvuw31H2H1SRWE9U=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2024-02-09T23:56:20Z",
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/reviews/ChZDSUhNMG9nS0VJQ0FnSUROcmNpRVF3EAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 4,
+				text: {
+					text: "Great food.\nA little pricey but honestly it's to be expected since it's in grand central.\n\nThe hot dogs are delicious so you won't be disappointed with the taste.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Great food.\nA little pricey but honestly it's to be expected since it's in grand central.\n\nThe hot dogs are delicious so you won't be disappointed with the taste.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Atifur Rahman (Ar1S3)",
+					uri: "https://www.google.com/maps/contrib/105915575744955453754/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWMTJZ8TUgIUgdqm-jjejkVVX6IaAobdkLjWtWmtFiXMl4=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-01-24T21:54:09Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJZ7zcx4j1rbDavgyqEdhftR3uotzJXDvfS2cvJjC3FFnD70Z-Bnk6oqjxHoikJmNGwiPPeAuHZ0tkmzdB5zfr0Br6M44gB0zpJWan8LEVrkfEEFDuFE1Ywezj6rBPixtirohhKCJqSoB3Mu6EvXJkrZyQLpJb2HGLsj",
+				widthPx: 3709,
+				heightPx: 3416,
+				authorAttributions: [
+					{
+						displayName: "Ruwan J.",
+						uri: "//maps.google.com/maps/contrib/117808460219123378764",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVPR_XCFaGSavGfzKWgzWQWpZCnKfzmpX-S_8yZq86YKNDj=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJYsh1uGpLB_JeJF4YBtJDzPOO-iQCgKxmipTmUii-zuGLT8i6Pt66GxobnguUQqZkTN2rGrJha1c2950nXUxCZS4ROW7BpDkrM_Oub9LVxX3952TvnxQV2IoJuNt8bTeBCqRHRiuHpJO0T7Nn_tVgC69XVpTcPeaaWH",
+				widthPx: 2026,
+				heightPx: 2700,
+				authorAttributions: [
+					{
+						displayName: "Frankies Dogs On The Go",
+						uri: "//maps.google.com/maps/contrib/105524189230711290089",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW4fP2NpLiDijUH5_xwdLSjhSopt1OClpLf9ojafTNQmJk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJbq5yPlgUfO6m0Nz_jBvBTJXxvHcM3i_MkIQ7dPQFukDlrH2c7Ig7sIfKffP8sKJP0MZBTtQY5Sx5hD6fZZi-t7_iLHYbjaAQ7HfbAVF_vrqTT7lfF4WcRLZeqt3JCrnGVkaMB3PqE_mR8j5PipcxgtZM1i9oQmx9za",
+				widthPx: 3000,
+				heightPx: 2251,
+				authorAttributions: [
+					{
+						displayName: "Frankies Dogs On The Go",
+						uri: "//maps.google.com/maps/contrib/105524189230711290089",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW4fP2NpLiDijUH5_xwdLSjhSopt1OClpLf9ojafTNQmJk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJbwfNaS47XlpgvIrB_Vdy8C9g0C5IZ5JiANGPiPHaUnDQcODwgI4a5zeIvCpwMEbABbfC0xwxYGO93FESL_EdLKbY4ZrTNRvp_Xx8CrejaERVP3YCdKK_QGsIGndo_x7UgTaeIpbp2DESgj2UvSYjXZatOqwjr27n6N",
+				widthPx: 3000,
+				heightPx: 2251,
+				authorAttributions: [
+					{
+						displayName: "Frankies Dogs On The Go",
+						uri: "//maps.google.com/maps/contrib/105524189230711290089",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW4fP2NpLiDijUH5_xwdLSjhSopt1OClpLf9ojafTNQmJk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJYk79bk-WW-RSyY7KeIcPU7BjSxbmgl8jP6QR4CBd_PMjQpr95YYJ-MFisWkSHI2eP1i8E1tlXT6RquMBt-tXltEH-8b8S2NKaXr2TFizi-ruSYX9aQ9-1Md5HSRx4hG8xGZRKSat2JURavYTc8VWNO1-PPUe-Gvsw4",
+				widthPx: 4096,
+				heightPx: 2304,
+				authorAttributions: [
+					{
+						displayName: "Ada Łukasz Jedz z Nami",
+						uri: "//maps.google.com/maps/contrib/103612609993299139128",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUlNikQei8ZGTZAhiT99gC2OXB_4EuMjOMoXms95xUD8xA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJZvwBSE4FGXkVzve62DHtbg9qd1VJN3IPahfQGTtXwdHtRdZG3IpvHxh1Wdc3Rd8znITbRgLuLFbbP2Vao0iHQcufKPx0yQXbCof7J6VEY8Y3iOYklCUjsWDPUqLcWM6HfzFuKlCZ6zFT5caSwbBfPlNxqhmiZPOL1b",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Shawn Toole",
+						uri: "//maps.google.com/maps/contrib/118331806291525337357",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXZ7sA4G4GH0pJcKNOLem3EWTGM1t4DrH7miiQq8Bhuv8FK=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJYOf_B26FoI9jQ9Qa9oKGEa-T6HMFNPMNHacmUEM7yW416bTBE_O308Hwax9STBxF6XOd57ItWsYoX0yXNuc6G_NTt-rKDt1vwriLERqw2kap6xHtFpzIP1FYpzI8lzVcYGGDo7sqSI_nYNGfapuklklNZi57QE47Ft",
+				widthPx: 3000,
+				heightPx: 2251,
+				authorAttributions: [
+					{
+						displayName: "Frankies Dogs On The Go",
+						uri: "//maps.google.com/maps/contrib/105524189230711290089",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW4fP2NpLiDijUH5_xwdLSjhSopt1OClpLf9ojafTNQmJk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJaOMB9hJH2vu0rIuf9dSEUoHF_6dh0GQ3pgAL0QnLHZLO-TD6KoZhSKB-8nvpHhPBRTdWxafg3Zc8HcflInCr8eXGxdqZpNxOTJxUITRFb1Ej_BxkJjoZ_f-gozExR1nwgiqxK1HqEcAB2EyIb6T3Se9Ox2Fgu6R7Yt",
+				widthPx: 4000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Frankies Dogs On The Go",
+						uri: "//maps.google.com/maps/contrib/105524189230711290089",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW4fP2NpLiDijUH5_xwdLSjhSopt1OClpLf9ojafTNQmJk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJaBWwqNJeiniCpm-yfMfg81VVoMdroHW3haEmcXJn24tM9aCIdrDsiVi9BbA5HAOD_NXQ0_bJOVMOzw31nhwZZ-8TD5ALoshHGlgqosxtEMpEDPJY_yGlnjEA5bRWSHfQr5XbSphQrIR_6p6u4RHrpr7zsMsphm7ycl",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Stephanie Brosig",
+						uri: "//maps.google.com/maps/contrib/103526257021786667119",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUxdBuuYk1uDWIkTPLpddwpkPgs25jrzFnX_uamr6CVhKA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsSVikgFZwokR3Za4vKI12rQ/photos/ATplDJaY7hOzJcAGBQjfiPmDyBZYhBRn7nasvzfDxsX0xMiEP2vJIsDBEq9euz6C4mHOHQcegwZVtbIW2nz81e95PGiepm_uPaWUaUc7fE2vUSib1KzKy2ZXsGMu1Oin-OwHyreOy1sku1rl2JrVOZVZ6nVAxBgeJ8iQu0p7",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Christopher",
+						uri: "//maps.google.com/maps/contrib/109476891504846851689",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXCG8hKgm_UJmo_OwkGj2SWfY_mw1lxwIJRlWr9MRWyWRE=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesCoffee: false,
+		goodForChildren: true,
+		restroom: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+			wheelchairAccessibleRestroom: true,
+			wheelchairAccessibleSeating: true,
+		},
+	},
+	{
+		name: "places/ChIJw95525NZwokRq6f26Y5e244",
+		id: "ChIJw95525NZwokRq6f26Y5e244",
+		types: ["fast_food_restaurant", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(212) 627-9748",
+		internationalPhoneNumber: "+1 212-627-9748",
+		formattedAddress: "333 6th Ave, New York, NY 10014, USA",
+		addressComponents: [
+			{
+				longText: "333",
+				shortText: "333",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "6th Avenue",
+				shortText: "6th Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10014",
+				shortText: "10014",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G7PXJX+MF",
+			compoundCode: "PXJX+MF New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7316358,
+			longitude: -74.00126809999999,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7302474197085,
+				longitude: -74.0025207802915,
+			},
+			high: {
+				latitude: 40.7329453802915,
+				longitude: -73.9998228197085,
+			},
+		},
+		rating: 3.9,
+		googleMapsUri: "https://maps.google.com/?cid=10293925341189023659",
+		websiteUri: "http://www.papayadogavenueoftheamericas.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">333 6th Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10014</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 922,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Papaya Dog",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		reservable: false,
+		servesBreakfast: true,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		servesBrunch: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "333 6th Ave, New York",
+		editorialSummary: {
+			text: "Frankfurters doled out 24/7 drive this no-frills, super-cheap hot dog specialist.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/reviews/ChdDSUhNMG9nS0VJQ0FnSUR0X29PSG1RRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "Good hot dogs, however signs said they were 3.50 each. We got 2 and were charged $11.\nThey are taking advantage of people specially at night. Guy at counter said it was taxes but when I asked for receipt it shows the tax is not even $1. He refused to give me an itemized receipt.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Good hot dogs, however signs said they were 3.50 each. We got 2 and were charged $11.\nThey are taking advantage of people specially at night. Guy at counter said it was taxes but when I asked for receipt it shows the tax is not even $1. He refused to give me an itemized receipt.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Carla Velazco",
+					uri: "https://www.google.com/maps/contrib/103586657005026256768/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWuawQIcEymknR8Yq7YqR8nswERne18TbQhvIb67zCiNg=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-02-04T21:52:13Z",
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/reviews/ChZDSUhNMG9nS0VJQ0FnSURacGRDNk1nEAE",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 5,
+				text: {
+					text: "Got a basic hotdog, nothing fancy but super easy and simple. Fries were good as well.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Got a basic hotdog, nothing fancy but super easy and simple. Fries were good as well.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Will Smithey",
+					uri: "https://www.google.com/maps/contrib/107033089397628713538/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWUiND-zNvN7Q9HN3dfYPzeWcLinkezw95fI9r9-EFp0Gk=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-10-05T03:34:01Z",
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/reviews/ChZDSUhNMG9nS0VJQ0FnSUROd2F6dlhnEAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "On a recent trip to NYC we tried a hot dog from here as I know this place has been around for a long time. Sadly we found ever about the hot dog to be terrible. The ‘sausage’ didn’t resemble a normal sausage in taste, texture, colour… Even the ketchup and mustard were terrible. Yes it’s cheap (by NYC standards) but I would not recommend",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "On a recent trip to NYC we tried a hot dog from here as I know this place has been around for a long time. Sadly we found ever about the hot dog to be terrible. The ‘sausage’ didn’t resemble a normal sausage in taste, texture, colour… Even the ketchup and mustard were terrible. Yes it’s cheap (by NYC standards) but I would not recommend",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Daniel Wynn",
+					uri: "https://www.google.com/maps/contrib/116870470891909952068/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJcODJxRnPVUeEnnGJPS_WGuqsI-rdVyUKAj-ZAvDeS=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-01-23T01:41:28Z",
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxalB1MGZ3EAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "I should’ve taken a picture of the food they served me but I found someone outside the store asking for food and he took it off my hands, asked for an order of tenders with fries instead I got a refried chicken sandwich and two burnt tenders and fries which were also deep fried again 😂. Ralph Ivy’s should withdraw from this store, it’s truly a stain on their name, really horrible customer service and I’m from NYC 😂",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I should’ve taken a picture of the food they served me but I found someone outside the store asking for food and he took it off my hands, asked for an order of tenders with fries instead I got a refried chicken sandwich and two burnt tenders and fries which were also deep fried again 😂. Ralph Ivy’s should withdraw from this store, it’s truly a stain on their name, really horrible customer service and I’m from NYC 😂",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Rubin Lopez",
+					uri: "https://www.google.com/maps/contrib/105866500403397226970/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVvT0mc7Lc6IYRQnDhz9EICAT2J54lfw0nvTwE_jWdFH6c=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-02-06T09:14:46Z",
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/reviews/ChZDSUhNMG9nS0VJQ0FnSURWb3JPZVN3EAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "Always good for an overly frothy/light papaya drink, basic hot dog, and place to rest tired legs",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Always good for an overly frothy/light papaya drink, basic hot dog, and place to rest tired legs",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Tony D'Antonio",
+					uri: "https://www.google.com/maps/contrib/106416248199999190893/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXcvS87YKb3WJPSujRKBd6X9zjPauiiaKrwlQ4uUl-HJhwy=s128-c0x00000000-cc-rp-mo-ba8",
+				},
+				publishTime: "2023-12-11T21:33:38Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJYctg9DGZKSjQ127aWR9__6RKipGGtbwX8e1WoAM4S2QK7QJMKolEOGgZUM8i4JAaIKDF2gh6M8lFOesybAcK-XDsYBETu0Iq_wTC58Y7bar3rZ1atOE1eS-RyeXl0fIPvDaHMS2nw1HkBQyqGDeIs9L_luz3PFtFZs",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Raymond Gonzales",
+						uri: "//maps.google.com/maps/contrib/113654844289872402858",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVKBhZM-PJkK3YMsteWHs4WPywgO6XcPcIW6F5KGlvx5aqF=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJb8i4eALCDDt3BCXUGpuKHSqkir_E5j1RJDQksQ3JTU5CkNWrZTDABVGmCSrWnaU7_lIKYb6ESkClNkIBWzu_EsSqhBfpbt-Tt8z7UcbSkcbHVarw8HxnGx_nfogJPPqTCH6xVsG00Ygrqj14LVRJbR3EEoQFMDe9iw",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Tony D'Antonio",
+						uri: "//maps.google.com/maps/contrib/106416248199999190893",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXcvS87YKb3WJPSujRKBd6X9zjPauiiaKrwlQ4uUl-HJhwy=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJYetRwPpg1nb5fY-QjV6TP3MqnCEVaGNxkZcs1BFR7I40EapukMVdBUQB63GGHfEJQ0fRI30JGnf-ZGr7azsCIqm2nr7CiYoZSpJEBP_MHlybiWwhu7ZYIIIYkfhVH24f9Lr7RLdAd5DW5MkuG7bIXjg_0R_vRDNN8D",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Helena Hanna",
+						uri: "//maps.google.com/maps/contrib/109011225069477577431",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWgjBm3vg-VF8vLhX4o0qdJHUX-g5vRwk7BKllVF-znGg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJZAgbeIyM4gSB7QDMSIJdDseQU4GOIKyP8n1UH7zC0QciAVnMKQ58RJWrOWUkIhg0E-VdEyMb0WAcGO2QoV2L4imiXUuCXIWAXT6HWtcSdBMPxF6eI17YAI-N574wr83sHd_jBVhieFJybaQGweXmEkX0ucMvMpQsns",
+				widthPx: 3472,
+				heightPx: 4624,
+				authorAttributions: [
+					{
+						displayName: "צבי אבני",
+						uri: "//maps.google.com/maps/contrib/108589428065438186220",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIjd6AMjhdEPQucCv8gVfrNOO4nsdqR3m5Nm29WFvV0=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJZ1jtVJUcFER_6e8B47s9k1ghOd4CbcMiL-bpHfsocuSSWFJ65PV0RlAGZRaDtG8nxz_rcIWD28PbCe1YGMGbJrQNsvaDmyRuetiWkAOaqePr87SbYRDhzkq0DE36V6jeZ3uQEhFUUMJDN1Qgb5FcZ8HFKa-Wx1mtuD",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "보통",
+						uri: "//maps.google.com/maps/contrib/101981261323729961438",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUDTGqvTv1yTOHzL62-HRKPxx5kcC8OTN2Geved5xKALq4=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJZTsNuDTu8bb_ZSOBHVYIUuJt4avRv1OosiYrLGYM8XgnGouyO9Z47_FXClNi2vr-7sy2Bh-f09XeWCnMHrCLMhyyyayNfozFHZyMzUj4yQnb1-2AZgZDPQusBZ3Zsln9_qJ6Rx2zKuWzPXZJ1aj6xfNDvpRLOd9cgE",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Will Smithey",
+						uri: "//maps.google.com/maps/contrib/107033089397628713538",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWUiND-zNvN7Q9HN3dfYPzeWcLinkezw95fI9r9-EFp0Gk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJY4AkZdPH0w--DIneLZEtISGs3lD2XYJdVReeoziXaNtN0GQZ0DXpzynZmZXs1ztEO_8usRl-KcXMeYVvlDX18c6sTjBTo0dUJgoFgRtmfV72NQPd6MQxNqTBdpzcQ-3pNNztstmN9EotplYfuMVtmjSX4xV0_qzhQb",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Tony D'Antonio",
+						uri: "//maps.google.com/maps/contrib/106416248199999190893",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXcvS87YKb3WJPSujRKBd6X9zjPauiiaKrwlQ4uUl-HJhwy=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJY_jq3CRQy55HQXSxEBBN8KmGtCczxet3nvV4sOjKTHJgg5gTooUMF9vKEV8NvWwsSaouES4ZdKdzkvEn5JIEkfkthpamKqF23GImPcqzReicMPRDiGNlR64jpwAr38avoFkt8hlsi-lWWglQ64TsKg8DnIwszbKHoP",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Dan The Man",
+						uri: "//maps.google.com/maps/contrib/110297133543715310688",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVhgizSSYMjdOt6g6uf1BaUJxI5z8FsmJdpeQMOOxLXpQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJZXOoniGuU_5SYeuLKrNQVQSOhIrf43GLopMBJtxhQNkbszJEehFoHGFD7fuzItFHZpj9qtkHOjlrCLDpEcA9sB3pmwG2TxkS049HBjedSpUnCak6tMyyVvoe9iSlppunGIMgjSffZlzt1PdvIhW7gnIsXBe5ipuNmr",
+				widthPx: 4608,
+				heightPx: 3456,
+				authorAttributions: [
+					{
+						displayName: "peter dizozza",
+						uri: "//maps.google.com/maps/contrib/110281645572174358908",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVegMIM0pEpdl6wLc6rkUxvP3Qn3JyBccUjsQ3rImAp9lUU=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJw95525NZwokRq6f26Y5e244/photos/ATplDJaiMRl7xm_UtxeRzRauXR-4qTnWItqp6eLCSWcukFomjgABZS9wSwRSwrN4V7lS0Rmgy3X3umsnC9hv2SWY2295QPkWtKNb2DYxAsiNe9zFObBVOEWhIEo7C5L8ceFO2VNN4dBLA4HLSz3bI0rmvXzFiQgCcecNF_Ob",
+				widthPx: 3024,
+				heightPx: 3780,
+				authorAttributions: [
+					{
+						displayName: "Michael Peters",
+						uri: "//maps.google.com/maps/contrib/109694787050181706994",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWDpvLYQ4fJgN0LrPTIqcE5yZNbunKxmI-zcBWZlKYdVphd=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesDessert: false,
+		servesCoffee: true,
+		goodForChildren: true,
+		allowsDogs: false,
+		restroom: false,
+		goodForGroups: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+			wheelchairAccessibleRestroom: false,
+			wheelchairAccessibleSeating: false,
+		},
+	},
+	{
+		name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY",
+		id: "ChIJkQnv7fBZwokR8fj0hgaeopY",
+		types: ["restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "1251 6th Ave, New York, NY 10020, USA",
+		addressComponents: [
+			{
+				longText: "1251",
+				shortText: "1251",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "6th Avenue",
+				shortText: "6th Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10020",
+				shortText: "10020",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q269+27",
+			compoundCode: "Q269+27 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.760101899999995,
+			longitude: -73.9818173,
+		},
+		viewport: {
+			low: {
+				latitude: 40.758907569708505,
+				longitude: -73.98305263029151,
+			},
+			high: {
+				latitude: 40.761605530291504,
+				longitude: -73.9803546697085,
+			},
+		},
+		rating: 1.9,
+		googleMapsUri: "https://maps.google.com/?cid=10854411802787510513",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">1251 6th Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10020</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 34,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Nathan’s Famous Hot dog food truck",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		dineIn: true,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		primaryType: "restaurant",
+		shortFormattedAddress: "1251 Avenue of the Americas, 1251 6th Ave, New York",
+		reviews: [
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5a29yWU9REAE",
+				relativePublishTimeDescription: "a week ago",
+				rating: 2,
+				text: {
+					text: "Take care and always ask the prices! They know you are probably a tourist as I was, coming out of Radio City and hungry, so they'll take advantage of it. That was my experience.\nAs already said in other reviews, hot dog is great, but the attitude wasn't.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Take care and always ask the prices! They know you are probably a tourist as I was, coming out of Radio City and hungry, so they'll take advantage of it. That was my experience.\nAs already said in other reviews, hot dog is great, but the attitude wasn't.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Vinicius Reis",
+					uri: "https://www.google.com/maps/contrib/103072883077188470043/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVB8_eC50_cRWjirW9-HGaYsOJZgCBfd2jIBEmJsMKH-JtP=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-03-04T10:25:51Z",
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/reviews/ChdDSUhNMG9nS0VJQ0FnSUNad2QzUW13RRAB",
+				relativePublishTimeDescription: "6 months ago",
+				rating: 2,
+				text: {
+					text: "Okay, so it is expensive!  We were early for a show at Radio City, and hungry but didn’t want a full dinner.  We ordered 4 hotdogs with mustard, sauerkraut and a bottled water. $25😱\nThe prices of the food have been blurred and are not listed, so ask the cost before you order!\nThe worker was indeed joyless, but perhaps he doesn’t get many happy customers.\nI did give the food 4 stars because the hotdogs were delicious.  Fresh, plump and had that nice crisp bite.  Nathan’s does know how to make a hotdog.  The buns were fresh.  The water cold.\nWould I go back? Sorry to say, no.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Okay, so it is expensive!  We were early for a show at Radio City, and hungry but didn’t want a full dinner.  We ordered 4 hotdogs with mustard, sauerkraut and a bottled water. $25😱\nThe prices of the food have been blurred and are not listed, so ask the cost before you order!\nThe worker was indeed joyless, but perhaps he doesn’t get many happy customers.\nI did give the food 4 stars because the hotdogs were delicious.  Fresh, plump and had that nice crisp bite.  Nathan’s does know how to make a hotdog.  The buns were fresh.  The water cold.\nWould I go back? Sorry to say, no.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Tatiana Hoover",
+					uri: "https://www.google.com/maps/contrib/107945234386782504386/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKdBdyxyDxVomjsVCO9DrI8WIRaGnUgKJGGSlB9EmM6=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-09-11T21:57:06Z",
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ5NHJiUi1RRRAB",
+				relativePublishTimeDescription: "in the last week",
+				rating: 1,
+				text: {
+					text: "Absolutely terrible. The food is pretty awful and I payed 45$ for a Philly Cheese Steak and a small cheese fry and a drink. Service took quite a while, and the worker is kind of rude. Don’t go here, they will try to scam you for as much money as possible. He takes advantage of the people and makes up unreasonably, outrageously expensive prices. There isn’t any prices and when you ask him he shrugs and mumbles. This should be theft.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Absolutely terrible. The food is pretty awful and I payed 45$ for a Philly Cheese Steak and a small cheese fry and a drink. Service took quite a while, and the worker is kind of rude. Don’t go here, they will try to scam you for as much money as possible. He takes advantage of the people and makes up unreasonably, outrageously expensive prices. There isn’t any prices and when you ask him he shrugs and mumbles. This should be theft.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Daniel Stark",
+					uri: "https://www.google.com/maps/contrib/118397765799014338818/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKl737leRbkcdqeGUsRuCciek1CqeXfkPCcEHqum1nP=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-03-14T21:10:58Z",
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5cUkzb0JREAE",
+				relativePublishTimeDescription: "2 weeks ago",
+				rating: 1,
+				text: {
+					text: "I thought it was weird when there was an extra charge for sauerkraut on an already $5 hot dog. I then got angry he tried charging me .$.75 for mustard. Yeah he’s clearly trying to screw over Nathan’s. But after reading these reviews, paying for mustard isn’t so bad after all. He’s currently on 42nd between 5th and 6th. Stay away.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I thought it was weird when there was an extra charge for sauerkraut on an already $5 hot dog. I then got angry he tried charging me .$.75 for mustard. Yeah he’s clearly trying to screw over Nathan’s. But after reading these reviews, paying for mustard isn’t so bad after all. He’s currently on 42nd between 5th and 6th. Stay away.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Robert Vecsi",
+					uri: "https://www.google.com/maps/contrib/105964427723572290731/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXdlWysBoivQCfFHbhcdw-9xZqGKaJkX3wSUSt22d6-7J4=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-03-01T00:33:03Z",
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxLXVIYTFRRRAB",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 1,
+				text: {
+					text: "Unacceptable. Not showing rates, no providing ticket, zero service attitude… result: 47$ for 3 hot dogs. Becareful with the ones around Times Square.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Unacceptable. Not showing rates, no providing ticket, zero service attitude… result: 47$ for 3 hot dogs. Becareful with the ones around Times Square.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Basi López",
+					uri: "https://www.google.com/maps/contrib/115250139896112632000/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWZopmU-2JBNw86PWOpxXM-qymoleqLxlaQ0lbaqF3Anuk=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-12-28T12:10:47Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJZA4EOb6e900ko5UqpjapXZQgSxM61YsR1e1xGJRwjlB0Q3Y73z4QbCNsi-PsbebiLRN-U7y5V1DHM5egSu1REH-nIomj15Zf69wdPRwgqiob6dZ4cI4BsL63eeTNefMEMwqh9Sva97YU61838-9bppCfxB7GjeEZPh",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Nathan’s Famous Hot dog food truck",
+						uri: "//maps.google.com/maps/contrib/101215099696362142121",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKP1MpHPpHyS3A167VcCRE1quXEcJWnPa3-KKqUkD5_=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJaO3WDZO1UG3X5pY8y_9zgDaAiKZlslIsRQyfJTWTKCPKQTFNFDFxBAVo65iPKdRNYsCy60Ri5d2LzfiJbc77OHTXw6JjFvwR2UGs17fneUoeM0NVwivQPF_Fu4RwfN1_mYqfyd2M-XfgIRgK3acGg-SU_xYrCbulUA",
+				widthPx: 1144,
+				heightPx: 620,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJadZw-jQYdqeC0N4dcquKCBDjQ2gjerGVf8Rw07Ninp0P-T6QNe--oVavTU0JJt_ge9Fj-sszUzZiAYKLcNfPNCkf_zr5qzY7YVuWue0Pbb24hi-2t3m4bboZxRFZ1m-ID0JhEfazDCqjsJdSf8f_B0AQgyJpYpTi3N",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJbH6i2kLNTMG1HaYF0CBIIyyXDidkzrvuNbQaecaSpBtmWerUywG4Te9ALX6XvYS7Ye796Q1PgwDevqBEId6fCNGJOgN6xbNnI5aC7EmCaf0tBdxVI8m8SkPNwcn9079fuhx-wsCrgooePUEVq6oWBRhYcI5czdZwwP",
+				widthPx: 1283,
+				heightPx: 811,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJa1s_x4J7KLmuDPgL-Fq1ysTdUAuIIFcKlg-Lq05m66hRF3V3Ar36m8LC-3HG4SsbI5HlRoxp5JTX-Au4JF3nAxTKkj5E4-oWoXMyl_yEvo9GbX7jAqciZAf2DXuHyB7etIUtPB_hoYggsWDeQ1XTfjkKlaC4TfTnLt",
+				widthPx: 1132,
+				heightPx: 1384,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJZKG_hRLAXymMK5R9cowhbccV-o6Ont9RBtsfYvnxvfO7JzLirdIskNQGBkyvKQd-jwvgMrz-ZqIW3b-ra1EOd3qFcS6AP7tup1PRWiw33RvD4mwnMd3C-ojlYjT4VLM-XIokjGfB6k1mH0WM0uuS3k9QVXEneVLTLe",
+				widthPx: 1282,
+				heightPx: 983,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJa5v89C6zBH0nfcQ4s9y2X2FVVqlRVkIpok1uX9Nrh04hx1miUrMRZkiq9nIrD5xuVVnu50JP5fkSLUNzE1ma1AZWrQY8AqB8L_qG7eUZQdIUT9ID_-WKTE1eh5C5YDFCr0QWiLoirBtkbE65oXtPI6S9Wf8p6Poiql",
+				widthPx: 1120,
+				heightPx: 855,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJabOCRuYvJ45cE62eM-QQGeMmcL3HH0kGPnyGwSXJbtVJnJEh2Ufj3RHwejGzg-cBDODREfeld80Qgg4kN5EqEYg-sUeaZg2CzKjDDo-qiuah0yanQ5xuspWbnoKrT9_y_YJ-fMdZ-FB5ZFNYk3fn1uZA3o_W91SD9h",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Kubernetes AWS",
+						uri: "//maps.google.com/maps/contrib/100759792987828414052",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocK2HZZdxB-2nzHmjfnfRsUyc7Dgku6N-RYkZWJ-wg_Y=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJa1nyGCloG7sIxq5dPppg_X7-MCNm1ZaBqccyEZaKB6F6wK73r9oyv98nnp-E0hcE6w8hgDj_FprixwE6Xkr8iwO1krMSJQItO9fvVjstALJ3aJYCPASO4d5wr-nZISsIK8p6H3HADElbtUbAMyUNful2cB0quNpnBf",
+				widthPx: 1284,
+				heightPx: 1532,
+				authorAttributions: [
+					{
+						displayName: "Nathan’s Famous Hot dog food truck",
+						uri: "//maps.google.com/maps/contrib/101215099696362142121",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKP1MpHPpHyS3A167VcCRE1quXEcJWnPa3-KKqUkD5_=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJkQnv7fBZwokR8fj0hgaeopY/photos/ATplDJb8PH-5Bs8OIoOS2iRMXBIvfGU3PwoESOro7xSv_QxdpN8hfySrLXbHuNuOyp0yTFfyXbkQcGdbHuYNgHtqKsVjrBmtHRcbCtPYxUdfYE6urSAeIQt5Q1c7mB4E4JHx38xdHZfUpn_WX8Vsq4Eew23ct6UTl6xP4uVj",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Wageh Nasr",
+						uri: "//maps.google.com/maps/contrib/112600259815928394660",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIe8LLp61r7N0nKCD_gw8Wi72JTexNt638pnBMd9Uk9=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		servesCocktails: false,
+		goodForChildren: true,
+	},
+	{
+		name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE",
+		id: "ChIJbYImpLtYwokRSq7QM3TT6bE",
+		types: ["bar", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 726-4355",
+		internationalPhoneNumber: "+1 646-726-4355",
+		formattedAddress: "1652 2nd Ave, New York, NY 10028, USA",
+		addressComponents: [
+			{
+				longText: "1652",
+				shortText: "1652",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "2nd Avenue",
+				shortText: "2nd Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10028",
+				shortText: "10028",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+			{
+				longText: "3110",
+				shortText: "3110",
+				types: ["postal_code_suffix"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q2GX+X8",
+			compoundCode: "Q2GX+X8 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.777477999999995,
+			longitude: -73.951655,
+		},
+		viewport: {
+			low: {
+				latitude: 40.77619481970849,
+				longitude: -73.9531642302915,
+			},
+			high: {
+				latitude: 40.77889278029149,
+				longitude: -73.9504662697085,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=12820010310325808714",
+		websiteUri: "http://schallerstube.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 18,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 11:00 PM", "Tuesday: 11:00 AM – 11:00 PM", "Wednesday: 11:00 AM – 11:00 PM", "Thursday: 11:00 AM – 11:00 PM", "Friday: 11:00 AM – 11:00 PM", "Saturday: 11:00 AM – 11:00 PM", "Sunday: 12:00 – 6:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">1652 2nd Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10028-3110</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_MODERATE",
+		userRatingCount: 362,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Schaller's Stube Sausage Bar",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		reservable: false,
+		servesBreakfast: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: true,
+		servesVegetarianFood: true,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 18,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 11:00 PM", "Tuesday: 11:00 AM – 11:00 PM", "Wednesday: 11:00 AM – 11:00 PM", "Thursday: 11:00 AM – 11:00 PM", "Friday: 11:00 AM – 11:00 PM", "Saturday: 11:00 AM – 11:00 PM", "Sunday: 12:00 – 6:00 PM"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "1652 2nd Ave, New York",
+		editorialSummary: {
+			text: "Compact counter serve doling out elevated sausage sandwiches with an international twist, plus beer.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxazVfYllREAE",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 4,
+				text: {
+					text: "Pretty good sausages with unique combos, a tad bit pricey for the portion size though.\n\nWould rate higher but they were out of a lot of ingredients when I went, so they kept making me change my order to accommodate.\n\nGreat service though, guy behind the counter was really nice!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Pretty good sausages with unique combos, a tad bit pricey for the portion size though.\n\nWould rate higher but they were out of a lot of ingredients when I went, so they kept making me change my order to accommodate.\n\nGreat service though, guy behind the counter was really nice!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Christopher Woods",
+					uri: "https://www.google.com/maps/contrib/106158166337868209579/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUZimpDSGvQ6oM8JV5DQl-6ED9rbOZ_HKeNs-EtfiOFarM=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-01-03T05:42:20Z",
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/reviews/ChZDSUhNMG9nS0VJQ0FnSUNwb3VuZUNBEAE",
+				relativePublishTimeDescription: "7 months ago",
+				rating: 5,
+				text: {
+					text: "Easily the best sausage & bun I found on my hot dog hunt of New York. The snap & flavour of the sausage was authentic, the bun was soft and the sauces topped it off. They offer quite a few interesting things to try on their menu including vegetarian options. I tried the classic and the Reuben and both were excellent. The person who served me was very talkative and friendly, giving me advice/ opinion on different dishes they have. Great experience all round.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Easily the best sausage & bun I found on my hot dog hunt of New York. The snap & flavour of the sausage was authentic, the bun was soft and the sauces topped it off. They offer quite a few interesting things to try on their menu including vegetarian options. I tried the classic and the Reuben and both were excellent. The person who served me was very talkative and friendly, giving me advice/ opinion on different dishes they have. Great experience all round.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Lift_Run_Eat_",
+					uri: "https://www.google.com/maps/contrib/108828914933439542378/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXJoZpMr1Mxu5-PcPJvWyGjXDNHArPmUWEXQ2lFXzdT_Yc=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2023-07-31T13:39:31Z",
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/reviews/ChZDSUhNMG9nS0VJQ0FnSUN4NHBYa1B3EAE",
+				relativePublishTimeDescription: "10 months ago",
+				rating: 5,
+				text: {
+					text: "Great place with delicious sausages. Service was friendly and quick. They also have soft drinks from Europe and beer. It’s definitely a place to go often for quick meals.\nThe only thing I regret is that I visited them only after 2 years I moved to UES.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Great place with delicious sausages. Service was friendly and quick. They also have soft drinks from Europe and beer. It’s definitely a place to go often for quick meals.\nThe only thing I regret is that I visited them only after 2 years I moved to UES.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "David Chitanava",
+					uri: "https://www.google.com/maps/contrib/106020115623326652378/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjW87EKFbwK8jvrfXwQCJdJR-JBPprUW7NBlVo00EGw12w=s128-c0x00000000-cc-rp-mo-ba7",
+				},
+				publishTime: "2023-05-14T00:27:13Z",
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/reviews/ChZDSUhNMG9nS0VJQ0FnSURPa0lLM0FREAE",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "Took a brat break during our day biking around Central Park and this place absolutely fit the bill. It didn't feel touristy which is always nice (even though we were indeed tourists). We shared three brats: The Saigon, Pitmaster, and Reuben. Each were totally unique and held up well in the soft, yet sturdy, pretzel bun. Would love to try their other offerings someday.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Took a brat break during our day biking around Central Park and this place absolutely fit the bill. It didn't feel touristy which is always nice (even though we were indeed tourists). We shared three brats: The Saigon, Pitmaster, and Reuben. Each were totally unique and held up well in the soft, yet sturdy, pretzel bun. Would love to try their other offerings someday.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Alexandria Bodas",
+					uri: "https://www.google.com/maps/contrib/108601108329096530776/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVRMXrTnp0W3toCC7NCXVa15rmijeFN5YBx634upHqm2g7A=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2022-06-25T04:25:16Z",
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/reviews/ChdDSUhNMG9nS0VJQ0FnSUNpbHZDV3J3RRAB",
+				relativePublishTimeDescription: "3 years ago",
+				rating: 5,
+				text: {
+					text: "Absolute favorite spot of mine. I may have tried every sausage on the menu and have not found a flaw in a single one. There are two in particular that I get most often, one with rueben toppings and another with burger-like toppings but I can never remember the names. Delightful place to swing by and grab a delicious and filling meal.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Absolute favorite spot of mine. I may have tried every sausage on the menu and have not found a flaw in a single one. There are two in particular that I get most often, one with rueben toppings and another with burger-like toppings but I can never remember the names. Delightful place to swing by and grab a delicious and filling meal.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Lauren M",
+					uri: "https://www.google.com/maps/contrib/113176619991924035400/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLTrF3c2lcAkx2hENa8Yq43CuHq9YqanXl6JjZR77NL=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2020-11-01T00:10:12Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZ5-JJpwWVRbaYEQCX8j5KeSFBqG0DWkf9NSZQjbeatI054N7F_TY012Ka6X4XvpUK11m8kIEzUlvRxzUxk-Cmb0TPUlHdC3sEftSc08ketx71Qb6q3oQlAg0_m83wjrB4TOlk9HGHBwZCVXikUGyVkDABDdR-OA7Wc",
+				widthPx: 5760,
+				heightPx: 3840,
+				authorAttributions: [
+					{
+						displayName: "Schaller's Stube Sausage Bar",
+						uri: "//maps.google.com/maps/contrib/116574712253876967658",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUE2Pk_ta4ANmd5jAi_0zTGtKaPOidola1A-IcKWYL1gQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJapStMtuqsZTkvkrwn-qdc1Y1-JRSm5R8hx2aucSBggZdAEhiZ2tX7q_Tt_zr6OGKYMS0DE6fijcRst8odv6KB87ffuF5W3Q5-8bNjIM3mU4zLQxnF7jde4YExNb64I1Qi3AB2kLZ2eUwa8vSLlwiNbWjaMTasHjc4f",
+				widthPx: 2020,
+				heightPx: 1515,
+				authorAttributions: [
+					{
+						displayName: "gourmetpierrot",
+						uri: "//maps.google.com/maps/contrib/117482961173516967941",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUCnf3iyFiQdizL-AgTZNOzoqv28lK5-9Nl-5LAXp4-R_Q=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZGlRbViSYUa3vJspQryfPlCT0P4179eBxTu_v3Ia9K6-9jpHt9ri5HTiltHTZPthBMEbk0ldpsBkfhF2DJdrqYSZuNYRah-PelDXhtNosIN520_zTJgfH0X0U-DykBwKzBZJxPWcrhzUjhS5qVO3wSOIu6muBuMt6L",
+				widthPx: 3147,
+				heightPx: 2360,
+				authorAttributions: [
+					{
+						displayName: "David Chitanava",
+						uri: "//maps.google.com/maps/contrib/106020115623326652378",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW87EKFbwK8jvrfXwQCJdJR-JBPprUW7NBlVo00EGw12w=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJYC5uMsR6XOFUFkmOVlrb_Z5gfVDtCxvXeeIvR3uUpt3QVghX4FO0kwXPhDHY37zb-3J5ScwIn9F0phqecsqoN1bc3axtF3uvM_NjDfb90vhB7k6f_se27_j3mg9zsvUs0yobPefq1RJPLn5zRgQbJtRkHCRmrjV88D",
+				widthPx: 1024,
+				heightPx: 768,
+				authorAttributions: [
+					{
+						displayName: "gourmetpierrot",
+						uri: "//maps.google.com/maps/contrib/117482961173516967941",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUCnf3iyFiQdizL-AgTZNOzoqv28lK5-9Nl-5LAXp4-R_Q=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZxKsL-BmVuRIFK4WPXeoYSXBFJ42iNAMxWfY2Byli4l1UOT77MDCAvCIBAK1eCitOkNBooqbjpHiLHb0V27nUJaM_O4UojPBQZ4J2D_5AguWKuW-XH2fZ0wwfJDgrdnROflMEPBHs2-_5nCasJKw39szKYsCBu5McJ",
+				widthPx: 1024,
+				heightPx: 768,
+				authorAttributions: [
+					{
+						displayName: "gourmetpierrot",
+						uri: "//maps.google.com/maps/contrib/117482961173516967941",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUCnf3iyFiQdizL-AgTZNOzoqv28lK5-9Nl-5LAXp4-R_Q=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJYTTVFOwwb4bfCjhHjabma00mVV8fnJ9qbBvcqv5t0IKfUpuQYrTDQb4_Nx5zGuEQI5liQSF-TGvoqiJAnVEPpQ86igrtwUP4kK0yfPITYP4cM4cAMIBfyx4W4_2tHjl9MfSIViG-20LfjVhYYBnfFtbP-82AlSfww",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Melissa O'Connor",
+						uri: "//maps.google.com/maps/contrib/117779413714170390707",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVSVjL_Zlp7BalfT9GNsVRfPeclqGPF1qq91eKFKJoK10Y=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJaHDTgQnlDT6yhByFjAPeJcerRT5q0kilxTbD3IVg8DEZhCzHVcZ1CGvmvQN3vdSTyVE7UCWbA6RqxBmrRPAAu0VUJt5-lFHHevfKpg7iBTHSnmULk3H5fclxdaDElUWRumteH7WaxiGZXC4lqJesLtEwi14oCxsAU",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Melissa O'Connor",
+						uri: "//maps.google.com/maps/contrib/117779413714170390707",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVSVjL_Zlp7BalfT9GNsVRfPeclqGPF1qq91eKFKJoK10Y=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZHKFSSCNM3c2VA4DbxjrQRUEltBRxuzhi8XvZiJ9f-DfvCkp_hH2U7yakDonwYhLKGxfCAlk7lIYlc1UB7PpPpmVe73HAxzK7ErmT8yvWkTRfQEILoOft19Ci80fZfT-LU4uF0BuREdWgKTdBmpFxOqWdRrC2IvoZh",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Sami Claret",
+						uri: "//maps.google.com/maps/contrib/111838230533802846290",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXqpNyJqjd8LCQ2SWxv2BTPjH21phOftz-ZyY3dcxL4kgk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZvkdlUZnE8TUOhdsqzIJgZzZk-FUeGcCmK-20g0zJ5mBnbt8ARfzVP9U3S6-FZC1aun81kkoWTb0WAf7eHZkhh3I83f4r2mbeXFqVGzNrjXXxhItFN8LOneTUm4uM6pU1HXaXv2gZU0VLg9IGbA-DpTXPTpsfQbBgp",
+				widthPx: 3141,
+				heightPx: 2356,
+				authorAttributions: [
+					{
+						displayName: "David Chitanava",
+						uri: "//maps.google.com/maps/contrib/106020115623326652378",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW87EKFbwK8jvrfXwQCJdJR-JBPprUW7NBlVo00EGw12w=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJbYImpLtYwokRSq7QM3TT6bE/photos/ATplDJZMo8J1URmgNJc7Ifq7AGcEONt4nDHS0zbK1z7B1XBaqiEd0Oyadd5di3Wv8m7BYo1LT9WRvUFIqLhqRDc3vO8_QYWWfDiQbQCDkbfuiV0zfI3j-dHVP1YAjHlpqDY4geC5Yy7kmM6kRuwl1JaLL1Qpceh7svaGmRu2",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Jean Broese",
+						uri: "//maps.google.com/maps/contrib/116271667406254875877",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUg3A-Lgjli1wu2grV8vYhzoRgZnyvvvfoZ6qzjsaGbmg=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesDessert: true,
+		servesCoffee: false,
+		goodForChildren: true,
+		restroom: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsCashOnly: false,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+		},
+	},
+	{
+		name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg",
+		id: "ChIJhS84SLZZwokRgKxdpdjWLhg",
+		types: ["american_restaurant", "korean_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "33 W 32nd St suite B, New York, NY 10001, USA",
+		addressComponents: [
+			{
+				longText: "suite B",
+				shortText: "suite B",
+				types: ["subpremise"],
+				languageCode: "en",
+			},
+			{
+				longText: "33",
+				shortText: "33",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "West 32nd Street",
+				shortText: "W 32nd St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10001",
+				shortText: "10001",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8P2X7+54",
+			compoundCode: "P2X7+54 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7479705,
+			longitude: -73.98716730000001,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7465788697085,
+				longitude: -73.98854713029152,
+			},
+			high: {
+				latitude: 40.7492768302915,
+				longitude: -73.98584916970852,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=1742566331814620288",
+		websiteUri: "https://www.afternoonplace.com/jongroricehotdog",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 30,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 9:30 PM", "Tuesday: 11:00 AM – 9:30 PM", "Wednesday: 11:00 AM – 9:30 PM", "Thursday: 11:00 AM – 9:30 PM", "Friday: 11:00 AM – 9:30 PM", "Saturday: 11:00 AM – 9:30 PM", "Sunday: 11:00 AM – 9:30 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">33 W 32nd St suite B</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10001</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 316,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Jongro Rice Hotdog",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		reservable: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 9:30 PM", "Tuesday: 11:00 AM – 9:30 PM", "Wednesday: 11:00 AM – 9:30 PM", "Thursday: 11:00 AM – 9:30 PM", "Friday: 11:00 AM – 9:30 PM", "Saturday: 11:00 AM – 9:30 PM", "Sunday: 11:00 AM – 9:30 PM"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "33 W 32nd St suite B, New York",
+		reviews: [
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/reviews/ChdDSUhNMG9nS0VJQ0FnSUNGallqczBRRRAB",
+				relativePublishTimeDescription: "4 months ago",
+				rating: 4,
+				text: {
+					text: "Hefty corndog that’s maybe too much of a good thing unless you’re a growing teen or hangry. It’s just what you would expect from appearances and delivers on crunch and rich batter flavor, however the uber thick crispy/soft batter with a just-okay hotdog plus the recommended sugar and sauce makes it so rich, so greasy, and so sweet it’s hard to eat the whole thing (coming from someone who can eat 4 donuts without thinking). As for ordering, the kiosk is easy and fine, place smells like a fryer. Prices decent. Service speed is solid, 5 min per dog. Hot dog making person behind the counter was however bombarded by friends who stepped right back into to the food prep area and removed any semblance of food safety. Yikes. I’m a die hard corndog fan but won’t go out of my way for this one.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Hefty corndog that’s maybe too much of a good thing unless you’re a growing teen or hangry. It’s just what you would expect from appearances and delivers on crunch and rich batter flavor, however the uber thick crispy/soft batter with a just-okay hotdog plus the recommended sugar and sauce makes it so rich, so greasy, and so sweet it’s hard to eat the whole thing (coming from someone who can eat 4 donuts without thinking). As for ordering, the kiosk is easy and fine, place smells like a fryer. Prices decent. Service speed is solid, 5 min per dog. Hot dog making person behind the counter was however bombarded by friends who stepped right back into to the food prep area and removed any semblance of food safety. Yikes. I’m a die hard corndog fan but won’t go out of my way for this one.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "ElizaBeth Clowes",
+					uri: "https://www.google.com/maps/contrib/106556731638404165139/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUz8kSItV4WPpjU2wAFJGPq9iiOKBh2cHwpFsMiF8_pqamt=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-10-30T18:41:57Z",
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/reviews/ChZDSUhNMG9nS0VJQ0FnSURkby1xaFZBEAE",
+				relativePublishTimeDescription: "2 weeks ago",
+				rating: 3,
+				text: {
+					text: "The hotdogs here are massive. One will easily fill you up. They are definitely a gluttonous, guilty pleasure food.  I'm inclined to call these hotdogs a novelty that I'd only eat very occasionally, and possibly never again. It's fun to try at least once, though!\n\nThe hotdogs were good, but I think they are absolutely overhyped.\n\nOrdering was kind of a burden as well. If you don't notice right away, you walk in just to realize you have to go outside and order at Kiosks.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "The hotdogs here are massive. One will easily fill you up. They are definitely a gluttonous, guilty pleasure food.  I'm inclined to call these hotdogs a novelty that I'd only eat very occasionally, and possibly never again. It's fun to try at least once, though!\n\nThe hotdogs were good, but I think they are absolutely overhyped.\n\nOrdering was kind of a burden as well. If you don't notice right away, you walk in just to realize you have to go outside and order at Kiosks.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "D L",
+					uri: "https://www.google.com/maps/contrib/108844518103600735413/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUB656dAG3aZ5JfBho4SxprxkSRuvZ9bPdsQpy5QW-y-u4=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2024-02-26T20:06:48Z",
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0ei1IcjFBRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 5,
+				text: {
+					text: "I love this place.  One of the few places that has the flavors I like (mozzarella inside, sweet potato outside).  I don’t add the recommended sugar because you just don’t need it.  It’s so delicious, I have to be careful with how many times I treat myself to this.  But it’s definitely worth it when you want something to make you feel good :D",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I love this place.  One of the few places that has the flavors I like (mozzarella inside, sweet potato outside).  I don’t add the recommended sugar because you just don’t need it.  It’s so delicious, I have to be careful with how many times I treat myself to this.  But it’s definitely worth it when you want something to make you feel good :D",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Max A Million",
+					uri: "https://www.google.com/maps/contrib/112235690924097774252/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX3TYf7a3yNM7ytAj3EJvUeBQEGu5r_414XR6fgYW7woA=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2024-02-01T15:20:19Z",
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/reviews/ChdDSUhNMG9nS0VJQ0FnSUM1bE9ydHhBRRAB",
 				relativePublishTimeDescription: "5 months ago",
 				rating: 4,
 				text: {
-					text: "Service was a little slow, despite being quite empty.\nA ridiculous amount of single use plastic & paper plates - is it not more cost effective to just buy a dish washer and wash the cutlery?\nThe plastic forks and knives were awful at cutting the pizza too.\nFood portions were huge! So great value of money here.\nProbably wouldn’t both coming again though, even though the experience was 4/5",
+					text: "Food is very unique. Customer service was pretty good as kiosks were available inside and outside the restaurant. This place seemed pretty popular and kept a crowd. Only takeaway is that the restaurant has limited capacity.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Service was a little slow, despite being quite empty.\nA ridiculous amount of single use plastic & paper plates - is it not more cost effective to just buy a dish washer and wash the cutlery?\nThe plastic forks and knives were awful at cutting the pizza too.\nFood portions were huge! So great value of money here.\nProbably wouldn’t both coming again though, even though the experience was 4/5",
+					text: "Food is very unique. Customer service was pretty good as kiosks were available inside and outside the restaurant. This place seemed pretty popular and kept a crowd. Only takeaway is that the restaurant has limited capacity.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Will H",
-					uri: "https://www.google.com/maps/contrib/103172812851438368071/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJGv5A8GdUHygpkM-2fs1F2yV6Ywg8RsEz3Rg8oN5kZfBU=s128-c0x00000000-cc-rp-mo-ba3",
+					displayName: "Anthony Dixon",
+					uri: "https://www.google.com/maps/contrib/111539141333888069346/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUD0S5ZZPtdxTw2f_J0eNq1iBJypQqXXAkirlMj6OcJKZA=s128-c0x00000000-cc-rp-mo-ba5",
 				},
-				publishTime: "2023-10-08T23:58:21Z",
+				publishTime: "2023-10-10T19:01:43Z",
 			},
 			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/reviews/ChdDSUhNMG9nS0VJQ0FnSUM1MUlXTnhBRRAB",
-				relativePublishTimeDescription: "5 months ago",
-				rating: 4,
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/reviews/ChdDSUhNMG9nS0VJQ0FnSUNaMmMtZHhnRRAB",
+				relativePublishTimeDescription: "6 months ago",
+				rating: 3,
 				text: {
-					text: "Decently spacious place to eat in Manhattan. Their famous artichoke pizza is what I got. Listen, this a delicious pizza BUT it is very overwhelming. It's a slice you'll want to share with someone. You run the risk of getting flavor fatigue. Even get another slice to switch between the 2 flavors maybe",
+					text: "despite there being nobody else waiting it took a while for my singular hotdog. it was enjoyable, but i think i set my expectations too high. it sort of tastes exactly how you’d imagine, nothing special.\n\ni got the potato half cheese half hotdog. be careful of the stick when biting into it.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: "Decently spacious place to eat in Manhattan. Their famous artichoke pizza is what I got. Listen, this a delicious pizza BUT it is very overwhelming. It's a slice you'll want to share with someone. You run the risk of getting flavor fatigue. Even get another slice to switch between the 2 flavors maybe",
+					text: "despite there being nobody else waiting it took a while for my singular hotdog. it was enjoyable, but i think i set my expectations too high. it sort of tastes exactly how you’d imagine, nothing special.\n\ni got the potato half cheese half hotdog. be careful of the stick when biting into it.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Genevieve Dunn",
+					uri: "https://www.google.com/maps/contrib/116370557757726600970/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJOsCFbtLaAq7NOcof4oODQIt-ehxztON6I9YXmoWcC=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-09-13T18:54:55Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJZTQoM6zWn5hvYa8QnxkmmbRzZpytEka3OjtsDWaKUqEcotocW4IfdB6aP1_5ZoR-5rzbiYTapdZx1TYn0VcYpq635ROY9itCO6DCPx5j0_hNt9pLRWcBEp1emZvnRh2lC8woiyGYIF2IEqrXu2Cl2mJSlhCOXeV5Bd",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "David Y",
+						uri: "//maps.google.com/maps/contrib/103937489175125919465",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU_Nzkxk6-E3Dgzjnq4IcKOeFHbeZS6YsaSKHqaorTBfg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJbTHp2M_9Q1sWCN-bRXS6u_9EsNh118DNRVCIBlg58wed-EFjfi-Hf_8yQwJxSoZf3-vAA_jxz7xF4Ppg_8Ck42bX2Jg6HSVW_xtgovSUVJHdPHva99HMYbmq9lz6rCKZ1mwn3HKx2zuzbufR8P7eCMFbd0iZaRxKMu",
+				widthPx: 1080,
+				heightPx: 609,
+				authorAttributions: [
+					{
+						displayName: "Jongro Rice Hotdog",
+						uri: "//maps.google.com/maps/contrib/110313021481637955026",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWaDeTi3k6IafOtafyCmIfSLrmF9u53ReBbteoBsn_Elg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJYH7PZjKn19qui-PHZzksSPJ4NmNcmuDpqIARA-l-naLs-4TJOy4tBVAWnw7XC8ADpeX7RMIZ-w97aspMwlAI5VLRTd50jPCiT4DdnkLng7MXGYyRFwFjIy3T453NVF9gu6vW6JrD7eIGdw72mzWfAqnmML0W6Q9EY",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Scott Mackay",
+						uri: "//maps.google.com/maps/contrib/112005260821634435471",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWMzb9xkr_sqSZfYHcctonCD_i5v1ka9zrMmbtaRzaGkaU=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJZ7fw1Y1ws45P_-BH-hnzNH6i0b6dRGjABU8iiu0eAFSDr-eMkWWjg97wp5_JjONjNiLRxccyfScVvqDGloeQgOBj4BCiKmOLG9ZF9z0NDL7Zr2DYFoAHGSoVyzm501_SgCs9rbQq3AU7_TUSnzzCnAuZReR5D5FM-X",
+				widthPx: 1080,
+				heightPx: 1080,
+				authorAttributions: [
+					{
+						displayName: "Jongro Rice Hotdog",
+						uri: "//maps.google.com/maps/contrib/110313021481637955026",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWaDeTi3k6IafOtafyCmIfSLrmF9u53ReBbteoBsn_Elg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJbzAIOE4uwyWZrqRe13sNVUnfmdMlx26_bgjsjB6R5rOHQx8MNrwd5mkYQF-n6E8b8caDvLlCtni8V_X6fc9-7meqTj0nfBCd-cZSmNS1VzLynQb8WC55FD_CBVLMb5LBC5kW1XWGD_zW5sDMW8CGHpxeaW48uEe0F4",
+				widthPx: 1440,
+				heightPx: 1777,
+				authorAttributions: [
+					{
+						displayName: "Faarah Ameerally",
+						uri: "//maps.google.com/maps/contrib/106055441713175156770",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWxt_a0vuNwkzkssnxs7gL5QZZDZt84GU3cWHOf23h37GOf=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJYzu5gqgyKhklR2mIAKmubLW_LkkQ02XSFDXlN--z08RxTGVmV49bd8fBnNmSdxzHfR2zT8S_fAWU0nd2nXfDt-QsDpm6CJPNBciZXULlmTkWsMJzV3D9JhneC987EhYm1rVphByB4GLm5NPholC77pGcLf_PYj_xDf",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "LlamaStudio!",
+						uri: "//maps.google.com/maps/contrib/109358410708474760690",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUtpb4pnBGP3cuZWka4Luo5GkPHZNmbSQmLdy9aRmhjN-U=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJa6bcyt27lPxebmG3_X79l_ugY8Ps7BqsEqBGjsPtMyzQF4oZcujEUJN58RHyaGkmLJcHsjUJHdw2Tm04ZVVyr7lv2iUqU-JlWLCjjWUfCcJv3sddK2dd9dY3AmM5cF2k-6_TcjyuQsqFHASGa8yFPa7dSkcgwkhUNf",
+				widthPx: 3739,
+				heightPx: 2730,
+				authorAttributions: [
+					{
+						displayName: "David Ryan",
+						uri: "//maps.google.com/maps/contrib/114607904590486797636",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUDHy7WfYJA33nvzx-632PbMD-qYRZARKwnnv0tV6HK5_Oh=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJbpOdgk1jdnfPeKYO60Y2qLpuEydqUDdXesbJeofqiHLvsqWL54w5UEh7iWWDGtOBDslV9ntOM4KrPkcC7KqZDjWKs634MelxKySfxY-92Q5bZ2_XyWIJEgd8ve18rTXyxdRiXfx8pVBR1Edo-Doy_QJ9aLcmMLtzHN",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Nada Agamy",
+						uri: "//maps.google.com/maps/contrib/111790618045689664591",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUeSIBFSjyXm2HNVLiy-T1X3chvHPEVA7wyqkcV252uyW8=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJbD4dUXBhX81Dy1HmhHSwavEBvUEk4CC9LOELRBGYhkYhByblCAi7oXy23vkJbAw9atB55brXsWiKk7-GpDDD2562LvibPfHhHVgMG4XXY-j2AA8FJHtWAQZP3ZZ8eFwy_-nKy44hX9E3iIzHV0fKKrR8Elkt4G1EpY",
+				widthPx: 3289,
+				heightPx: 2332,
+				authorAttributions: [
+					{
+						displayName: "Andreas Kremski",
+						uri: "//maps.google.com/maps/contrib/109271111456847448978",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLkGvgextM9pT6T52kMER4rczxjrqonWiQVGh-9A6Vf=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJhS84SLZZwokRgKxdpdjWLhg/photos/ATplDJbopZb6iayPCBXrTWEvOOzi1IXEl8npfZRBWDc7L2ULl2BKmM3dE38BTFAGtM_1P3ku5L83MWYLefda11t3gSVhruyy4yBZu6s5KUs43-p5DsBmc5uhikCLsinBwBEaByQDMsfzqDy1dGhre1GKTK--tq0Q6njs7Uy5",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Garima Gautam",
+						uri: "//maps.google.com/maps/contrib/114395070045588486546",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUkZnMD3Jzojn0PjtD_boHkBKPj2ViyElcGoS6l4yBXAjf2=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: true,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsCashOnly: false,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+		},
+	},
+	{
+		name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI",
+		id: "ChIJQQaDPzVEwokRwJfPzNzyNnI",
+		types: ["fast_food_restaurant", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(718) 333-2202",
+		internationalPhoneNumber: "+1 718-333-2202",
+		formattedAddress: "1310 Surf Ave, Brooklyn, NY 11224, USA",
+		addressComponents: [
+			{
+				longText: "1310",
+				shortText: "1310",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Surf Avenue",
+				shortText: "Surf Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Coney Island",
+				shortText: "Coney Island",
+				types: ["neighborhood", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "Brooklyn",
+				shortText: "Brooklyn",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "Kings County",
+				shortText: "Kings County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "11224",
+				shortText: "11224",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8H2G9+4C",
+			compoundCode: "H2G9+4C New York, NY, USA",
+		},
+		location: {
+			latitude: 40.5752667,
+			longitude: -73.9814806,
+		},
+		viewport: {
+			low: {
+				latitude: 40.5740370197085,
+				longitude: -73.9827807802915,
+			},
+			high: {
+				latitude: 40.5767349802915,
+				longitude: -73.98008281970849,
+			},
+		},
+		rating: 4.2,
+		googleMapsUri: "https://maps.google.com/?cid=8230032399209043904",
+		websiteUri: "https://www.nathansfamous.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 22,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 10:00 PM", "Wednesday: 10:00 AM – 10:00 PM", "Thursday: 10:00 AM – 10:00 PM", "Friday: 10:00 AM – 11:00 PM", "Saturday: 10:00 AM – 11:00 PM", "Sunday: 10:00 AM – 10:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">1310 Surf Ave</span>, <span class="locality">Brooklyn</span>, <span class="region">NY</span> <span class="postal-code">11224</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 13771,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Nathan's Famous",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		curbsidePickup: false,
+		reservable: false,
+		servesBreakfast: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: true,
+		servesWine: false,
+		servesBrunch: false,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 22,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 23,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 10:00 PM", "Tuesday: 10:00 AM – 10:00 PM", "Wednesday: 10:00 AM – 10:00 PM", "Thursday: 10:00 AM – 10:00 PM", "Friday: 10:00 AM – 11:00 PM", "Saturday: 10:00 AM – 11:00 PM", "Sunday: 10:00 AM – 10:00 PM"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "1310 Surf Ave, Brooklyn",
+		editorialSummary: {
+			text: "Brooklyn-born fast-food chain offering signature hot dogs, fries, burgers & more.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/reviews/ChdDSUhNMG9nS0VJQ0FnSURWa015TjB3RRAB",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "What more can you ask for. A New york now even world national place.  I live now in Chicago but when i am in town. Nothing like the original Nathans hot dog.  We also had the French Fries. God it was so great.   Wait staff was great, happy and friendly.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "What more can you ask for. A New york now even world national place.  I live now in Chicago but when i am in town. Nothing like the original Nathans hot dog.  We also had the French Fries. God it was so great.   Wait staff was great, happy and friendly.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "cartoon691",
+					uri: "https://www.google.com/maps/contrib/106165664331558019762/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJvjkk6JdjIRWBhsHsBsW4GXO9jKC5El8BPdxlUY7IN=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-12-10T10:53:54Z",
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/reviews/ChdDSUhNMG9nS0VJQ0FnSURsdklpNWl3RRAB",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "The original Coney Island hotdog is good. It tastes like you would expect, but not over the top special. What was blow you away special were the fries! Holy cow, were they good.  Do not miss out on these guys!  We got the plain, but they have several types of smothered as well.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "The original Coney Island hotdog is good. It tastes like you would expect, but not over the top special. What was blow you away special were the fries! Holy cow, were they good.  Do not miss out on these guys!  We got the plain, but they have several types of smothered as well.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Christine Campbell",
+					uri: "https://www.google.com/maps/contrib/106112685913827448476/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXzixJEq3RnnO7M0iBcP-YF-IfEB_obnYjuom_TxNnOHoo=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-30T20:40:21Z",
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/reviews/ChdDSUhNMG9nS0VJQ0FnSURkdW9fQjd3RRAB",
+				relativePublishTimeDescription: "2 weeks ago",
+				rating: 5,
+				text: {
+					text: "I only gave it 5 stars because of the history of this place. 1st Nathan's in the world, and love the added history Coney Island backdrop. To add...Nathan's still the best Hot Dogs ever!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I only gave it 5 stars because of the history of this place. 1st Nathan's in the world, and love the added history Coney Island backdrop. To add...Nathan's still the best Hot Dogs ever!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Glenn Anthony",
+					uri: "https://www.google.com/maps/contrib/111261551732269338515/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWjfm4uUYMIAWg8IV0Q379APkCP5P19PMYa0GZJjZir2k4=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2024-02-25T23:53:54Z",
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsM2VLckZREAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 4,
+				text: {
+					text: "Legit dog and crinkle cut fries! Clam chowder was amazing!! Cool place to get a quick bite! Seating area is cozy.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Legit dog and crinkle cut fries! Clam chowder was amazing!! Cool place to get a quick bite! Seating area is cozy.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Jeff Magnuson",
+					uri: "https://www.google.com/maps/contrib/111197349567436158689/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjW_L5HF1eHG8TDrJGu1Xj0YMFRosZkwcg0Z5sSTCW02Vw=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-24T22:59:02Z",
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOMm91UlF3EAE",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 5,
+				text: {
+					text: "You have to go and visit this iconic place and try their hot dogs! I got the basic one I guess and it was really good! I got it with french fries too… I have to admit I do not eat meat a lot but this dish has very tasty! The place was cosy and there was this cool atmosphere! For me even if you are in the neigbour hood you must pass by!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "You have to go and visit this iconic place and try their hot dogs! I got the basic one I guess and it was really good! I got it with french fries too… I have to admit I do not eat meat a lot but this dish has very tasty! The place was cosy and there was this cool atmosphere! For me even if you are in the neigbour hood you must pass by!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Gosia Ozga",
+					uri: "https://www.google.com/maps/contrib/108065541910074577239/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWkKhptr9g1EVe6ALoOfWpNzHG7WgXRvF77XkCVlKKV5BY=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2024-01-13T21:03:06Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJapPoGRebUW7_a6wWWhfGIfDyCat2-Khn4B-0Fg-oQhjdIsA2CmToZNEiYaEhxJEFzm_AsXio0_zX7J9svY22xrSn7H_LnVGQpG7NKHWLY2XW5Jgtsb3vY2wmBN8Emttf2HWM_RVZI5JwEPP2GovMgyYiRw4Vgknxgq",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "SEUNGMIN LEE",
+						uri: "//maps.google.com/maps/contrib/115626675765781773955",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWmfOSDiKHCK7wcSUlsoDraM4NJuoA2O3P-06xBqVJCzw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJad2HAShaBbe5khuLjiXuKfF6JBUXYcO9Ynj4E-V-5tPfrzcBpdK-ZO-3hzmNdPP-EPv_IDdjKXEKRPp_ojUy-Za49Gze2gDh4e2-ymhGSlcCHwNwSOb-PES3jDZO_hk6LoQ57AQomrnNC3owmDG6Wwvs4jVrIW1_f7",
+				widthPx: 4032,
+				heightPx: 1960,
+				authorAttributions: [
+					{
+						displayName: "Roman Grinblat",
+						uri: "//maps.google.com/maps/contrib/115078891946432132327",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI0HKmqy68ovax_EMqbHi0kKYL1sHDWfuhUt54d9oNq=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJankfCKiayJKXjLKpdAt672aqjEVKF_e3haYY9FEPaleBVIt5jMm5YjrJcYiEvxNHSghQgE3CSr9XwowlzrkpjHy5CxMpP3xNP_P5Ky6PFVXp_0OUvrqYgXzW-AZrgsW2A8FRgB9U6GR-5Epfri-hWcheGmjecIamiK",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Mr. E.",
+						uri: "//maps.google.com/maps/contrib/100836348665124482141",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVbnVnMYmXT0QO_FjTXKhxmLmfh9-q75tDwPw_OGkH_xHU=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJY-eX7SfRxdnbwdrEBvT-UDZ4yJr7OR-ZHL6uLVC7nV4cC8n8lmx96O97eVfg5-QlqXw0knHyA3ogSP_IvxJNrJcGZmAAzQvuroq9ynwZ9lJd2A1WNODIRkW6TGhZ0K-kXq-ySVg-u0rcB51HgSJpIZe2YEFLYngEjL",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Brian Gabbard",
+						uri: "//maps.google.com/maps/contrib/115269142207566049491",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW2Cvy1m5IcFYOn_437mFMr-xXyEz8_0Hf6xarqRDzr-Us=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJagOJ2IhYAW_6ih_c7E5XCl-zHV292vAjvqXQQtlo_VeicJiJwhjJiYQ3mKBNhnMCNSpf_8cIq_PMBLBJJQ1-A_1vkK1fwdIfqAytMwyogArUINnqofndN1LM7WwekUhd6F8kA7U0m-RjKfOtDz4u58mlHWxlddi4g",
+				widthPx: 4032,
+				heightPx: 2268,
+				authorAttributions: [
+					{
+						displayName: "daniel kajorn",
+						uri: "//maps.google.com/maps/contrib/105858699709049253562",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocK63zJnFZ-jYguUAoBT-dDQDxtG4X7j9JS2S94-rpE=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJZBIY_aPPqXEx3pNMIeaPwhR8O4TKX0xSfkcUWrCKbBO1Q6UI8duyAq4Dypp2xFTYQLZhymeBoEanMQdzBvsSP1gOjdahO1RTKJMltowvv495NAZfOpAu7gFIxgCF9SM_DPdu68wvoTZjhrTpwL8tfIWaxZXBUveT5P",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "David K",
+						uri: "//maps.google.com/maps/contrib/114977162681690667327",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXPMRSI25iwTHLQ3aeQACACczwx3HbuvC-VmWvHQYxnerB3=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJbzx0PjbmjnAPVznvFcqV4Xp01A153QlQc7RwBQRTKQLoNQcW7MaGRMxgXRfMMXhitrqn-8SDORSOb272YxtxNRtOy8tx5ioYXZTYmujH_dZ49URquH2dh9ClDtsZ5ElAYYbPQnMZKCwBBNgTRJvmbxbc5KnRJQ_Q8g",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Ryan Leavy",
+						uri: "//maps.google.com/maps/contrib/117477875051255915968",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWaq-pHyPSzKh0Tg2Uhp9-JE7LPQ5yrn6evVqo2vycy5GFo=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJZznDMnUXscqoYlRfEeaqYilIZuR7GIUJjuTSsnExsasJ2YzNG7Vv4e3CG5RJ39DYpvxC_FVRP2r5phsi_1ZHrNTQqvKuBba6d7zmKWr-OOvhAclx1aG0VTW-3fCeE-_4ZC-x_z1BSx9dnJJnelaEPg0TfvIn_TfuKG",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Joseph Mayer",
+						uri: "//maps.google.com/maps/contrib/100238104410579364312",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLLEStOqdj1A5KlGYbfpsXsy9TVpeX6YtUjjJp_Eurz=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJbqhsq0iAA9_qxp_on5BhNyutWkQjB05F1ds4CPkzquC2CEHSaSrYpxYgXKIXVkUxwdviYyL66ubxS1BICwBiTD3_blCSs9RtF3MlJ_KduyWtUQX8sAzAa9P8Hp49Hx6zW2EC73cNDMyorvt6R7cP1KJyNl7J2StpYY",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Marty Seiler",
+						uri: "//maps.google.com/maps/contrib/107831234014576111981",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWuVclRBNo87z2yFFkuqhqz3DKaDyhtBH5QsmOJsRf_jzQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQQaDPzVEwokRwJfPzNzyNnI/photos/ATplDJawUVPScdHpo6zpJdorM0HbP2iv5uF2PN8JxkQOJgQdZfIdKxrYM4oQCUcThxxgR-B4QKpV_CkNAI5UBzW0w1FI14Bqv7-7FiYiUghodJXnzD1gBuDWXxEB9jZN2JJa7S4tEHy46VSJ4ikO87tQwlmi8yABlertOOgf",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "t. m",
+						uri: "//maps.google.com/maps/contrib/110552077876571673240",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUmMnfp0-t_pQmKQIYhSf9HEKr4Oq-20SwsMooRAO8MQQ=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: true,
+		liveMusic: false,
+		menuForChildren: true,
+		servesCocktails: false,
+		servesDessert: true,
+		servesCoffee: true,
+		goodForChildren: true,
+		restroom: true,
+		goodForGroups: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		parkingOptions: {
+			paidParkingLot: true,
+			freeStreetParking: true,
+			paidStreetParking: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: true,
+			wheelchairAccessibleEntrance: true,
+			wheelchairAccessibleRestroom: true,
+			wheelchairAccessibleSeating: true,
+		},
+	},
+	{
+		name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo",
+		id: "ChIJ9_3t_H5ZwokRuZkBPX99Keo",
+		types: ["meal_takeaway", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "1471 Broadway, New York, NY 10036, USA",
+		addressComponents: [
+			{
+				longText: "1471",
+				shortText: "1471",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Broadway",
+				shortText: "Broadway",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10036",
+				shortText: "10036",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q247+C8",
+			compoundCode: "Q247+C8 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.756101,
+			longitude: -73.98673509999999,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7547804197085,
+				longitude: -73.9881518302915,
+			},
+			high: {
+				latitude: 40.757478380291495,
+				longitude: -73.9854538697085,
+			},
+		},
+		rating: 4.1,
+		googleMapsUri: "https://maps.google.com/?cid=16873155464358107577",
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">1471 Broadway</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10036</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 9,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Hot Dogs Point",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		delivery: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesVegetarianFood: false,
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "1471 Broadway, New York",
+		reviews: [
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4M0libXhnRRAB",
+				relativePublishTimeDescription: "9 months ago",
+				rating: 5,
+				text: {
+					text: "Food trucks are expensive anywhere, so you know when you eat at one in NYC, it's going to be pricey. But when you're hungry and need a quick snack to keep you going, you can't beat the convenience! Furthermore, the hot dogs were really, REALLY tasty, and the owner of the food truck was very kind and friendly - he even decorated my hot dog with a little \"condiment art\"! I'd walk past several food trucks to go back to this one!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Food trucks are expensive anywhere, so you know when you eat at one in NYC, it's going to be pricey. But when you're hungry and need a quick snack to keep you going, you can't beat the convenience! Furthermore, the hot dogs were really, REALLY tasty, and the owner of the food truck was very kind and friendly - he even decorated my hot dog with a little \"condiment art\"! I'd walk past several food trucks to go back to this one!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Crystal Kelly",
+					uri: "https://www.google.com/maps/contrib/113368404971212617038/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLNQj3AGCqTrTmJmWJhB_33Nfj6M2sSRHXImVQUJXbR=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-06-03T22:06:21Z",
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/reviews/ChdDSUhNMG9nS0VJQ0FnSUNaOHAyZGdBRRAB",
+				relativePublishTimeDescription: "6 months ago",
+				rating: 1,
+				text: {
+					text: "No sign of the pricing, and charged us $10 a hotdog when others are selling for 2 hotdog with a bottle of water for the same (if not lower) price? What a rip off…..",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "No sign of the pricing, and charged us $10 a hotdog when others are selling for 2 hotdog with a bottle of water for the same (if not lower) price? What a rip off…..",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Eian Weng",
+					uri: "https://www.google.com/maps/contrib/110010796859665487182/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUS_ur9Z_nshYKx0rYnvXx-E0fKM63UZeX4b0ICfLWzdvbF=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2023-09-11T16:08:44Z",
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/reviews/ChdDSUhNMG9nS0VJQ0FnSURldHIydHZnRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "Amazing food, I recommend buying, one of the best halal food trucks in new york. So tasty and everything was perfect and very nice worker",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Amazing food, I recommend buying, one of the best halal food trucks in new york. So tasty and everything was perfect and very nice worker",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Striker",
+					uri: "https://www.google.com/maps/contrib/108838540848970430926/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXYfxhe9uu4FRizZKb34MZpIHRsIxdbq-oyf55eHHG6_rE=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2022-10-10T01:01:41Z",
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1aHBybnFRRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 1,
+				text: {
+					text: "the hot dogs were only 15% dog, what a scam!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "the hot dogs were only 15% dog, what a scam!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Carson Hauser",
+					uri: "https://www.google.com/maps/contrib/113551307904589575249/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjU48aBm_3prTwm_Lj_re5T0qxc4xrZ4AIQU08VBIg0OTQ=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2022-07-26T21:28:35Z",
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/reviews/ChdDSUhNMG9nS0VJQ0FnSURoMDV5bGhRRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "Good hotdogs here",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Good hotdogs here",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Michelle Abellar",
+					uri: "https://www.google.com/maps/contrib/114265222602985776279/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKCpHmxp4Ikxrh55vvDwyVWcy_tC9vnL6nvLCteMaQ4=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-03-17T03:24:44Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJZooQ0A-rxFMAKjDLwOn_qS1x56xZBlMf0Z7kBLleSKb9mnY-SU4bmYAWA9FAsRfQ94eLW8PqH4f3HWxs0FqXAYFPAXHe_kXd1u7BU5O1keA6hFX_la4vy53jlZcM6PIBFRTacd_VdhsKW-bDKF2ByysN5YhInswiq8",
+				widthPx: 4096,
+				heightPx: 1842,
+				authorAttributions: [
+					{
+						displayName: "ole engedal",
+						uri: "//maps.google.com/maps/contrib/100269120430322654456",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVm1ayl0gba8PBgK769ULPCqo-rnB4DfYT1UhkEvKa6NqQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJaPCs5ApxxLjVCfVElJEUdWr6iZGNoicEFGyPSC2cADJ19AG0MAjDNjojm7Ds8vhj4IRU4gn6JdqZvOPfYOMUmBVbTpf1VnkGiSVVOgOMGNT15luIv_n0cz1NyCqYJtMwuxpprY15_oiz0YssTgzhEzZahXvd8Elieu",
+				widthPx: 3472,
+				heightPx: 4624,
+				authorAttributions: [
+					{
+						displayName: "Murat Yavuz",
+						uri: "//maps.google.com/maps/contrib/116057663059286765670",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXqyNTCEfD8mj6sfz8yahOocNaCVVbUaQ6qnOdEb5bHZqo=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJYvGb_e9MQg5OwP2KwlPLdwj4xrsC-pqtVTL27XiMXqt1fpw8poMFrgRPL6_zwa0BEX39KIa82lRbjZosxaipeKxNeALaJHZD342ORF7fky30C6hhPrBnFeiJ3o3R3XCtECBhdpNKkrivxsA1-vo0k5O8jwmxx7wjh4",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Sarah Victor",
+						uri: "//maps.google.com/maps/contrib/118187085875486971950",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUhlhj8qHhEE72rHvGu8M1h8WeVvf284obeIe5bkr6NLYU=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJYP3W6LTjd54TnLXSDpx1HUv6CCaNGHtgbMnfo7sEXSjyGmszq29oyq6KACTsuz7pCmZRVqwcj9QP922RbVnxMXeSt3klVtVacz2EoypqZHMpXkWSn9RtMuMh5C46ss8X6hcnkGm3rjZ8b30jU9m9YAmxo3GCLTtLwK",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Crystal Kelly",
+						uri: "//maps.google.com/maps/contrib/113368404971212617038",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLNQj3AGCqTrTmJmWJhB_33Nfj6M2sSRHXImVQUJXbR=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJb0b_67KhrpmXpjqDmEHeWANi-B7Tw5fCR2Aw8b5ry333wycnSLlc_uGNjJP21-PMXdMmnew86YDk1vmk9MNYjRuRlRZYh2dm3P1oelksxpvZpncpcOFRDOvARyAS7hQ8JOiJaMkyAhc0QndQq2v7qPqwrwoPdOdRe3",
+				widthPx: 1800,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Paul Criollo Jacome",
+						uri: "//maps.google.com/maps/contrib/111194026741528460731",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX_TBvemWIIGADxPdmPnkjOWRGz7yRgsrO9hVPpodn9n1_M=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJaUoE5iTOwAHgQEPMRar7JZANJV5vmeQfFa6wtOmA6OlUrtQt33g4IMPHVv9-A0krlkORK1Xi6_UvWWaW1WUenb2SQjDwuz0spKf7pBKY4tVIZDTfTlYH6t0iJyeLKi4r622mvj-2cNEU_mApPiDNcEU6u2W8J7pmJr",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Crystal Kelly",
+						uri: "//maps.google.com/maps/contrib/113368404971212617038",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLNQj3AGCqTrTmJmWJhB_33Nfj6M2sSRHXImVQUJXbR=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJa9tYIGPiwlfyNzmKGEZsaf6Hh9hw0_galGn6ZTtPCPk8h-baCgFoh-6OO751A01Mpnwow6rSnGbpRMY2YqoRbEZnYadSXEU1y1V4_NkJDXe-HgHLvHAAk2DKaRdzOmKGNkmz2oF4HfXE0mnE8A1QLLyL3K2BYTjvCP",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "S.C. S",
+						uri: "//maps.google.com/maps/contrib/100015387415535364362",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXN0bho5YWZpVtF2LuXg_Yt_hB1Ii1XjXwYl4w8wTu8Zmc=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJbadY5xYc469PnKemRbFhQiIQTMqkEmbUmfxjrn0YSWzyuxVqhnl9A3HqYjrTNDDcQK7BvaClRuS2bsWfv4ZMj116LX87EZpZZUbslQ2RMFJysMRd9B9xP4V2P-17lTJoYMDWkbNzM-3yQkk5zBv2ItokZW_zozMY8t",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Danielle Somers",
+						uri: "//maps.google.com/maps/contrib/111631102196983424711",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUD8RJ0jOnVrlEmt2Eu4CGsuEBQlG6sbcHqPGzEdeVQH9I=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJYQsl1i3P52w-Pbr-1qt7m06d2-eRHQhfkfijYN8_kQpgseZk4R9IotOhkGC4ELrJgN08WfwCcr-ByP9Qs0_lgg8trCLhlZrFIYAp9YsbBxo-01nKxewWEZkgWNF5_y1MbAEWfJxfnj7F0GMRI4H3ATwBIBBJ5XgF65",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Vikas k",
+						uri: "//maps.google.com/maps/contrib/102573858306380865967",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX_bo-yfsM0htJfZ3vpf6K3i6AX7qmUvWi88HArLSuyC36O=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ9_3t_H5ZwokRuZkBPX99Keo/photos/ATplDJaoo4bwZsZP2s1xdfJgMcYopuzWwClzu5KcexHwdi9TJQ5i4kPZtdY4db8ZarY8rW5oViiiBARdPIuMvP1VYQcmPPxMajRf-oThC1g5g1_4JONaZEcdbh_1S2I4iPMex4DiH01EyqY6Vs-vY69tDXq11SBbHcejSaV_",
+				widthPx: 5600,
+				heightPx: 4480,
+				authorAttributions: [
+					{
+						displayName: "Rodrigo Paredes",
+						uri: "//maps.google.com/maps/contrib/110897227849623649922",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVwwWlffchN09ckALVddkoMwEI2_flh6Y93cCoYirE-IA4=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		liveMusic: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+		},
+	},
+	{
+		name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o",
+		id: "ChIJN3XfLrtZwokRPIOErITdZ_o",
+		types: ["meal_takeaway", "meal_delivery", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(212) 352-9060",
+		internationalPhoneNumber: "+1 212-352-9060",
+		formattedAddress: "171 W 23rd St Frnt 1, New York, NY 10011, USA",
+		addressComponents: [
+			{
+				longText: "Frnt 1",
+				shortText: "Frnt 1",
+				types: ["subpremise"],
+				languageCode: "en",
+			},
+			{
+				longText: "171",
+				shortText: "171",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "West 23rd Street",
+				shortText: "W 23rd St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10011",
+				shortText: "10011",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8P2V3+MV",
+			compoundCode: "P2V3+MV New York, NY, USA",
+		},
+		location: {
+			latitude: 40.744169199999995,
+			longitude: -73.9953591,
+		},
+		viewport: {
+			low: {
+				latitude: 40.742861319708496,
+				longitude: -73.9968029302915,
+			},
+			high: {
+				latitude: 40.745559280291495,
+				longitude: -73.99410496970849,
+			},
+		},
+		rating: 4.1,
+		googleMapsUri: "https://maps.google.com/?cid=18043633993982968636",
+		websiteUri: "https://www.chelseapapayamenu.com/?utm_source=gbp",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 0,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">171 W 23rd St Frnt 1</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10011</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 429,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Chelsea Papaya",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		curbsidePickup: true,
+		reservable: false,
+		servesBreakfast: true,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"],
+		},
+		currentSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 23,
+							minute: 59,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 0,
+							minute: 0,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 6,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:30 AM – 10:30 PM", "Tuesday: 10:30 AM – 10:30 PM", "Wednesday: 10:30 AM – 10:30 PM", "Thursday: 10:30 AM – 4:00 AM", "Friday: 10:30 AM – 4:00 AM", "Saturday: 10:30 AM – 4:00 AM", "Sunday: 10:30 AM – 10:30 PM"],
+				secondaryHoursType: "DELIVERY",
+			},
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 23,
+							minute: 59,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 0,
+							minute: 0,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 6,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 30,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 4,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:30 AM – 10:30 PM", "Tuesday: 10:30 AM – 10:30 PM", "Wednesday: 10:30 AM – 10:30 PM", "Thursday: 10:30 AM – 4:00 AM", "Friday: 10:30 AM – 4:00 AM", "Saturday: 10:30 AM – 4:00 AM", "Sunday: 10:30 AM – 10:30 PM"],
+				secondaryHoursType: "TAKEOUT",
+			},
+		],
+		regularSecondaryOpeningHours: [
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 5,
+							hour: 4,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 6,
+							hour: 4,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 0,
+							hour: 4,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:30 AM – 10:30 PM", "Tuesday: 10:30 AM – 10:30 PM", "Wednesday: 10:30 AM – 10:30 PM", "Thursday: 10:30 AM – 4:00 AM", "Friday: 10:30 AM – 4:00 AM", "Saturday: 10:30 AM – 4:00 AM", "Sunday: 10:30 AM – 10:30 PM"],
+				secondaryHoursType: "DELIVERY",
+			},
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 0,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 1,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 2,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 3,
+							hour: 22,
+							minute: 30,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 5,
+							hour: 4,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 6,
+							hour: 4,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 10,
+							minute: 30,
+						},
+						close: {
+							day: 0,
+							hour: 4,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 10:30 AM – 10:30 PM", "Tuesday: 10:30 AM – 10:30 PM", "Wednesday: 10:30 AM – 10:30 PM", "Thursday: 10:30 AM – 4:00 AM", "Friday: 10:30 AM – 4:00 AM", "Saturday: 10:30 AM – 4:00 AM", "Sunday: 10:30 AM – 10:30 PM"],
+				secondaryHoursType: "TAKEOUT",
+			},
+		],
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "171 W 23rd St Frnt 1, New York",
+		editorialSummary: {
+			text: "Upbeat counter-serve operation doling out hot dogs & hamburgers with classic sides.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/reviews/ChZDSUhNMG9nS0VJQ0FnSURGMnZqRlBBEAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "I followed a recommendation and got two loaded chili cheese dogs and a papaya drink. For me the order was spot on - neither too much or too little and full of flavor. It was a beautiful night and we enjoyed our dogs alfresco at the drink rail. I’d definitely buy a side of the chili if they sold it separately.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I followed a recommendation and got two loaded chili cheese dogs and a papaya drink. For me the order was spot on - neither too much or too little and full of flavor. It was a beautiful night and we enjoyed our dogs alfresco at the drink rail. I’d definitely buy a side of the chili if they sold it separately.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Michael Pellegrino",
+					uri: "https://www.google.com/maps/contrib/102675134503010161538/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVHlSCuWMgmG5HvDqAFKO9BzsVPZZT-aSJ4NH-BqlYFJKk=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-12-12T03:44:08Z",
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNwLWJ5bEdREAE",
+				relativePublishTimeDescription: "7 months ago",
+				rating: 4,
+				text: {
+					text: "As Classic as NYC Food gets!\n\nTried their chili dog and it didn’t disappoint. The place is fast, friendly and definitely worth a shot if you’re looking for a quick bite any time of day or night.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "As Classic as NYC Food gets!\n\nTried their chili dog and it didn’t disappoint. The place is fast, friendly and definitely worth a shot if you’re looking for a quick bite any time of day or night.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Marek Michalak",
+					uri: "https://www.google.com/maps/contrib/107050236797324093800/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUDVX-wQlWp-vLsv0lo9rkuKHvQsjQ7wo9GbCAmVHXc6TMW=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-08-06T22:06:18Z",
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOLVpMYUNnEAE",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 4,
+				text: {
+					text: "For late night food all good. Fries were actually great home style made fresh. Chili cheese dog was the cheapest thing dog you could find but ultimately put together well enough for a late night close grab. Leave your foodie hat home. Can’t speak to their empanadas.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "For late night food all good. Fries were actually great home style made fresh. Chili cheese dog was the cheapest thing dog you could find but ultimately put together well enough for a late night close grab. Leave your foodie hat home. Can’t speak to their empanadas.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Robert Vyslouzil",
+					uri: "https://www.google.com/maps/contrib/116233856197087247689/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWHtUjaTvEQXeTnKYAhkF_vmGLZ3pW_e-ikCQajBMDg9zbK=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2024-01-16T02:45:28Z",
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxa0tQaHBRRRAB",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 5,
+				text: {
+					text: "Love to sit there for a great Breakfast platter, tatter tots and all. I was super hungry and went there for breakfast, i was surprise of the great fast service and above all the service.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Love to sit there for a great Breakfast platter, tatter tots and all. I was super hungry and went there for breakfast, i was surprise of the great fast service and above all the service.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Marino Corniel",
+					uri: "https://www.google.com/maps/contrib/101769385050457495814/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV_jN8kh9_UCtkpcO1AHrchdRhqp0229h5cn5iKmQLT-vM=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-12-20T17:52:17Z",
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/reviews/ChZDSUhNMG9nS0VJQ0FnSURPcklUR0xnEAE",
+				relativePublishTimeDescription: "a year ago",
+				rating: 4,
+				text: {
+					text: "Good hot dog! I tried both, a simpke one with ketchup and mustard and a second one fully loaded with pickles, chilly and cheese. Both were very tasty. The chilly was a great addition so will probably go this route next time. I also had fries with cheese, but will drop the cheese next time. Their service is super friendly and fast!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Good hot dog! I tried both, a simpke one with ketchup and mustard and a second one fully loaded with pickles, chilly and cheese. Both were very tasty. The chilly was a great addition so will probably go this route next time. I also had fries with cheese, but will drop the cheese next time. Their service is super friendly and fast!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Paco Contreras",
+					uri: "https://www.google.com/maps/contrib/103244292125538715686/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJjleRJHM303STtTOi2TCsXTdJD59YKfrgkrKc6xrQo=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2022-06-29T13:37:45Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJa4uYVcBOiBVviYF1-f5jDWi8apcSaD_se25_DpVGd_bB9cZvaJKeDdekqqW0uYfc05j6U667ZPcxJrLd23eNSrX5qI7QMs5ELDoEH4SW9PwwXILlJBFk1KBdfL-8_I_3_x9E8_F6uUsh-wdjI_cjluqliRgAo1DHD3",
+				widthPx: 1000,
+				heightPx: 750,
+				authorAttributions: [
+					{
+						displayName: "Chelsea Papaya",
+						uri: "//maps.google.com/maps/contrib/117726492403470343447",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXYhSrRQEz8kfg3Ihqtw4ofL60N6gBAdwM-VWMpGGczYA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJb2seEEOHnQVBmwD8NxkU-mE1JBXDeTXRcsn1Vq5nERnhF4RbrITGqMrLYpEvaueHiPbGk1H49DEFJCiB90BLuWiJKn_JCmd9vjs3tUIdYw-NZlymch184eUiACgV7KFxnTpbMrLszGmPXUpEyy4q5TSl5EMSWHYqS-",
+				widthPx: 1284,
+				heightPx: 917,
+				authorAttributions: [
+					{
+						displayName: "Uncle ChiLL",
+						uri: "//maps.google.com/maps/contrib/109891679680442065588",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVweluGBgykJw8ES17MiOVpq0CStmSVG9ldTxOoEZ4ZwnqS=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJZLlIB5r_mju-On0W133WWtvB5ITNUWmmrujtvLKIB5I5jQH_RWgeJEaAfZKdS7YdYJ23MtbPvyXqDcLy6wilIwAfNWwz__wCDOxEVwL_WbW2WJccWW1xYY0oBpRMpt8fXkbf10zOb48HMVsy5lu9exHC0BTawfSzYJ",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Gordon Turner",
+						uri: "//maps.google.com/maps/contrib/112001106618184558740",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVMazyZSOeKnyT9NvNpXXK1dq9E9zKHPhygS3PAiUscrbk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJbkvwrrnyVQBHje2lHgznDMqlKHHh2YIiCVmsGEO0naxSJVfU4nxgdKh-eQ4E0aItdASVKy8TPH9PDjaRYzVM5v5WuCYyJI5FhHuLIHpHSLF8nH8W1Vj6p7Llbz65GwPgUb8Iw25Fcn-NhTZMF1PvGDikmBZwHXrTcl",
+				widthPx: 4624,
+				heightPx: 3468,
+				authorAttributions: [
+					{
+						displayName: "Pushpa Perera",
+						uri: "//maps.google.com/maps/contrib/111055969479168156479",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWSse4zEh47D8836HaAz77-EBzwjSQez5PXarnQNxBZtw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJaYINrlgRQlGlhEZphQCyI3bNk4FVbRCT2x2NCUtT5mn4nv_arZEPhqNHVD9ANuFBaAwq0AkjL3S9mkkR3Yp2ifEtThrpKeCV5zKtVo-2OwtcOaEFgI1oYmpIS8-ko2pmMB6bZvuMD-YbynIbJgCszh0uS9X-gI1ukt",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Marek Michalak",
+						uri: "//maps.google.com/maps/contrib/107050236797324093800",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUDVX-wQlWp-vLsv0lo9rkuKHvQsjQ7wo9GbCAmVHXc6TMW=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJY2lXM78fmqhy2uLVau0KL-0Z2sid8ygBa7Yp2sRxBww1PWoLA1KGkPNcYy89kz4EPgzvqC2eksI_7ZicgtJO6zkGTYmqUQuCgJC9tpmDRdO6j1IpNXNL9ZzNYdQ2Sgt2UO0CYaUrbKg-t_mrYXVLLTs6r6DudqmI98",
+				widthPx: 4032,
+				heightPx: 1816,
+				authorAttributions: [
+					{
+						displayName: "Luis Alberto Mares Yáñez",
+						uri: "//maps.google.com/maps/contrib/117700598299571210227",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVYeDnT_qP7eVxA30Wi6vfn-dZDXqfNBNpIB0c8vBRLFkAd=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJab24s55JQek1luWrWi0kAzIp-eUOCUvlFQju7zHougSZqsjL3-rYRq-4rVY-IYH2sphCfQZ_Rx-O8AMfmqGGdxfFFb4cAoinLjzKFf4Abmfc59wADho427emN-l8BBxze0Xk6iFoaLLa7pmCMFOXWeV2baKSUbll5M",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Frankie Camacho",
+						uri: "//maps.google.com/maps/contrib/101089989804330484585",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIthFCVJjUtnruAzW7wEWu6iUlvJIiSKqQutGl6HViG=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJa7v6zpxiatxqp16GOxiZVSAfwl488vE6yAioqNzxRmbxDVUIIJ4s8taGm20SaetAuQeXVnE0TNm0rFLmoidvt_uSzv9ZtFu48scMF0D821ccaykzMibRDWnuXkSVYth6FUTwkaeNw6_fiGS9bgw34wys_rq9-3XHYf",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Benjamin Shimazu",
+						uri: "//maps.google.com/maps/contrib/117945350627212730534",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUHLNpViyATQvfRjzbYUFoatAz-8uQGjh8SV_EOGo1KYe5_=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJZGVWBbA3icKlRdkjOvR5P9DEyC1DhJb8sATyNhKV0EHgOgI5Gngbd2GF-EycteGQYgLy2YTo3xKsl8QIKMApBeJZ0bqeFN-n89AjiVEfaWoALNImXwO2g70G2pD_m_yBns1colpZhEaDGPP1GfW7q6SaClsiWvD1d6",
+				widthPx: 4624,
+				heightPx: 3468,
+				authorAttributions: [
+					{
+						displayName: "Ginae",
+						uri: "//maps.google.com/maps/contrib/107889287861156547025",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWnTT14C87v2nnKLlvOAj_M8oDBvXdSsIGmyQYmFKK55ts=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJN3XfLrtZwokRPIOErITdZ_o/photos/ATplDJYgX4dzHZbbhB19jdweN_bhq2WSUHk3cKkXs13zgAz_ZeapQ4BcMCmYgZmF0sdGR_FYcSWWsYMkIanw6qA8ehGJI9wfl97Cs_i81AlRqZEHz_QGmXkVHZ1R_uNpNWgVIRmpihaYWizuJknaxXTltKzvalnBGd6k9EdQ",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "초롱김",
+						uri: "//maps.google.com/maps/contrib/112672450284094314534",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIjwcBlFZudqgpSmXr0dDhwtPgRrTJ53hxqFRgee775=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		servesCocktails: false,
+		servesCoffee: true,
+		goodForChildren: true,
+		restroom: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleSeating: false,
+		},
+	},
+	{
+		name: "places/ChIJB4ZeMqlZwokRm7N2p7dZUCA",
+		id: "ChIJB4ZeMqlZwokRm7N2p7dZUCA",
+		types: ["meal_takeaway", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "420 5th Ave, New York, NY 10018, USA",
+		addressComponents: [
+			{
+				longText: "420",
+				shortText: "420",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "5th Avenue",
+				shortText: "5th Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10018",
+				shortText: "10018",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q228+8M",
+			compoundCode: "Q228+8M New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7508389,
+			longitude: -73.9832965,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7494745697085,
+				longitude: -73.9844596302915,
+			},
+			high: {
+				latitude: 40.752172530291496,
+				longitude: -73.98176166970849,
+			},
+		},
+		googleMapsUri: "https://maps.google.com/?cid=2328459652674007963",
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">420 5th Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10018</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "5th & 37th Hot Dogs",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		reservable: false,
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "420 5th Ave, New York",
+		photos: [
+			{
+				name: "places/ChIJB4ZeMqlZwokRm7N2p7dZUCA/photos/ATplDJYsYUCuwXSHLgzctHsXQeausm9Ienlw-BTwLpdEBGtRQgjwRu8ye0DG1pUhByE7stpzM0byW1bS2GcFWE6evmvojp8GjESzq7s1JAZmFu_8OvbP20pB347o01ytPdqHZwoJua_UzUzt_Ll7_WS5rWIhISvOUdyLhuP7",
+				widthPx: 1440,
+				heightPx: 1080,
+				authorAttributions: [
+					{
+						displayName: "Sal",
+						uri: "//maps.google.com/maps/contrib/117653725971413169153",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUbadQhsvhU0DRQHEnXwYPnWP4zgVY-GTLxS6izndifFJJA=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		liveMusic: false,
+		goodForChildren: true,
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+		},
+	},
+	{
+		name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0",
+		id: "ChIJ4yzW6R5ZwokRvROlPlNUXd0",
+		types: ["meal_takeaway", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(917) 524-9330",
+		internationalPhoneNumber: "+1 917-524-9330",
+		formattedAddress: "5th Ave &, E 82nd St, New York, NY 10028, USA",
+		addressComponents: [
+			{
+				longText: "East 82nd Street",
+				shortText: "E 82nd St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10028",
+				shortText: "10028",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q2HQ+H3",
+			compoundCode: "Q2HQ+H3 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7789593,
+			longitude: -73.9623038,
+		},
+		viewport: {
+			low: {
+				latitude: 40.777610319708494,
+				longitude: -73.9636527802915,
+			},
+			high: {
+				latitude: 40.78030828029149,
+				longitude: -73.96095481970849,
+			},
+		},
+		rating: 4.5,
+		googleMapsUri: "https://maps.google.com/?cid=15950998171726189501",
+		websiteUri: "https://newyorkhotdogsnyc.com/",
+		regularOpeningHours: {
+			openNow: false,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 17,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 17,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 17,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 16,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 17,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 18,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 18,
+						minute: 30,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 5:00 PM", "Tuesday: 11:00 AM – 5:00 PM", "Wednesday: 12:00 – 4:00 PM", "Thursday: 11:00 AM – 5:00 PM", "Friday: 11:00 AM – 6:30 PM", "Saturday: 11:00 AM – 6:30 PM", "Sunday: 11:00 AM – 5:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '5th Ave &amp;, <span class="street-address">E 82nd St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10028</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 86,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "The Hot Dog King",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: false,
+		curbsidePickup: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: false,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 17,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 17,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 17,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 16,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 17,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 18,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 18,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 5:00 PM", "Tuesday: 11:00 AM – 5:00 PM", "Wednesday: 12:00 – 4:00 PM", "Thursday: 11:00 AM – 5:00 PM", "Friday: 11:00 AM – 6:30 PM", "Saturday: 11:00 AM – 6:30 PM", "Sunday: 11:00 AM – 5:00 PM"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "5th Ave &, E 82nd St, New York",
+		reviews: [
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsb3VIQVZ3EAE",
+				relativePublishTimeDescription: "4 months ago",
+				rating: 4,
+				text: {
+					text: "Delicious jumbo hot dog in front of the met. We got the mustard, sauerkraut and onion sauce to try it the way they do in nyc, and it was pretty good!  maybe would have taken off the onion sauce but I liked the mustard and sauerkraut a lot. The hot dog itself was also really good, and the person preparing was friendly and fast. The cost is a bit steep and I wouldn’t say it’s worth it over other hot dogs I’ve had so that’s why 4/5, but if you’re in the area it’s probably the best for that vicinity!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Delicious jumbo hot dog in front of the met. We got the mustard, sauerkraut and onion sauce to try it the way they do in nyc, and it was pretty good!  maybe would have taken off the onion sauce but I liked the mustard and sauerkraut a lot. The hot dog itself was also really good, and the person preparing was friendly and fast. The cost is a bit steep and I wouldn’t say it’s worth it over other hot dogs I’ve had so that’s why 4/5, but if you’re in the area it’s probably the best for that vicinity!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Arden",
+					uri: "https://www.google.com/maps/contrib/113080920003200888466/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXVUlHCJGdpsF3URNfppltsJ2oedEDJc8Z0AVUgAvCz2u4=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-15T01:41:00Z",
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxby1yRnZRRRAB",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 5,
+				text: {
+					text: "Classic American hot dog. 2 and a bottle of water for $8 which is a decent deal in Manhattan. Right outside the Met too, an institution in itself.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Classic American hot dog. 2 and a bottle of water for $8 which is a decent deal in Manhattan. Right outside the Met too, an institution in itself.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Cala Leila",
+					uri: "https://www.google.com/maps/contrib/113152610971131123735/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUulOV-n6Q3sydgTTEWy1dcJn6Ro-ByL8V96PFLM46mRlY=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2024-01-09T20:03:42Z",
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUM1LXR5OGt3RRAB",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 5,
+				text: {
+					text: "Dan Rossi is the man.   His food is made with love and we have to make sure to support his business.  This is a must-go when visiting the city.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Dan Rossi is the man.   His food is made with love and we have to make sure to support his business.  This is a must-go when visiting the city.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Christian Garcia",
+					uri: "https://www.google.com/maps/contrib/106212234383578540157/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUgZOPyGun3PTE0P516htLrFzVkgIcZoCcFL_nd-VOiP54=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-10-13T00:41:41Z",
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0dTRQU193RRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 5,
+				text: {
+					text: "My friend joked about coming to tour New York again just to relive the chili dogs from the vendor in front of the Met from memories of a school trip.\nAfter a day of walking around the Met, we came out, and sure enough, the Hot Dog King was there, just as remembered. Just as delicious and satisfying after a day of walking around a museum.\nIs it because it's the best hot dogs in the city or something? Is it because after a day full of walking around looking at stuff in the Met the first thing you eat will be hard-wired to be amazing? It's hard to say, but we'd do it again.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "My friend joked about coming to tour New York again just to relive the chili dogs from the vendor in front of the Met from memories of a school trip.\nAfter a day of walking around the Met, we came out, and sure enough, the Hot Dog King was there, just as remembered. Just as delicious and satisfying after a day of walking around a museum.\nIs it because it's the best hot dogs in the city or something? Is it because after a day full of walking around looking at stuff in the Met the first thing you eat will be hard-wired to be amazing? It's hard to say, but we'd do it again.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Teagan",
+					uri: "https://www.google.com/maps/contrib/106295108603096362823/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV4qJ39tBF_dFEjI0H_hmoxQ3zZvAyHhZxDY34gm5ieb3w=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-02-01T05:58:23Z",
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKdV8tSjdRRRAB",
+				relativePublishTimeDescription: "8 months ago",
+				rating: 5,
+				text: {
+					text: "came here with my own bun (gf) and the lady at the counter didn‘t make a fuzz preparing my hot dog with it (she rather was happy I could enjoy a hot dog).\nshe was friendly and swift, the cart/facilities are clean and the dog was tasteful & good quality. prices are decent!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "came here with my own bun (gf) and the lady at the counter didn‘t make a fuzz preparing my hot dog with it (she rather was happy I could enjoy a hot dog).\nshe was friendly and swift, the cart/facilities are clean and the dog was tasteful & good quality. prices are decent!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Sarah Lesjak",
+					uri: "https://www.google.com/maps/contrib/102767776075778014223/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJBbqeASdS6lLcIA4DbxadeXA7m8lPRdZRIFne-V2UF=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-07-05T20:53:27Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJb0YqMZPQOYdVpCZZggb144AUj4s6WdyxZLnAfOOzxabA1SNF1Q1uQXyF2alx5HoaCpgUUALeoJn1OzuIw7bz99J6uZ6_3ASB-XuFVZPJr8wofleEa-Wb43lciyTPeeWF5_2lYdklnqObSeZf4w1JPuKODA9lXUCSSR",
+				widthPx: 1242,
+				heightPx: 1037,
+				authorAttributions: [
+					{
+						displayName: "Annie Rivera",
+						uri: "//maps.google.com/maps/contrib/110469057120266751591",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJS1VM6kNM1qzaa79fLtoOSTiiu9P_NmV4ydDl5KLTM=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJYgeeqfJKhn-fuKs9nCp9gm8gi-Rqsqfv-Qw-4GMN0rmBf7ZDOuvNDTmRcqRZNBmvYcTTzo1gNrvYpvUVZt-rycefFpbbSHKKuBhVV6nAEnDbnhnHzUhOVxOKltJHnZfoDO2PVa9F11Q3echNT88Jxx0NWyWNOR8FF6",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "The Hot Dog King",
+						uri: "//maps.google.com/maps/contrib/114079164943059317494",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocK5u-bLCtJGd-bnQz1s6IKVzdUH6bWnch74OU-MHJrd=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJbTdnroAaroFiXgrQcAzO1SF4uIBxmHmzUo35mFJpiehVIXueSCOaJgxq2qkRehsC-TuDwzhgG5uWFwuBVv16xy4sFSXO5RLOE6to-IGyJh7X0TB-C02wMj2TztD9XZJNoI-LnywOkZKJ3SKuAwnceTpLCHyJL4uZxs",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Giuseppe Lofoco",
+						uri: "//maps.google.com/maps/contrib/107079974084983653337",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUvcn6JRPJcqjy9KhePykGw8JqPj6G4Rrz7wFR1fz-K-1g=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJa2PL_Wwfwr2YLaedAqkibPk5mPXrB1eFU5mt7t1QaBRjJelbWFXJDqYrs0NflVCjle2OKmujJ0K73CxEufh0yN_G0It1iadcDpwZQ6Qv2Z-qsS7SzCmYZCYV6c76_UvoJHXRhCScTw60_OInbb6ZUtqMbnXNjphX1i",
+				widthPx: 1218,
+				heightPx: 1600,
+				authorAttributions: [
+					{
+						displayName: "Christian Garcia",
+						uri: "//maps.google.com/maps/contrib/106212234383578540157",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUgZOPyGun3PTE0P516htLrFzVkgIcZoCcFL_nd-VOiP54=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJb6bv7BAyWnTm7ysbMrrU-L0VkwI1bN6sey0gAPd7q7ybQvpq15i35xd4yDQxrFeykZ_nAujvs-b4QY8B-wSGgs5VUUz6uSuvhzrc675t2tvE_8ud8mJ9EApMzwnIYzk7tE-BDGgwxGEd0adlSqFZ03I5DHNBk_4MDZ",
+				widthPx: 6000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Jarvis Chen",
+						uri: "//maps.google.com/maps/contrib/109193964979697265133",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUPshYwnQcvsgYAMZkcB9GydvWyVyQ9aWGF5tRwZtk9Bzc=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJaQJx0I_Dw32miXVoL1G3DB_OLGZQrcNou15U1Jl_o5ql58U-YJ49RK11w5TbeXFGOMiYHiu49KyHcJjY1g2OmgEOCyH_UIAKhRms7-8M6ow-p06MAcID3ItHGKFLWzq26VwhGlOJejRzr-B1SZpoVtMZRthiAjOsx9",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Jisoo Youk",
+						uri: "//maps.google.com/maps/contrib/104067185103179861359",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVJfs8Wd-ALLttVselcuzUo0xX-waTJkDpFUijItdZ7y-e8=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJZYX79UhJ_BU26b83sbeot9I8XzMuHfMqYlnKuYVr0UUVXg8RzNcYQA_5mPQNheEnQv8M87kZEIO6adPgJTK32_0DGzUD1Cu1Foz_66ZC0roPgipSXEiLrek2zEgG0KxUTPUpl7GX6nReOHDAthI-GEpYPM_w-DbYl0",
+				widthPx: 2580,
+				heightPx: 2722,
+				authorAttributions: [
+					{
+						displayName: "Elizabeth Rossi",
+						uri: "//maps.google.com/maps/contrib/114509227652841934993",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKHUS0MVo8fQ81wJqEkuy1pWuw2svL4UQ5Oruizv0Hb=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJbVoNXBqG94zP_CQJ3dzRZwttNB1xwpy_RvX2MFYsTr2PqXtZL_MjiHmPotkHgyb2H68zcbtxRLFiJhWRQyEM63lQn7y6FFp1LvhUWfv8NkBn8xCrG0Wk8pXweJ0_FjxG7NMqX-IkE7S9pgn_OQ6VQ0nErB_0uB4q2w",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Wageh Masoud",
+						uri: "//maps.google.com/maps/contrib/101978453414207400504",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXqcnG9Qt-8rUwDOYsG9jBk1sGnTJz3Lm10n6yI4VZ0_p0=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJYqGzXHbG-oz6jcYXoLo4SNagbcOgG15At_6CasjqdHpr8fncBjEvMlOCrCiid_mygHA4jtSzQsgMAuY9rR5XN-BcrrmxIDTC7qsVdaVNuA4QoFcDdkK5ZRPU75qzmcR0R1EiokMRjojbzGPqdxpCk8vTiJKPUJlXQu",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "The Hot Dog King",
+						uri: "//maps.google.com/maps/contrib/114079164943059317494",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocK5u-bLCtJGd-bnQz1s6IKVzdUH6bWnch74OU-MHJrd=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ4yzW6R5ZwokRvROlPlNUXd0/photos/ATplDJbgi53ZetxRTESu41nc4nsw2MICg1cKL0HhdG40_SfsZGVCY-cJspp8TK8pq6yfRVfdFlcTFQyuA822B9B8s9NjQxdN5WwZbQbHPB0F8f0weP6vWtzjAQb7Si4iUmdcTpduAjL-BN8vAwlbifa1k7C7x5q0gvVI2qm0",
+				widthPx: 1242,
+				heightPx: 1208,
+				authorAttributions: [
+					{
+						displayName: "Annie Rivera",
+						uri: "//maps.google.com/maps/contrib/110469057120266751591",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJS1VM6kNM1qzaa79fLtoOSTiiu9P_NmV4ydDl5KLTM=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		liveMusic: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleEntrance: true,
+		},
+	},
+	{
+		name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8",
+		id: "ChIJQZ5XiElZwokR1Z2cJVNLUJ8",
+		types: ["korean_restaurant", "fast_food_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 918-7790",
+		internationalPhoneNumber: "+1 646-918-7790",
+		formattedAddress: "250 Mott St, New York, NY 10012, USA",
+		addressComponents: [
+			{
+				longText: "250",
+				shortText: "250",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Mott Street",
+				shortText: "Mott St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10012",
+				shortText: "10012",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8P2F4+86",
+			compoundCode: "P2F4+86 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7233616,
+			longitude: -73.99446209999999,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7220521197085,
+				longitude: -73.9959514802915,
+			},
+			high: {
+				latitude: 40.72475008029149,
+				longitude: -73.99325351970849,
+			},
+		},
+		rating: 4.6,
+		googleMapsUri: "https://maps.google.com/?cid=11479758270652784085",
+		websiteUri: "http://twohandsus.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 12:00 – 9:00 PM", "Tuesday: 12:00 – 9:00 PM", "Wednesday: 12:00 – 9:00 PM", "Thursday: 12:00 – 9:00 PM", "Friday: 12:00 – 9:00 PM", "Saturday: 12:00 – 9:00 PM", "Sunday: 12:00 – 9:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">250 Mott St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10012</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 201,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Two Hands Corn Dogs",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Korean restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		curbsidePickup: false,
+		reservable: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 12:00 – 9:00 PM", "Tuesday: 12:00 – 9:00 PM", "Wednesday: 12:00 – 9:00 PM", "Thursday: 12:00 – 9:00 PM", "Friday: 12:00 – 9:00 PM", "Saturday: 12:00 – 9:00 PM", "Sunday: 12:00 – 9:00 PM"],
+		},
+		primaryType: "korean_restaurant",
+		shortFormattedAddress: "250 Mott St, New York",
+		reviews: [
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxbW9HamVnEAE",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 5,
+				text: {
+					text: "The best Korean corn dogs around! I got the two hands half sausage/mozzarella and my gf got the potato dog with the “two hands dirty sauce” (tasted like sweet chili!!!) and hot Cheeto dust. They were both very yummy. We also got the fruit punch slush. Kinda tasted like red jolly rancher slush. Highly recommend going for a quick bite.\n\nThe space is really compact. There’s not much outside sitting so I recommend getting it as take out.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "The best Korean corn dogs around! I got the two hands half sausage/mozzarella and my gf got the potato dog with the “two hands dirty sauce” (tasted like sweet chili!!!) and hot Cheeto dust. They were both very yummy. We also got the fruit punch slush. Kinda tasted like red jolly rancher slush. Highly recommend going for a quick bite.\n\nThe space is really compact. There’s not much outside sitting so I recommend getting it as take out.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Geraldine Marin Luna",
+					uri: "https://www.google.com/maps/contrib/111162607524187928092/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXiFA-67tQWToGp8QJIWA-Iv0ooa28DK_I_Jyna_WIKUQ=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2023-12-27T23:05:37Z",
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxcGRMaDRnRRAB",
+				relativePublishTimeDescription: "2 months ago",
+				rating: 4,
+				text: {
+					text: "My friend and I stopped by here for a quick snack before dinner. I got a slushie, corn dog with mozzarella, and kimichi french fries. The restaurant is mostly take away since it is pretty small. They have a small handful of outdoor seating available.\n\nI got a mixture of fruit punch and lemonade slushie. The slushie was tasty but tasted like regular boxed Minute Maid/Koolaid drinks and not something freshly made.\n\nThe corn dog was made fresh to order and was tasty. The sweet and savory combination was an interesting mix. The kimchi fries came out hot and fresh. They had condiments available but it was tasty by itself.\n\nThe tiny outpost only had two people on staff. One person who took orders and set them up and one cook. The cashier was very friendly and nice. The orders came out in a decent speed.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "My friend and I stopped by here for a quick snack before dinner. I got a slushie, corn dog with mozzarella, and kimichi french fries. The restaurant is mostly take away since it is pretty small. They have a small handful of outdoor seating available.\n\nI got a mixture of fruit punch and lemonade slushie. The slushie was tasty but tasted like regular boxed Minute Maid/Koolaid drinks and not something freshly made.\n\nThe corn dog was made fresh to order and was tasty. The sweet and savory combination was an interesting mix. The kimchi fries came out hot and fresh. They had condiments available but it was tasty by itself.\n\nThe tiny outpost only had two people on staff. One person who took orders and set them up and one cook. The cashier was very friendly and nice. The orders came out in a decent speed.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Lady Ace",
+					uri: "https://www.google.com/maps/contrib/115208483266342139161/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXQhlvf4G_v5xUyMFpqoHBv0sYKpWj9g3KANaRApnYw2Cs=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2024-01-08T19:13:23Z",
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/reviews/ChdDSUhNMG9nS0VJQ0FnSURGcnNYNl9RRRAB",
+				relativePublishTimeDescription: "4 months ago",
+				rating: 4,
+				text: {
+					text: "A cute, quiet little space for a snack…. We arrived just after opening time, so there wasn’t a queue.  Ordering was quick and we ordered a half mozzarella and half sausage dog, waited 7 minutes for our order.  There are a few small tables and chairs outside on the sidewalk, to enjoy your corn dog",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "A cute, quiet little space for a snack…. We arrived just after opening time, so there wasn’t a queue.  Ordering was quick and we ordered a half mozzarella and half sausage dog, waited 7 minutes for our order.  There are a few small tables and chairs outside on the sidewalk, to enjoy your corn dog",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Angela Cheng",
+					uri: "https://www.google.com/maps/contrib/103397967560883983385/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWMwyAUCpSBupbO2UcQL6FgV-c5z81uIq-QKFq0qeIVUaM=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-07T09:22:58Z",
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/reviews/ChdDSUhNMG9nS0VJQ0FnSURacW9EQnFRRRAB",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 5,
+				text: {
+					text: "So fun and delicious! A unique place and great for a snack while out and about in Soho. Took my family and we all tried different stuff. I got the potato dog with half sausage half mozzarella and it was fire. Highly recommend!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "So fun and delicious! A unique place and great for a snack while out and about in Soho. Took my family and we all tried different stuff. I got the potato dog with half sausage half mozzarella and it was fire. Highly recommend!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Gabby Horne",
+					uri: "https://www.google.com/maps/contrib/112857651068775750820/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIwyHytvWOqu10DeXoQqQwEIs0P-E44Yf2tZOIiuyoF=s128-c0x00000000-cc-rp-mo-ba2",
+				},
+				publishTime: "2023-09-28T15:02:33Z",
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/reviews/ChdDSUhNMG9nS0VJQ0FnSUM1ODcyU3RBRRAB",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 2,
+				text: {
+					text: "Unfortunately taste wise these are not as delicious as they look!\nVery appealing to look at but very sweet tasting when you are expecting a savoury flavour.\n2/5 for taste - a novelty item only.\nNot badly priced.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Unfortunately taste wise these are not as delicious as they look!\nVery appealing to look at but very sweet tasting when you are expecting a savoury flavour.\n2/5 for taste - a novelty item only.\nNot badly priced.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Carla",
+					uri: "https://www.google.com/maps/contrib/117692176919660335291/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVMca7fmP4Yj5WGA0KNp4DeJCkvhV8DsIwwM9N6-VhS9Q=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-10-17T03:29:04Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJZVcHFSWpItAPyC-hkR1-nNx0-c8_6jAW3jaODIIC0-NjC2dL4FxbI50Hr1-voqYbA_8q3xixDFTKwlIwul71m0Retce5-H9cZMJHmVZf4PxC6T6HoHOL9x5Vkm8CHU1xI5LpshlgojaO-eai1chItSCQZUlHGcLIs3",
+				widthPx: 3024,
+				heightPx: 1702,
+				authorAttributions: [
+					{
+						displayName: "Two Hands Corn Dogs",
+						uri: "//maps.google.com/maps/contrib/100012273402164865137",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXiS_3RVZtDC5kE6vTs4xIxY1ts4iIeCVf2dpATGbUd6g=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJbv2dxcBu9eJZqNurOQ9g2wdoDRyul95L-UevOLQt3ufcHTvcxECS0XY6KgcPg2ejFymSuL0-57wEUuW_7702Mj4KrQT1vtFIOOYcS0pm2-qR6nG2_9xGMP839OV4PLIK2Sk7QGDUo9wQVmCvluw6aiJS9Yywt1y88D",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Two Hands Corn Dogs",
+						uri: "//maps.google.com/maps/contrib/100012273402164865137",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXiS_3RVZtDC5kE6vTs4xIxY1ts4iIeCVf2dpATGbUd6g=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJYEZzcwsHtjzCXiUBno8ojCoCRw48Nd1w4FUA0ht_hHwcLqqZNcIB73k-R9skzKAYRVfYWQkzffZjXjgGgceD7NTXg7_TEWlr_jNZd1c84-I9nvRfOdzMdnSYXn_DronPQGxKHCr_wz43eSFrZ_iPFadyMw2jNNj29a",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Amanda W",
+						uri: "//maps.google.com/maps/contrib/116840103504917289674",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU7ipdet4nH1hVyoHt5ldmOGh8NXBTVMOUD6lznonnTQaQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJaFcHrtLc0tn7qwhd418bruiD2m3nPA5hK990cIvwu9efc8LNYgTku5q0vmyGPhLvbajmMDKyyrIgahReWuFx6ubLeUBJzc16r_JL2WouFmCBV5ygVy2XxWlQ6QYdxafRFAyYtxSIOM_j93FtJadrWs82ZCg4PBpwpT",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Fabiola Zoxie Fontaine",
+						uri: "//maps.google.com/maps/contrib/104610813426417907309",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVmwOi5FObCdSFzxtvXB2cRQR06kjdPGldNjrmmEa_DFms=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJYeMOlUQlst2uaBzeKxeZEJ0VvL3edQr75PbmgnyZNWk2T7r4JqnJ73xeWV5fVFVsyaZ69X-nwYGxtxaf02CNmIbPBroAhW97P07ZEO-v9Q9Mi34V5lNtjcOmynqwqi2rigUn6N12VHhkXXqYiul_R2HsDHjlzMd69U",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Dan Ferrara",
+						uri: "//maps.google.com/maps/contrib/100914396062182311529",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWF-RwXRY-xv1sOBHv1qqM82ERRo8t2T_CKO7mdqec_-Fg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJbb3E0SM1rUe41o7u28-XDC4Ksh-1Zcf3MJOhDw4W5L3gDkVTkM5kt3jFnrtDtIpWcvzJVqQ9xxrZ1uJ31_oYY5MtwROXk9jwNZIe0S-sy9jAWHqlSh6fXeDyeiinlsyS_DPnqziiBsuo5yD13Evb8XH7_3vC-tOETT",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Théai Madasyn",
+						uri: "//maps.google.com/maps/contrib/103363750047842643606",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV_bRPzYBv-XgsuZVDjsQnqoJYpuK5LtA5QX0d-LQqI6QZO=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJZcdme1Siljw4gf_skwwCXHnslzjLwGKKz0VoiCFS7LjKkemE4MVtY11l4xuf86fWCd65lBe8FUUlIVGJpetNdERl6ahV-0nnkipttWrwo8T5EgPSiYrQdkkXSJRWgIU6RBn6dZivfuvPRG2p9-sqoBZo_OeF3eT-Ew",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Neringa Pa",
+						uri: "//maps.google.com/maps/contrib/105755852433001313926",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWIrnhJ7L0WWbRJJk9wPBaMfs7xPviSassrCqM5kherW7vR=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJakbHAeeDUjKHdc2kcu4QkeCxypBcbqPybIHezWsbiNEUrwBiLLEaKeq8fOjoQZ3MXwbpATP59bmGj_2es2HBNp39KN0qSmT8c5eO7j2_qRloJi044GSp6mcZBc6RCBB81-xOdFA12QjkUHhXdpN7-LLsR1ex1QatU-",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Robyn Lupo",
+						uri: "//maps.google.com/maps/contrib/114023583315190218716",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWvuvpPIxiTNZyNj3GU_nlOeP63sEfNNCzLp-QDhSdJ-4w=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJbhzrv1B2PaKg_4PneZpnjNClgTn_kiIdPA13uKcyFdrppq5yVABqcpnRVCQzJlvrLeQY2nG6oY5KSfL0hTUSc4yat9ew0nm0EmrPMiDKc6LtqCgbzyjObf95xa2NaMl8pfzShuFEAXPT8sn0JZya-Yg0EVZCuVdedY",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Fabiola Zoxie Fontaine",
+						uri: "//maps.google.com/maps/contrib/104610813426417907309",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVmwOi5FObCdSFzxtvXB2cRQR06kjdPGldNjrmmEa_DFms=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJQZ5XiElZwokR1Z2cJVNLUJ8/photos/ATplDJZEf7vlRYa2RKQs4FpWkoyBPfrrtPMyAqy813ZL53Ktua4VlNzxTW_xjghMrBk7rBHaj8OWcixSXzKVQiPfXGjqnhU4zUVwIQ3NMabYG2lULNLxtO8lc5isTWmkunrIY9IMG9jIYgwFGhJFfaNZqOw1EAGAVc6R5uSN",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Deborah Campioni",
+						uri: "//maps.google.com/maps/contrib/115229260840249668906",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUgxZGIbSDl2UFAHb5afxhav54nE5a-OIIcxnocyIN2IBc=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: true,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesCoffee: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+	},
+	{
+		name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI",
+		id: "ChIJ3TxlQy9ZwokRdx_gxkh75ZI",
+		types: ["korean_restaurant", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 448-4836",
+		internationalPhoneNumber: "+1 646-448-4836",
+		formattedAddress: "159 Ludlow St, New York, NY 10002, USA",
+		addressComponents: [
+			{
+				longText: "159",
+				shortText: "159",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Ludlow Street",
+				shortText: "Ludlow St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10002",
+				shortText: "10002",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8P2C6+CQ",
+			compoundCode: "P2C6+CQ New York, NY, USA",
+		},
+		location: {
+			latitude: 40.721047999999996,
+			longitude: -73.9880419,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7196662197085,
+				longitude: -73.98932073029151,
+			},
+			high: {
+				latitude: 40.7223641802915,
+				longitude: -73.9866227697085,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=10585002051708657527",
+		websiteUri: "https://www.ohkdog.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 3,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 3,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 8:00 PM", "Tuesday: 10:00 AM – 8:00 PM", "Wednesday: 10:00 AM – 8:00 PM", "Thursday: 10:00 AM – 8:00 PM", "Friday: 10:00 AM – 3:00 AM", "Saturday: 10:00 AM – 3:00 AM", "Sunday: 10:00 AM – 8:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">159 Ludlow St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10002</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 748,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Oh K-Dog NYC",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Korean restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		curbsidePickup: false,
+		reservable: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 3,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 10,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 3,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 10:00 AM – 8:00 PM", "Tuesday: 10:00 AM – 8:00 PM", "Wednesday: 10:00 AM – 8:00 PM", "Thursday: 10:00 AM – 8:00 PM", "Friday: 10:00 AM – 3:00 AM", "Saturday: 10:00 AM – 3:00 AM", "Sunday: 10:00 AM – 8:00 PM"],
+		},
+		primaryType: "korean_restaurant",
+		shortFormattedAddress: "159 Ludlow St, New York",
+		editorialSummary: {
+			text: "Colorful storefront providing trendy Korean-style snacks such as stuffed hot dogs & egg toast.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/reviews/ChZDSUhNMG9nS0VJQ0FnSUROai15SE13EAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 5,
+				text: {
+					text: "Magnificent. Me and my girlfriend got the Mozzarella cheddar dog, half cheddar half dog and sweet potato dog. We enjoyed all 3 of them. Thank you Oh-K dog for your amazing tasty K dogs. You never fail to disappoint.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Magnificent. Me and my girlfriend got the Mozzarella cheddar dog, half cheddar half dog and sweet potato dog. We enjoyed all 3 of them. Thank you Oh-K dog for your amazing tasty K dogs. You never fail to disappoint.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Britney Beniquez",
+					uri: "https://www.google.com/maps/contrib/108919437090781921212/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWFSQGPOQBMRPbNMEKxZv9sYfaTmrngkOMmL9MYrBv3ozs=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-01-27T06:43:35Z",
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/reviews/ChdDSUhNMG9nS0VJQ0FnSURoai1mVDlBRRAB",
+				relativePublishTimeDescription: "12 months ago",
+				rating: 3,
+				text: {
+					text: "My friends and I stopped at Oh K-Dog for a quick late-night bite, which cured our munchies. We ordered the Oh! K Classic Hot Dog and the Bacon & Cheese Toast. The Toast was very good, and so was the hot dog, but the Potato Hot Dogs did look tastier. They had a variety of seasonings and sauces to spice up your food, which was great, but it did take a while to prepare the food, and we waited for about 15 minutes. It was still very tasty and cured our late-night munchies!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "My friends and I stopped at Oh K-Dog for a quick late-night bite, which cured our munchies. We ordered the Oh! K Classic Hot Dog and the Bacon & Cheese Toast. The Toast was very good, and so was the hot dog, but the Potato Hot Dogs did look tastier. They had a variety of seasonings and sauces to spice up your food, which was great, but it did take a while to prepare the food, and we waited for about 15 minutes. It was still very tasty and cured our late-night munchies!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "madi christiansen",
+					uri: "https://www.google.com/maps/contrib/106118637381445697545/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjU8aT0MgpsIEjGwcuYBb40ZIUYD-uRC-1x7p4cTa5PRGFQ=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-03-20T17:51:59Z",
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/reviews/ChZDSUhNMG9nS0VJQ0FnSUNaODVPeVZ3EAE",
+				relativePublishTimeDescription: "6 months ago",
+				rating: 5,
+				text: {
+					text: "+ The hotdog is ridiculously good! Every bite is like repeating 3 senses, you first feel the ultra crunchiness of the rice shell, then you feel the chewy texture of the shell (in a positive way) and last you taste the well seasoned rice shell and the juicy beef hotdog! Prolly the best hotdog I’ve ever had!\n\n~ The service is a bit slow as they need to make every order fresh to ensure the crunchiness I guess. It took me about 10 mins from placing the order to receiving my food.\n\n- This is just a storefront with no tables or chairs to eat. Next to the store, half dozen trash bags were thrown on the side wall. I guess the expectation is you eat your hotdog as you walk away, which is not unreasonable for hotdog.\n\nWill I come back? Yes!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "+ The hotdog is ridiculously good! Every bite is like repeating 3 senses, you first feel the ultra crunchiness of the rice shell, then you feel the chewy texture of the shell (in a positive way) and last you taste the well seasoned rice shell and the juicy beef hotdog! Prolly the best hotdog I’ve ever had!\n\n~ The service is a bit slow as they need to make every order fresh to ensure the crunchiness I guess. It took me about 10 mins from placing the order to receiving my food.\n\n- This is just a storefront with no tables or chairs to eat. Next to the store, half dozen trash bags were thrown on the side wall. I guess the expectation is you eat your hotdog as you walk away, which is not unreasonable for hotdog.\n\nWill I come back? Yes!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Shane Li",
+					uri: "https://www.google.com/maps/contrib/104603273082669107322/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXAxYGGyZMAod7q0Nt1pJwhRgiExmEzEIFGax-nIQbyiMfK=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-09-17T22:45:57Z",
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/reviews/ChZDSUhNMG9nS0VJQ0FnSUR4bGJlMVNnEAE",
+				relativePublishTimeDescription: "9 months ago",
+				rating: 4,
+				text: {
+					text: "We happened across this place after a trip to the city. I've always wanted to try Korean dogs and was delighted to find this little spot. Ordered the #7 (half mozzarella & half hot dog w/ potato exterior) $7.61. And I think the #10 (full mozzarella only w/ potato exterior). Oh and while they were piping hot, they rolled it in regular white sugar. There's a choice to coat with both white sugar and/or cinnamon sugar, but the white sugar was far better with an added sweetness, but subtle flavor. Go with the white sugar coating only.\n\nAnd the dipping sauces, so many to choose from. They were all delicious. I tried the sweet chili, honey mustard and garlic sauce with my Korean Dog. Just Amazing punch of flavors!\n\nAt first bite, the crunchy potatoes were delicious! Immediately followed by the famous cheese pull. Either I was really starving or it was really that good. Honestly, I couldn't imagine how yummy it was. The half mozz & half dog was nice, however, the hotdog was a little gross because of the soft texture. It didn't seem like a superior hot dog. The focus was more on the exterior. So, with a better hotdog, this would be 10/10. The full mozz was nice, but then it was missing that savory combination. I think bacon would have been lovely with it.\n\nAnd full disclaimer! This is LES ( lower east side), so the area is grimey. There is no where to sit, just a graffitied standing area with a pet pigeon..lol.\n\nAll and all, the cashier was sooo friendly and kind. He honestly made it for a better experience. He took his time to explain the menu and helped us choose some faves.\n\nGiving this spot a 4.2. Will be back.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "We happened across this place after a trip to the city. I've always wanted to try Korean dogs and was delighted to find this little spot. Ordered the #7 (half mozzarella & half hot dog w/ potato exterior) $7.61. And I think the #10 (full mozzarella only w/ potato exterior). Oh and while they were piping hot, they rolled it in regular white sugar. There's a choice to coat with both white sugar and/or cinnamon sugar, but the white sugar was far better with an added sweetness, but subtle flavor. Go with the white sugar coating only.\n\nAnd the dipping sauces, so many to choose from. They were all delicious. I tried the sweet chili, honey mustard and garlic sauce with my Korean Dog. Just Amazing punch of flavors!\n\nAt first bite, the crunchy potatoes were delicious! Immediately followed by the famous cheese pull. Either I was really starving or it was really that good. Honestly, I couldn't imagine how yummy it was. The half mozz & half dog was nice, however, the hotdog was a little gross because of the soft texture. It didn't seem like a superior hot dog. The focus was more on the exterior. So, with a better hotdog, this would be 10/10. The full mozz was nice, but then it was missing that savory combination. I think bacon would have been lovely with it.\n\nAnd full disclaimer! This is LES ( lower east side), so the area is grimey. There is no where to sit, just a graffitied standing area with a pet pigeon..lol.\n\nAll and all, the cashier was sooo friendly and kind. He honestly made it for a better experience. He took his time to explain the menu and helped us choose some faves.\n\nGiving this spot a 4.2. Will be back.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Starlica Reiné",
+					uri: "https://www.google.com/maps/contrib/104579515377990065265/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV03ifWl0zn6Kdnsl83umpmitwpYfOcmyX_3UWZPQQd_ECh=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-06-12T16:52:35Z",
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/reviews/ChZDSUhNMG9nS0VJQ0FnSUQtXzQyUUlnEAE",
+				relativePublishTimeDescription: "a year ago",
+				rating: 2,
+				text: {
+					text: "I was really excited to try these Korean hotdogs and since the reviews are quite high I was confident they would be would be good. I was wrong. On the outside things look promising but on the inside it’s a cold mess. Literally, the hot dog was cold and was surrounded by raw sticky batter.  Other customers seemed to have the same problem because, like me, they all threw away the remaining batter. I hope they improve their quality because unless they do, I can’t recommend coming.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I was really excited to try these Korean hotdogs and since the reviews are quite high I was confident they would be would be good. I was wrong. On the outside things look promising but on the inside it’s a cold mess. Literally, the hot dog was cold and was surrounded by raw sticky batter.  Other customers seemed to have the same problem because, like me, they all threw away the remaining batter. I hope they improve their quality because unless they do, I can’t recommend coming.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Eileen Meng",
+					uri: "https://www.google.com/maps/contrib/113066642291499684069/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXVnLyLRtRTS9TUO70X3ylswMrKxUoV6EKnkzypXMlYvYo=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2022-12-13T20:25:08Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJafS9S97NVDG4C5xhEPJPVH8YBVPPpDZZ_WWlc8HzWhGz-J0TVqZQCgfH-hYEtLz3xkWs7o157o4H6_GbtPFtginuE8e2-XsJrU_dWeinOX91jKQJDW-17p8kv_jQ13SEP1K_V9k6rnsHYObKWJH63vT71ZVLKkMTlo",
+				widthPx: 4176,
+				heightPx: 2760,
+				authorAttributions: [
+					{
+						displayName: "Oh K-Dog NYC",
+						uri: "//maps.google.com/maps/contrib/117644082078994432169",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUVrF1R3_35SCbz47oXO2iVW_CpyFlcZ3z6oO8FLzQalA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJZHbrRDKflzigRfcD7OELaKaz-e3XHBcdWv6mSt0xgm-zchkcE7Yx-4_oG1o63JZ0-VH6b5uQzAX0qXM9x5anlTT3_m43XMO3d7Il_3cXahaMEfLuJWwyDXGUnKyMLuUKcY58CNbyZntb_j3jEjU81vAY47WNLxpjxf",
+				widthPx: 4240,
+				heightPx: 2832,
+				authorAttributions: [
+					{
+						displayName: "Oh K-Dog NYC",
+						uri: "//maps.google.com/maps/contrib/117644082078994432169",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUVrF1R3_35SCbz47oXO2iVW_CpyFlcZ3z6oO8FLzQalA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJadGGTqkUL7zeCLpufLRRygfTakbu3lZ0kxzmJix7_fYZ4uce9giBhBcTGcYDJn3kQKV9RFzlVWYiUUEyZD-m_1dDBcNvWZkAx1Hjlt7pvqYM6NoHMitpF25wzIansdcky_8UB1tlJJPziz1AnTnEYAzvvMixcPGqFB",
+				widthPx: 1536,
+				heightPx: 2048,
+				authorAttributions: [
+					{
+						displayName: "Isabelle Kreuzer",
+						uri: "//maps.google.com/maps/contrib/117163450571396747298",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVLPPgUN1Aeou6vZlTLY4qXmfnmA70Z_-MX3Jmvpj_X9Q=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJa2l6mQ1tlTBokal5mEzDmB6xKZ_PedY7hlPWK2rDk7Kk_Tlo23JMr4R0MnElyjDqenztqckyBVwUp4V7RgsDQiyd115E6cTgoiHv2Z9XHDMwijThfgQc0liAQV__oNYmG4gMFBtkHbQX0R2T9PZ6KW2LkNZKJvhy0L",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "JONATHAN A",
+						uri: "//maps.google.com/maps/contrib/102132563616213468506",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUuLBmNPmT2iIsUhE8jsFtFsmjTk6TgjSx-XjFrw--TKtK_=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJYmMmFiBOmYjndgBldF-zat1J6nRrLHJl5MYHXty2_mscekb5ISXus9v3vUWwGVe5dxMp7uVoo7o4I3ElqfHXhZ_trQGoWIyx5W--oYFwYpQFyYdstjjWI-wJyJnFC8qCsn9FZltVlp1dZdY4iBomH0Zs-nZoPiezeL",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Jen",
+						uri: "//maps.google.com/maps/contrib/117134017475376686952",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIbaHgCzhaI5rjaztHZ5Lo4sgpkQ7U0Hfzggi0AM85R=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJbbI_uCEwu97GU63GkBQ8JSbbLsQuAEFgTH67yjyDzE7GOSXittISiwqw0_GFEIFjB5fpOud_ZJLNrMsIvu6fP-kBeKzP28Jux_JBTRc9BjwzgJrLjEN-GsSMX9Zktch0Q6I7vNsTCsr7WlDFElBdlDulB5A3YuKzj5",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Grace",
+						uri: "//maps.google.com/maps/contrib/105517378801399185814",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV4ZYYsaHeuNgM0Jv_W2TgQloaQU_cnQEMepd2UOoTvxA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJaYzO8yelt4TVHd5rqCvYh77o80OCIwVtiwLKCWv8T6AHybT_wprKpkTUATCMN7Kv6okZpvFACdYGNHQ12Co_Hdj6asR1Fm6BkdW9f5hPGhssNpMqyYJ_jjcLiIPCisTKp2Y46Xpn28Jfs_tV3GJcldS9Q9uY2Kr2zH",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Olivia N",
+						uri: "//maps.google.com/maps/contrib/107245630597734587285",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXLq--0YYNmMR5AuvdocgltynmPPbMJ6DdWFiiUngu1PM0=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJYM4jfoATjbMVkE-d1AokNn7WSQppVn8ypWsxLehRSSmv8XeNYetfMjRAF6O9APzWMSWHqoWvRJSpa9bBfVlJdGSDxRNDLT7pHBKCooOwAK6s3fenV4HdoGiL62sX_xSgGqr_dWpknpk3iuZ_jZNSf37BayvYTQD4ES",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Britney Beniquez",
+						uri: "//maps.google.com/maps/contrib/108919437090781921212",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWFSQGPOQBMRPbNMEKxZv9sYfaTmrngkOMmL9MYrBv3ozs=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJZBr88qHQx041cEuStVk_NMo9hKqXQDuZkKzGz83BqCDQJKIOvkqmWCVXXKh_dScnAKD01IQYwyIV2II_Z_LMnFTAZ2kwNlymnlDnKBz_bWG1-6YG2Qbt5cAVIW_VY9eTNJ5Ll-B-8iNVc28KKmVQ1Q3uAyrcHsnLpl",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Paul Guzman",
+						uri: "//maps.google.com/maps/contrib/104950715121135675603",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVWVgM_OK6Spe1hLuk7kaFJ2hqNyHKyZDb_i2eh44mCd18=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJ3TxlQy9ZwokRdx_gxkh75ZI/photos/ATplDJbUkYLcCFHiA7cz4RNEtB9uyCy7QqCkW7cv5buGb13JB02s_dOgrmCQxJw_HOzPVolZquMDwfN7eAcq_KTuowJ9yQQFDxRYLWhsspWqjB5a9HEc2alz_1Ra3B72B4nu2AvW-gE3U7cVLJ4dO6d-mQsnS_YAUmxvVGPu",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "madi christiansen",
+						uri: "//maps.google.com/maps/contrib/106118637381445697545",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU8aT0MgpsIEjGwcuYBb40ZIUYD-uRC-1x7p4cTa5PRGFQ=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: false,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		servesCoffee: true,
+		goodForChildren: true,
+		restroom: false,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+		},
+	},
+	{
+		name: "places/ChIJyaBavkxawokR6lbtK7S7rYs",
+		id: "ChIJyaBavkxawokR6lbtK7S7rYs",
+		types: ["fast_food_restaurant", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(347) 962-0674",
+		internationalPhoneNumber: "+1 347-962-0674",
+		formattedAddress: "472 Fulton St, Brooklyn, NY 11201, USA",
+		addressComponents: [
+			{
+				longText: "472",
+				shortText: "472",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Fulton Street",
+				shortText: "Fulton St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Downtown Brooklyn",
+				shortText: "Downtown Brooklyn",
+				types: ["neighborhood", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "Brooklyn",
+				shortText: "Brooklyn",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "Kings County",
+				shortText: "Kings County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "11201",
+				shortText: "11201",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+			{
+				longText: "5216",
+				shortText: "5216",
+				types: ["postal_code_suffix"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8M2R8+27",
+			compoundCode: "M2R8+27 Brooklyn, NY, USA",
+		},
+		location: {
+			latitude: 40.6900255,
+			longitude: -73.9843215,
+		},
+		viewport: {
+			low: {
+				latitude: 40.6887618697085,
+				longitude: -73.98560663029151,
+			},
+			high: {
+				latitude: 40.6914598302915,
+				longitude: -73.9829086697085,
+			},
+		},
+		rating: 4.5,
+		googleMapsUri: "https://maps.google.com/?cid=10064907124748408554",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 1,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 7,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 20,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 7:00 AM – 8:00 PM", "Tuesday: 7:00 AM – 8:00 PM", "Wednesday: 7:00 AM – 8:00 PM", "Thursday: 7:00 AM – 8:00 PM", "Friday: 7:00 AM – 8:00 PM", "Saturday: 7:00 AM – 8:00 PM", "Sunday: Closed"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">472 Fulton St</span>, <span class="locality">Brooklyn</span>, <span class="region">NY</span> <span class="postal-code">11201-5216</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 400,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Fulton Hot Dog King",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Fast food restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		servesLunch: true,
+		servesDinner: true,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 1,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 7,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 7:00 AM – 8:00 PM", "Tuesday: 7:00 AM – 8:00 PM", "Wednesday: 7:00 AM – 8:00 PM", "Thursday: 7:00 AM – 8:00 PM", "Friday: 7:00 AM – 8:00 PM", "Saturday: 7:00 AM – 8:00 PM", "Sunday: Closed"],
+		},
+		primaryType: "fast_food_restaurant",
+		shortFormattedAddress: "472 Fulton St, Brooklyn",
+		reviews: [
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsbTdyU0hBEAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 3,
+				text: {
+					text: "This is a decent place, not nothing crazy. I’m a huge Hot Dog lover and seeing the Sabrett umbrellas outside immediately caught my attention. The staff was polite but a huge peeve of mine is when you\nPlace an order and the person accepting the money doesn’t tell you the total. I’m handing him a $10 bill and he just looks to take the money. I asked and he told me $6. Which for a store front isn’t a bad price to pay. The hot dogs were a little disappointing because they just didn’t seem to have the really good snap that you expect. It did have one, but it just wasn’t the normal “snap” that you get when you bite in. The bread was very basic. I’d rate the hot dog a 6.5-7 the max. I sent back in to give the sausage a try. I must say I was expecting to lay at least $5 but it was only $3.50. The sausage had some really good heat to it. The bread was just okay, would probably take this dog to another level is they put it on the grill for a minute or so. They accept card with a minimum of $6 purchase",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "This is a decent place, not nothing crazy. I’m a huge Hot Dog lover and seeing the Sabrett umbrellas outside immediately caught my attention. The staff was polite but a huge peeve of mine is when you\nPlace an order and the person accepting the money doesn’t tell you the total. I’m handing him a $10 bill and he just looks to take the money. I asked and he told me $6. Which for a store front isn’t a bad price to pay. The hot dogs were a little disappointing because they just didn’t seem to have the really good snap that you expect. It did have one, but it just wasn’t the normal “snap” that you get when you bite in. The bread was very basic. I’d rate the hot dog a 6.5-7 the max. I sent back in to give the sausage a try. I must say I was expecting to lay at least $5 but it was only $3.50. The sausage had some really good heat to it. The bread was just okay, would probably take this dog to another level is they put it on the grill for a minute or so. They accept card with a minimum of $6 purchase",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Ray Campbell",
+					uri: "https://www.google.com/maps/contrib/101981038283210628755/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJZRN_vSaMaezYZMixRj8vqhbwNSg7hNmnytklmfVuk=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-11-27T15:49:10Z",
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/reviews/ChdDSUhNMG9nS0VJQ0FnSURGNk12YWlBRRAB",
+				relativePublishTimeDescription: "4 months ago",
+				rating: 5,
+				text: {
+					text: "Been passing  by for years...\nBut the first time, stop  to try.\nThe prices are very comparable for the Area.\nChecking grill sandwich 🥪  only $4.5",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Been passing  by for years...\nBut the first time, stop  to try.\nThe prices are very comparable for the Area.\nChecking grill sandwich 🥪  only $4.5",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "RO_MAN",
+					uri: "https://www.google.com/maps/contrib/111111054819831328540/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXqK262jDYPbYdlp4AsROQzHCZLafIlrTFriqdvT791Wkxa=s128-c0x00000000-cc-rp-mo-ba7",
+				},
+				publishTime: "2023-11-04T15:10:41Z",
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0d0tmTHNRRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 2,
+				text: {
+					text: "The overall service was fast & atmosphere was great. However, $7 for a cheeseburger & fries, the burger could’ve definitely a better grade of beef. It reminded me of the school lunch burgers, I would’ve been better off going to a deli. I WOULD NOT RECOMMEND THE BURGER!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "The overall service was fast & atmosphere was great. However, $7 for a cheeseburger & fries, the burger could’ve definitely a better grade of beef. It reminded me of the school lunch burgers, I would’ve been better off going to a deli. I WOULD NOT RECOMMEND THE BURGER!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Aija Dorsey",
+					uri: "https://www.google.com/maps/contrib/104452380644402021377/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKEQ8xDIIGVodmkcMrujTGWEZDW5J6uxW--pXSTmLH5=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-01-29T20:26:13Z",
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/reviews/ChZDSUhNMG9nS0VJQ0FnSURkMzdfalF3EAE",
+				relativePublishTimeDescription: "2 weeks ago",
+				rating: 5,
+				text: {
+					text: "My mom would bring me too this place, as a kid in the 80's. I would get the hot dogs & the pineapple juice. And my Cynthia (Mom) would get the k-nish. The best hot dogs in NYC, the staff was always friendly. May The Most High bless them. And continue to sleep in Peace Mom❤❤❤❤🙏",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "My mom would bring me too this place, as a kid in the 80's. I would get the hot dogs & the pineapple juice. And my Cynthia (Mom) would get the k-nish. The best hot dogs in NYC, the staff was always friendly. May The Most High bless them. And continue to sleep in Peace Mom❤❤❤❤🙏",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Queen Ty",
+					uri: "https://www.google.com/maps/contrib/113465315180930445683/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjW-HI-FtlJIGxPAtLjeIghI6n29_naeVANxDnzQk6DuOQ=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-02-28T22:34:38Z",
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/reviews/ChdDSUhNMG9nS0VJQ0FnSUNWaGRUOThnRRAB",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 5,
+				text: {
+					text: "Very good hot dogs. Better than those from foodtrucks. Come here and enjoy!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Very good hot dogs. Better than those from foodtrucks. Come here and enjoy!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "J J",
+					uri: "https://www.google.com/maps/contrib/111549134141629394402/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLu0NA9gviNxpRlxRZtxECEBHwDytmQFl4hfkkewLUW=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2023-12-08T09:44:17Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJYNZ7WO0bWUFC21dAM-XxL0rDhhI3h3UwHOnKfqPtJzkHzQSuPDGZ1Yh-ube0lgUf9iQhq3IBpfN9me8pasCx3SeeP0WJtmVRN-gBZ2sh71V97eItnqjKNHq00NHJ7EPC2wG5ticYHGPNNW2_VQC4XlcR1fdxsf9Mnf",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Md NurAlam Mahim",
+						uri: "//maps.google.com/maps/contrib/103233339715293773094",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWgBiwDvdzigWAiVaDt8gAtUAMjG3S84_PEP6oIQiXvOw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJbRz6jMdSM8J7UsompbTSiW9mNZwmQdXziUknYQEmUIc-xVgWiBmSMNGGxfRfhIq3QBisEndr4GJ4fBCrswURraVbC5ugPUUqYGXJzUuSkQJDjGF4iq_KakyP5NyPNkYiSNUEp_Etw3iy4d-jGh9aSEaciZxqjVsmQf",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Nicole",
+						uri: "//maps.google.com/maps/contrib/105366619007973653502",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIIPps34XHSk05ghYKEIpmrY8q44V6PFjQ7_tJsE5KZaQ=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJb5OD5rTHR4ofAWI7hrtsKMRisMzyaE6L650tIxn7a79dGB3ZsYYHbFWyGLQliprfzNO5CYP6zfjjzRPwhmVPSzEDWuN0CftQwF7jJSvLiuAzaH0xJ5tFWQ-7MkWyUSgeeCP5bXI_zQqdxfCjD2_QojrRpyQ-5Q6rlv",
+				widthPx: 4080,
+				heightPx: 3072,
+				authorAttributions: [
+					{
+						displayName: "Anthony Giudice",
+						uri: "//maps.google.com/maps/contrib/109968714222653962765",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUn0fmKTj5JgqhKSFr7nd294fTkIAkC2Q8JwTHmw6SCgEUs=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJZMQAZ7ZT9nYSiNTAye0QKm-KM8uJUiOUhUdfft1CFZryBRi8d2vblbs7govfCLF1tGLUuZsxP2JO6APHNx_34DlasiKM1GyKLDrc5I1VgYE311jTiCVUya7NmudyMEClFhdgjuSwA_W0c3Ibp889jFObnERol-Uv9A",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Ray Campbell",
+						uri: "//maps.google.com/maps/contrib/101981038283210628755",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJZRN_vSaMaezYZMixRj8vqhbwNSg7hNmnytklmfVuk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJaQGpoGNXgZwlPsaTgq5U_wKQhTvDIv8HKkYl8eJmmUyAegri0MxLt4HVQdkRYxd6RFLO2UVhhjWtslsvKLvgVgufL-AnYO55T0UvhFlS2mRETJI3ZpnG7f7O51BEeDbLfsP6oS_SACvfs5GLFxsKGifmZADOuy8D1l",
+				widthPx: 3468,
+				heightPx: 4624,
+				authorAttributions: [
+					{
+						displayName: "Guillaume",
+						uri: "//maps.google.com/maps/contrib/116030878246480354907",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV0cz3W4IE2zE3o-rfb9KmSBAyM3AMqTZwXSXp8K1KqMzA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJYhyLihXx7aQTo7HiafIQAfNQQYzlX7K-T8acQU9kmkoELKfv1LMCAjXXR13TysSLanEPt1QKw7a4P3KH3FscrEL4GliXd1CumQSvh2evTg4FJfxjWR4rMxgPzPnUi4_GLL1O1YdxlGeDUscnhsGDAdss7GCs6HAE2t",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Ray Campbell",
+						uri: "//maps.google.com/maps/contrib/101981038283210628755",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJZRN_vSaMaezYZMixRj8vqhbwNSg7hNmnytklmfVuk=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJbPy-louUPsjYZ9bj6ndmQhwRVwnum27pwO2DJFDvmhlavVbFHkcxwpelSIy2VstSE3ZDUYEQIAd_qYvu-JdT4YWpop6xZibQKeDPvhXtskSp9shdMwzE6TDhOBWoox1n7KuxCGWf8BN2QCvS5wBFdR4fLfThcxyGN-",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Michael Palan",
+						uri: "//maps.google.com/maps/contrib/108252977719746439598",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWtC98O1yYeNn369pLdDb1zNdpeREXf_LjO0o28EP772QI=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJZFk6D1-pFnnXdv7ng3itE4g3Fmbu8zDkCUWzRMoEdP4wOt88ALqxA9FyPeIhjDmw_nLgSCDKNQip-9AFi07b0SqyKg5mrY4UwAdjNxr2Q9Mnc11UELj_HEirRNlzYDGcJJKihaoGheQXJi4kMlQpiCBAcWreZ4jWg",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Reza Nur",
+						uri: "//maps.google.com/maps/contrib/101976133057541702000",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXWjnD-OyoDypEJ92Yw72RlL4J8y6Ep7tQelvNkUCQEjtM=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJZtFkTM4UzNFuc6txZxxYgWf1CUbHclq9BudLRmYCY19gnz-zXFJP1rwW53pkQUwDx6idEsr-jTcV4wEubBPsYlTVlU33wCs0T-IBtQhNWElyNSZ-Opv5D10kcnnz1cJ9tE63hYKKrFLuW8BRFB4HVm6QStx61C6z0c",
+				widthPx: 3036,
+				heightPx: 4048,
+				authorAttributions: [
+					{
+						displayName: "Andrew Matsuoka",
+						uri: "//maps.google.com/maps/contrib/111991588591529435583",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVimKRYcKJzPvMndqR75yfb5R8uLqmoOgxYwNHFE9yY9VPK=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJyaBavkxawokR6lbtK7S7rYs/photos/ATplDJZe0wsHqVG49MJAsZsQACui5K-z-dHfVIQpNRlJsmjg5ewfEBPTe4YSn3Qj9YHEhhh4Z4U1DSBkaZbBT4rp8kj0KKFSARsHHooznQEG-k2OSr1i7L4ZZPpngBJ1cm9KmZWVeXVLr2KYXIHzynsUBUWMF9xNpFbii8Vh",
+				widthPx: 2268,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Arda K.",
+						uri: "//maps.google.com/maps/contrib/118058016330081211850",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocI0hgHCAV7uLI20j8TIAACOk7PHgeGgE-g_NW4JEc1L=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: true,
+		menuForChildren: false,
+		servesCoffee: true,
+		goodForChildren: true,
+		restroom: false,
+		paymentOptions: {
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+		},
+	},
+	{
+		name: "places/ChIJsxqhP_BYwokRyqMPKQaofME",
+		id: "ChIJsxqhP_BYwokRyqMPKQaofME",
+		types: ["american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "787 5th Ave, New York, NY 10022, USA",
+		addressComponents: [
+			{
+				longText: "787",
+				shortText: "787",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "5th Avenue",
+				shortText: "5th Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10022",
+				shortText: "10022",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q27H+V2",
+			compoundCode: "Q27H+V2 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7646716,
+			longitude: -73.9724913,
+		},
+		viewport: {
+			low: {
+				latitude: 40.7633619697085,
+				longitude: -73.9739344802915,
+			},
+			high: {
+				latitude: 40.7660599302915,
+				longitude: -73.9712365197085,
+			},
+		},
+		rating: 2.4,
+		googleMapsUri: "https://maps.google.com/?cid=13942203290844373962",
+		regularOpeningHours: {
+			openNow: false,
+			periods: [
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 16,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 18,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 18,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 17,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 18,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 16,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 16,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 4:00 PM", "Tuesday: 11:00 AM – 6:30 PM", "Wednesday: 11:00 AM – 6:30 PM", "Thursday: 11:00 AM – 5:00 PM, 6:00 – 8:30 PM", "Friday: 11:00 AM – 4:00 PM", "Saturday: 11:00 AM – 4:00 PM", "Sunday: Closed"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">787 5th Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10022</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 196,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Nathan's Famous Food truck",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		reservable: false,
+		servesLunch: true,
+		servesDinner: true,
+		currentOpeningHours: {
+			openNow: false,
+			periods: [
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 16,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 18,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 18,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 17,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 18,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 16,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 16,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 4:00 PM", "Tuesday: 11:00 AM – 6:30 PM", "Wednesday: 11:00 AM – 6:30 PM", "Thursday: 11:00 AM – 5:00 PM, 6:00 – 8:30 PM", "Friday: 11:00 AM – 4:00 PM", "Saturday: 11:00 AM – 4:00 PM", "Sunday: Closed"],
+		},
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "787 5th Ave, New York",
+		editorialSummary: {
+			text: "Brooklyn-born fast-food chain offering signature hot dogs, fries, burgers & more.",
+			languageCode: "en",
+		},
+		reviews: [
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ1cW82ZHNBRRAB",
+				relativePublishTimeDescription: "4 months ago",
+				rating: 1,
+				text: {
+					text: "Ordered a corn dog and it was not even edible. The hot dog itself was dark with bubbles on it and the breading was not on it anymore. The breading was rock hard and I was not able to bite into it. When I took it back the guy was smiling as if he knew.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Ordered a corn dog and it was not even edible. The hot dog itself was dark with bubbles on it and the breading was not on it anymore. The breading was rock hard and I was not able to bite into it. When I took it back the guy was smiling as if he knew.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "mia s",
+					uri: "https://www.google.com/maps/contrib/115877441795535240664/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWycU0pnJ9otTd6CGiYAuO9FjDLdhO3OtyQ3xVsLWCbrco=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-10-22T17:48:41Z",
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/reviews/ChdDSUhNMG9nS0VJQ0FnSUN4Z1B5UTlRRRAB",
+				relativePublishTimeDescription: "10 months ago",
+				rating: 3,
+				text: {
+					text: "I visited location outside Natural history museum.\nPicked this truck because they had prices listed unlike other vendors.\nThat being said it was way too expensive for what we got. Not sure why it’s considered best hotdog in New York. Meat is flavourful but skin a bit tough and hot dog super tiny. Bread was cold. Vendor squeezes a thin lie or cheese or chili so not worth the upgrade for cheese or chili dogs. Chips are good thick cut although vendor poured salt on ours. $8 for fries? Why? Just disappointed as a tourist food trucks should be either cheap or great tasting it was neither. Would not go again.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I visited location outside Natural history museum.\nPicked this truck because they had prices listed unlike other vendors.\nThat being said it was way too expensive for what we got. Not sure why it’s considered best hotdog in New York. Meat is flavourful but skin a bit tough and hot dog super tiny. Bread was cold. Vendor squeezes a thin lie or cheese or chili so not worth the upgrade for cheese or chili dogs. Chips are good thick cut although vendor poured salt on ours. $8 for fries? Why? Just disappointed as a tourist food trucks should be either cheap or great tasting it was neither. Would not go again.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Susan Abraham",
+					uri: "https://www.google.com/maps/contrib/108773872262176374713/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLeVtxK2yUjgNKRZjxFf2Wu4a_6YICxq9lHtF817ZqF=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-05-07T20:35:58Z",
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/reviews/ChZDSUhNMG9nS0VJQ0FnSUNWOEkySkpREAE",
+				relativePublishTimeDescription: "3 months ago",
+				rating: 1,
+				text: {
+					text: "I ordered my 9 year old twins chicken tenders and fries. They both took one bite and said it was disgusting. My husband and I thought they were being dramatic. We took a bite of fries and it was the most disgusting thing I ever ate. It was dark in the car but when we went to throw it out in the house with the lights on the chicken was raw!! Not even half cooked I'm talking fully raw!!! I took pictures to prove it. My daughter has been saying she feels like she gonna vomit all night. Never ever eat at this food truck!! We all feel sick!!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I ordered my 9 year old twins chicken tenders and fries. They both took one bite and said it was disgusting. My husband and I thought they were being dramatic. We took a bite of fries and it was the most disgusting thing I ever ate. It was dark in the car but when we went to throw it out in the house with the lights on the chicken was raw!! Not even half cooked I'm talking fully raw!!! I took pictures to prove it. My daughter has been saying she feels like she gonna vomit all night. Never ever eat at this food truck!! We all feel sick!!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "cristina watt",
+					uri: "https://www.google.com/maps/contrib/106993250897933703886/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocKljVfhOQGuO7hegUvWwAaMa5ie70qG4H7LeL-fVc0M=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-12-05T03:37:11Z",
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1dzhlSTZnRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 3,
+				text: {
+					text: "It is my fifth time coming this location. I know that it is Centre of Manhattan, I know that this is Central park, but prices for fries like in restaurants of Manhattan  or Dubai, but anyway I still coming here, because it is already brand potatoes and hot dogs of this place. We paid 50$ for 2 portions of fries for adults and 2 portions for kids. Potato was not bad., but it was cold.\n\nKhumoyun Akhmadjonov",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "It is my fifth time coming this location. I know that it is Centre of Manhattan, I know that this is Central park, but prices for fries like in restaurants of Manhattan  or Dubai, but anyway I still coming here, because it is already brand potatoes and hot dogs of this place. We paid 50$ for 2 portions of fries for adults and 2 portions for kids. Potato was not bad., but it was cold.\n\nKhumoyun Akhmadjonov",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Khumoyun Akhmadjonov",
+					uri: "https://www.google.com/maps/contrib/113454778896878431849/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWgJxacZrw3rfCPBQ1YeiCSHih2bUN1qNZt06iuX7jdltHM=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2022-08-12T01:44:20Z",
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkMnB1YXVRRRAB",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "$20 for 2 hotdogs is completely outrageous. Complete daylight robbery. For us that’s $40AUD! Back home we pay $5AUD for a sausage sizzle which poops all over these hot dogs",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "$20 for 2 hotdogs is completely outrageous. Complete daylight robbery. For us that’s $40AUD! Back home we pay $5AUD for a sausage sizzle which poops all over these hot dogs",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Deon Spencer",
+					uri: "https://www.google.com/maps/contrib/108607083508039502317/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUI5PH4pfEZ5vJFFNst96kRC--YapbGf6XalAvox_Yvl7Y=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2024-02-14T16:54:16Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJZw8Piy7maREpWV3lqjSuDFPHuSnx-4VHhInjPHpII1Ehz8AjwVux8rfR3QCz1XjHFIwMnF4fIE9rbfH6F7XkIJaC6h8se9dKW0ogugz5wZrJSxI3sNd68NM82y3olDcWwVU2sTF_XnFsDEDWsbuqplrv2QYQT16BOX",
+				widthPx: 3264,
+				heightPx: 1836,
+				authorAttributions: [
+					{
+						displayName: "Massimo Gengo",
+						uri: "//maps.google.com/maps/contrib/113479783764910618644",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWOzlfbHMeID_XEqEgb9qyF0qLl70mh0NCwQLhpWU3EuyI=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJYVpesrsfUx7h27XFPzjFYSP7BleJpa03jBXltyUhm9oOFkoRbXRotAl1Cd6M7vXKpq-5Kvse11_FujDXeRrFKQdc7U94HrvaUSqaxo7KMfnSl0pM96XOCXq0PIHHPJkFx3N4vKt4EHRIToQjgvrVTGKC8s-EK3xBE_",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Eric",
+						uri: "//maps.google.com/maps/contrib/105724641900262007924",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWFJCuPRUwBh4_rs9be5x-1p9n57HJ35Ba9muTlNIDyfv8=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJYOudLPkHTSBoSEN-ZQH2awHLJz7LGmdeKhL29-Ubu5KXr-1bSJkF5cUm8jxrrpq5Oj6Sg0ezwSut3rie5cdcA94gHsbLHaWmMmay_2Ledk9Jiu8pRhufphWLId4J8ipecuQn9NeyJwm8Fvlc3DaYKlKe93R6mINOXQ",
+				widthPx: 1536,
+				heightPx: 2048,
+				authorAttributions: [
+					{
+						displayName: "Rebeka Tóth",
+						uri: "//maps.google.com/maps/contrib/112041634746720128006",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX91d0JcDZfbmyncTYVA12iiDME-laqtM-bKhgb_tDGg68=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJbTQRzLY4ReMVkBvecQ6cJttJUvYoParFPLoaCQYbtsFR4DfeEoNe5vZjM6xe8AKiHpuKmHC20sEOlXYlHm1KMAWbvqkt8UaymjZ4_KcSFSfcJW3JSnBOT5mU_xIQNrDLDg1x8oWuigHsBEkYsf0q8RINGvx94E-oGr",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Roberto Centeno",
+						uri: "//maps.google.com/maps/contrib/104733555359446963457",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVhPll2BkqPLW62wXWIIqrF1sIphBuopTYhSsUbxIfaTpmr=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJZSHp6CbZ5YPS_KY0ysLYmuhxf8XckUpN6jWr5rkXdye2K08iglc8lTN-glo4k8U3P27c-fN0yEczm-jSxZ44xSBz6IrzRbcY1SKR23kk-yCiyPh1GskdMxNVuTw-Qem27ZtyPWyLVWSLjWnCl5HLsCTD1_Xay4JH8q",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Jashauna Herron",
+						uri: "//maps.google.com/maps/contrib/111481231066602761567",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocL09lJ_8NgsVgVJEHXUc5LymEuST6C4YDNhKhWGYvGO=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJasHMZy6qfJdUlMV83liRgE8mpHRCNLQI_PddSQsdZn9x7KzWPKsJxdmk1B6J7jUYFQRnmFm_T_wqSepkL_5biDOO7CRLTcadSt1DqeaH-gz-ssethJyO--QcDrSKbmKwa76IJgAhyk8OSr-32-BHhe_RSFmG4DSYah",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Eric",
+						uri: "//maps.google.com/maps/contrib/105724641900262007924",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWFJCuPRUwBh4_rs9be5x-1p9n57HJ35Ba9muTlNIDyfv8=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJZ8m7k7s8C29yO2UiYEhJdCYhDIBkg8Ph3Fqe4otVF1ZebB_xJzY-VGuPAY6d2ahzT2hWZZ1Ks1npwQQI-YGTYYFNi4VeNJdnYdQP3J7RZovoHlAYicuFWHHmLosLXFjHPkn6FCaAucYR4yFH9Eb8zTK1VTjcJLH9sf",
+				widthPx: 2448,
+				heightPx: 3264,
+				authorAttributions: [
+					{
+						displayName: "Eduardo Henrique Gomes",
+						uri: "//maps.google.com/maps/contrib/102307521974337971099",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWyew2V8vE45cpoguKWUzc9Tm-Z-457vsKx2-zRC9ykX58=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJZs8WMV3cL70lBnYysyJZA9RZz6gQmT9rhIQAkalqrvbuiLz2otlHLs7cn3h33ljSpQHAqYWkgQ46fTbnMDaPETTfEDrdx5TakeHHZhVAg7tUDmxZG30AFw7-l6zNfCVWQ6rB52AGAh9AGIdU6EorlzsGKnp2fZmuT3",
+				widthPx: 3000,
+				heightPx: 4000,
+				authorAttributions: [
+					{
+						displayName: "Khumoyun Akhmadjonov",
+						uri: "//maps.google.com/maps/contrib/113454778896878431849",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWgJxacZrw3rfCPBQ1YeiCSHih2bUN1qNZt06iuX7jdltHM=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJYfsZbV4nYUrQO12ckM5QgA9Jo974ChvDwFMo26M8sGHGW4vT4vsibpfny2Mzb2n3v8I9RYbSmvvXkTRVWAUDY7o0qbJAD6RBo9cTAmCj1tB_ntFeGhdYn1H3CXBz7vAPBeheAOmNLtI79JudlQH4k5n4xD69NgE5dx",
+				widthPx: 975,
+				heightPx: 650,
+				authorAttributions: [
+					{
+						displayName: "jeff jeff",
+						uri: "//maps.google.com/maps/contrib/115358594077960753185",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKXkixfBZwzgcE9fA6wmrnkcIXEWSZep50rjZSqLWQ1=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJsxqhP_BYwokRyqMPKQaofME/photos/ATplDJYOZZDftBNHGA0yxgEOBA3Ey9umR8NZSYI6Tc4QHpKkQjIfEVqywnNFbKuvZeruxdls4WBONq3aX08QGaIrJ3d5j14IHHR8fI1jTvn13WaLBsWzfwmtGZvIaAmelllQGT2rEWqOqczpG-iiQk7y2qg6ztnZeSUTv6oA",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Rafael Corrêa Gomes",
+						uri: "//maps.google.com/maps/contrib/107772924920223328220",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVvrHrqKJvJN-EiQ3GMhbiIDdAMXbpKSvT9ToVMihQ8I4Mc=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		liveMusic: false,
+		goodForChildren: true,
+		restroom: false,
+		goodForWatchingSports: false,
+		accessibilityOptions: {
+			wheelchairAccessibleEntrance: true,
+		},
+	},
+	{
+		name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw",
+		id: "ChIJI8tWLXRZwokR6l3Wq5J4Avw",
+		types: ["korean_restaurant", "fast_food_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(917) 261-2235",
+		internationalPhoneNumber: "+1 917-261-2235",
+		formattedAddress: "885 9th Ave, New York, NY 10019, USA",
+		addressComponents: [
+			{
+				longText: "885",
+				shortText: "885",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "9th Avenue",
+				shortText: "9th Ave",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10019",
+				shortText: "10019",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8Q297+7P",
+			compoundCode: "Q297+7P New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7682479,
+			longitude: -73.985727,
+		},
+		viewport: {
+			low: {
+				latitude: 40.76687111970849,
+				longitude: -73.9869748802915,
+			},
+			high: {
+				latitude: 40.76956908029149,
+				longitude: -73.98427691970849,
+			},
+		},
+		rating: 4.7,
+		googleMapsUri: "https://maps.google.com/?cid=18159209218854772202",
+		websiteUri: "https://order.online/business/oh-kdog-hells-kitchen-11225630",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 30,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 9:00 PM", "Tuesday: 11:00 AM – 9:00 PM", "Wednesday: 11:00 AM – 8:30 PM", "Thursday: 11:00 AM – 9:00 PM", "Friday: 11:00 AM – 9:00 PM", "Saturday: 11:00 AM – 9:00 PM", "Sunday: 11:00 AM – 9:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">885 9th Ave</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10019</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 207,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Oh K-Dog Hell's Kitchen",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Korean restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		curbsidePickup: true,
+		reservable: false,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: false,
+		servesWine: false,
+		servesVegetarianFood: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 2,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 30,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 21,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 9:00 PM", "Tuesday: 11:00 AM – 9:00 PM", "Wednesday: 11:00 AM – 8:30 PM", "Thursday: 11:00 AM – 9:00 PM", "Friday: 11:00 AM – 9:00 PM", "Saturday: 11:00 AM – 9:00 PM", "Sunday: 11:00 AM – 9:00 PM"],
+		},
+		primaryType: "korean_restaurant",
+		shortFormattedAddress: "885 9th Ave, New York",
+		reviews: [
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/reviews/ChdDSUhNMG9nS0VJQ0FnSURkMlBEaThBRRAB",
+				relativePublishTimeDescription: "3 weeks ago",
+				rating: 5,
+				text: {
+					text: "This was the first time I tried corn dogs and I’m so happy, that we found this place.\nIt’s so cute and the service was great and so welcoming.\nThe prime beef corn dogs were delicious.\nThe mozarella potato dogs were also good and interesting.\nSo worth to visit it.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "This was the first time I tried corn dogs and I’m so happy, that we found this place.\nIt’s so cute and the service was great and so welcoming.\nThe prime beef corn dogs were delicious.\nThe mozarella potato dogs were also good and interesting.\nSo worth to visit it.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Alexandra",
+					uri: "https://www.google.com/maps/contrib/101442825663490379415/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocJiInUT5xvFg-GPDZcvAPAJQHCmmWm8H8qoSXxuip1K=s128-c0x00000000-cc-rp-mo-ba3",
+				},
+				publishTime: "2024-02-20T20:15:39Z",
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5LXZMT3h3RRAB",
+				relativePublishTimeDescription: "a week ago",
+				rating: 5,
+				text: {
+					text: "I had a hotdog that was crisper and fresher than the ones I’ve had elsewhere.Korean restaurants are really hygienic, and the service is good!!!!",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I had a hotdog that was crisper and fresher than the ones I’ve had elsewhere.Korean restaurants are really hygienic, and the service is good!!!!",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "김유미",
+					uri: "https://www.google.com/maps/contrib/118085388435434243565/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWbynNcpPOHS7d-AdLgaGv_MHcvUMnpCrKbTtvcVxnzuls=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-03-04T18:58:17Z",
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/reviews/ChZDSUhNMG9nS0VJQ0FnSURKeHJHOERREAE",
+				relativePublishTimeDescription: "8 months ago",
+				rating: 3,
+				text: {
+					text: "This was the second time I've gone to this place with my kids. As usual the kids liked some of the hot 'dogs', but did not like the toasts. I personally love their lemonade more than anything. I think their mozzarella dog is the only one I actually like but can't have more than two bites as I can't eat cheese that much. The toasts are hit or miss. I think that because they use condensed milk it is an acquired taste for some. I like savory stuff so having sweet on it isn't my cup of tea. Still great spot for a quick snack for the kiddos.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "This was the second time I've gone to this place with my kids. As usual the kids liked some of the hot 'dogs', but did not like the toasts. I personally love their lemonade more than anything. I think their mozzarella dog is the only one I actually like but can't have more than two bites as I can't eat cheese that much. The toasts are hit or miss. I think that because they use condensed milk it is an acquired taste for some. I like savory stuff so having sweet on it isn't my cup of tea. Still great spot for a quick snack for the kiddos.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Angeeluz Cortorreal",
+					uri: "https://www.google.com/maps/contrib/112476573423633426830/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUvNGyRSKYs5Ip828jbKT2NNt35-YlWazySqwjO0m0lAnA=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2023-07-15T22:51:41Z",
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1bUlEQUp3EAE",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 5,
+				text: {
+					text: "Now unfortunately I forgot to take a picture of the corn dog. My go to is the potatoe Mozz dog. You have the option of regular sugar or cinnamon sugar or ofcourse, neither. The sauces are DIY which I love because I'll put all of them if I can. They also sell egg toast which is equally as delicious as their corndog. This is more of a grab and go spot. There's a few tables and chairs outside for the warm weather but thats about it.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Now unfortunately I forgot to take a picture of the corn dog. My go to is the potatoe Mozz dog. You have the option of regular sugar or cinnamon sugar or ofcourse, neither. The sauces are DIY which I love because I'll put all of them if I can. They also sell egg toast which is equally as delicious as their corndog. This is more of a grab and go spot. There's a few tables and chairs outside for the warm weather but thats about it.",
 					languageCode: "en",
 				},
 				authorAttribution: {
@@ -4242,380 +10228,1684 @@ export default [
 					uri: "https://www.google.com/maps/contrib/104829098232736799369/reviews",
 					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjWhwZL9YHJO5kwl836hUWyEsj6g6EfPLdKJabUDsJbF89Q=s128-c0x00000000-cc-rp-mo-ba5",
 				},
-				publishTime: "2023-10-11T01:23:40Z",
+				publishTime: "2023-10-10T10:32:56Z",
 			},
 			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/reviews/ChZDSUhNMG9nS0VJQ0FnSUNaOGJDWmFBEAE",
-				relativePublishTimeDescription: "6 months ago",
-				rating: 5,
-				text: {
-					text: "Fun service! Best pizza I’ve ever had; creamy artichoke pizza, not something I’d usually think of ordering. Great prices. We ate it up in the High Line on benches overlooking the Statue of Liberty and Mother Teresa & Ghandi mural.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Fun service! Best pizza I’ve ever had; creamy artichoke pizza, not something I’d usually think of ordering. Great prices. We ate it up in the High Line on benches overlooking the Statue of Liberty and Mother Teresa & Ghandi mural.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jill Shaw",
-					uri: "https://www.google.com/maps/contrib/106717283580436676839/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVwbO3M2zCgSnXZ--BDJ5MggmCforeSsCXrPFV3Cw9SgrE=s128-c0x00000000-cc-rp-mo-ba4",
-				},
-				publishTime: "2023-09-12T18:17:58Z",
-			},
-		],
-		photos: [
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJZXZoKC6QcNsPYLWPBGe1wi5NxqUIMi6eSaJhch9g6ia5hqt4ky7ewxDL896uGUMypl_zIgrr2Yoq95geqD2EYw84QV-jMZYsdKmQc5DTNR3M-c9QuhLupQOVE6djdN43sidK8zD2Zl7pakhKl07Em3OWqZyyfJcldk",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Elisa Bruno",
-						uri: "//maps.google.com/maps/contrib/114946378852275982898",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUUUNGqwKPiNR6A2Zv0xhUIBW43xcmSsTb0tanahgcyOMXM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJbHIph6-aPlDPLo6M-DM91d9iTGTy6qrVV9V7REKqnLI5HjaFO4qwAWdNVJ39_DT_nlKElU4OCkrFyBe8GPqs-GhznavX9f86cpOqouhoJs17UhS87M-pf2vnEToFxvxxBEDNWld8v9G9ccTNS80rjkSaim5l1iBtGL",
-				widthPx: 4032,
-				heightPx: 2268,
-				authorAttributions: [
-					{
-						displayName: "Gonnen Eilat",
-						uri: "//maps.google.com/maps/contrib/102241202279847862393",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUrrohXwNPB3Ieqm0PFX-3oOqJ-P_CokE2Dpfn5rIinL5U=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJYUWDXceZ5Eqw9po-elMdU3UyJfTJZ4cNQjE28BttU_tUOtYSIYJWvqeyXl19eqhh2XWDX79Su_963avSdGDpkFZRVU0IWQGXIDa_sGsmeApMN3srDGhkF9zJCq2aLafBr6oiIRC4-EPts9mVMbDHhTC5RsXZOu2G1v",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Chetan Bhavsar",
-						uri: "//maps.google.com/maps/contrib/113917250611472728913",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU4uH9HvoZvC4Fxuwk7RHxPCMRfCaL5klhpRNBXG4mk5O1C=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJasqyDC8y4utw3MSX3Ln441NzXBxurMvsAtx4hjMTpozU6RxbmeTjKO-_uGAJTYxl3fAedj1eUIhsE4_o0VM4ESu-dqif15EaUweTJgBvO70yWpk_VvsYcUHs8jjlUtClqIjYpfQffXYEccx5pLMUTGL6TTgNJS2ruV",
-				widthPx: 4080,
-				heightPx: 3072,
-				authorAttributions: [
-					{
-						displayName: "Scott Kerill",
-						uri: "//maps.google.com/maps/contrib/111009836173529878611",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWU1Hcc_QiE379iUtAhNJZPcMG-UvmHiKgfWGYRqmdCfqAS=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJbCQZna-Y97NsrKhpTlov6shK6wOcUMmkHyknlk-5Fcv-QxNnEZE4bv5YtexVMEsMesfrfd2-c0XPvRkhE0Ix8zPoZC9DxdyTRxDfLol-ht0YaKMHJNzLjgHuMd_rh7gB38dMq8MkPpiSn_CM74NJpGtNGgzjlHivGP",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Elisa Bruno",
-						uri: "//maps.google.com/maps/contrib/114946378852275982898",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUUUNGqwKPiNR6A2Zv0xhUIBW43xcmSsTb0tanahgcyOMXM=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJaMj43527r4I29HpUZz0rp_UjjT9SEudR28stXHVa16Mo8HCygDMI5IsLV-tdjJV0NLtBYP9P_zS1km0nB0uLZAI7f1kW0WQxuiHwvYICAgv0_6fITi8H_mzD4miG6HhYl3xAaUhdpzRnEk2lVsYJLJIw9-7DM9Icn_",
-				widthPx: 3120,
-				heightPx: 4160,
-				authorAttributions: [
-					{
-						displayName: "Conchi",
-						uri: "//maps.google.com/maps/contrib/104329439325877379381",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX32S6uyaPPKgiC6yap51EN3IwTKcYfBxycyeyt58N1cl82=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJbxuHfLAh0SEf4cpsHB-lnzXn5EEtVMW4tl46qSr0IV84DH1WkKBeUT-V9BC12eToPnKHOlbFAR8rIZyOw3sWV708TmrgyXlKroS0rg2ara3HgvxVanhrnVtFWJuSh0eh51dIbsQsU8nA44UqGcQH4rN8KMJaSzodqL",
-				widthPx: 3024,
-				heightPx: 4032,
-				authorAttributions: [
-					{
-						displayName: "Lila Landeros",
-						uri: "//maps.google.com/maps/contrib/108603947488069956891",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjV-99KkbqTTi1PMze1rGJBLCX_i_0VADRXUB0svDbeOCepV=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJYjwPwPVDAF__wurcErVDH5QqcSGiJem7awaOD_x6SnQ9IugcyEOeGdYq5rNacGVfmYBY1OFYcMB2y7x45jAgTms83DTYq2-7cIZLQrG83wZP6q9sc3bM6KFv6fxs42shXEF5LpkBzwuisUGW0ovjoudwBwAgd1RPF2",
-				widthPx: 3000,
-				heightPx: 4000,
-				authorAttributions: [
-					{
-						displayName: "Edwin Nunez",
-						uri: "//maps.google.com/maps/contrib/114852157076593706912",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJzi7cNmwsvZsfNXB-74E6JqrRWLpFnItagsoV4fzUk=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJbOSixbOIAfgOtNQh4jnA2zCezYESxEqzF2y2zQTv6J1xGiHVfpiTnAccplr3EeQcZYB33VPgw9CG2nQk1c4f45wm49eXhsDZyFuGNa6MYworNnJc8g_LQ8ADQADMHLjEFroB6K6tCcn9QPzl0H5q9kdhbyB-kOFelp",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Ladya Cheryl",
-						uri: "//maps.google.com/maps/contrib/111856369914707500528",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX6yc_a_LRTfRSpsgbzkaBlQUVjwD-cCVvsSAO96pfTrgv-=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJw6TmVsdZwokRPKQwKL-ZsII/photos/ATplDJaHbwDmVQIteftNrI_KEt9wnnivLyNJ2tiRE3YYl3TsGDZTH4nzSuesUazkQ6ShBWPXVvpWTkWPO7zuWzBcRVkIoRRSLm8HHJH36jZweN1Lcnbt-UqoXnh-IymcuFBTYH06iSiHe1jI-h-lBZdr9NfIxrOZjQkrFA3J",
-				widthPx: 3072,
-				heightPx: 4080,
-				authorAttributions: [
-					{
-						displayName: "F A",
-						uri: "//maps.google.com/maps/contrib/105941324884924005993",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocK7ATca7VI5ACh4SEMbuvI1rNFVuM_HKTWh7zTyZp6d=s100-p-k-no-mo",
-					},
-				],
-			},
-		],
-	},
-	{
-		name: "places/ChIJo6nHrIRZwokRA7ghD-QV808",
-		id: "ChIJo6nHrIRZwokRA7ghD-QV808",
-		formattedAddress: "71 2nd Ave, New York, NY 10003, USA",
-		rating: 4.5,
-		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
-		userRatingCount: 590,
-		displayName: {
-			text: "$1.50 Fresh Pizza",
-			languageCode: "en",
-		},
-		reviews: [
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/reviews/ChdDSUhNMG9nS0VJQ0FnSUNscXRTaHlRRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "Love this place. This 5 star rating is because this is the best dollar slice I’ve had in the city (and I’ve had many).\n\nAlways fresh because people know… this is the best one, so they’re really pumping out pizzas.\n\nDon’t care where the ingredients are from and how they are selling it for $1. It tastes great and always hits the spot. Sometimes I eat it, walk a block and turn right back around for another.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Love this place. This 5 star rating is because this is the best dollar slice I’ve had in the city (and I’ve had many).\n\nAlways fresh because people know… this is the best one, so they’re really pumping out pizzas.\n\nDon’t care where the ingredients are from and how they are selling it for $1. It tastes great and always hits the spot. Sometimes I eat it, walk a block and turn right back around for another.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Charlie Smith",
-					uri: "https://www.google.com/maps/contrib/110179946727963257772/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjU9ZlsFfX_cnrjb5VNDN4QPMbF-cvnb_NMmfS84Mui0E4c=s128-c0x00000000-cc-rp-mo-ba2",
-				},
-				publishTime: "2023-11-16T00:25:58Z",
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/reviews/ChZDSUhNMG9nS0VJQ0FnSURkaTV2Qkd3EAE",
-				relativePublishTimeDescription: "2 weeks ago",
-				rating: 2,
-				text: {
-					text: "Now $1.50, that's not cool, and you get a way smaller pizza than ever before.\n\nI've been coming to this spot since the Times Square location and then this expansion, luckily it was nearby for me, and you can see on the walls they have newpaper clippings saying that the owner wanted to fight back against expensive food, but they're also doing the same thing every place in NYC is doing, charging more for food, but also skimping on the food. So I will probably not come back anymore, after all these years.\n\nI know things are tight now, but they're also tight for customers, too.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "Now $1.50, that's not cool, and you get a way smaller pizza than ever before.\n\nI've been coming to this spot since the Times Square location and then this expansion, luckily it was nearby for me, and you can see on the walls they have newpaper clippings saying that the owner wanted to fight back against expensive food, but they're also doing the same thing every place in NYC is doing, charging more for food, but also skimping on the food. So I will probably not come back anymore, after all these years.\n\nI know things are tight now, but they're also tight for customers, too.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Helgen X",
-					uri: "https://www.google.com/maps/contrib/109200800243443979517/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXuQVHushKBJTk8XE0qPZcsEhXTn-fh9LeuPoZwHvCjQCk=s128-c0x00000000-cc-rp-mo-ba3",
-				},
-				publishTime: "2024-02-27T06:39:30Z",
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/reviews/ChdDSUhNMG9nS0VJQ0FnSUNwb2ZibnpBRRAB",
-				relativePublishTimeDescription: "7 months ago",
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/reviews/ChdDSUhNMG9nS0VJQ0FnSUNSM3M2OTB3RRAB",
+				relativePublishTimeDescription: "11 months ago",
 				rating: 4,
 				text: {
-					text: 'Great quick silce of NY pizza, nothing fancy and not the "go way out of your way" to grab a silce; but if you\'re in the neighborhood definitely stop by!!',
+					text: "Great spot to take visiting friends for a quick snack. I went for the cheese dog and it was delicious. They ask if you want it traditional.. (dripped in sugar) which initially sounds weird but was really good.. they had so many different combos that would suit everyone. Then you can also add loads of any sauce you want ! Not the healthiest but filling a tasty. They also had some seating outside which was nice in the sun.",
 					languageCode: "en",
 				},
 				originalText: {
-					text: 'Great quick silce of NY pizza, nothing fancy and not the "go way out of your way" to grab a silce; but if you\'re in the neighborhood definitely stop by!!',
+					text: "Great spot to take visiting friends for a quick snack. I went for the cheese dog and it was delicious. They ask if you want it traditional.. (dripped in sugar) which initially sounds weird but was really good.. they had so many different combos that would suit everyone. Then you can also add loads of any sauce you want ! Not the healthiest but filling a tasty. They also had some seating outside which was nice in the sun.",
 					languageCode: "en",
 				},
 				authorAttribution: {
-					displayName: "Nicole Manuel",
-					uri: "https://www.google.com/maps/contrib/104886811955076706494/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXf8eC8-KE1BLtWHCEmRLMjAj0iXlgCa1cVqk_niEO2WfDr=s128-c0x00000000-cc-rp-mo-ba6",
+					displayName: "Jackie sullivan",
+					uri: "https://www.google.com/maps/contrib/100383046131189478947/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVhTD03upEbP5lUQrVcn1-LFuf_eu9eeiJ61jDKDn1CHg=s128-c0x00000000-cc-rp-mo-ba4",
 				},
-				publishTime: "2023-08-05T06:50:35Z",
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxOE03clhnEAE",
-				relativePublishTimeDescription: "2 months ago",
-				rating: 5,
-				text: {
-					text: "These guys are the best!! I have lived in the area for years and they are all so awesome, fast and the pizza is always cheap and delicious. And they always give me extra ranch like the bosses they are. Thank you! - the dude who literally has bought an upwards of 500 buffalo chicken pies from you. I look forward to the next 500! Haha",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "These guys are the best!! I have lived in the area for years and they are all so awesome, fast and the pizza is always cheap and delicious. And they always give me extra ranch like the bosses they are. Thank you! - the dude who literally has bought an upwards of 500 buffalo chicken pies from you. I look forward to the next 500! Haha",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "John Mateer",
-					uri: "https://www.google.com/maps/contrib/102999619034865863419/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVKRRXQTtZPT5htxFLbwn2xjmqLDg6lvT8Prob3GcBrgg=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-21T07:03:49Z",
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/reviews/ChdDSUhNMG9nS0VJQ0FnSURsdTRDMGdBRRAB",
-				relativePublishTimeDescription: "3 months ago",
-				rating: 5,
-				text: {
-					text: "One of the few pizzerias in New York that hasn't succumbed to \"shrinkflation\". Great pizza with fresh ingredients. You don't need to order double meat or extra toppings to get a pizza the way it used to be made 15 years ago.\n\nHearty pizza. Probably the best value in the city without sacrificing quality.",
-					languageCode: "en",
-				},
-				originalText: {
-					text: "One of the few pizzerias in New York that hasn't succumbed to \"shrinkflation\". Great pizza with fresh ingredients. You don't need to order double meat or extra toppings to get a pizza the way it used to be made 15 years ago.\n\nHearty pizza. Probably the best value in the city without sacrificing quality.",
-					languageCode: "en",
-				},
-				authorAttribution: {
-					displayName: "Jason Mitakidis",
-					uri: "https://www.google.com/maps/contrib/115031874125517912385/reviews",
-					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjUcC1DTgMprvRg4PHlk31CK5MxmMai7VvSdKBmkZsJtiHo=s128-c0x00000000-cc-rp-mo",
-				},
-				publishTime: "2023-12-04T02:56:08Z",
+				publishTime: "2023-04-02T20:33:10Z",
 			},
 		],
 		photos: [
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJbSOxyCTjF8Q1spOSDi2Q03kQkxqa2PPXn39IfPKhAv64fMf81mNYhCgCInruhfga3__RT00q7uUsZwTV4GB0lJKS5bUrs8VEO5PbjXJrMuXx1HD0ypFFVr8RR9AsTg_rXJzqDWvFNvP6abJGfNhS0q_vnSDbKHmxio",
-				widthPx: 4032,
-				heightPx: 3024,
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJYa4oZC5agi61Vf3j8lTfpz5wN_zYfDtQkqLnG3zYTK34yC6AFIw-nrWmbYJAiLgQTQstepPC1GD8ApRBd1Vp1TnLIOzqn0VRx0eYuveZgJUn8Q4LhOYlJKFxRnjPMGW--T1vZQpdBEXjM794He3NaxRNxO2VtxrkDg",
+				widthPx: 2906,
+				heightPx: 3875,
 				authorAttributions: [
 					{
-						displayName: "Ivan",
-						uri: "//maps.google.com/maps/contrib/117372194755102609516",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXhfpjDY2Rqg2Mr8HJ8bXRTUUuIMQ3siC7QIrhF09z1RDU=s100-p-k-no-mo",
+						displayName: "Oh K-Dog Hell's Kitchen",
+						uri: "//maps.google.com/maps/contrib/112110878684390204137",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWWiaYUQXIHHtIKVjJAiQeVuMa7-b0VTZAj_hGoEB-3cw=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJbUdsc3OyihhPJNu4Jm9xCXrThOOWihtlZPJyiFR42L6R-ZlzOnER2leWfuVY93LapyX7wW8GO5sj0DUv26Y_G6IxQGDG7czX35m6EwIZ4uHs272otWRp9mGXTKvH4hDBTb3maHbkHi4qBvbvgitRtinUwRYMmXrXKs",
-				widthPx: 4032,
-				heightPx: 3024,
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJY5mMtz7Wh2LcTSeeCaSFDI9UtveBnW-Bleul-ssk5YVXkpM9pf4ILq-sFMoM3qNYvsnCJlZ_42sVttTJCJt4JCawlpEVNcDLmqrII_jSWa4K9XOh74geCJJhIUvVumWP07s80C7hBc4AmAwLRBWlYtZIx9I8xzoPB3",
+				widthPx: 631,
+				heightPx: 767,
 				authorAttributions: [
 					{
-						displayName: "Myr",
-						uri: "//maps.google.com/maps/contrib/103117113221835767117",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU40dQCC_JXFWCPOoadu0cM0FLCNTxRzbj41ZUtaedaAPA=s100-p-k-no-mo",
+						displayName: "Oh K-Dog Hell's Kitchen",
+						uri: "//maps.google.com/maps/contrib/112110878684390204137",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWWiaYUQXIHHtIKVjJAiQeVuMa7-b0VTZAj_hGoEB-3cw=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJZgrDR7i_fAXqxbeVh4rL8ehQ2zGTT7kB8mOcG6w_hrEXjdXDf6erg7MvR3M8aYcNqCiV1TaYCq3yovQ9zoag_7iqSqXjpJ8r1zYTCez61q6UhGppgzuAAx6aD24UqqNmPuYvZuMeECstu9SUh-7E2QJd2rx3JY_8ML",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Suhas B",
-						uri: "//maps.google.com/maps/contrib/113115596811731795994",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocIpgiuL17UBtBQUA6E2VojijG1axZhJD03SpRy5KL1n7VY=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJZPqAez4P-YZZTOJotlW_y_FVLgIOUExOCH_07c0yWyw65APkkwk7riEVlOcqbIi6OHb5Ol2x1uhB_bCSoqcFZiB3xugSjxQXpKFIKMRQ7o_U9RaWpbUCzdGkPxjgRxmmdznAFm1rPW8NhMVrNs7PeM-NVP_DWDzOaG",
-				widthPx: 4453,
-				heightPx: 3340,
-				authorAttributions: [
-					{
-						displayName: "Nicole Manuel",
-						uri: "//maps.google.com/maps/contrib/104886811955076706494",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXf8eC8-KE1BLtWHCEmRLMjAj0iXlgCa1cVqk_niEO2WfDr=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJZb8aI0KVwqyVUyWej672JrcIhVtfHwBWnN-KwvOM2sa_REG-7KdjDxkryHyQ1JqWmcL4glu-MYaOb9YerIuy45fIxzl7oOf3gc7jaaHvGnmvJO1UocWV57D7lRv8B1dPFMKJIeCcXZA0lLUsuozPAD8s8So4UwDMJT",
-				widthPx: 3456,
-				heightPx: 4608,
-				authorAttributions: [
-					{
-						displayName: "Nicole Manuel",
-						uri: "//maps.google.com/maps/contrib/104886811955076706494",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXf8eC8-KE1BLtWHCEmRLMjAj0iXlgCa1cVqk_niEO2WfDr=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJavZe2q6i26eX91G_Xu7SVlfFQrJEaQz2ZYPOMIaTk5LkNVR5HO6Wk0vPAbSMa4kY1X614vaaXOf27asimfJVovZfqxuiIq06RcI4ZwiKgEtOsTluhU_cbAiW2NmkU2arqiGU0aH3oxX5bAupRf6QZTF0F3YZvC2FOa",
-				widthPx: 4032,
-				heightPx: 3024,
-				authorAttributions: [
-					{
-						displayName: "Jony Jovcevski",
-						uri: "//maps.google.com/maps/contrib/101540175841871488174",
-						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKQn-F_-bKgkLKYcGZtZIxhwnTeubZXvvNNPB_FXe8m=s100-p-k-no-mo",
-					},
-				],
-			},
-			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJbk8sdS8o0AEbUo_a5GKj_1rjIOlgub_uiVcAeHNpTmA8OOU2a_Jiy9_YQrPfXc5lQkGvIHlnW4IQQS0wgtvA2QhCGL7p2sjLn2oUSGMmbsebc8RpZlQivDycIvUR2yg6FHVmUI8TybwylUPBoBw9HR3H6BnuWLeCK6",
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJYi76tL2BUAqF8adoOC4z8waaNVUqf5DG0MikUgHiWhUlcL7GxFG0f1kjNeT2DINOqnzAdC4kVOJgJGBWDRzS5VC-DEpngPcX0OG7EB4XW_rH15sClbCfB2cduYDK1LdKAPZVlJnLEbhFCOpHy8liF_ykoayWmKRlrS",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Ruwan J.",
-						uri: "//maps.google.com/maps/contrib/117808460219123378764",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVPR_XCFaGSavGfzKWgzWQWpZCnKfzmpX-S_8yZq86YKNDj=s100-p-k-no-mo",
+						displayName: "Alexandra",
+						uri: "//maps.google.com/maps/contrib/101442825663490379415",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocJiInUT5xvFg-GPDZcvAPAJQHCmmWm8H8qoSXxuip1K=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJbRjQTA2Qe-VIPRAZ09HUXFLl8ALfJPMo1SGxyISVhIkV4-DdZEx17umWpXoACWukPsg_KWwKEYIDh9tTcPHRsknsxFuyJJjp3vZo6kpwz1htHJUVvt-Wm6V2fbAep_jJcc4iV65uJO3H0or4fcx1NRAKheez3rl1AY",
-				widthPx: 5344,
-				heightPx: 3006,
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJa9Wl-APOaAlIpSSh_8P0XyISilI03eduM3AZKInq-FE9Sh6GaCa6Bi3k5tmq2wFEc5QXEA53V-S4rJNcQObm6h7ItCvMSqDwxR5_DafZQTjx9e3cF6NxWKd5BKnPxE1IPEZTyJaJ-9deWFxSCBKBGEngYCVahlHdXf",
+				widthPx: 3729,
+				heightPx: 2484,
 				authorAttributions: [
 					{
-						displayName: "Igor Katrach - Director of Photography",
-						uri: "//maps.google.com/maps/contrib/115354096318086584445",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVahOPNGMYPPSwiLXDWtZXHLxDpI6ZjT9RvuZW_GetVtyCw=s100-p-k-no-mo",
+						displayName: "Ufuk Cevikel",
+						uri: "//maps.google.com/maps/contrib/108288870964697225724",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW5OOhFfv_b2d9S9Ewslj6eQNXO5MgyMHiREz8J5Iepp10=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJZmTxDgFFwNT7L_spnY10K_OqSs1JOFfNhgdbdgbIMiQvQJBMn_53HHeVbvajTQaOfFavgpbdlcRz4dmJffzhwttAGd-7TvSwLujEqJT71omGdMydtsRvzrMCqiamm3G-s1xOjNSvaeWleAYz6crjchJZvTReKflAx2",
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJZYNVJpBG3_80340s6Umk9ELje1BTTMzMfQ1Q7nJaj1so6fETrIkA0TnyicIpeQw1H-LMR8Ho4Shp8JGjYfydum1Y6B7EeInlSHJZuQq2ux6KzSftgsrbe7bPxq_BvdNXmIILZzqlnMNZclauWv6mct8AujrUqz65mn",
+				widthPx: 2683,
+				heightPx: 2683,
+				authorAttributions: [
+					{
+						displayName: "Ed Erenberg",
+						uri: "//maps.google.com/maps/contrib/110310334831794278922",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWNUX_4aCbTC80uO41Z4I-3qXjOyiTR-9AoFC4c1aUV5eMG=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJZ1uFSs2k3r1CxS3_scZofU63D7Rw-mCZExEVoKbGk_PFgtqWYxwKY_SQNU0RcEadXrkOM5Zz1G_2D8BdVeCU_GlCq7EHASWAILmeOvfxjpgEOTprkaZrjWLQrgbAMOVWZ_-N3LA9ZZD6LMOc_9aJJKbdxxawmjd5qI",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Grettel Ola",
+						uri: "//maps.google.com/maps/contrib/101952924627032800025",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjW7z4vWdMKe8uljBWpEm0xzaEyZN0f7YmzCKioCXXHMmZwq=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJa72qxO0_yuJpNhn8FgNj35MxL0mL7_YwbH6dj_K-orqmCil_HuLEj1rJp5bR0JIY6ZMZHXcStbbkmJ_tSjxVM9GB66fHWvXmZQUB9LOdG6tfZqL_BZOLIJopYEbmNtZggEBaz_QV-MIWkcGsszc8LfjjgBuTj5Ebu9",
 				widthPx: 3024,
 				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Ruwan J.",
-						uri: "//maps.google.com/maps/contrib/117808460219123378764",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVPR_XCFaGSavGfzKWgzWQWpZCnKfzmpX-S_8yZq86YKNDj=s100-p-k-no-mo",
+						displayName: "Ash GR",
+						uri: "//maps.google.com/maps/contrib/103527812123822021393",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXfEgG40c5wHEHSxEHp9aYAxgHMlLqq3-sL3P4M6LLGqPE=s100-p-k-no-mo",
 					},
 				],
 			},
 			{
-				name: "places/ChIJo6nHrIRZwokRA7ghD-QV808/photos/ATplDJaDmNwlG50yPf5FCoHdW3Cn_g6W1OALD0oBNbw0E--qnBqOPknwXAUzmfp7cX8surm1GqE2G7eGEfBGC0ufIZhMXWcqOupBpiPwfGLLUpLNl6Szh1PLzIxoXDFx41g-ShlkZW0vNQY6t08sxkCGg_ITncuk22dQ6l1b",
-				widthPx: 2320,
-				heightPx: 3088,
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJZOmw6ZBW8Mo94mivU5b9JwSaMPuNp-oNps_jB0nainOEEXIPX_XSrb9IXQ1ts7z834K_DfhT-4-O2JWDstmTedraeerZoaks1uOTyd_pi0HfQ9nHkdPC-I91WwNgozbwqX9M_EcZKcNGxrvDefHsH6GRlflDYaFaf9",
+				widthPx: 3024,
+				heightPx: 4032,
 				authorAttributions: [
 					{
-						displayName: "Ruwan J.",
-						uri: "//maps.google.com/maps/contrib/117808460219123378764",
-						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVPR_XCFaGSavGfzKWgzWQWpZCnKfzmpX-S_8yZq86YKNDj=s100-p-k-no-mo",
+						displayName: "Michael Kauffman",
+						uri: "//maps.google.com/maps/contrib/111907517433029612047",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjWL6m56uDW5bZyNoCPUgVa_cYL2FBjAmC-Q12qXakbLUbjX=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJYW-aEjMGWI5Deao9l_KV9TEwoFb309t9U3kHHMN8ndrwxNKjtjDYxFievF0UtDzM-b4uWnTlItMMrPOo5htrT0b4riGA0M8AJnixXsFhMgBhw8QW2MXsC6MDJq2K3vY2ZoeUq43TZkkFkCNQi56AH0Ga5FYSVwT6AQ",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Paul De Leon (PhilNY11)",
+						uri: "//maps.google.com/maps/contrib/107304525959773274664",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX7fSCJ6jejYUXTpXe9COzvWMWDOTlEG2ue8SV514BvCQo=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJI8tWLXRZwokR6l3Wq5J4Avw/photos/ATplDJa_MGCR7aR6eW2cpNoNOIVZEk2Uf-xSjNI2kgDZbedF_6i__IxAw1RlN9zcdm1LQJrDYJcFasPAOO5F8GysErDJxJS8guh8dQre5g4r259S1Kh9-MgFvpZY301Q-sUzm3Aoj0l1-OaOwBLao7E_1tEtxCzv2pRxjIFH",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Rashid Ford",
+						uri: "//maps.google.com/maps/contrib/111462744110768806330",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVh8UZIZT5qzHH-HZLPUTOlNi6nPESjreDucJc1nxM5yws=s100-p-k-no-mo",
 					},
 				],
 			},
 		],
+		outdoorSeating: true,
+		liveMusic: false,
+		menuForChildren: false,
+		servesCocktails: false,
+		goodForChildren: true,
+		goodForWatchingSports: false,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+		},
+	},
+	{
+		name: "places/ChIJERwmh8BZwokRPb5OZePIYf8",
+		id: "ChIJERwmh8BZwokRPb5OZePIYf8",
+		types: ["fast_food_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		formattedAddress: "427 Broadway, New York, NY 10013, USA",
+		addressComponents: [
+			{
+				longText: "427",
+				shortText: "427",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Broadway",
+				shortText: "Broadway",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10013",
+				shortText: "10013",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G7PX9X+X8",
+			compoundCode: "PX9X+X8 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.7199506,
+			longitude: -74.0017368,
+		},
+		viewport: {
+			low: {
+				latitude: 40.718545819708496,
+				longitude: -74.00297328029151,
+			},
+			high: {
+				latitude: 40.721243780291495,
+				longitude: -74.0002753197085,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=18402210431395348029",
+		websiteUri: "https://glizzysnyc.co/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 20,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 20,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Closed", "Tuesday: Closed", "Wednesday: 12:00 – 8:00 PM", "Thursday: 12:00 – 8:00 PM", "Friday: 12:00 – 8:00 PM", "Saturday: 12:00 – 8:00 PM", "Sunday: 12:00 – 8:00 PM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">427 Broadway</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10013</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		priceLevel: "PRICE_LEVEL_INEXPENSIVE",
+		userRatingCount: 56,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Glizzy’s NYC",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "Fast food restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: false,
+		curbsidePickup: false,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 3,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 12,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 20,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: Closed", "Tuesday: Closed", "Wednesday: 12:00 – 8:00 PM", "Thursday: 12:00 – 8:00 PM", "Friday: 12:00 – 8:00 PM", "Saturday: 12:00 – 8:00 PM", "Sunday: 12:00 – 8:00 PM"],
+		},
+		primaryType: "fast_food_restaurant",
+		shortFormattedAddress: "427 Broadway, New York",
+		reviews: [
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/reviews/ChZDSUhNMG9nS0VJQ0FnSUR0X2FYaUdnEAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 5,
+				text: {
+					text: "Glizzy’s may rank up there with gourmet hotdog spots in the city. The texture and fluffiness of how these dogs are prepared is definitely memorable. Interesting array of fancy dogs to choose from. Would go back again.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Glizzy’s may rank up there with gourmet hotdog spots in the city. The texture and fluffiness of how these dogs are prepared is definitely memorable. Interesting array of fancy dogs to choose from. Would go back again.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Marc Gonzales",
+					uri: "https://www.google.com/maps/contrib/110664778010423602822/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocIJU0CbgjdezG_IF03drntdOwSAphf_2XYz6dOuJbuC=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-02-06T13:56:35Z",
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNSbllXeGp3RRAB",
+				relativePublishTimeDescription: "11 months ago",
+				rating: 5,
+				text: {
+					text: "This is place is awesome!! 🔥 I’m not even a big Hot Dog person, but this place is the stand out exception to the rule. I ordered the “OG Lucy’s” which was delicious, and I plan on going back at least 10 more times to try the other 10 dogs on the menu.  Affordable, delicious, and centrally located.  👍🏼👍🏼👍🏼 I even made a piece of ✍🏻 Handwritten Art while I was there.  😀",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "This is place is awesome!! 🔥 I’m not even a big Hot Dog person, but this place is the stand out exception to the rule. I ordered the “OG Lucy’s” which was delicious, and I plan on going back at least 10 more times to try the other 10 dogs on the menu.  Affordable, delicious, and centrally located.  👍🏼👍🏼👍🏼 I even made a piece of ✍🏻 Handwritten Art while I was there.  😀",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Renda Writer",
+					uri: "https://www.google.com/maps/contrib/110370388479990804772/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXAuD7aM2f9XjQB0uaQ0e0wlTMd6jZE-JE8mIZ5evRdf2k=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-04-08T13:49:09Z",
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/reviews/ChZDSUhNMG9nS0VJQ0FnSUR4M0xUTVR3EAE",
+				relativePublishTimeDescription: "9 months ago",
+				rating: 5,
+				text: {
+					text: "The Sean Paul was life-changingly good. Went here recently after a fundraising event in the neighborhood and the man behind the counter was incredibly kind, fast and communicative, offering free hot dogs for people from our fundraiser. I’d been craving a hot dog for a second, but nothing could’ve topped this experience. Also tried the Mr Lee and that was really good as well. Could not recommend more, truly delicious and operated with care.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "The Sean Paul was life-changingly good. Went here recently after a fundraising event in the neighborhood and the man behind the counter was incredibly kind, fast and communicative, offering free hot dogs for people from our fundraiser. I’d been craving a hot dog for a second, but nothing could’ve topped this experience. Also tried the Mr Lee and that was really good as well. Could not recommend more, truly delicious and operated with care.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Eric Ducos",
+					uri: "https://www.google.com/maps/contrib/115489866196670405375/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVylHbIc7GRwxd4-igfGOa2zfVvSbzO2meVBCRcd_zzD43_=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-06-03T21:09:15Z",
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/reviews/ChZDSUhNMG9nS0VJQ0FnSURCLTVtZ2RBEAE",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "great. smoked brisket was a nice compliment to a normally mundane product that needs other pedestrian topping things to escalate it. it's nice that each topping isn't just a compliment but a delicious thing.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "great. smoked brisket was a nice compliment to a normally mundane product that needs other pedestrian topping things to escalate it. it's nice that each topping isn't just a compliment but a delicious thing.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "m “TYB brian” d",
+					uri: "https://www.google.com/maps/contrib/103919812803298686196/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocLHgCuDq0oFeyS2m9iQ8dj6-qq6wtaFQ5mxRKsm-LM3jg=s128-c0x00000000-cc-rp-mo-ba6",
+				},
+				publishTime: "2023-01-30T02:08:48Z",
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/reviews/ChZDSUhNMG9nS0VJQ0FnSUN4dThDSUJnEAE",
+				relativePublishTimeDescription: "9 months ago",
+				rating: 4,
+				text: {
+					text: "Craving a classic New York hot dog experience in the heart of Brooklyn? Look no further than this hidden gem that I recently stumbled upon. This unassuming hot dog joint has quickly become my go-to spot for mouthwatering franks that are a true delight for the taste buds.\n\nThey have a very interesting menu with a few cool options. I ordered the OG Lucy which is Vietnamese inspired  and quite tasty. The staff was very helpful as well, I was immediately greeted upon entry.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Craving a classic New York hot dog experience in the heart of Brooklyn? Look no further than this hidden gem that I recently stumbled upon. This unassuming hot dog joint has quickly become my go-to spot for mouthwatering franks that are a true delight for the taste buds.\n\nThey have a very interesting menu with a few cool options. I ordered the OG Lucy which is Vietnamese inspired  and quite tasty. The staff was very helpful as well, I was immediately greeted upon entry.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Elle",
+					uri: "https://www.google.com/maps/contrib/105774918205164162232/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjXOE96ixmlfMCDyPl6Od7I795NbP64IV6OC7pHHMdnLXzY=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-05-26T23:42:11Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJYWzl6BuENC7BxDo_D16iLNdqxL_qIQfa_hUl87nmkBTxGnFTv1ZqcahMAF393CaucjmQDa_WO8rqHBMxgHZ-4PpurWGQ5iofRyPfu0uHc45g-GrHAznspdbiNIuHFmCSVAP262Iphibyvqr3hlc5cBYWFHFgmEzUfi",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "H H (UNSP0KENWORD)",
+						uri: "//maps.google.com/maps/contrib/113256167494894452555",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUGB2zwfCErqqbKleXjoEuN-2GO5VVMtODnruARY4W6o4w=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJZBDn1G-aKnsbQvHZRYaoboditENXPWFRyDf9eehemBbBGanzB6Bjr0_ThnMnYykrKY0jwL0qXTZesuf6dBYUnF7qe0merQYbwkvY7-3kvDLV2t5N7syVfQ7jub3Q02kIljgSfa8ffkFTFScKsQZ9bUWtjdKE4AFiY4",
+				widthPx: 1170,
+				heightPx: 1451,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJZpR23y-chBsjQHWSdDv70Edopjw0jBJCz2_N0vfx6qo4GoE8UiSgH5FSxySYpgtWp_gtS8x296QrEMWHyYO15eYwXYvxtcNuo6aaDAHdjb-Fq67GRJAN21e-qhj_ufcaKxTpjw8KdDjyMapDrckCMCcrKdBpewXR1F",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Hubert Mandeville",
+						uri: "//maps.google.com/maps/contrib/116955859479451339151",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXo42SkDpTS_LgQAvlNfMVlXpNiubqsSbzNCCoD56irbXo=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJaIzHqixUBVcUoPl0RS3ve6BdSn3tLEHjSISS1UAS4KkmYVc-i6Hh8iV11ECzY1Lxd1xcQ2zfpa3aGGvPF65FvVwgQGslHdWviATq4jcuNgIIxENKu27CTYt5PQ3r4FGVGmxY6D923cWMstSp7NtsH03yCP0ULN3tdR",
+				widthPx: 2832,
+				heightPx: 4240,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJYbftNBTCNS0EIeYaSoWhQEP0PuLAF-CNbVHPvbE0gTypLYBPDqMVED_HD_kVXNfZZ3PfNsy9xmk03UFO8jwL3r0ZHyCkGFTZCTAGg58ShcksUc-DH-j_8LiuRAseNR2SvgKsGGI6KxNx8nkHSmFbHk5g8Wlh5ZmLNV",
+				widthPx: 4000,
+				heightPx: 3000,
+				authorAttributions: [
+					{
+						displayName: "Derek Tu",
+						uri: "//maps.google.com/maps/contrib/102953023245745621601",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXBonAdSpWGh02KctJErn88runKRlu64GoQvyi6wZ9tlo0=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJbX8LaLb6LdZiydfv5dKJIbQuqlgSeHyjFHrMkYufhG0ve_lknpjE3x8TLNNWfhW4ZCn5Ql_Jx10eV2xtSTTHMpcK3c5VmebzKhVGtGKQRCoise-jabqrqXzguAtcrUPi-oU-PB4WhkedaZy32-gL-eD6zbZIOzeub6",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJaKj6hrEBVp6X0eTz4woE02VFujUPwDXCH9Cq0cWoWrTlqHCzI_kq_rXDTS8D7K5VA_vvkAXMDVHci57s5KmSCyFYMN7uY011WvAcJsEVyiVrNPr9geBnP-Pva-gZ7MEDMG48uL8G6gvFygaz7ZNx9WgsyD2E6Gx3rG",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJb9rmn42gc_I6GftinEPdF6tjIXKtDs_Znlu5j7yQif96s6QhYqIrgbk1958DFUo_44MOAZF8clkn_kVvzg6XuMuJh-Hqet4d_6DKk-pCZc_CaovT8hNpAQlWe_BlmjKCLkuCC14IIB6yM0b0XNRJZbEsbkzzXoamOC",
+				widthPx: 3510,
+				heightPx: 4680,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJaLv5obRWYZikSOLR9GWqQz96Cf8HAXVU55MLLGLsLFjDi1MP4nLAYGokPkdbQ7TzLB51WP-SALh17VYkp8iJRKOPefI02twmi8k92G-ltrCKipEu7AEmtSTn2gcqrv93c3S3LaS6Ea2X7M63B-enUbsDZQg3IvslsX",
+				widthPx: 2832,
+				heightPx: 4240,
+				authorAttributions: [
+					{
+						displayName: "Glizzy’s NYC",
+						uri: "//maps.google.com/maps/contrib/103492172969356310665",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocLM20Zeb6hUQoktsW5LuG8ha6EE4xBw0UJlysEXbaaL=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJERwmh8BZwokRPb5OZePIYf8/photos/ATplDJZ8x8rXXMuUahbvnF_QdWGg388TvizCPupULS373-gTpIBcFVPeXnOzHI0FYdmMrcVfOys2-CUbHKiJEhRU7VA1sJMoU7SWiGprjqPQJ3sKFR4MpR03yDPH8lLIiu9Jize2K6opuDBlxaTBnKpdAumtoaRXiLBxG1x8",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Elle",
+						uri: "//maps.google.com/maps/contrib/105774918205164162232",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjXOE96ixmlfMCDyPl6Od7I795NbP64IV6OC7pHHMdnLXzY=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		paymentOptions: {
+			acceptsDebitCards: true,
+			acceptsCashOnly: false,
+			acceptsNfc: true,
+		},
+	},
+	{
+		name: "places/ChIJKdDZRp71wokRctyCTW3l5R4",
+		id: "ChIJKdDZRp71wokRctyCTW3l5R4",
+		types: ["hamburger_restaurant", "bar", "american_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+		nationalPhoneNumber: "(646) 852-6499",
+		internationalPhoneNumber: "+1 646-852-6499",
+		formattedAddress: "105-A Dyckman St, New York, NY 10040, USA",
+		addressComponents: [
+			{
+				longText: "105-A",
+				shortText: "105-A",
+				types: ["street_number"],
+				languageCode: "en",
+			},
+			{
+				longText: "Dyckman Street",
+				shortText: "Dyckman St",
+				types: ["route"],
+				languageCode: "en",
+			},
+			{
+				longText: "Manhattan",
+				shortText: "Manhattan",
+				types: ["sublocality_level_1", "sublocality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "New York",
+				types: ["locality", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York County",
+				shortText: "New York County",
+				types: ["administrative_area_level_2", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "New York",
+				shortText: "NY",
+				types: ["administrative_area_level_1", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "United States",
+				shortText: "US",
+				types: ["country", "political"],
+				languageCode: "en",
+			},
+			{
+				longText: "10040",
+				shortText: "10040",
+				types: ["postal_code"],
+				languageCode: "en",
+			},
+		],
+		plusCode: {
+			globalCode: "87G8V36G+Q4",
+			compoundCode: "V36G+Q4 New York, NY, USA",
+		},
+		location: {
+			latitude: 40.8619889,
+			longitude: -73.9247174,
+		},
+		viewport: {
+			low: {
+				latitude: 40.8605789697085,
+				longitude: -73.9261965302915,
+			},
+			high: {
+				latitude: 40.8632769302915,
+				longitude: -73.9234985697085,
+			},
+		},
+		rating: 4.4,
+		googleMapsUri: "https://maps.google.com/?cid=2226437848419196018",
+		websiteUri: "http://dyckmandogs.com/",
+		regularOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 1,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 2,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 4,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 5,
+						hour: 0,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 6,
+						hour: 1,
+						minute: 0,
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+					},
+					close: {
+						day: 0,
+						hour: 1,
+						minute: 0,
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 12:00 AM", "Tuesday: Closed", "Wednesday: 11:00 AM – 12:00 AM", "Thursday: 11:00 AM – 12:00 AM", "Friday: 11:00 AM – 1:00 AM", "Saturday: 11:00 AM – 1:00 AM", "Sunday: 11:00 AM – 12:00 AM"],
+		},
+		utcOffsetMinutes: -240,
+		adrFormatAddress: '<span class="street-address">105-A Dyckman St</span>, <span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10040</span>, <span class="country-name">USA</span>',
+		businessStatus: "OPERATIONAL",
+		userRatingCount: 217,
+		iconMaskBaseUri: "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+		iconBackgroundColor: "#FF9E67",
+		displayName: {
+			text: "Dyckman Dogs",
+			languageCode: "en",
+		},
+		primaryTypeDisplayName: {
+			text: "American restaurant",
+			languageCode: "en",
+		},
+		takeout: true,
+		delivery: true,
+		dineIn: true,
+		reservable: true,
+		servesLunch: true,
+		servesDinner: true,
+		servesBeer: true,
+		currentOpeningHours: {
+			openNow: true,
+			periods: [
+				{
+					open: {
+						day: 0,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+					close: {
+						day: 1,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+				},
+				{
+					open: {
+						day: 1,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 18,
+						},
+					},
+					close: {
+						day: 2,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 19,
+						},
+					},
+				},
+				{
+					open: {
+						day: 3,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 20,
+						},
+					},
+					close: {
+						day: 4,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+				},
+				{
+					open: {
+						day: 4,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 21,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 0,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 5,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+					close: {
+						day: 5,
+						hour: 23,
+						minute: 59,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 22,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 0,
+						minute: 0,
+						truncated: true,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 6,
+						hour: 1,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+				},
+				{
+					open: {
+						day: 6,
+						hour: 11,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 16,
+						},
+					},
+					close: {
+						day: 0,
+						hour: 1,
+						minute: 0,
+						date: {
+							year: 2024,
+							month: 3,
+							day: 17,
+						},
+					},
+				},
+			],
+			weekdayDescriptions: ["Monday: 11:00 AM – 12:00 AM", "Tuesday: Closed", "Wednesday: 11:00 AM – 12:00 AM", "Thursday: 11:00 AM – 12:00 AM", "Friday: 11:00 AM – 1:00 AM", "Saturday: 11:00 AM – 1:00 AM", "Sunday: 11:00 AM – 12:00 AM"],
+		},
+		currentSecondaryOpeningHours: [
+			{
+				openNow: false,
+				periods: [
+					{
+						open: {
+							day: 1,
+							hour: 16,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 19,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 16,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 19,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 16,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 19,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 16,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 4,
+							hour: 19,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 16,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 19,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 4:00 – 7:00 PM", "Tuesday: 4:00 – 7:00 PM", "Wednesday: 4:00 – 7:00 PM", "Thursday: 4:00 – 7:00 PM", "Friday: 4:00 – 7:00 PM", "Saturday: Closed", "Sunday: Closed"],
+				secondaryHoursType: "HAPPY_HOUR",
+			},
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+						close: {
+							day: 1,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 18,
+							},
+						},
+						close: {
+							day: 2,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 19,
+							},
+						},
+						close: {
+							day: 3,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 20,
+							},
+						},
+						close: {
+							day: 4,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 21,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+						close: {
+							day: 5,
+							hour: 23,
+							minute: 59,
+							truncated: true,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 22,
+							},
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 11,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 16,
+							},
+						},
+						close: {
+							day: 0,
+							hour: 0,
+							minute: 0,
+							date: {
+								year: 2024,
+								month: 3,
+								day: 17,
+							},
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 11:00 AM – 12:00 AM", "Tuesday: 11:00 AM – 12:00 AM", "Wednesday: 11:00 AM – 12:00 AM", "Thursday: 11:00 AM – 12:00 AM", "Friday: 11:00 AM – 12:00 AM", "Saturday: 11:00 AM – 12:00 AM", "Sunday: 11:00 AM – 12:00 AM"],
+				secondaryHoursType: "DELIVERY",
+			},
+		],
+		regularSecondaryOpeningHours: [
+			{
+				openNow: false,
+				periods: [
+					{
+						open: {
+							day: 1,
+							hour: 16,
+							minute: 0,
+						},
+						close: {
+							day: 1,
+							hour: 19,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 16,
+							minute: 0,
+						},
+						close: {
+							day: 2,
+							hour: 19,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 16,
+							minute: 0,
+						},
+						close: {
+							day: 3,
+							hour: 19,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 16,
+							minute: 0,
+						},
+						close: {
+							day: 4,
+							hour: 19,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 16,
+							minute: 0,
+						},
+						close: {
+							day: 5,
+							hour: 19,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 4:00 – 7:00 PM", "Tuesday: 4:00 – 7:00 PM", "Wednesday: 4:00 – 7:00 PM", "Thursday: 4:00 – 7:00 PM", "Friday: 4:00 – 7:00 PM", "Saturday: Closed", "Sunday: Closed"],
+				secondaryHoursType: "HAPPY_HOUR",
+			},
+			{
+				openNow: true,
+				periods: [
+					{
+						open: {
+							day: 0,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 1,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 1,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 2,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 2,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 3,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 3,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 4,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 4,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 5,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 5,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 6,
+							hour: 0,
+							minute: 0,
+						},
+					},
+					{
+						open: {
+							day: 6,
+							hour: 11,
+							minute: 0,
+						},
+						close: {
+							day: 0,
+							hour: 0,
+							minute: 0,
+						},
+					},
+				],
+				weekdayDescriptions: ["Monday: 11:00 AM – 12:00 AM", "Tuesday: 11:00 AM – 12:00 AM", "Wednesday: 11:00 AM – 12:00 AM", "Thursday: 11:00 AM – 12:00 AM", "Friday: 11:00 AM – 12:00 AM", "Saturday: 11:00 AM – 12:00 AM", "Sunday: 11:00 AM – 12:00 AM"],
+				secondaryHoursType: "DELIVERY",
+			},
+		],
+		primaryType: "american_restaurant",
+		shortFormattedAddress: "105-A Dyckman St, New York",
+		reviews: [
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1NFpLckl3EAE",
+				relativePublishTimeDescription: "5 months ago",
+				rating: 5,
+				text: {
+					text: "Everything was so good. I cannot express this enough they have the perfect combination of sauce, bread etc. Will come again.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Everything was so good. I cannot express this enough they have the perfect combination of sauce, bread etc. Will come again.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "yasne okayy",
+					uri: "https://www.google.com/maps/contrib/108361171699158175481/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX0qJb2wXg_2wTzKWGkhb3kugXC49xJhWhfra66KkRQSg=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2023-10-14T15:07:56Z",
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/reviews/ChdDSUhNMG9nS0VJQ0FnSUNobmF1ejZnRRAB",
+				relativePublishTimeDescription: "a year ago",
+				rating: 5,
+				text: {
+					text: "Dyckman Dogs, located in the heart of Dyckman, is a hidden gem that any self-respecting foodie must check out. This no-frills eatery may not look like much from the outside, but once you sink your teeth into one of their fully loaded hotdogs, you'll know you've hit the jackpot.\n\nThe dogs here are truly a work of art. The buns are soft and pillowy, and the sausages themselves are bursting with juicy, savory flavor. But what really sets Dyckman Dogs apart is the toppings. Each hotdog is piled high with a dizzying array of ingredients - from crispy bacon to tangy sauerkraut to creamy avocado. It's like a party in your mouth with every bite.\n\nBut don't think for a second that Dyckman Dogs is a one-trick pony. Their burger and beer selection is equally exceptional. The burgers are thick and juicy, and come with all the classic fixings - plus some inventive extras that will make your taste buds sing. And their beer selection is carefully curated, with options that will please both casual sippers and serious craft beer aficionados.\n\nDespite the amazing food and drink offerings, what really sets Dyckman Dogs apart is the laid-back, welcoming atmosphere. The staff are friendly and knowledgeable, and the vibe is chill and unpretentious. This is the kind of place where you can hang out with friends, watch the game, and enjoy some seriously delicious eats.\n\nIn short, if you're looking for a truly exceptional hotdog (or burger, or beer), Dyckman Dogs is the place to be. Trust me, Anthony Bourdain would have approved.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Dyckman Dogs, located in the heart of Dyckman, is a hidden gem that any self-respecting foodie must check out. This no-frills eatery may not look like much from the outside, but once you sink your teeth into one of their fully loaded hotdogs, you'll know you've hit the jackpot.\n\nThe dogs here are truly a work of art. The buns are soft and pillowy, and the sausages themselves are bursting with juicy, savory flavor. But what really sets Dyckman Dogs apart is the toppings. Each hotdog is piled high with a dizzying array of ingredients - from crispy bacon to tangy sauerkraut to creamy avocado. It's like a party in your mouth with every bite.\n\nBut don't think for a second that Dyckman Dogs is a one-trick pony. Their burger and beer selection is equally exceptional. The burgers are thick and juicy, and come with all the classic fixings - plus some inventive extras that will make your taste buds sing. And their beer selection is carefully curated, with options that will please both casual sippers and serious craft beer aficionados.\n\nDespite the amazing food and drink offerings, what really sets Dyckman Dogs apart is the laid-back, welcoming atmosphere. The staff are friendly and knowledgeable, and the vibe is chill and unpretentious. This is the kind of place where you can hang out with friends, watch the game, and enjoy some seriously delicious eats.\n\nIn short, if you're looking for a truly exceptional hotdog (or burger, or beer), Dyckman Dogs is the place to be. Trust me, Anthony Bourdain would have approved.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "IG: Sidd _Captures",
+					uri: "https://www.google.com/maps/contrib/110282178240855055579/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjVSVYUj4ZGDFk0wCT-nGZHtJ7mV2KNbtj1p86j9heLEiVo=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2023-02-19T23:40:47Z",
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/reviews/ChdDSUhNMG9nS0VJQ0FnSURTX3VXQ193RRAB",
+				relativePublishTimeDescription: "2 years ago",
+				rating: 5,
+				text: {
+					text: "I can’t even believe this restaurant doesn’t have over 500 reviews. This restaurant has to be one of the hidden gems of NYC. Their food is very tasty and the prices are very reasonable. My cousin brought me to try their food and I tasted a bite out of heaven. Now I will sacrifice the time to commute there just for their tasty, & watery burgers. The staff is very friendly too I recommend this restaurant to all.\nUpdate:\ni cannot even stress this enough, this restaurant offers many great services such as dine in and long hours that stretch late especially during covid. Which is very helpful, plus the hospitality is on point.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I can’t even believe this restaurant doesn’t have over 500 reviews. This restaurant has to be one of the hidden gems of NYC. Their food is very tasty and the prices are very reasonable. My cousin brought me to try their food and I tasted a bite out of heaven. Now I will sacrifice the time to commute there just for their tasty, & watery burgers. The staff is very friendly too I recommend this restaurant to all.\nUpdate:\ni cannot even stress this enough, this restaurant offers many great services such as dine in and long hours that stretch late especially during covid. Which is very helpful, plus the hospitality is on point.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Omar Alsaedi",
+					uri: "https://www.google.com/maps/contrib/105593959834789086103/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjX42BNe7blIXnCzkI2rd78EaQTFlus-11-Q_pyO36BqhOfA=s128-c0x00000000-cc-rp-mo-ba5",
+				},
+				publishTime: "2021-04-24T20:31:54Z",
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/reviews/ChZDSUhNMG9nS0VJQ0FnSUR1eE9QdEZnEAE",
+				relativePublishTimeDescription: "a year ago",
+				rating: 4,
+				text: {
+					text: "I got the Dykman burger with fries. The food was delicious but definitely on the salty side. The gentleman working the counter/waiting tables was super friendly.  He even gave me a small bottle of hand sanitizer too.\nOne note: The Dykman burger comes with stick fries IN the burger, which I didn't realize, so if you get it maybe get something other than fries as a side.\nWill definitely go back",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "I got the Dykman burger with fries. The food was delicious but definitely on the salty side. The gentleman working the counter/waiting tables was super friendly.  He even gave me a small bottle of hand sanitizer too.\nOne note: The Dykman burger comes with stick fries IN the burger, which I didn't realize, so if you get it maybe get something other than fries as a side.\nWill definitely go back",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Arri",
+					uri: "https://www.google.com/maps/contrib/117242355839803268044/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a-/ALV-UjV79CYDojE8abnwS_fmy0mOD6Cxg1nqHDOmQ6fYQijXb5Bi=s128-c0x00000000-cc-rp-mo-ba4",
+				},
+				publishTime: "2022-08-13T18:29:04Z",
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/reviews/ChZDSUhNMG9nS0VJQ0FnSUR0dDhpelVBEAE",
+				relativePublishTimeDescription: "a month ago",
+				rating: 1,
+				text: {
+					text: "Earlier today I placed an order for my medical office, which included several types of hotdogs and burgers and French fries. All of the food came iced cold, they placed cold drinks on top of the food, and messed up the order itself with the wrong ingredients. As soon as the food arrived the manager of the establishment was called. He was extremely rude, immediately stated that he will do zero in a terrible manner to correct the order. I nicely asked him again if the order could be replaced, after three or four times of this he stayed silent. DO NOT under any circumstances go to this establishment as you will probably receive cold/incorrect food and unbelievably rude service.",
+					languageCode: "en",
+				},
+				originalText: {
+					text: "Earlier today I placed an order for my medical office, which included several types of hotdogs and burgers and French fries. All of the food came iced cold, they placed cold drinks on top of the food, and messed up the order itself with the wrong ingredients. As soon as the food arrived the manager of the establishment was called. He was extremely rude, immediately stated that he will do zero in a terrible manner to correct the order. I nicely asked him again if the order could be replaced, after three or four times of this he stayed silent. DO NOT under any circumstances go to this establishment as you will probably receive cold/incorrect food and unbelievably rude service.",
+					languageCode: "en",
+				},
+				authorAttribution: {
+					displayName: "Stanley B Cohen, MD",
+					uri: "https://www.google.com/maps/contrib/106614566437840810448/reviews",
+					photoUri: "https://lh3.googleusercontent.com/a/ACg8ocK2CjcqSfK_mqjTREyCQ8ouFuqo4RPhpcFFvt6l_ECW=s128-c0x00000000-cc-rp-mo",
+				},
+				publishTime: "2024-02-07T22:20:28Z",
+			},
+		],
+		photos: [
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJZ06oOMt2PRAOWNqwr7vIRv45Is0noPRRN9q4c_NQ3Kf9qBEgKb5hjg8wHr_suzZjvD6tviVOI0f_FHcdb5lfDKgC5xwZaolUPhlh57rjyXtMhMZb5NDzBKSp7MWh_SfpNh9I3FbRxO2tBSU7JJ66__GJJKus69t5FP",
+				widthPx: 4032,
+				heightPx: 3024,
+				authorAttributions: [
+					{
+						displayName: "Dyckman Dogs",
+						uri: "//maps.google.com/maps/contrib/107222128588123323903",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTfnfbYqEWBAoL9LNgvLE9CIKq31dPEpm7x6KOOg6gmw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJaBeZVtQK_mT-4mDKRBD6slGqWNLeQ5y9QhI4GmVEvR7ymf1hY6tpjj9Lz4d-M7msFRfxQZ47hN5NpI55LtCPEnzlklSheEktIJj28TU47rFZ4IfgrMzGG1CSiypkBpsFOW-kVoLVo0ksUmumNPAPl5y1EK9IOYj58I",
+				widthPx: 1500,
+				heightPx: 1125,
+				authorAttributions: [
+					{
+						displayName: "Dyckman Dogs",
+						uri: "//maps.google.com/maps/contrib/107222128588123323903",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTfnfbYqEWBAoL9LNgvLE9CIKq31dPEpm7x6KOOg6gmw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJbpIjZEFFpeyZlbHo3-qsg0-TzDaclAnBulV5P9FekEF-YHDF1Gbbz7-yQdpg-orHYWtzIezETpwUiBDwEh5UKFoNTS2p2Up8FXo8EqrurEKiutRiyKryUKZTjyxO_k5B_pgCjCBHVb_EHs7F3IbtUkZbHc6_aCJgqM",
+				widthPx: 1170,
+				heightPx: 1192,
+				authorAttributions: [
+					{
+						displayName: "IG: Sidd _Captures",
+						uri: "//maps.google.com/maps/contrib/110282178240855055579",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjVSVYUj4ZGDFk0wCT-nGZHtJ7mV2KNbtj1p86j9heLEiVo=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJaW1wJdKk1z4sV7C8Sdy9oqzKJB_uWVvbOq3dJwBWtrOPgc9yQxeSKopCrJwuv6tjV1-uiR7HblbbRGN8t8thmTd2E52anBIgFhWjyWcCZ_PGXIjZXdVjFJ3slngv-PD_SpCrePuWeEU0-7MkKuTYpRJgyd-je0bHsZ",
+				widthPx: 1080,
+				heightPx: 1350,
+				authorAttributions: [
+					{
+						displayName: "Dyckman Dogs",
+						uri: "//maps.google.com/maps/contrib/107222128588123323903",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTfnfbYqEWBAoL9LNgvLE9CIKq31dPEpm7x6KOOg6gmw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJZpokekmeFUWbBJ68sw_naEZcp64LVDXs_6Rh-SjOXkHXwwDleOAtLBm5sqxGl7yRjnwSqW_N2Ot5j7W1yeSKTYCscSS6jxI7j6gyOB7O4RnMR7MsN6NkEpSIrdSVtzrZf4ScqCnZqQQhsZ27YOHVGw7ZOGkW3sWTg",
+				widthPx: 3024,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Lizzy Family Vlogs",
+						uri: "//maps.google.com/maps/contrib/111888746848075659310",
+						photoUri: "//lh3.googleusercontent.com/a/ACg8ocKvI-ISMG5OfYaoHmJObvxmNub-eeMJqZkFnVJelQM=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJYJrfrWGl3QyeiWUNMhFLJH-b9iRWRvoOr6sru3v5KQCQMlJvm5qa_za59jP7piXXb-qJVRMPHcwAB5mgAbXSMy1QRn1HOhGXFh59ctXROmNaFFSJufLV2PU8KZDTxEZPjA_zEK2q1jDJZ7gpor4gB0GFCX4hl47j3W",
+				widthPx: 5712,
+				heightPx: 4284,
+				authorAttributions: [
+					{
+						displayName: "yasne okayy",
+						uri: "//maps.google.com/maps/contrib/108361171699158175481",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX0qJb2wXg_2wTzKWGkhb3kugXC49xJhWhfra66KkRQSg=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJZaxHt0WgNStLXy8u2Hgm9D6P8LrX_a8lzz2DZLIv2pAQ80S4zEpr7MvMp1zl7PFC0ANAC3k6SCVK7ER9Y477Yzjkia8Bb_cfTLIcZlcbybUhFMoIB7vmsG-OwauoP_cPZl_8tImvmUHy6XYSOw2PDVbCokqwhOpKMu",
+				widthPx: 2268,
+				heightPx: 4032,
+				authorAttributions: [
+					{
+						displayName: "Omar Alsaedi",
+						uri: "//maps.google.com/maps/contrib/105593959834789086103",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX42BNe7blIXnCzkI2rd78EaQTFlus-11-Q_pyO36BqhOfA=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJY5gXlSE4NjrKeSxCH0mgak6ZYwbHF_gneO7DsNuNE3fQwAlXw4QN5AOQDqKtiLIGqcB3Drv0PSVKe_MMGvojoDd93z63Q9__M0ZmrUKVaWiqOyKPDX9uZbjIB-K5hyj41UDwimExtdPGZ7bkcz35eZ7J6aPCv9_eQM",
+				widthPx: 1170,
+				heightPx: 874,
+				authorAttributions: [
+					{
+						displayName: "Elido Maldonado Salcedo",
+						uri: "//maps.google.com/maps/contrib/108957488671029528407",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjU6_v_3yUz7HZnpUn-1L04_6y88ABLRaxCcExl_mh4toP4=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJaaB9LC3oxCaLIF_Kvt_EpGp_m9EXKdMjiPtPPxVMxLFMXIT7r_qcwPNrBWCqjT54dXBzbPPh6cXZeYvpEyHrLKiU-IQKe-34HTiu-6FpeBQgK_Q0rY0DBUquR1UEmDCGUjrlBCEO242Eh7bRO9WzqzTN-wNMdtJCyv",
+				widthPx: 1080,
+				heightPx: 1350,
+				authorAttributions: [
+					{
+						displayName: "Dyckman Dogs",
+						uri: "//maps.google.com/maps/contrib/107222128588123323903",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjUTfnfbYqEWBAoL9LNgvLE9CIKq31dPEpm7x6KOOg6gmw=s100-p-k-no-mo",
+					},
+				],
+			},
+			{
+				name: "places/ChIJKdDZRp71wokRctyCTW3l5R4/photos/ATplDJZ7x8p_7C6jUVxEZDiNNdRBHGP1Wg1TdlHzvE8I4aIop8mDeSqw5DGYwnIDTVUKIry_JSdbDqrzsympCqQJSc8sfSL49a5xYalp6I975dHCSfIu8y-Tp9Exj8Mjv6nhAoH4TUJHnFx2DnFQo7ksQw5VmQgcZ0wBEpW1",
+				widthPx: 5712,
+				heightPx: 4284,
+				authorAttributions: [
+					{
+						displayName: "yasne okayy",
+						uri: "//maps.google.com/maps/contrib/108361171699158175481",
+						photoUri: "//lh3.googleusercontent.com/a-/ALV-UjX0qJb2wXg_2wTzKWGkhb3kugXC49xJhWhfra66KkRQSg=s100-p-k-no-mo",
+					},
+				],
+			},
+		],
+		outdoorSeating: true,
+		liveMusic: false,
+		servesCocktails: true,
+		servesDessert: true,
+		goodForChildren: true,
+		goodForWatchingSports: true,
+		paymentOptions: {
+			acceptsCreditCards: true,
+			acceptsCashOnly: false,
+		},
+		accessibilityOptions: {
+			wheelchairAccessibleParking: false,
+			wheelchairAccessibleEntrance: true,
+		},
 	},
 ]

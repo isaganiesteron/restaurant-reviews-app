@@ -8,7 +8,8 @@ export async function GET(request: Request, params: any) {
 			headers: {
 				"Content-Type": "application/json",
 				"X-Goog-Api-Key": `${process.env.API_KEY}`,
-				"X-Goog-FieldMask": "places.id,places.name,places.displayName,places.formattedAddress,places.priceLevel,places.rating,places.userRatingCount",
+				"X-Goog-FieldMask": "*",
+				// "X-Goog-FieldMask": "places.id,places.name,places.displayName,places.formattedAddress,places.priceLevel,places.rating,places.userRatingCount",
 			},
 			body: JSON.stringify({
 				textQuery: searchtext,
